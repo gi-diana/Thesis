@@ -22,7 +22,7 @@ greek,% per comporre parte del testo in greco (qui solo con classica)
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{textcomp}
-
+\usepackage[a-1b]{pdfx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lipsum}% Per scrivere testo fasullo in "latinorum"
 
@@ -111,18 +111,70 @@ greek,% per comporre parte del testo in greco (qui solo con classica)
 
 \ringraziamenti % stampa i ringraziamenti, di solito superflui e inutili
 
-I candidati ringraziano vivamente il Granduca di Toscana per i mezzi
-messi loro a disposizione, ed il signor Von Braun, assistente del
-prof.~Albert Einstein, per le informazioni riservate che egli ha
-gentilmente fornito loro, e per le utili discussioni che hanno permesso
-ai candidati di evitare di riscoprire l'acqua calda.
 
 
 
 \mainmatter
+\indici
+\chapter{Rover Esplorativi e di Assistenza: Scenari di missione}
+	\section{Dall'esplorazione robotica all'assistenza di equipaggi}
+	\section{Rover Challenge Series: regolamento e requisiti nelle competizioni tra Rover}
+	\section{Scenari affrontati nelle competizioni e ruolo di un manipolatore robotico}
+		\subsection{Manutenzione}
+		\subsection{Raccolta di campioni scientifici}
+		\subsection{Scenario Fetch and Collect}
 
-\chapter{Introduzione generale}
-\section{Rover}
+\chapter{Analisi preliminare dei requisiti}
+	\section{Tabella dei requisiti derivati dal progetto e dal regolamento}
+	\section{Workspace necessario}
+	\section{Confronto con i robot industriali a 6 gradi di libertà}
+
+\chapter{Design di un manipolatore a 6 gradi di libertà}
+	\section{Task di manipolazione e destrezza: Worst case}
+	\section{Modello multicorpo}
+	\section{Descrizione del modello di Robot scelto}
+		\subsection{Link: elenco e carichi strutturali stimati}
+		\subsection{Joints: elenco e potenze meccaniche necessarie}
+
+\chapter{Attuatori per un progetto di robotica low-cost}
+	\section{Motoriduttori Passo-Passo}
+		\subsection{Trasmissione del Moto e componenti utilizzati}
+			\subsubsection{Joint 1}
+			\subsubsection{Joint 2}
+		\subsection{Cenni di controllo ad anello aperto}
+	\section{Attuatori Lineari}
+		\subsection{Dimensionamento del cinematismo Joint 3}
+	\section{Servomotori digitali: Dynamixel MX160}
+		\subsection{Scelta ed integrazione, i vantaggi di un attuatore specifico per impiego robotico}
+			\subsubsection{Controllo in coppia}
+\chapter{Polso sferico, design e scelte progettuali}
+	\subsection{Descrizione}
+	\subsection{Ingombri ed integrazione}
+	\subsection{Scelta dei Cuscinetti}
+	
+\chapter{Trasmissione del moto, analisi e dimensionamento dei cinematismi utilizzati}
+	\subsection{Metodo di Lewis}
+	\subsection{Riduzione del numero minimo di denti: ingranamento elicoidale}
+	\subsection{Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}
+	\subsection{Risultati ottenuti dal dimensionamento}
+	\subsection{Compromesso tra dimensionamento e ingombri}
+
+\chapter{Costruzione mediante manifattura additiva e assemblaggio}
+	\subsection{Studio del materiale da stampa ABSPlus P430}
+	\subsection{Produzione dei componenti}
+	\subsection{Assemblaggio}
+\chapter{Risultati attesi ed ottenuti dal Robot realizzato}
+	\subsection{Test e collaudo del Robot assemblato}
+	\subsection{Carichi massimi applicati e precisione ottenuta}
+	\subsection{Risultati nelle Competizioni studentesche }
+
+\backmatter
+\chapter{Disegni ed elaborati tecnici}
+
+
+
+
+
 
 
 \begin{thebibliography}{9}
