@@ -23,6 +23,7 @@ greek,% per comporre parte del testo in greco (qui solo con classica)
 \usepackage{lmodern}
 \usepackage{textcomp}
 \usepackage[a-1b]{pdfx}
+\usepackage{longtable}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lipsum}% Per scrivere testo fasullo in "latinorum"
 
@@ -117,7 +118,42 @@ greek,% per comporre parte del testo in greco (qui solo con classica)
 \mainmatter
 \indici
 \chapter{Rover Esplorativi e di Assistenza: Scenari di missione}
+Il team DIANA, acronimo di  \textit{Ducti Ingenio Accipimus Naturam Astrorum}, lavora nella ricerca e nello sviluppo della robotica per applicazioni spaziali.
+Il Team è stato fondato nel 2008 in occasione del progetto nazionale AMALIA e ha prodotto tre prototipi di rover: \textbf{Amalia}, un rover lunare esplorativo, \textbf{T0-R0}, un rover marziano di assistenza che ha partecipato a European Rover Challenge 2018 e \textbf{TRINITY}, il nuovo rover marziano che ha partecipato all'European Rover Challenge 2019.
+
+\begin{figure}
+	\centering
+	\begin{tabular}{ll}
+		\includegraphics[width=.3\textwidth]{image/amalia.png}
+&
+		\includegraphics[width=.5\textwidth]{image/toro.jpg}
+	\end{tabular}
+		\caption{Rover AMALIA E T0-R0}
+		\label{fig:amaliatoro}
+	
+\end{figure}
+
+Il team DIANA ha un'esperienza decennale nella progettazione e nello sviluppo di modelli di rover per l'esplorazione e l'assistenza e dispone di un set completo di abilità ingegneristiche, ottima conoscenza del software ed eccezionali capacità organizzative, gestionali e di lavoro di squadra, tutte cruciali nella produzione di un progetto complesso.
+Il team intende porre le basi per un nuovo approccio all'ingegneria aerospaziale, contribuendo a portare la robotica spaziale a un livello più accessibile grazie alla sua tecnica di lavoro innovativa.
+TRINITY è il prodotto del patrimonio e della competenza di dieci anni di duro lavoro e ricerca approfondita, condotta con una visione chiara e un approccio specifico.
+Il team sta affrontando una crescita dal 2018 e la partecipazione all'European Rover Challenge ha avuto un ruolo chiave nel suo sviluppo poiché rappresenta un'opportunità senza precedenti per testare le soluzioni del team e capire dove e come migliorare il suo progetto.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{image/trinityerc.jpeg}
+	\caption{Il Team DIANA con TRINITY ad ERC 2019}
+	\label{fig:trinityerc}
+\end{figure}
+
+
+Nell'ambito del team DIANA che sta diventando un forte gruppo di giovani ingegneri che lavorano nella ricerca e nello sviluppo della robotica spaziale, testare il lavoro svolto in laboratorio è un passo cruciale nello sviluppo.
+Inoltre, il Team DIANA ha vissuto l'European Rover Challenge come un evento eccezionale, in grado di riunire ingegneri appassionati e qualificati in un ambiente internazionale.
+
+Pertanto, per essere una fonte di competenza, un campo per i test e un'opportunità senza precedenti di crescita e raccolta, la partecipazione all'European Rover Challenge 2019 è senza dubbio un'esperienza necessaria e profondamente desiderata per il Team DIANA.
+
 	\section{Dall'esplorazione robotica all'assistenza di equipaggi}
+	I Rover di assistenza progettati dal Team DIANA rappresentano dei modelli di future missioni dove i Rover vengono impiegati nell'assistenza ad un equipaggio umano. Viene a cadere il presupposto per cui le sonde esplorative operano in scenari unmanned e il ruolo dell'operatore diventa centrale nella progettazione del Robot. Esso dovrà avere quanto più possibile un funzionamento autonomo per non sottrarre risorse all'utilizzatore, considerare la presenza di esseri umani nel suo workspace 
+		
 	\section{Rover Challenge Series: regolamento e requisiti nelle competizioni tra Rover}
 	\section{Scenari affrontati nelle competizioni e ruolo di un manipolatore robotico}
 		\subsection{Manutenzione}
@@ -126,6 +162,23 @@ greek,% per comporre parte del testo in greco (qui solo con classica)
 
 \chapter{Analisi preliminare dei requisiti}
 	\section{Tabella dei requisiti derivati dal progetto e dal regolamento}
+	
+	\renewcommand{\arraystretch}{1.2}
+	\begin{longtable}{|p{0.10\textwidth}|p{0.27\textwidth}|p{0.27\textwidth}|p{0.27\textwidth}| } 
+		\hline
+		 \textbf{ID}& \textbf{REQUIREMENT}& \textbf{TECHNICAL SOLUTION}&  \textbf{VALIDATION}\\*  &   &  &      \\* \hline
+		\hline
+	%ARM ASSUMPTION
+		
+	TR.ARM	& Arm system must be able to reach the ground, use max of upper surface of chassis, reach 1.5 m of height, manipulate elements  & Anthropomorphic arm, with 6 DoFs: from literature, solution with greater dexterity  &  CAD design (with TR.CORE); Matlab script of arm workspace; multibody model	\\*	&   &  &      \\* \hline
+	TR.ARM	& Arm system must be able to lift at at least a 5 Kg payload  & Arm actuated by stepper motors, linear actuator and dinamixel servo motors with high torque & CAD design with TR.ARM; Matlab script of arm workspace; multibody model; FEM model; Lewis theory	\\*	&   &  &      \\* \hline
+	TR.ARM	& Arm system must have high operative speed, without sacrificing accuracy (target of tool center point of 1$cm^2$) & Implementation of control system of stepper motors, linear actuator and Dynamixel; position control system &  Simulink model; inverse kinematics study	\\*	&   &  &      \\* \hline
+
+	TR.ARM & TR.ARM must allow to reach the elements of the panel with the rover positioned at 0.5 m from it with toll perpendiucular to pannel & Spherical wrist; 3 DoFs on structure; 3 DoFs on wrist & CAD design; Matlab script for arm workspace; multibody model \\*	&   &  &      \\* \hline
+	
+	
+	
+\end{longtable}
 	\section{Workspace necessario}
 	\section{Confronto con i robot industriali a 6 gradi di libertà}
 
