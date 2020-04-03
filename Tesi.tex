@@ -152,11 +152,55 @@ Inoltre, il Team DIANA ha vissuto l'European Rover Challenge come un evento ecce
 Pertanto, per essere una fonte di competenza, un campo per i test e un'opportunità senza precedenti di crescita e raccolta, la partecipazione all'European Rover Challenge 2019 è senza dubbio un'esperienza necessaria e profondamente desiderata per il Team DIANA.
 
 	\section{Dall'esplorazione robotica all'assistenza di equipaggi}
-	I Rover di assistenza progettati dal Team DIANA rappresentano dei modelli di future missioni dove i Rover vengono impiegati nell'assistenza ad un equipaggio umano. Viene a cadere il presupposto per cui le sonde esplorative operano in scenari unmanned e il ruolo dell'operatore diventa centrale nella progettazione del Robot. Esso dovrà avere quanto più possibile un funzionamento autonomo per non sottrarre risorse all'utilizzatore, considerare la presenza di esseri umani nel suo workspace 
+	I Rover di assistenza progettati dal Team DIANA rappresentano dei modelli di future missioni dove i Rover vengono impiegati nell'assistenza ad un equipaggio umano. Viene a cadere il presupposto per cui le sonde esplorative operano in scenari unmanned e il ruolo dell'operatore diventa centrale nella progettazione del Robot. Esso dovrà avere quanto più possibile un funzionamento autonomo per non sottrarre risorse all'utilizzatore, considerare la presenza di esseri umani nel suo workspace e portare a termine mansioni in ambienti rischiosi per l'essere umano. 
+	 
 		
 	\section{Rover Challenge Series: regolamento e requisiti nelle competizioni tra Rover}
+	Le Rover Challenge Series Competitions a cui il Team DIANA rivolge il suo interesse sono competizioni dedicate a studenti dell'area di Ingegneria che mirano a testare i progetti di Rover in uno scenario che simula le mansioni di un Rover di Assistenza.
+	Si stimola la costituzione di team multidisciplinari che vanno a realizzare un prototipo per competere, corredato da una completa reportistica ispirata alla metodologie attuate nelle principali agenzie spaziali e della documentazione video. Viene inoltre richiesta la gestione del team attraverso strumenti di project management e la gestione finanziaria di stampo aziendale.
+ 
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{image/terrain.jpeg}
+		\caption{Terreno marziano a European Rover Challenge 2019}
+		\label{fig:ercterrain}
+	\end{figure}
+
 	\section{Scenari affrontati nelle competizioni e ruolo di un manipolatore robotico}
+		Le competizioni si svolgono su un terreno accidentato, realizzato da esperti di terrameccanica che vanno a simulare il più possibile uno scenario marziano. 
+		Le task vengono svolte in un tempo limitato con il Robot teleoperato e gli operatori sono isolati dalla vista diretta all'interno di una control room. 
+		
+		L'unica task che non coinvolge l'uso del manipolatore robotico è quella di \textbf{Navigazione autonoma} che non tratteremo. 
+		Pertanto segue l'analisi degli scenari di utilizzo. 
 		\subsection{Manutenzione}
+		La  maintanance task come definita dal regolamento 
+		\textit{ERC 2019 Student Rules} \cite{ERC2019} 
+		\newline
+		\textit{The maintenance task is intended to demonstrate rovers and teams ability and performance in operating electrical panel on which several switches and other electrical components are mounted. The Team has to use rover’s manipulating device to set switches to correct positions, measure electrical parameters, set other panel controls and observe device feedback.}
+
+		\newline
+		\textbf{Successione di operazioni da svolgere :}
+		\begin{enumerate}
+		\item MAIN switch set to ON position as first;
+		\item Group 1 and Group 2 switches set up to requested positions;
+		\item knob set up to requested position
+		\item voltage measurement reported to the judge
+		\item High-power plug inserted into the sock
+		\item No panel damage events occured (control elements, connectors, covers, foils
+		\item task automation efforts and results presented to the judge.	 
+		\end{enumerate}
+	
+		\begin{figure}
+		\centering
+		\begin{tabular}{ll}
+		\includegraphics[width=0.4\textwidth]{image/panel.png}
+		&
+		\includegraphics[width=0.5\textwidth]{image/mainttoro.jpg}
+		\end{tabular}
+		\caption{Pannello Elettrico e Rover durante la Task}
+		\label{fig:maintanance}
+		\end{figure}
+	
 		\subsection{Raccolta di campioni scientifici}
 		\subsection{Scenario Fetch and Collect}
 
@@ -166,15 +210,15 @@ Pertanto, per essere una fonte di competenza, un campo per i test e un'opportuni
 	\renewcommand{\arraystretch}{1.2}
 	\begin{longtable}{|p{0.10\textwidth}|p{0.27\textwidth}|p{0.27\textwidth}|p{0.27\textwidth}| } 
 		\hline
-		 \textbf{ID}& \textbf{REQUIREMENT}& \textbf{TECHNICAL SOLUTION}&  \textbf{VALIDATION}\\*  &   &  &      \\* \hline
+		 \textbf{ORIGIN}& \textbf{REQUIREMENT}& \textbf{TECHNICAL SOLUTION}&  \textbf{VALIDATION}\\*  &   &  &      \\* \hline
 		\hline
 	%ARM ASSUMPTION
 		
-	TR.ARM	& Arm system must be able to reach the ground, use max of upper surface of chassis, reach 1.5 m of height, manipulate elements  & Anthropomorphic arm, with 6 DoFs: from literature, solution with greater dexterity  &  CAD design (with TR.CORE); Matlab script of arm workspace; multibody model	\\*	&   &  &      \\* \hline
-	TR.ARM	& Arm system must be able to lift at at least a 5 Kg payload  & Arm actuated by stepper motors, linear actuator and dinamixel servo motors with high torque & CAD design with TR.ARM; Matlab script of arm workspace; multibody model; FEM model; Lewis theory	\\*	&   &  &      \\* \hline
-	TR.ARM	& Arm system must have high operative speed, without sacrificing accuracy (target of tool center point of 1$cm^2$) & Implementation of control system of stepper motors, linear actuator and Dynamixel; position control system &  Simulink model; inverse kinematics study	\\*	&   &  &      \\* \hline
+	RULES 	& Arm system must be able to reach the ground, use max of upper surface of chassis, reach 1.5 m of height, manipulate elements  & Anthropomorphic arm, with 6 DoFs: from literature, solution with greater dexterity  &  CAD design (along with Rover Chassis); Matlab script of arm workspace; multibody model	\\*	&   &  &      \\* \hline
+	RULES & Arm system must be able to lift at at least a 5 Kg payload  & Arm actuated by stepper motors, linear actuator and dinamixel servo motors with high torque & CAD design with Arm; Matlab script of arm workspace; multibody model; FEM model; Lewis theory	\\*	&   &  &      \\* \hline
+	MISSION & Arm system must have high operative speed, without sacrificing accuracy (target of tool center point of 1$cm^2$) & Implementation of control system of stepper motors, linear actuator and Dynamixel; position control system &  Simulink model; inverse kinematics study	\\*	&   &  &      \\* \hline
 
-	TR.ARM & TR.ARM must allow to reach the elements of the panel with the rover positioned at 0.5 m from it with toll perpendiucular to pannel & Spherical wrist; 3 DoFs on structure; 3 DoFs on wrist & CAD design; Matlab script for arm workspace; multibody model \\*	&   &  &      \\* \hline
+	MISSION & Arm must allow to reach the elements of the panel with the rover positioned at 0.5 m from it with toll perpendiucular to pannel & Spherical wrist; 3 DoFs on structure; 3 DoFs on wrist & CAD design; Matlab script for arm workspace; multibody model \\*	&   &  &      \\* \hline
 	
 	
 	
@@ -231,8 +275,8 @@ Pertanto, per essere una fonte di competenza, un campo per i test e un'opportuni
 
 
 \begin{thebibliography}{9}
-\bibitem{gal} G.~Galilei, {\em Nuovi studii sugli astri medicei}, Manuzio,
-        Venetia, 1612.
+\bibitem{ERC2019} European Rover Challenge, \emph{Student Rules}, ERC, gennaio 2019
+
 \bibitem{tor1} E.~Torricelli, in ``La pressione barometrica'', {\em Strumenti
         Moderni}, Il Porcellino, Firenze, 1606.
 \bibitem{tor2} E.~Torricelli e A.~Vasari, in ``Delle misure'', {\em Atti Nuovo
@@ -245,8 +289,9 @@ Pertanto, per essere una fonte di competenza, un campo per i test e un'opportuni
 
 % altri riferimenti da usare come esempi.
 
-\bibitem{chiesa2008} Chiesa S., \emph{Affidabilità, sicurezza e manutenzione 
-		nel progetto dei sistemi}, CLUT, gennaio 2008
+\bibitem{ERC2019} European Rover Challenge, \emph{Student Rules}, ERC, gennaio 2019
+	
+	
 \bibitem{chiesa2}Chiesa S., Fioriti M., Fusaro R., \emph{On Board System 
 		Technological  Level Improvement Effect on UAV MALE}
 \bibitem{bigliano2010} Bigliano M., \emph{Sicurezza nell'installazione di un velivolo 
