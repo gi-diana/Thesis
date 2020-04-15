@@ -205,6 +205,12 @@ Pertanto, per essere una fonte di competenza, un campo per i test e un'opportuni
 		\subsection{Scenario Fetch and Collect}
 
 \chapter{Analisi preliminare dei requisiti}
+Ogni progetto di applicazione aerospaziale, come quello svolto per il Rover Trinity, parte dall'analisi dei requisiti di progetto e dalla formalizzazione dei requisiti in maniera codificata. 
+La tracciabilità dei requisiti, analizzati a partire da uno scenario di missione e dalla vigente normativa è fondamentale all'interno di un progetto aerospaziale perchè consente di semplificare gli sviluppi futuri.
+La costituzione di un database di requisiti, lezioni apprese e errori commessi nel caso in cui i requisiti vengano disattesi consente di abbattere i costi e le tempisitiche di sviluppo di progetti futuri evitando la ripetizione di esperimenti ed errori commessi in passato. 
+
+
+
 	\section{Tabella dei requisiti derivati dal progetto e dal regolamento}
 	
 	\renewcommand{\arraystretch}{1.2}
@@ -224,14 +230,34 @@ Pertanto, per essere una fonte di competenza, un campo per i test e un'opportuni
 	
 \end{longtable}
 	\section{Workspace necessario}
-	\section{Confronto con i robot industriali a 6 gradi di libertà}
+	Il workspace richiesto per il manipolatore deriva dalle richieste del regolamento e dallo scenario operativo. Si può riassumere nella necessità di raggiungere un altezza di 1,5 metri e quella del suolo e operare sullo chassis del rover per depositare oggetti e campioni. 
+	Il workspace è stato valutato attraverso un semplice calcolo iterativo di cinematica diretta dove la struttura era parametrizzata attraverso le lunghezze dei link. L'obiettivo è quello di realizzare uno spazio di lavoro sufficiente plottando la posizione dell Tool Center Point per ogni iterazione in una vista laterale. 
+	Una volta decise delle lunghezze dei link principali è stato possibile iniziare la costruzione dei primi modelli cad della struttura del robot per poterne costruire un modello dinamico e non solo più cinematico. 
+	
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{Plots/workspace.png}
+		\caption{Workspace in vista laterale, è rappresentato il piano dello chassis e i punti raggiunti dal TCP}
+		\label{fig:ercterrain}
+	\end{figure}
+	
+	\section{Gradi di libertà necessari}
+	\section{Task di manipolazione e destrezza: Worst case}
 
 \chapter{Design di un manipolatore a 6 gradi di libertà}
-	\section{Task di manipolazione e destrezza: Worst case}
+	
 	\section{Modello multicorpo}
-	\section{Descrizione del modello di Robot scelto}
-		\subsection{Link: elenco e carichi strutturali stimati}
-		\subsection{Joints: elenco e potenze meccaniche necessarie}
+	La costruzione di un modello multicorpo del robot è fondamentale per avere uno strumento di analisi delle prestazioni richieste agli attuatori e poter selezionare dei componenti adatti sul mercato. 
+	Per l'analisi della dinamica del robot è stato costruito un modello multicorpo attraverso il software MSC Adams. 
+	MSC Adams è uno strumento molto potente di Multi Body Dynamics che consente di costruire meccanismi articolati in un ambiente tridimensionale, connettere gli elementi attraverso relazioni e assegnare una legge di moto. 
+	Eseguita la simulazione è possibile raccogliere le misure richieste e processare i dati raccolti. 
+	In questo caso di studio lo scopo è quello di conoscere la coppia richiesta agli attuatori durante la manipolazione del carico limite imposto dai requisiti e i carichi gravanti su alcuni componenti critici. 
+	
+	
+	\section{Descrizione del modello di Robot}
+	
+		
 
 \chapter{Attuatori per un progetto di robotica low-cost}
 	\section{Motoriduttori Passo-Passo}
