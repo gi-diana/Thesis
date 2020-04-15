@@ -9,41 +9,36 @@
 \contentsline {subsection}{\numberline {1.3.2}Raccolta di campioni scientifici}{8}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Scenario Fetch and Collect}{8}{subsection.1.3.3}%
 \contentsline {chapter}{\numberline {2}Analisi preliminare dei requisiti}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Tabella dei requisiti derivati dal progetto e dal regolamento}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Workspace necessario}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Gradi di libertà necessari}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Task di manipolazione e destrezza: Worst case}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.1}Workspace necessario}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Gradi di libertà necessari}{10}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Task di manipolazione e destrezza: Worst case}{10}{section.2.3}%
 \contentsline {chapter}{\numberline {3}Design di un manipolatore a 6 gradi di libertà}{13}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Modello multicorpo}{13}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Descrizione del modello di Robot}{13}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Attuatori per un progetto di robotica low-cost}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Motoriduttori Passo-Passo}{15}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Trasmissione del Moto e componenti utilizzati}{15}{subsection.4.1.1}%
-\contentsline {subsubsection}{Joint 1}{15}{section*.1}%
-\contentsline {subsubsection}{Joint 2}{15}{section*.2}%
-\contentsline {subsection}{\numberline {4.1.2}Cenni di controllo ad anello aperto}{15}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Attuatori Lineari}{15}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Dimensionamento del cinematismo Joint 3}{15}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Servomotori digitali: Dynamixel MX160}{15}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Scelta ed integrazione, i vantaggi di un attuatore specifico per impiego robotico}{15}{subsection.4.3.1}%
-\contentsline {subsubsection}{Controllo in coppia}{15}{section*.3}%
-\contentsline {chapter}{\numberline {5}Polso sferico, design e scelte progettuali}{17}{chapter.5}%
-\contentsline {subsection}{\numberline {5.0.1}Descrizione}{17}{subsection.5.0.1}%
-\contentsline {subsection}{\numberline {5.0.2}Ingombri ed integrazione}{17}{subsection.5.0.2}%
-\contentsline {subsection}{\numberline {5.0.3}Scelta dei Cuscinetti}{17}{subsection.5.0.3}%
-\contentsline {chapter}{\numberline {6}Trasmissione del moto, analisi e dimensionamento dei cinematismi utilizzati}{19}{chapter.6}%
-\contentsline {subsection}{\numberline {6.0.1}Metodo di Lewis}{19}{subsection.6.0.1}%
-\contentsline {subsection}{\numberline {6.0.2}Riduzione del numero minimo di denti: ingranamento elicoidale}{19}{subsection.6.0.2}%
-\contentsline {subsection}{\numberline {6.0.3}Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}{19}{subsection.6.0.3}%
-\contentsline {subsection}{\numberline {6.0.4}Risultati ottenuti dal dimensionamento}{19}{subsection.6.0.4}%
-\contentsline {subsection}{\numberline {6.0.5}Compromesso tra dimensionamento e ingombri}{19}{subsection.6.0.5}%
-\contentsline {chapter}{\numberline {7}Costruzione mediante manifattura additiva e assemblaggio}{21}{chapter.7}%
-\contentsline {subsection}{\numberline {7.0.1}Studio del materiale da stampa ABSPlus P430}{21}{subsection.7.0.1}%
-\contentsline {subsection}{\numberline {7.0.2}Produzione dei componenti}{21}{subsection.7.0.2}%
-\contentsline {subsection}{\numberline {7.0.3}Assemblaggio}{21}{subsection.7.0.3}%
-\contentsline {chapter}{\numberline {8}Risultati attesi ed ottenuti dal Robot realizzato}{23}{chapter.8}%
-\contentsline {subsection}{\numberline {8.0.1}Test e collaudo del Robot assemblato}{23}{subsection.8.0.1}%
-\contentsline {subsection}{\numberline {8.0.2}Carichi massimi applicati e precisione ottenuta}{23}{subsection.8.0.2}%
-\contentsline {subsection}{\numberline {8.0.3}Risultati nelle Competizioni studentesche }{23}{subsection.8.0.3}%
-\contentsline {chapter}{Disegni ed elaborati tecnici}{25}{subsection.8.0.3}%
-\contentsline {chapter}{Bibliografia}{26}{subsection.8.0.3}%
+\contentsline {section}{\numberline {3.1}Descrizione del modello di Robot}{13}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Modello multibody}{14}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Attuatori per un progetto di robotica low-cost}{17}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Motoriduttori Passo-Passo, trasmissione del Moto e componenti utilizzati}{17}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Joint 1}{17}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Joint 2}{17}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Cenni di controllo ad anello aperto}{17}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Attuatori Lineari, Cinematismo Joint 3}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Servomotori digitali: Dynamixel MX160}{17}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Scelta ed integrazione, i vantaggi di un attuatore specifico per impiego robotico}{17}{subsection.4.3.1}%
+\contentsline {chapter}{\numberline {5}Polso sferico, design e scelte progettuali}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Descrizione}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Ingombri ed integrazione}{19}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Scelta dei Cuscinetti}{19}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Metodo di Lewis}{19}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Riduzione del numero minimo di denti: ingranamento elicoidale}{19}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}{19}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Risultati ottenuti dal dimensionamento}{19}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Compromesso tra dimensionamento e ingombri}{19}{section.5.8}%
+\contentsline {chapter}{\numberline {6}Costruzione mediante manifattura additiva e assemblaggio}{21}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Studio del materiale da stampa ABSPlus P430}{21}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Produzione dei componenti}{21}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Assemblaggio}{21}{section.6.3}%
+\contentsline {chapter}{\numberline {7}Risultati attesi ed ottenuti dal Robot realizzato}{23}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Test e collaudo del Robot assemblato}{23}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Carichi massimi applicati e precisione ottenuta}{23}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Risultati nelle Competizioni studentesche }{23}{section.7.3}%
+\contentsline {chapter}{Disegni ed elaborati tecnici}{25}{section.7.3}%
+\contentsline {chapter}{Bibliografia}{26}{section.7.3}%

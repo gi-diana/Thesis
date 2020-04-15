@@ -211,23 +211,41 @@ La costituzione di un database di requisiti, lezioni apprese e errori commessi n
 
 
 
-	\section{Tabella dei requisiti derivati dal progetto e dal regolamento}
+
 	
 	\renewcommand{\arraystretch}{1.2}
 	\begin{longtable}{|p{0.10\textwidth}|p{0.27\textwidth}|p{0.27\textwidth}|p{0.27\textwidth}| } 
 		\hline
-		 \textbf{ORIGIN}& \textbf{REQUIREMENT}& \textbf{TECHNICAL SOLUTION}&  \textbf{VALIDATION}\\*  &   &  &      \\* \hline
+		 \textbf{ORIG.}& \textbf{REQUISITO}& \textbf{SOLUZIONE     TECNICA}&  \textbf{VALIDAZIONE}\\*  &   &  &      \\* \hline
 		\hline
 	%ARM ASSUMPTION
 		
-	RULES 	& Arm system must be able to reach the ground, use max of upper surface of chassis, reach 1.5 m of height, manipulate elements  & Anthropomorphic arm, with 6 DoFs: from literature, solution with greater dexterity  &  CAD design (along with Rover Chassis); Matlab script of arm workspace; multibody model	\\*	&   &  &      \\* \hline
-	RULES & Arm system must be able to lift at at least a 5 Kg payload  & Arm actuated by stepper motors, linear actuator and dinamixel servo motors with high torque & CAD design with Arm; Matlab script of arm workspace; multibody model; FEM model; Lewis theory	\\*	&   &  &      \\* \hline
-	MISSION & Arm system must have high operative speed, without sacrificing accuracy (target of tool center point of 1$cm^2$) & Implementation of control system of stepper motors, linear actuator and Dynamixel; position control system &  Simulink model; inverse kinematics study	\\*	&   &  &      \\* \hline
+	ERC &
+	Il sottosistema braccio deve essere in grado di raggiungere il terreno, 
+	raggiungere tutta la superficie dello chassis del rover, 
+	raggiungere 1.5 metri di altezza, 
+	manipolare elementi nello spazio tridimensionale &
+	Manipolatore robotico antromorfo a 6 assi: dalla letteratura
+	è la soluzione con la maggior destrezza	 & Modellazione CAD assieme allo chassis del Rover, Script di calcolo del workspace, modello multibody	\\*	&   &  &      \\* \hline
+	
+	
+	ERC & 
+	Il Sottosistema braccio deve essere in grado di sollevare almeno un payload di 5kg &
+	Robot attuato da motoriduttori passo-passo, attuatori lineari e servomotori ad elevata coppia
+	Trasmissione mediante riduttore a ruote dentate &
+	CAD design del braccio, Matlab script del workspace, modello multibody, modello FEM, teoria di Lewis	\\*	&   &  &      \\* \hline
+	
+	MISSION & Il braccio deve avere elevata velocità operativa senza sacrificare l'accuratezza (target of tool center point of 1$cm^2$) & 
+	Controllo in microstep dei motori passo passo, encoder relativo per attuatore lineare
+	controllo in posizione dei servomotori &  
+	Modello Simulink e cinematica inversa	\\*	&   &  &      \\* \hline
 
-	MISSION & Arm must allow to reach the elements of the panel with the rover positioned at 0.5 m from it with toll perpendiucular to pannel & Spherical wrist; 3 DoFs on structure; 3 DoFs on wrist & CAD design; Matlab script for arm workspace; multibody model \\*	&   &  &      \\* \hline
+	MISSION & Il braccio deve essere in grado di raggiungere il pannello manutenzione posizionato a 0.5m di distanza 
+	con il tool center point perpendicolare & 
 	
+	Polso Sferico & CAD design, Matlab script, multibody model \\*	&   &  &      \\* \hline
 	
-	
+\caption{Tabella dei requisiti derivati dal progetto e dal regolamento}	
 \end{longtable}
 	\section{Workspace necessario}
 	Il workspace richiesto per il manipolatore deriva dalle richieste del regolamento e dallo scenario operativo. Si può riassumere nella necessità di raggiungere un altezza di 1,5 metri e quella del suolo e operare sullo chassis del rover per depositare oggetti e campioni. 
@@ -239,57 +257,92 @@ La costituzione di un database di requisiti, lezioni apprese e errori commessi n
 		\centering
 		\includegraphics[width=\textwidth]{Plots/workspace.png}
 		\caption{Workspace in vista laterale, è rappresentato il piano dello chassis e i punti raggiunti dal TCP}
-		\label{fig:ercterrain}
+		\label{fig:workspace}
 	\end{figure}
 	
 	\section{Gradi di libertà necessari}
 	\section{Task di manipolazione e destrezza: Worst case}
 
 \chapter{Design di un manipolatore a 6 gradi di libertà}
+\section{Descrizione del modello di Robot}
+La configurazione scelta è quella di un manipolatore antropomorfo a 6 assi. La struttura per i primi tre assi è realizzata tramite link in profilati di alluminio estrusi e parti lavorate sempre in alluminio mentre le cerniere sono realizzate da alberi in acciaio supportati da boccole a basso coefficiente di attrito. I rimanenti tre assi sono collocati nel Polso Sferico all'estremità, un componente in manifattura additiva che verrà trattato più ampiamente in seguito. 
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{pictures/ARM.png}
+	\caption{Render del modello CAD preliminare del robot}
+	\label{fig:render}
+\end{figure}
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.7\textwidth]{Screen/ARMBollato.png}
+	\caption{Schema delle componenti}
+	\label{fig:bollatura}
+\end{figure}
+Il robot è schematizzato nel disegno \ref{fig:bollatura} e nel capitolo 4 verrà analizzato il dimensionamento degli attuatori \textit{Stepper} e dell'\textit{Attuatore Lineare} mentre al \textbf{Polso Sferico} sarà dedicato il capitolo 5. 
+
 	
-	\section{Modello multicorpo}
-	La costruzione di un modello multicorpo del robot è fondamentale per avere uno strumento di analisi delle prestazioni richieste agli attuatori e poter selezionare dei componenti adatti sul mercato. 
-	Per l'analisi della dinamica del robot è stato costruito un modello multicorpo attraverso il software MSC Adams. 
-	MSC Adams è uno strumento molto potente di Multi Body Dynamics che consente di costruire meccanismi articolati in un ambiente tridimensionale, connettere gli elementi attraverso relazioni e assegnare una legge di moto. 
-	Eseguita la simulazione è possibile raccogliere le misure richieste e processare i dati raccolti. 
-	In questo caso di studio lo scopo è quello di conoscere la coppia richiesta agli attuatori durante la manipolazione del carico limite imposto dai requisiti e i carichi gravanti su alcuni componenti critici. 
+	\section{Modello multibody}
+	La costruzione di un modello multibody del robot è fondamentale per avere uno strumento di analisi delle prestazioni richieste agli attuatori e poter selezionare dei componenti adatti sul mercato. 
+	Per l'analisi della dinamica del robot è stato costruito un modello multibody attraverso il software \textit{MSC Adams}. \\
+	Un sistema dinamico multibody consiste di corpi solidi connessi tra loro tramite giunti che ne limitano o impongono il relativo movimento. Lo studio della dinamica multibody è l’analisi di come questi sistemi si muovono sotto l’influenza di specifiche forze, detta anche dinamica diretta. Lo studio del problema opposto, cioè di quali forze sono necessarie a far muovere il sistema meccanico in un modo specifico è detta dinamica inversa.\\
+	La possibilità di studio della dinamica inversa ha permesso di studiare le prestazioni richieste agli attuatori del robot e dimensionare di conseguenza i componenti meccanici della trasmissione. 
+	Eseguita la simulazione è possibile raccogliere le misure richieste e processare i dati raccolti nello strumento di raccolta dati \textit{Adams/PostProcessor}. 
+		\begin{figure}
+		\centering
+		\includegraphics[width=\textwidth]{Screen/Model1.png}
+		\caption{Modello del Robot in ambiente Adams, in ciano le icone dei giunti e le trasmissioni mediante ruote dentate}
+		\label{fig:adamsmodel}
+	\end{figure}
+	
+	Il modello del robot \ref{fig:adamsmodel} è stato costruito a partire dal modello CAD preliminare \ref{fig:render} modellato in ambiente \textit{SolidWorks} importato nello spazio di lavoro di \textit{Adams/View}. I singoli componenti sono stati dotati delle relative matrici di inerzia riferite a un sistema di riferimento favorevole al calcolo dall'output di proprietà di massa del CAD e riferite ad un analogo \textit{Marker} del modello di simulazione. Così facendo la simulazione permetterà di calcolare le forze necessarie affinchè si rispettino le leggi di moto imposte ai giunti.
+			\begin{figure}
+			\centering
+			\begin{tabular} {ll}
+		
+			\includegraphics[width=0.5\textwidth]{Screen/inertia.png}
+			&
+			\includegraphics[width=0.4\textwidth]{Screen/coordinate.png}
+			\end{tabular}
+			\caption{Proprietà inerziali del componente e sistema di coordinate nel CAD}
+			\label{fig:inertia}
+			\end{figure}
+	 Inoltre il modulo \textit{Adams/Machinery} consente di modellare trasmissioni mediante accoppiamento di ruote dentate e di simularne il comportamento con vari livelli di approssimazione. Nella fattispecie si è scelto l'approccio semplificato che studia il problema di contatto mediante metodo analitico monodimensionale, in modo da fornire un confronto e una verifica del dimensionamento realizzato. 
 	
 	
-	\section{Descrizione del modello di Robot}
+	
+	
+	
 	
 		
 
-\chapter{Attuatori per un progetto di robotica low-cost}
-	\section{Motoriduttori Passo-Passo}
-		\subsection{Trasmissione del Moto e componenti utilizzati}
-			\subsubsection{Joint 1}
-			\subsubsection{Joint 2}
+\chapter{Attuatori per un progetto di robotica low-cost} \label{attuatori}
+	\section{Motoriduttori Passo-Passo, trasmissione del Moto e componenti utilizzati}
+		\subsection{Joint 1}
+		\subsection{Joint 2}
 		\subsection{Cenni di controllo ad anello aperto}
-	\section{Attuatori Lineari}
-		\subsection{Dimensionamento del cinematismo Joint 3}
+	\section{Attuatori Lineari, Cinematismo Joint 3}
+		
 	\section{Servomotori digitali: Dynamixel MX160}
 		\subsection{Scelta ed integrazione, i vantaggi di un attuatore specifico per impiego robotico}
-			\subsubsection{Controllo in coppia}
+		
 \chapter{Polso sferico, design e scelte progettuali}
-	\subsection{Descrizione}
-	\subsection{Ingombri ed integrazione}
-	\subsection{Scelta dei Cuscinetti}
-	
-\chapter{Trasmissione del moto, analisi e dimensionamento dei cinematismi utilizzati}
-	\subsection{Metodo di Lewis}
-	\subsection{Riduzione del numero minimo di denti: ingranamento elicoidale}
-	\subsection{Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}
-	\subsection{Risultati ottenuti dal dimensionamento}
-	\subsection{Compromesso tra dimensionamento e ingombri}
+	\section{Descrizione}
+	\section{Ingombri ed integrazione}
+	\section{Scelta dei Cuscinetti}
+	\section{Metodo di Lewis}
+	\section{Riduzione del numero minimo di denti: ingranamento elicoidale}
+	\section{Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}
+	\section{Risultati ottenuti dal dimensionamento}
+	\section{Compromesso tra dimensionamento e ingombri}
 
 \chapter{Costruzione mediante manifattura additiva e assemblaggio}
-	\subsection{Studio del materiale da stampa ABSPlus P430}
-	\subsection{Produzione dei componenti}
-	\subsection{Assemblaggio}
+	\section{Studio del materiale da stampa ABSPlus P430}
+	\section{Produzione dei componenti}
+	\section{Assemblaggio}
 \chapter{Risultati attesi ed ottenuti dal Robot realizzato}
-	\subsection{Test e collaudo del Robot assemblato}
-	\subsection{Carichi massimi applicati e precisione ottenuta}
-	\subsection{Risultati nelle Competizioni studentesche }
+	\section{Test e collaudo del Robot assemblato}
+	\section{Carichi massimi applicati e precisione ottenuta}
+	\section{Risultati nelle Competizioni studentesche }
 
 \backmatter
 \chapter{Disegni ed elaborati tecnici}
