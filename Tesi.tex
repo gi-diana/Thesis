@@ -531,24 +531,62 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 	
 	
 		
-	\section{Servomotori digitali: Dynamixel MX160}
-	Per la movimentazione dei giunti di orientamento del polso sferisco è stato necessario considerare
-		\subsection{Scelta ed integrazione, i vantaggi di un attuatore specifico per impiego robotico}
+	\section{Servomotori digitali: Dynamixel MX-106}
+	Per la movimentazione dei giunti di orientamento del polso sferisco è stato necessario considerare requisiti diversi dai giunti di posizionamento.\\
+	 Nel polso sferico è richiesta precisione angolare ad alta velocità di rotazione e la capacità di mantenere una data posizione angolare al variare del carico. Pertanto è richiesto un controllo in posizione dell'attuatore più raffinato di quello ottenibile per via meccanica negli attuatori precedentemente analizzati. Inoltre visto che il componente si trova all'estremità del link 4 il peso è un fattore importantissimo nella scelta. \\
+	Dopo una ricerca nel panorama dei componenti industriali si è presto concluso che un componente ad uso industriale è troppo voluminoso e pesante ed utilizza protocolli di comunicazione poco applicabili ad un progetto sperimentale. \\
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{image/dynamixel.png}
+		\caption{Attuatori Dynamixel presenti a bordo del rover TRINITY durante un test di integrazione, a sinistra gli MX-106}
+		\label{fig:MX160}
+	\end{figure}
+
+	\begin{figure}
+		\centering
+		\begin{tabular}{ll}
+			\includegraphics[width=0.4\textwidth]{image/mx160data.png}
+			&
+			\includegraphics[width=0.4\textwidth]{image/mx160figure.png}
+		\end{tabular}
+		\caption{Caratteristiche tecniche dell'MX-106 }
+		\label{fig:MX160data}
+	\end{figure}
+
+
+
+	La ricerca è stata orientata allora a prodotti specifici per la robotica sperimentale e i servomotori della \textit{ROBOTIS} sono emersi tra i più diffusi nel settore. Dal catalogo è stato selezionato il modello \textit{MX-106}. \\
+	Dalla tabella delle caratteristiche fornite dal produttore in figura \ref{fig:MX160data} si evidenzia subito la compattezza, la leggerezza del componente e le possibilità di controllo offerte tramite un semplice protocollo di comunicazione seriale implementabile sia su un microcontrollore sia direttamente da un computer dotato di interfaccia seriale.\\
+	 Guardando alla caratteristica meccanica in figura \ref{fig:MX160data} l'attuatore ha le performance migliori nell'intervallo di velocità tra 30 e 40 giri al minuto con una coppia massima di 3 Newton per metro e in questo intervallo si cercherà di progettare la trasmissione. \\
+	Il produttore fornisce i modelli CAD tridimensionali del componente e delle flange di accoppiamento per l'albero di uscita scanalato. L'utilizzo di flange, dette Horns, permette di accoppiare all'albero di uscita scanalato componenti prodotti in manifattura additiva mediante viti. \\
+	Ogni attuatore viene alimentato e riceve il bus dati attraverso un collegamento daisy chain, è quindi possibile realizzare una catena semplificando il cablaggio, che come vedremo per il polso sferico è molto delicato. 
+
 		
 \chapter{Polso sferico, design e scelte progettuali}
 	\section{Descrizione}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{image/sferico.png}
+		\caption{Schema dei giunti del polso sferico con rappresentata una terna dell'utensile}
+		\label{fig:sferico}
+	\end{figure}
+	Il polso sferico progettato per il manipolatore robotico del Rover TRINITY 
+	
+	La sfericità del polso è data dal fatto che gli assi dei giunti si intersecano tutti nello stesso punto. 
+	\section{Studio del materiale da stampa ABSPlus P430}
 	\section{Ingombri ed integrazione}
 	\section{Scelta dei Cuscinetti}
 	\section{Metodo di Lewis}
 	\section{Riduzione del numero minimo di denti: ingranamento elicoidale}
 	\section{Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}
 	\section{Risultati ottenuti dal dimensionamento}
-	\section{Compromesso tra dimensionamento e ingombri}
 
 \chapter{Costruzione mediante manifattura additiva e assemblaggio}
-	\section{Studio del materiale da stampa ABSPlus P430}
+
 	\section{Produzione dei componenti}
 	\section{Assemblaggio}
+	
 \chapter{Risultati attesi ed ottenuti dal Robot realizzato}
 	\section{Test e collaudo del Robot assemblato}
 	\section{Carichi massimi applicati e precisione ottenuta}
