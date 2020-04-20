@@ -19,23 +19,23 @@
 \contentsline {section}{\numberline {3.1}Motoriduttori Passo-Passo, trasmissione del Moto e componenti utilizzati}{17}{section.3.1}% 
 \contentsline {subsection}{\numberline {3.1.1}Joint 1}{19}{subsection.3.1.1}% 
 \contentsline {subsection}{\numberline {3.1.2}Joint 2}{21}{subsection.3.1.2}% 
-\contentsline {section}{\numberline {3.2}Attuatori Lineari, Cinematismo Joint 3}{23}{section.3.2}% 
-\contentsline {section}{\numberline {3.3}Servomotori digitali: Dynamixel MX-106}{25}{section.3.3}% 
+\contentsline {section}{\numberline {3.2}Attuatori Lineari, Cinematismo Joint 3}{22}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Servomotori digitali: Dynamixel MX-106}{24}{section.3.3}% 
 \contentsline {chapter}{\numberline {4}Polso sferico, design e scelte progettuali}{27}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Descrizione}{27}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Studio del materiale da stampa ABSPlus P430}{28}{section.4.2}% 
-\contentsline {section}{\numberline {4.3}Ingombri ed integrazione}{28}{section.4.3}% 
-\contentsline {section}{\numberline {4.4}Scelta dei Cuscinetti}{28}{section.4.4}% 
-\contentsline {section}{\numberline {4.5}Metodo di Lewis}{28}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Riduzione del numero minimo di denti: ingranamento elicoidale}{28}{section.4.6}% 
-\contentsline {section}{\numberline {4.7}Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}{28}{section.4.7}% 
-\contentsline {section}{\numberline {4.8}Risultati ottenuti dal dimensionamento}{28}{section.4.8}% 
-\contentsline {chapter}{\numberline {5}Costruzione mediante manifattura additiva e assemblaggio}{29}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Produzione dei componenti}{29}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Assemblaggio}{29}{section.5.2}% 
-\contentsline {chapter}{\numberline {6}Risultati attesi ed ottenuti dal Robot realizzato}{31}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Test e collaudo del Robot assemblato}{31}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Carichi massimi applicati e precisione ottenuta}{31}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Risultati nelle Competizioni studentesche }{31}{section.6.3}% 
-\contentsline {chapter}{Disegni ed elaborati tecnici}{33}{chapter*.3}% 
-\contentsline {chapter}{Bibliografia}{34}{chapter*.4}% 
+\contentsline {section}{\numberline {4.2}Studio del materiale da stampa ABSPlus P430}{29}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Ingombri ed integrazione}{29}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Scelta dei Cuscinetti}{29}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}Metodo di Lewis}{29}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Riduzione del numero minimo di denti: ingranamento elicoidale}{29}{section.4.6}% 
+\contentsline {section}{\numberline {4.7}Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}{29}{section.4.7}% 
+\contentsline {section}{\numberline {4.8}Risultati ottenuti dal dimensionamento}{29}{section.4.8}% 
+\contentsline {chapter}{\numberline {5}Costruzione mediante manifattura additiva e assemblaggio}{31}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Produzione dei componenti}{31}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Assemblaggio}{31}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Risultati attesi ed ottenuti dal Robot realizzato}{33}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Test e collaudo del Robot assemblato}{33}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Carichi massimi applicati e precisione ottenuta}{33}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Risultati nelle Competizioni studentesche }{33}{section.6.3}% 
+\contentsline {chapter}{Disegni ed elaborati tecnici}{35}{chapter*.3}% 
+\contentsline {chapter}{Bibliografia}{36}{chapter*.4}% 

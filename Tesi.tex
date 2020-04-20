@@ -372,9 +372,9 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 			\caption{Ralla IGUS PRT 01-30 e pignone MISUMI GEAKS2.0-18-20-B-12N}
 			\label{fig:RALLA}
 		\end{figure}
-		Per il Joint 1, su cui ruota tutta la struttura del robot nel piano orizzontale è necessario realizzare una base rigida su cui gravano il peso dell'intero robot e un importante momento quando il braccio è completamente steso e a sbalzo. Perciò è stato impiegato un apposito giunto asso-radiale prodotto dalla IGUS, il \textit{PRT-01-30} in figura \ref{fig:RALLA}. \\
-		La ralla IGUS è dotata di una corona esterna dentata di modulo unificato 2 e 54 denti perciò è stato possibile applicare un pignone prodotto da \textit{MISUMI codice GEAKS2.0-18-20-B-12N} al motoriduttore con 18 denti per realizzare un rapporto di riduzione pari a 3. L'angolo di pressione è standard di 20° e la dentatura è a denti dritti. \\
-		\\
+		Per il Joint 1, su cui ruota tutta la struttura del robot nel piano orizzontale è necessario realizzare una base rigida su cui gravano il peso dell'intero robot e un importante momento quando il braccio è completamente steso e a sbalzo. Perciò è stato impiegato un apposito giunto asso-radiale prodotto dalla IGUS, il \textit{PRT-01-30} in figura \ref{fig:RALLA}. 
+		La ralla IGUS è dotata di una corona esterna dentata di modulo unificato 2 e 54 denti perciò è stato possibile applicare un pignone prodotto da \textit{MISUMI codice GEAKS2.0-18-20-B-12N} al motoriduttore con 18 denti per realizzare un rapporto di riduzione pari a 3. L'angolo di pressione è standard di 20° e la dentatura è a denti dritti. 
+		
 		\begin{tabular}{|c|c|c|c|c|c|c|c|}
 			
 			\hline
@@ -384,8 +384,8 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 			\hline
 			
 		\end{tabular}
-		\\
-		\\Si assume che la dentatura di modulo 2 in acciaio sia in grado di trasmettere la potenza prodotta dal motoriduttore con un ampio margine di sicurezza, pertanto non è stata dimensionata ma sono state solo verificate le forze scambiate dal modello multibody in figura \ref{fig:MBDforze1}. \\
+		
+		Si assume che la dentatura di modulo 2 in acciaio sia in grado di trasmettere la potenza prodotta dal motoriduttore con un ampio margine di sicurezza, pertanto non è stata dimensionata ma sono state solo verificate le forze scambiate dal modello multibody in figura \ref{fig:MBDforze1}. 
 		Dal modello multibody sono state misurati due set di dati: quelli relativi alla ralla e quelli relativi all'attuazione. 
 		In figura possiamo valutare la coppia richiesta all'attuatore dalla trasmissione con rapporto di riduzione 3 per realizzare una rotazione della base con il braccio in posizione distesa e ritratta, evidenziando l'impatto della posizione degli altri giunti di posizionamento sulla prestazione del motore. 
 		Il modello tiene conto dell'attrito opposto dalla cerniera avendo inserito nel modello di simulazione il corretto valore di coefficiente di attrito dinamico fornito dalla produttrice IGUS pari a 0.2. 
@@ -415,7 +415,7 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 	\end{figure}
 	
 			Dai dati raccolti si evince che nella condizione più sfavorevole in figura \ref{fig:MBDcoppia1}  ci si avvicina al valore di coppia massima prevista per l'attuatore con un valore di 20Nm senza comunque superarla mentre nella condizione favorevole si è ben al di sotto con massimo di 12 Nm. 
-			Pertanto si prevede che l'attuatore sarà in grado di movimentare il carico senza che perda passi e quindi si crei uno shift tra la posizione attesa e quella effettivamente raggiunta. Questa condizione può essere comunque recuperata dalla presenza di un encoder che misuri la posizione effettivamente raggiunta. \\
+			Pertanto si prevede che l'attuatore sarà in grado di movimentare il carico senza che perda passi e quindi si crei uno shift tra la posizione attesa e quella effettivamente raggiunta. Questa condizione può essere comunque recuperata dalla presenza di un encoder che misuri la posizione effettivamente raggiunta. 
 			
 			L'analisi è continuata verificando che il componente scelto per la cerniera possa sopportare i carichi imposti dal meccanismo quando si trova nella condizione più sfavorevole.
 			Dai dati raccolti in figura \ref{fig:MBDralla1} il carico assiale massimo è inferiore ai 7000 Newton previsti dalla scheda tecnica e il momento massimo è inferiore ai 200 Newton per metro previsti. Pertanto il componente è sicuramente in grado di sopportare i carichi imposti dal robot garantendo di non generare giochi nella trasmissione. 
@@ -449,13 +449,13 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 			\caption{Valori di coppia richiesti con due attuatori gemellati}
 			\label{fig:MBDJoint22motore}
 		\end{figure}
-		Per il Joint 2 sono stati scelti gli stessi motoriduttori mostrati precedentemente, montati in configurazione gemellata come si vede nella figura \ref{fig:Stepper_foto}. \\
-		Questa soluzione si è resa necessaria in quanto un solo attuatore non è sufficiente a garantire la coppia necessaria come mostrato in figura \ref{fig:MBDJoint21motore} e per realizzare una simmetria delle coppie di reazione che si scaricano sulla struttura del Link 2. \\
+		Per il Joint 2 sono stati scelti gli stessi motoriduttori mostrati precedentemente, montati in configurazione gemellata come si vede nella figura \ref{fig:Stepper_foto}. 
+		Questa soluzione si è resa necessaria in quanto un solo attuatore non è sufficiente a garantire la coppia necessaria come mostrato in figura \ref{fig:MBDJoint21motore} e per realizzare una simmetria delle coppie di reazione che si scaricano sulla struttura del Link 2. 
 		I due attuatori lavorano su una stessa trasmissione e sommano la loro azione annullando vicendevolmente la torsione che si sarebbe scaricata sul Link 3 della trave del braccio, permettendo al team di analisi FEM di validare un design leggero grazie alla simmetria degli sforzi. Nella soluzione con 2 attuatori come si vede in figura \ref{fig:MBDJoint22motore} le prestazioni del motore sono sufficienti a movimentare il carico. 
-		Il modello multibody anche in questa fase si è rivelato fondamentale per poter fornire dei carichi verosimili da applicare all'analisi strutturale e nell'ottimizzazione della struttura da parte del team di analisi FEM. \\
+		Il modello multibody anche in questa fase si è rivelato fondamentale per poter fornire dei carichi verosimili da applicare all'analisi strutturale e nell'ottimizzazione della struttura da parte del team di analisi FEM. 
 		
-		L'attuatore trasferisce il moto al Link 3 del braccio mediante un ingranamento tra ruote dentate a denti dritti di modulo 1,5 e rapporto di riduzione 3. Al motoriduttore è applicato un pignone da 20 denti \textit{MISUMI GEAKS1.5-20-15-B-12N} e al link 3 una ruota condotta da 60 denti \textit{GEAKS1.5-60-15-A-12N} con larghezza di fascia 15mm. \\
-		\\
+		L'attuatore trasferisce il moto al Link 3 del braccio mediante un ingranamento tra ruote dentate a denti dritti di modulo 1,5 e rapporto di riduzione 3. Al motoriduttore è applicato un pignone da 20 denti \textit{MISUMI GEAKS1.5-20-15-B-12N} e al link 3 una ruota condotta da 60 denti \textit{GEAKS1.5-60-15-A-12N} con larghezza di fascia 15mm. 
+		
 			\begin{tabular}{|c|c|c|c|c|c|c|c|}
 			
 			\hline
@@ -465,9 +465,8 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 			\hline
 			
 		\end{tabular}
-		\\
-		\\
-		L'ingranamento non è stato dimensionato in quanto si ritiene sicuramente verificato per la potenza in gioco e la ruota condotta applicata al link 3 offre un perfetto compromesso dimensionale per poterla flagiare direttamente sul link 3 come si vede in figura \ref{fig:Stepper_foto} con una corona di viti, in modo da non richiedere un albero di trasmissione, una cartella o la realizzazione di sedi linguetta sulla sottile trave in alluminio che aveva evidenziato una forte criticità dal punto di vista strutturale e di concentrazione degli sforzi. \\
+		
+		L'ingranamento non è stato dimensionato in quanto si ritiene sicuramente verificato per la potenza in gioco e la ruota condotta applicata al link 3 offre un perfetto compromesso dimensionale per poterla flagiare direttamente sul link 3 come si vede in figura \ref{fig:Stepper_foto} con una corona di viti, in modo da non richiedere un albero di trasmissione, una cartella o la realizzazione di sedi linguetta sulla sottile trave in alluminio che aveva evidenziato una forte criticità dal punto di vista strutturale e di concentrazione degli sforzi. 
 		
 		\begin{figure} [!ht]
 		\centering
@@ -492,12 +491,12 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 		\caption{Sistema di trasmissione di un robot KUKA KR5}
 		\label{fig:kukabelt}
 	\end{figure}
-	Nella scelta dell'attuatore per il Joint 3 è rilevante non solo la potenza richiesta ma anche il peso del componente. Difatti il punto debole degli attuatori passo-passo precedentemente descritti è sicuramente il rapporto tra peso del componente e potenza erogata che è sfavorevole.\\
-	Per il Joint 3 la scelta di un attuatore rotativo sufficientemente potente da collocare sull'asse del giunto avrebbe peggiorato fortemente le proprietà inerziali del Link 3, collocando una massa importante concentrata in punta alla trave. \\
-	Nei robot industriali questo problema viene aggirato collocando i motori alla base dei link e trasmettendo il moto ad altà velocità di rotazione tramite una cinghia contenuta all'interno della trave e collocando un riduttore epicicloidale o armonico dotato di encoder coassiale al giunto come in figura \ref{fig:kukabelt}. \\
+	Nella scelta dell'attuatore per il Joint 3 è rilevante non solo la potenza richiesta ma anche il peso del componente. Difatti il punto debole degli attuatori passo-passo precedentemente descritti è sicuramente il rapporto tra peso del componente e potenza erogata che è sfavorevole.
+	Per il Joint 3 la scelta di un attuatore rotativo sufficientemente potente da collocare sull'asse del giunto avrebbe peggiorato fortemente le proprietà inerziali del Link 3, collocando una massa importante concentrata in punta alla trave. 
+	Nei robot industriali questo problema viene aggirato collocando i motori alla base dei link e trasmettendo il moto ad altà velocità di rotazione tramite una cinghia contenuta all'interno della trave e collocando un riduttore epicicloidale o armonico dotato di encoder coassiale al giunto come in figura \ref{fig:kukabelt}. 
 	Per risolvere questo problema si è optato per una soluzione alternativa e non convenzionale nel mondo dei robot industriali. 
 	
-	La scelta di un attuatore lineare, un componente molto economico e di larga diffusione nelle forniture di automazione, ha permesso di posizionare l'attuatore e quindi la sua massa molto in basso e di non appesantire il link 3. \\
+	La scelta di un attuatore lineare, un componente molto economico e di larga diffusione nelle forniture di automazione, ha permesso di posizionare l'attuatore e quindi la sua massa molto in basso e di non appesantire il link 3. 
 		\begin{figure}
 		\centering
 		\includegraphics[width=0.4\textwidth]{image/linearact.jpg}
@@ -506,7 +505,7 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 	\end{figure}
 	Gli attuatori lineari di questo tipo sono generalmente costituiti da un motore in corrente continua a spazzole, un riduttore ed una trasmissione vite-madrevite che trasforma il moto rotativo in uscita dal motore in traslazione lungo un giunto prismatico come si vede in figura \ref{fig:linearact}.
 	L'attuatore è inoltre dotato di interruttori di fine corsa che ne limitano il moto all'escursione prevista. Il sistema di controllo è molto semplice, essendo fondamentalmente un motore in corrente continua, basta invertire i contatti per invertire il senso del moto. 
-	Per pilotare l'attuatore è stato scelto un driver per motori DC della STMicroelectronics, l'integrato L6206 che include in un solo componente un ponte H a semiconduttori, una pompa di carica per pilotare i MOSFET che costituiscono il ponte e la logica di controllo necessaria a realizzare anche un pilotaggio PWM per avere velocità variabili e il funzionamento nei 4 quadranti della caratteristica elettrica del motore. \\
+	Per pilotare l'attuatore è stato scelto un driver per motori DC della STMicroelectronics, l'integrato L6206 che include in un solo componente un ponte H a semiconduttori, una pompa di carica per pilotare i MOSFET che costituiscono il ponte e la logica di controllo necessaria a realizzare anche un pilotaggio PWM per avere velocità variabili e il funzionamento nei 4 quadranti della caratteristica elettrica del motore. 
 	
 	I parametri progettuali che è necessario determinare per la scelta dell'attuatore sono :
 	\begin{itemize}
@@ -515,7 +514,7 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 		\item La forza necessaria per movimentare il carico 
 		\item La velocità di traslazione massima 
 	\end{itemize}
-	\\
+	
 	Lo studio cinematico, quindi delle lunghezze e della posizione delle cerniere è stato sviluppato grazie al modello multibody. Una caratteristica di questi modelli è la parametrizzazione. Grazie alla possibilità di parametrizzare alcune variabii che costituiscono il modello si può svolgere un esperimento di esplorazione del design. 
 	Fissato un obiettivo, che in questo caso è l'escursione di almeno 100° di rotazione del giunto per rispettare il workspace previsto, si realizzano varie simulazioni in cui variano dei parametri, in questo caso l'escursione dell'attuatore e la posizione delle cerniere. 
 	Con questo approccio è stato rapidamente determinato che un attuatore con escursione di 200 millimetri era il compromesso ideale tra quelli disponibili in commercio. 
@@ -532,9 +531,9 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 	
 		
 	\section{Servomotori digitali: Dynamixel MX-106}
-	Per la movimentazione dei giunti di orientamento del polso sferisco è stato necessario considerare requisiti diversi dai giunti di posizionamento.\\
-	 Nel polso sferico è richiesta precisione angolare ad alta velocità di rotazione e la capacità di mantenere una data posizione angolare al variare del carico. Pertanto è richiesto un controllo in posizione dell'attuatore più raffinato di quello ottenibile per via meccanica negli attuatori precedentemente analizzati. Inoltre visto che il componente si trova all'estremità del link 4 il peso è un fattore importantissimo nella scelta. \\
-	Dopo una ricerca nel panorama dei componenti industriali si è presto concluso che un componente ad uso industriale è troppo voluminoso e pesante ed utilizza protocolli di comunicazione poco applicabili ad un progetto sperimentale. \\
+	Per la movimentazione dei giunti di orientamento del polso sferisco è stato necessario considerare requisiti diversi dai giunti di posizionamento.
+	 Nel polso sferico è richiesta precisione angolare ad alta velocità di rotazione e la capacità di mantenere una data posizione angolare al variare del carico. Pertanto è richiesto un controllo in posizione dell'attuatore più raffinato di quello ottenibile per via meccanica negli attuatori precedentemente analizzati. Inoltre visto che il componente si trova all'estremità del link 4 il peso è un fattore importantissimo nella scelta. 
+	Dopo una ricerca nel panorama dei componenti industriali si è presto concluso che un componente ad uso industriale è troppo voluminoso e pesante ed utilizza protocolli di comunicazione poco applicabili ad un progetto sperimentale. 
 	
 	\begin{figure}
 		\centering
@@ -556,10 +555,11 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 
 
 
-	La ricerca è stata orientata allora a prodotti specifici per la robotica sperimentale e i servomotori della \textit{ROBOTIS} sono emersi tra i più diffusi nel settore. Dal catalogo è stato selezionato il modello \textit{MX-106}. \\
-	Dalla tabella delle caratteristiche fornite dal produttore in figura \ref{fig:MX160data} si evidenzia subito la compattezza, la leggerezza del componente e le possibilità di controllo offerte tramite un semplice protocollo di comunicazione seriale implementabile sia su un microcontrollore sia direttamente da un computer dotato di interfaccia seriale.\\
-	 Guardando alla caratteristica meccanica in figura \ref{fig:MX160data} l'attuatore ha le performance migliori nell'intervallo di velocità tra 30 e 40 giri al minuto con una coppia massima di 3 Newton per metro e in questo intervallo si cercherà di progettare la trasmissione. \\
-	Il produttore fornisce i modelli CAD tridimensionali del componente e delle flange di accoppiamento per l'albero di uscita scanalato. L'utilizzo di flange, dette Horns, permette di accoppiare all'albero di uscita scanalato componenti prodotti in manifattura additiva mediante viti. \\
+	La ricerca è stata orientata allora a prodotti specifici per la robotica sperimentale e i servomotori della \textit{ROBOTIS} sono emersi tra i più diffusi nel settore. Dal catalogo è stato selezionato il modello \textit{MX-106}. 
+	Dalla tabella delle caratteristiche fornite dal produttore in figura \ref{fig:MX160data} si evidenzia subito la compattezza, la leggerezza del componente e le possibilità di controllo offerte tramite un semplice protocollo di comunicazione seriale implementabile sia su un microcontrollore sia direttamente da un computer dotato di interfaccia seriale.
+	Guardando alla caratteristica meccanica in figura \ref{fig:MX160data} l'attuatore ha le performance migliori nell'intervallo di velocità tra 30 e 40 giri al minuto con una coppia massima di 3 Newton per metro ed in questo intervallo si cercherà di progettare la trasmissione. 
+	
+	Il produttore fornisce i modelli CAD tridimensionali del componente e delle flange di accoppiamento per l'albero di uscita scanalato. L'utilizzo di flange, dette Horns, permette di accoppiare all'albero di uscita scanalato componenti prodotti in manifattura additiva mediante viti. 
 	Ogni attuatore viene alimentato e riceve il bus dati attraverso un collegamento daisy chain, è quindi possibile realizzare una catena semplificando il cablaggio, che come vedremo per il polso sferico è molto delicato. 
 
 		
@@ -571,10 +571,29 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 		\caption{Schema dei giunti del polso sferico con rappresentata una terna dell'utensile}
 		\label{fig:sferico}
 	\end{figure}
-	Il polso sferico progettato per il manipolatore robotico del Rover TRINITY 
+	Il polso sferico progettato per il manipolatore robotico del Rover TRINITY è un componente compatto, integrato e realizzato in manifattura additiva. 
+	\begin{figure}
+		\centering
+		\includegraphics[width=1.2\textwidth]{Screen/wristsection.png}
+		\caption{Sezione del componente realizzato con evidenziati i punti salienti trattati in questo capitolo}
+		\label{fig:disegnosferico}
+	\end{figure} 
+	La caratteristica chiave di un polso sferico è il disaccoppiamento tra posizione e orientamento dell'utensile; il braccio ha il compito di posizionare il punto di origine della terna utensile, mentre il polso determina l'orientamento della terna utensile.
+	La sfericità del polso è data dal fatto che gli assi dei giunti si intersecano tutti nello stesso punto.
 	
-	La sfericità del polso è data dal fatto che gli assi dei giunti si intersecano tutti nello stesso punto. 
+	
 	\section{Studio del materiale da stampa ABSPlus P430}
+	In funzione della possibilità di realizzare componenti in manifattura additiva presso i laboratori  del Dipartimento di Ingegneria Meccanica e Aerospaziale il Team DIANA ha deciso di approfondire la conoscenza delle risorse di produzione a disposizione. 
+	Il processo di stampa a deposizione di filamento (FDM) produce componenti caratterizzati da una struttura interna non isotropa, caratterizzata dalla presenza di layers e aree vuote. Nel caso della FDM il materiale non è isotropo, nello specifico l’anisotropia è data sia dalla direzione della stampa (cioè la direzione dei piani depositati), dove è più resistente nello strato che tra gli strati, sia dalla geometria dell’infill (geometrie che sostituiscono il volume interno in maniera più efficiente).
+	 Pertanto è evidente che le proprietà meccaniche dipenderanno dalla direzione in cui sono applicati gli sforzi. 
+	 Usando queste strutture si ottiene una struttura più leggera ma con proprietà non altrettanto inferiori. 
+	 
+	
+	Il produttore del materiale e dell'attrezzatura di stampa fornisce una caratterizzazione del materiale isotropo, estruso come componente solido. Questa condizione è però lontana dall'utilizzo reale, in quanto genera componenti estremamente costosi in termini di peso, tempo di lavorazione e quantità di materiale impiegato. 
+	Date le risorse a disposizione, per realizzare un studio quantomeno indicativo sulle proprietà del materiale, è stato prodotto un set di provini e sottoposto a prova di trazione.
+	Per le prove di trazione si segue la normativa \textit{ASTM D638 Standard method for Tensile Plastics}. Questa normativa permette di ottenere le proprietà a trazione di materiali polimerici sia semplici che rinforzati usando provini a forma di osso di cane. Questo test è utilizzabile per campioni con spessore fino a 14 mm. Questo metodo inoltre permette di ottenere il modulo di poisson a temperatura ambiente. 
+	
+
 	\section{Ingombri ed integrazione}
 	\section{Scelta dei Cuscinetti}
 	\section{Metodo di Lewis}
@@ -604,10 +623,14 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 \begin{thebibliography}{9}
 \bibitem{ERC2019} European Rover Challenge, \emph{Student Rules}, ERC, gennaio 2019
 
-\bibitem{tor1} E.~Torricelli, in ``La pressione barometrica'', {\em Strumenti
-        Moderni}, Il Porcellino, Firenze, 1606.
-\bibitem{tor2} E.~Torricelli e A.~Vasari, in ``Delle misure'', {\em Atti Nuovo
-        Cimento}, vol.~III, n.~2 (feb. 1607), p.~27--31.
+\bibitem{RobotSpong}Mark W. Spong, Seth Hutchinson, and M. Vidyasagar, \emph{Robot Modeling and Control}, JOHN WILEY  
+
+\bibitem{RobotSiciliano}Bruno Siciliano • Lorenzo Sciavicco Luigi Villani • Giuseppe Oriolo \emph{Robotics: Modelling, Planning and Control}, SPRINGER
+
+\bibitem{Robot}Giovanni Jacazio, Stefano Pastorelli \emph{Esercizi di meccanica applicata alle macchine}, Levrotto e Bella
+
+\bibitem{Robot}Giovanni Jacazio, Stefano Pastorelli \emph{Meccanica applicata alle macchine}, Levrotto e Bella
+
 \bibitem{duane1964} Duane J.T., \emph{Learning Curve Approach To Reliability 
 		Monitoring}, IEEE Transactions on Aerospace, Vol. 2, pp. 563-566, 1964
 \end{thebibliography}
@@ -619,8 +642,8 @@ Per i giunti di posizionamento sono stati utilizzati motoriduttori passo-passo e
 \bibitem{ERC2019} European Rover Challenge, \emph{Student Rules}, ERC, gennaio 2019
 	
 	
-\bibitem{chiesa2}Chiesa S., Fioriti M., Fusaro R., \emph{On Board System 
-		Technological  Level Improvement Effect on UAV MALE}
+\bibitem{Robot}Giovanni Jacazio, Stefano Pastorelli \emph{Esercizi di meccanica applicata alle macchine}, Levrotto e Bella
+
 \bibitem{bigliano2010} Bigliano M., \emph{Sicurezza nell'installazione di un velivolo 
 		senza pilota MALE; applicazione di metodologia di Zonal Safety 
 		Analysis al velivolo del Progetto SAvE}, Politecnico di Torino, 

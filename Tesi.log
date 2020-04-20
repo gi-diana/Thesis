@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  19 APR 2020 18:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  20 APR 2020 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,7 +1126,11 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 71.
 Package hyperref Info: Option `colorlinks' set `true' on input line 71.
 \c@osservazione=\count275
 
-(./Tesi.aux)
+(./Tesi.aux
+
+LaTeX Warning: Label `Robot' multiply defined.
+
+)
 \openout1 = `Tesi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -1149,7 +1153,8 @@ File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 79.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 79.
@@ -1564,15 +1569,6 @@ Underfull \vbox (badness 1337) has occurred while \output is active []
 LaTeX Warning: Text page 18 contains only floats.
 
 [18 <./Screen/STEPPER.png> <./Screen/base.PNG>]
-Underfull \hbox (badness 10000) in paragraph at lines 375--392
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 375--392
-
- []
-
 <Plots/BASE/joint1_FAVOREVOLE.png, id=347, 1000.48781pt x 520.94624pt>
 File: Plots/BASE/joint1_FAVOREVOLE.png Graphic file (type png)
 <use Plots/BASE/joint1_FAVOREVOLE.png>
@@ -1600,19 +1596,17 @@ File: Plots/BASE/joint1_ralla.png Graphic file (type png)
 <use Plots/BASE/joint1_ralla.png>
 Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 412.
 (pdftex.def)             Requested size: 253.50397pt x 137.53346pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 417--419
-
- []
-
-[19 <./pictures/ralla.jpg> <./pictures/pignone.png>] [20 <./Plots/BASE/joint1_F
-AVOREVOLE.png> <./Plots/BASE/joint1_sfavorevole.png> <./Plots/BASE/joint1_forze
-.png> <./Plots/BASE/joint1_ralla.png>]
-<image/basefoto.png, id=368, 1067.99pt x 829.0975pt>
+[19 <./pictures/ralla.jpg> <./pictures/pignone.png>]
+<image/basefoto.png, id=363, 1067.99pt x 829.0975pt>
 File: image/basefoto.png Graphic file (type png)
 <use image/basefoto.png>
 Package pdftex.def Info: image/basefoto.png  used on input line 428.
 (pdftex.def)             Requested size: 168.99834pt x 131.1908pt.
+
+Underfull \vbox (badness 2426) has occurred while \output is active []
+
+ [20 <./Plots/BASE/joint1_FAVOREVOLE.png> <./Plots/BASE/joint1_sfavorevole.png>
+ <./Plots/BASE/joint1_forze.png> <./Plots/BASE/joint1_ralla.png>]
 <Plots/SPALLA/1motore/JOINT2_conservativo.png, id=369, 822.82407pt x 489.32813p
 t>
 File: Plots/SPALLA/1motore/JOINT2_conservativo.png Graphic file (type png)
@@ -1649,155 +1643,144 @@ Overfull \hbox (28.87848pt too wide) in paragraph at lines 444--449
  [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--456
-
- []
-
 [21 <./image/basefoto.png> <./Plots/SPALLA/1motore/JOINT2_conservativo.png> <./
 Plots/SPALLA/1motore/JOINT2-torque.png> <./Plots/SPALLA/2motori/JOINT22favorevo
 le.png> <./Plots/SPALLA/2motori/JOINT22sfavorevole.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 457--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--471
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 457--471
-
- []
-
 <Screen/cuscinetto.png, id=385, 245.83846pt x 189.94965pt>
 File: Screen/cuscinetto.png Graphic file (type png)
 <use Screen/cuscinetto.png>
-Package pdftex.def Info: Screen/cuscinetto.png  used on input line 475.
+Package pdftex.def Info: Screen/cuscinetto.png  used on input line 474.
 (pdftex.def)             Requested size: 168.99834pt x 130.58136pt.
 <image/jfl12.jpg, id=386, 722.7pt x 481.8pt>
 File: image/jfl12.jpg Graphic file (type jpg)
 <use image/jfl12.jpg>
-Package pdftex.def Info: image/jfl12.jpg  used on input line 477.
+Package pdftex.def Info: image/jfl12.jpg  used on input line 476.
 (pdftex.def)             Requested size: 168.99834pt x 112.66428pt.
 <image/kukabelt.jpg, id=388, 481.8pt x 361.35pt>
 File: image/kukabelt.jpg Graphic file (type jpg)
 <use image/kukabelt.jpg>
-Package pdftex.def Info: image/kukabelt.jpg  used on input line 491.
+Package pdftex.def Info: image/kukabelt.jpg  used on input line 490.
 (pdftex.def)             Requested size: 168.99834pt x 126.74457pt.
-[22 <./Screen/cuscinetto.png> <./image/jfl12.jpg>]
+ [22 <./Screen/cuscinetto.png> <./image/jfl12.jpg>]
 <image/linearact.jpg, id=396, 1204.5pt x 579.16376pt>
 File: image/linearact.jpg Graphic file (type jpg)
 <use image/linearact.jpg>
-Package pdftex.def Info: image/linearact.jpg  used on input line 503.
+Package pdftex.def Info: image/linearact.jpg  used on input line 502.
 (pdftex.def)             Requested size: 168.99834pt x 81.25911pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 500--510
-
- []
-
-[23 <./image/kukabelt.jpg> <./image/linearact.jpg>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-\GenericError  ...                                
-                                                  \endgroup 
-\@gnewline #1->\ifvmode \@nolnerr 
-                                  \else \unskip \reserved@e {\reserved@f #1}...
-<to be read again> 
-                   L
-l.519 	L
-        o studio cinematico, quindi delle lunghezze e della posizione delle ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+ [23 <./image/kukabelt.jpg> <./image/linearact.jpg>]
 <Plots/GOMITO/Joint3.png, id=404, 877.02657pt x 425.33907pt>
 File: Plots/GOMITO/Joint3.png Graphic file (type png)
 <use Plots/GOMITO/Joint3.png>
-Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 524.
+Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 523.
 (pdftex.def)             Requested size: 253.50397pt x 122.94276pt.
-[24 <./Plots/GOMITO/Joint3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 535--538
-
- []
-
+ [24 <./Plots/GOMITO/Joint3.png>]
 <image/dynamixel.png, id=411, 1284.8pt x 722.7pt>
 File: image/dynamixel.png Graphic file (type png)
 <use image/dynamixel.png>
-Package pdftex.def Info: image/dynamixel.png  used on input line 541.
+Package pdftex.def Info: image/dynamixel.png  used on input line 540.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
 <image/mx160data.png, id=412, 331.2375pt x 522.95375pt>
 File: image/mx160data.png Graphic file (type png)
 <use image/mx160data.png>
-Package pdftex.def Info: image/mx160data.png  used on input line 549.
+Package pdftex.def Info: image/mx160data.png  used on input line 548.
 (pdftex.def)             Requested size: 168.99834pt x 266.80661pt.
 <image/mx160figure.png, id=413, 516.93124pt x 471.7625pt>
 File: image/mx160figure.png Graphic file (type png)
 <use image/mx160figure.png>
-Package pdftex.def Info: image/mx160figure.png  used on input line 551.
+Package pdftex.def Info: image/mx160figure.png  used on input line 550.
 (pdftex.def)             Requested size: 168.99834pt x 154.228pt.
-[25 <./image/dynamixel.png (PNG copy)>] [26 <./image/mx160data.png> <./image/mx
-160figure.png>]
+ [25 <./image/dynamixel.png (PNG copy)>]
+[26 <./image/mx160data.png> <./image/mx160figure.png>]
 Capitolo 4.
 <image/sferico.png, id=429, 490.83376pt x 308.15125pt>
 File: image/sferico.png Graphic file (type png)
 <use image/sferico.png>
 Package pdftex.def Info: image/sferico.png  used on input line 570.
 (pdftex.def)             Requested size: 253.50397pt x 159.1534pt.
+<Screen/wristsection.png, id=430, 440.3652pt x 348.8232pt>
+File: Screen/wristsection.png Graphic file (type png)
+<use Screen/wristsection.png>
+Package pdftex.def Info: Screen/wristsection.png  used on input line 580.
+(pdftex.def)             Requested size: 507.00148pt x 401.62259pt.
+
+Overfull \hbox (84.49916pt too wide) in paragraph at lines 580--581
+ [][] 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27
 
- <./image/sferico.png>] [28]
-Capitolo 5.
-[29
+ <./image/sferico.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [30
+ [28 <./Screen/wristsection.png>] [29] [30
 
 ]
-Capitolo 6.
+Capitolo 5.
 [31
 
 ] [32
 
-] [33
+]
+Capitolo 6.
+[33
+
+] [34
+
+] [35
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 615.
- [34
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 627.
+ [36
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 615.
+pdfTeX warning (ext4): destination with the same identifier (name{cite.Robot}) 
+has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+\scr@saved@clearpage ...ox {}\fi \fi \fi \newpage 
+                                                  \write \m@ne {}\vbox {}\pe...
+
+\clearpage ->\scr@saved@clearpage 
+                                  \scr@hook@bcma \scr@restore@newpage \let \...
+...
+l.627 \end{document}
+                    ]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 627.
  (./Tesi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 615.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 615.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 627.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 627.
+Package rerunfilecheck Info: File `Tesi.out' has not changed.
+(rerunfilecheck)             Checksum: 9C939E50EED1A108083505CCD131C0C0;3489.
 
 
-Package rerunfilecheck Warning: File `Tesi.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Tesi.out':
-(rerunfilecheck)             Before: 7A906F4E26E8E6642100C6134DC5DEF0;3488
-(rerunfilecheck)             After:  9C939E50EED1A108083505CCD131C0C0;3489.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26964 strings out of 492616
- 441295 string characters out of 6129481
+ 26974 strings out of 492616
+ 441500 string characters out of 6129481
  650969 words of memory out of 5000000
- 30439 multiletter control sequences out of 15000+600000
+ 30444 multiletter control sequences out of 15000+600000
  611089 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,14n,75p,1077b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1813,9 +1796,9 @@ l/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2
 ist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/ty
 pe1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public
 /lm/lmro9.pfb>
-Output written on Tesi.pdf (34 pages, 14161339 bytes).
+Output written on Tesi.pdf (36 pages, 14306391 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
- 502 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
+ 507 words of extra memory for PDF output out of 10000 (max. 10000000)
 
