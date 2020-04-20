@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.20)  20 APR 2020 11:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.20)  20 APR 2020 15:23
 entering extended mode
 **./Tesi.tex
 (Tesi.tex
@@ -917,11 +917,7 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 72.
 Package hyperref Info: Option `colorlinks' set `true' on input line 72.
 \c@osservazione=\count276
- (Tesi.aux
-
-LaTeX Warning: Label `Robot' multiply defined.
-
-)
+ (Tesi.aux)
 \openout1 = `Tesi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
@@ -1032,7 +1028,7 @@ LaTeX Info: Redefining \nameref on input line 80.
 \@outlinefile=\write5
 \openout5 = `Tesi.out'.
 
-<logouno.png, id=156, 569.12625pt x 569.12625pt>
+<logouno.png, id=160, 569.12625pt x 569.12625pt>
 File: logouno.png Graphic file (type png)
 <use logouno.png>
 Package pdftex.def Info: logouno.png  used on input line 107.
@@ -1101,12 +1097,12 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
  [4]
 Capitolo 1.
-<image/amalia.png, id=221, 576.1525pt x 714.67pt>
+<image/amalia.png, id=226, 576.1525pt x 714.67pt>
 File: image/amalia.png Graphic file (type png)
 <use image/amalia.png>
 Package pdftex.def Info: image/amalia.png  used on input line 128.
 (pdftex.def)             Requested size: 126.75198pt x 157.21698pt.
-<image/toro.jpg, id=222, 1805.74625pt x 1268.74pt>
+<image/toro.jpg, id=227, 1805.74625pt x 1268.74pt>
 File: image/toro.jpg Graphic file (type jpg)
 <use image/toro.jpg>
 Package pdftex.def Info: image/toro.jpg  used on input line 130.
@@ -1117,13 +1113,13 @@ Package pdftex.def Info: image/toro.jpg  used on input line 130.
 
 
  <./image/amalia.png> <./image/toro.jpg>]
-<image/trinityerc.jpeg, id=231, 1284.8pt x 722.7pt>
+<image/trinityerc.jpeg, id=236, 1284.8pt x 722.7pt>
 File: image/trinityerc.jpeg Graphic file (type jpg)
 <use image/trinityerc.jpeg>
 Package pdftex.def Info: image/trinityerc.jpeg  used on input line 144.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
  [6 <./image/trinityerc.jpeg>]
-<image/terrain.jpeg, id=237, 1445.4pt x 1084.05pt>
+<image/terrain.jpeg, id=242, 1445.4pt x 1084.05pt>
 File: image/terrain.jpeg Graphic file (type jpg)
 <use image/terrain.jpeg>
 Package pdftex.def Info: image/terrain.jpeg  used on input line 165.
@@ -1149,12 +1145,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [7 <./image/terrain.jpeg>]
-<image/panel.png, id=247, 396.48125pt x 481.8pt>
+<image/panel.png, id=252, 396.48125pt x 481.8pt>
 File: image/panel.png Graphic file (type png)
 <use image/panel.png>
 Package pdftex.def Info: image/panel.png  used on input line 197.
 (pdftex.def)             Requested size: 168.99834pt x 205.36879pt.
-<image/mainttoro.jpg, id=248, 4015.0pt x 2673.99pt>
+<image/mainttoro.jpg, id=253, 4015.0pt x 2673.99pt>
 File: image/mainttoro.jpg Graphic file (type jpg)
 <use image/mainttoro.jpg>
 Package pdftex.def Info: image/mainttoro.jpg  used on input line 199.
@@ -1273,17 +1269,17 @@ Underfull \vbox (badness 10000) detected at line 250
 [9
 
 ] [10]
-<pictures/6DOF.png, id=273, 963.6pt x 542.025pt>
+<pictures/6DOF.png, id=278, 963.6pt x 542.025pt>
 File: pictures/6DOF.png Graphic file (type png)
 <use pictures/6DOF.png>
 Package pdftex.def Info: pictures/6DOF.png  used on input line 263.
 (pdftex.def)             Requested size: 422.50232pt x 237.6564pt.
-<pictures/KUKA.png, id=274, 853.1875pt x 880.28876pt>
+<pictures/KUKA.png, id=279, 853.1875pt x 880.28876pt>
 File: pictures/KUKA.png Graphic file (type png)
 <use pictures/KUKA.png>
 Package pdftex.def Info: pictures/KUKA.png  used on input line 272.
 (pdftex.def)             Requested size: 253.50397pt x 261.54999pt.
-<Plots/workspace.png, id=275, 1084.05pt x 589.4522pt>
+<Plots/workspace.png, id=280, 1084.05pt x 589.4522pt>
 File: Plots/workspace.png Graphic file (type png)
 <use Plots/workspace.png>
 Package pdftex.def Info: Plots/workspace.png  used on input line 279.
@@ -1293,27 +1289,27 @@ Package pdftex.def Info: Plots/workspace.png  used on input line 279.
 LaTeX Warning: Text page 12 contains only floats.
 
 [12 <./pictures/KUKA.png> <./Plots/workspace.png (PNG copy)>] [13]
-<pictures/ARM.png, id=295, 163.812pt x 100.4553pt>
+<pictures/ARM.png, id=300, 163.812pt x 100.4553pt>
 File: pictures/ARM.png Graphic file (type png)
 <use pictures/ARM.png>
 Package pdftex.def Info: pictures/ARM.png  used on input line 303.
 (pdftex.def)             Requested size: 295.75032pt x 181.39726pt.
-<Screen/ARMBollato.png, id=296, 354.72525pt x 445.30365pt>
+<Screen/ARMBollato.png, id=301, 354.72525pt x 445.30365pt>
 File: Screen/ARMBollato.png Graphic file (type png)
 <use Screen/ARMBollato.png>
 Package pdftex.def Info: Screen/ARMBollato.png  used on input line 309.
 (pdftex.def)             Requested size: 295.75032pt x 371.27344pt.
-<Screen/Model1.png, id=298, 927.465pt x 484.81125pt>
+<Screen/Model1.png, id=303, 927.465pt x 484.81125pt>
 File: Screen/Model1.png Graphic file (type png)
 <use Screen/Model1.png>
 Package pdftex.def Info: Screen/Model1.png  used on input line 324.
 (pdftex.def)             Requested size: 422.50232pt x 220.85577pt.
-<Screen/inertia.png, id=301, 740.0147pt x 488.57532pt>
+<Screen/inertia.png, id=306, 740.0147pt x 488.57532pt>
 File: Screen/inertia.png Graphic file (type png)
 <use Screen/inertia.png>
 Package pdftex.def Info: Screen/inertia.png  used on input line 334.
 (pdftex.def)             Requested size: 211.25116pt x 139.46906pt.
-<Screen/coordinate.png, id=302, 473.51906pt x 431.36156pt>
+<Screen/coordinate.png, id=307, 473.51906pt x 431.36156pt>
 File: Screen/coordinate.png Graphic file (type png)
 <use Screen/coordinate.png>
 Package pdftex.def Info: Screen/coordinate.png  used on input line 336.
@@ -1321,7 +1317,7 @@ Package pdftex.def Info: Screen/coordinate.png  used on input line 336.
  [14 <./pictures/ARM.png>] [15 <./Screen/ARMBollato.png>] [16 <./Screen/Model1.
 png> <./Screen/inertia.png> <./Screen/coordinate.png>]
 Capitolo 3.
-<Screen/STEPPER.png, id=324, 722.2182pt x 507.3354pt>
+<Screen/STEPPER.png, id=329, 722.2182pt x 507.3354pt>
 File: Screen/STEPPER.png Graphic file (type png)
 <use Screen/STEPPER.png>
 Package pdftex.def Info: Screen/STEPPER.png  used on input line 351.
@@ -1331,17 +1327,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--357
 
  []
 
-<Screen/base.PNG, id=325, 428.92245pt x 321.96284pt>
+<Screen/base.PNG, id=330, 428.92245pt x 321.96284pt>
 File: Screen/base.PNG Graphic file (type png)
 <use Screen/base.PNG>
 Package pdftex.def Info: Screen/base.PNG  used on input line 361.
 (pdftex.def)             Requested size: 422.50232pt x 317.15247pt.
-<pictures/ralla.jpg, id=326, 2107.875pt x 1405.25pt>
+<pictures/ralla.jpg, id=331, 2107.875pt x 1405.25pt>
 File: pictures/ralla.jpg Graphic file (type jpg)
 <use pictures/ralla.jpg>
 Package pdftex.def Info: pictures/ralla.jpg  used on input line 369.
 (pdftex.def)             Requested size: 170.69191pt x 113.81102pt.
-<pictures/pignone.png, id=327, 377.41pt x 369.38pt>
+<pictures/pignone.png, id=332, 377.41pt x 369.38pt>
 File: pictures/pignone.png Graphic file (type png)
 <use pictures/pignone.png>
 Package pdftex.def Info: pictures/pignone.png  used on input line 371.
@@ -1356,13 +1352,13 @@ Underfull \vbox (badness 1337) has occurred while \output is active []
 LaTeX Warning: Text page 18 contains only floats.
 
 [18 <./Screen/STEPPER.png> <./Screen/base.PNG>]
-<Plots/BASE/joint1_FAVOREVOLE.png, id=343, 1000.48781pt x 520.94624pt>
+<Plots/BASE/joint1_FAVOREVOLE.png, id=348, 1000.48781pt x 520.94624pt>
 File: Plots/BASE/joint1_FAVOREVOLE.png Graphic file (type png)
 <use Plots/BASE/joint1_FAVOREVOLE.png>
 Package pdftex.def Info: Plots/BASE/joint1_FAVOREVOLE.png  used on input line 3
 97.
 (pdftex.def)             Requested size: 218.5661pt x 113.81102pt.
-<Plots/BASE/joint1_sfavorevole.png, id=344, 1044.90375pt x 520.94624pt>
+<Plots/BASE/joint1_sfavorevole.png, id=349, 1044.90375pt x 520.94624pt>
 File: Plots/BASE/joint1_sfavorevole.png Graphic file (type png)
 <use Plots/BASE/joint1_sfavorevole.png>
 Package pdftex.def Info: Plots/BASE/joint1_sfavorevole.png  used on input line 
@@ -1373,18 +1369,18 @@ Overfull \hbox (48.33301pt too wide) in paragraph at lines 396--401
  [][] 
  []
 
-<Plots/BASE/joint1_forze.png, id=345, 931.98187pt x 539.01375pt>
+<Plots/BASE/joint1_forze.png, id=350, 931.98187pt x 539.01375pt>
 File: Plots/BASE/joint1_forze.png Graphic file (type png)
 <use Plots/BASE/joint1_forze.png>
 Package pdftex.def Info: Plots/BASE/joint1_forze.png  used on input line 407.
 (pdftex.def)             Requested size: 253.50397pt x 146.61308pt.
-<Plots/BASE/joint1_ralla.png, id=346, 982.42032pt x 532.99126pt>
+<Plots/BASE/joint1_ralla.png, id=351, 982.42032pt x 532.99126pt>
 File: Plots/BASE/joint1_ralla.png Graphic file (type png)
 <use Plots/BASE/joint1_ralla.png>
 Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 413.
 (pdftex.def)             Requested size: 253.50397pt x 137.53346pt.
 [19 <./pictures/ralla.jpg> <./pictures/pignone.png>]
-<image/basefoto.png, id=359, 1067.99pt x 829.0975pt>
+<image/basefoto.png, id=364, 1067.99pt x 829.0975pt>
 File: image/basefoto.png Graphic file (type png)
 <use image/basefoto.png>
 Package pdftex.def Info: image/basefoto.png  used on input line 429.
@@ -1394,14 +1390,14 @@ Underfull \vbox (badness 2426) has occurred while \output is active []
 
  [20 <./Plots/BASE/joint1_FAVOREVOLE.png> <./Plots/BASE/joint1_sfavorevole.png>
  <./Plots/BASE/joint1_forze.png> <./Plots/BASE/joint1_ralla.png>]
-<Plots/SPALLA/1motore/JOINT2_conservativo.png, id=365, 822.82407pt x 489.32813p
+<Plots/SPALLA/1motore/JOINT2_conservativo.png, id=370, 822.82407pt x 489.32813p
 t>
 File: Plots/SPALLA/1motore/JOINT2_conservativo.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2_conservativo.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2_conservativo.png  used on 
 input line 436.
 (pdftex.def)             Requested size: 191.37994pt x 113.81102pt.
-<Plots/SPALLA/1motore/JOINT2-torque.png, id=366, 822.82407pt x 392.96812pt>
+<Plots/SPALLA/1motore/JOINT2-torque.png, id=371, 822.82407pt x 392.96812pt>
 File: Plots/SPALLA/1motore/JOINT2-torque.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2-torque.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2-torque.png  used on input 
@@ -1412,13 +1408,13 @@ Overfull \hbox (31.17664pt too wide) in paragraph at lines 435--440
  [][] 
  []
 
-<Plots/SPALLA/2motori/JOINT22favorevole.png, id=367, 987.69pt x 520.94624pt>
+<Plots/SPALLA/2motori/JOINT22favorevole.png, id=372, 987.69pt x 520.94624pt>
 File: Plots/SPALLA/2motori/JOINT22favorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22favorevole.png>
 Package pdftex.def Info: Plots/SPALLA/2motori/JOINT22favorevole.png  used on in
 put line 446.
 (pdftex.def)             Requested size: 215.77031pt x 113.81102pt.
-<Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=368, 1014.79124pt x 545.78906p
+<Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=373, 1014.79124pt x 545.78906p
 t>
 File: Plots/SPALLA/2motori/JOINT22sfavorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22sfavorevole.png>
@@ -1433,45 +1429,45 @@ Overfull \hbox (28.87848pt too wide) in paragraph at lines 445--450
 [21 <./image/basefoto.png> <./Plots/SPALLA/1motore/JOINT2_conservativo.png> <./
 Plots/SPALLA/1motore/JOINT2-torque.png> <./Plots/SPALLA/2motori/JOINT22favorevo
 le.png> <./Plots/SPALLA/2motori/JOINT22sfavorevole.png>]
-<Screen/cuscinetto.png, id=381, 245.83846pt x 189.94965pt>
+<Screen/cuscinetto.png, id=386, 245.83846pt x 189.94965pt>
 File: Screen/cuscinetto.png Graphic file (type png)
 <use Screen/cuscinetto.png>
 Package pdftex.def Info: Screen/cuscinetto.png  used on input line 475.
 (pdftex.def)             Requested size: 168.99834pt x 130.58136pt.
-<image/jfl12.jpg, id=382, 722.7pt x 481.8pt>
+<image/jfl12.jpg, id=387, 722.7pt x 481.8pt>
 File: image/jfl12.jpg Graphic file (type jpg)
 <use image/jfl12.jpg>
 Package pdftex.def Info: image/jfl12.jpg  used on input line 477.
 (pdftex.def)             Requested size: 168.99834pt x 112.66428pt.
-<image/kukabelt.jpg, id=384, 481.8pt x 361.35pt>
+<image/kukabelt.jpg, id=389, 481.8pt x 361.35pt>
 File: image/kukabelt.jpg Graphic file (type jpg)
 <use image/kukabelt.jpg>
 Package pdftex.def Info: image/kukabelt.jpg  used on input line 491.
 (pdftex.def)             Requested size: 168.99834pt x 126.74457pt.
  [22 <./Screen/cuscinetto.png> <./image/jfl12.jpg>]
-<image/linearact.jpg, id=392, 1204.5pt x 579.16376pt>
+<image/linearact.jpg, id=397, 1204.5pt x 579.16376pt>
 File: image/linearact.jpg Graphic file (type jpg)
 <use image/linearact.jpg>
 Package pdftex.def Info: image/linearact.jpg  used on input line 503.
 (pdftex.def)             Requested size: 168.99834pt x 81.25911pt.
  [23 <./image/kukabelt.jpg> <./image/linearact.jpg>]
-<Plots/GOMITO/Joint3.png, id=400, 877.02657pt x 425.33907pt>
+<Plots/GOMITO/Joint3.png, id=405, 877.02657pt x 425.33907pt>
 File: Plots/GOMITO/Joint3.png Graphic file (type png)
 <use Plots/GOMITO/Joint3.png>
 Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 524.
 (pdftex.def)             Requested size: 253.50397pt x 122.94276pt.
  [24 <./Plots/GOMITO/Joint3.png>]
-<image/dynamixel.png, id=407, 1284.8pt x 722.7pt>
+<image/dynamixel.png, id=412, 1284.8pt x 722.7pt>
 File: image/dynamixel.png Graphic file (type png)
 <use image/dynamixel.png>
 Package pdftex.def Info: image/dynamixel.png  used on input line 541.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
-<image/mx160data.png, id=408, 331.2375pt x 522.95375pt>
+<image/mx160data.png, id=413, 331.2375pt x 522.95375pt>
 File: image/mx160data.png Graphic file (type png)
 <use image/mx160data.png>
 Package pdftex.def Info: image/mx160data.png  used on input line 549.
 (pdftex.def)             Requested size: 168.99834pt x 266.80661pt.
-<image/mx160figure.png, id=409, 516.93124pt x 471.7625pt>
+<image/mx160figure.png, id=414, 516.93124pt x 471.7625pt>
 File: image/mx160figure.png Graphic file (type png)
 <use image/mx160figure.png>
 Package pdftex.def Info: image/mx160figure.png  used on input line 551.
@@ -1479,12 +1475,12 @@ Package pdftex.def Info: image/mx160figure.png  used on input line 551.
  [25 <./image/dynamixel.png (PNG copy)>]
 [26 <./image/mx160data.png> <./image/mx160figure.png>]
 Capitolo 4.
-<image/sferico.png, id=425, 490.83376pt x 308.15125pt>
+<image/sferico.png, id=430, 490.83376pt x 308.15125pt>
 File: image/sferico.png Graphic file (type png)
 <use image/sferico.png>
 Package pdftex.def Info: image/sferico.png  used on input line 571.
 (pdftex.def)             Requested size: 253.50397pt x 159.1534pt.
-<Screen/wristsection.png, id=426, 440.3652pt x 348.8232pt>
+<Screen/wristsection.png, id=431, 440.3652pt x 348.8232pt>
 File: Screen/wristsection.png Graphic file (type png)
 <use Screen/wristsection.png>
 Package pdftex.def Info: Screen/wristsection.png  used on input line 578.
@@ -1539,7 +1535,7 @@ Overfull \hbox (24.7739pt too wide) in paragraph at lines 600--624
  [][][] 
  []
 
-<Screen/curvesmaterial.png, id=439, 627.09282pt x 405.01312pt>
+<Screen/curvesmaterial.png, id=444, 627.09282pt x 405.01312pt>
 File: Screen/curvesmaterial.png Graphic file (type png)
 <use Screen/curvesmaterial.png>
 Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 627.
@@ -1548,71 +1544,50 @@ Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 627.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-[30 <./Screen/curvesmaterial.png>]
-Capitolo 5.
-[31
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [32
+ [30 <./Screen/curvesmaterial.png>] [31] [32
 
 ]
-Capitolo 6.
+Capitolo 5.
+
+Overfull \hbox (28.28967pt too wide) in paragraph at lines 667--680
+ [][][] 
+ []
+
 [33
 
-] [34
+] [34]
+Capitolo 6.
+[35
 
-] [35
+] [36
+
+] [37
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 680.
- [36
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 739.
+ [38
 
-pdfTeX warning (ext4): destination with the same identifier (name{cite.Robot}) 
-has been already used, duplicate ignored
-
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-\@EveryShipout@Test ...else \@EveryShipout@Output 
-                                                  \fi 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-<to be read again> \AtBegShi@Output 
-                                    \endgroup \set@typeset@protect 
-\@outputpage ...width {\@thefoot }\color@endbox }}
-                                                  \global \let \if@newlist \...
-
-\@opcol ...lumn \@outputdblcol \else \@outputpage 
-                                                  \fi \global \@mparbottom \...
-<output> ...specialoutput \else \@makecol \@opcol 
-                                                  \@startcolumn \@whilesw \i...
-
-\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
-                                                  
-\scr@saved@clearpage ...ox {}\fi \fi \fi \newpage 
-                                                  \write \m@ne {}\vbox {}\pe...
-
-\clearpage ->\scr@saved@clearpage 
-                                  \scr@hook@bcma \scr@restore@newpage \let \...
-...
-l.680 \end{document}
-                    ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 680.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 739.
  (Tesi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 680.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 680.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 739.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 739.
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 40E839D2ECDB70E2606F1157484DBA74;3491.
+(rerunfilecheck)             Checksum: 50ED2FE9204CE591FCDC65B60511B622;3560.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 17935 strings out of 480934
- 275701 string characters out of 2899449
+ 17951 strings out of 480934
+ 275895 string characters out of 2899449
  695889 words of memory out of 3000000
- 33314 multiletter control sequences out of 15000+200000
- 611089 words of font info for 66 fonts, out of 3000000 for 9000
+ 33322 multiletter control sequences out of 15000+200000
+ 611465 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,14n,61p,1079b,2353s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/FRANCO/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.
@@ -1629,9 +1604,9 @@ eX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/FRANCO/AppData/Local/Programs/
 MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/FRANCO/AppData/Local/Progra
 ms/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/FRANCO/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/lm/lmro9.pfb>
-Output written on Tesi.pdf (36 pages, 14372383 bytes).
+Output written on Tesi.pdf (38 pages, 14379956 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 512 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 123 named destinations out of 1000 (max. 500000)
+ 520 words of extra memory for PDF output out of 10000 (max. 10000000)
 
