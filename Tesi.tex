@@ -25,6 +25,7 @@ greek,% per comporre parte del testo in greco (qui solo con classica)
 \usepackage[a-1b]{pdfx}
 \usepackage{longtable}
 \usepackage{bigstrut}
+\usepackage{listings}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lipsum}% Per scrivere testo fasullo in "latinorum"
 
@@ -688,13 +689,92 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	Z=Z" cos^3\beta
 	\end{equation} 
 	E ricavando il numero di denti reale $Z$ come in \ref{dentivirtuale2} otteniamo per la trasmissione studiata con angolo d'elica $\beta=20$ un valore di 14 denti. \\
-	Con questo accorgimento si riesce a ridurre il numero minimo di denti del pignone e così si ottiene una riduzione dei diametri a parità di rapporto di trasmissione ottenuto. Si ottenfono inoltre altri vantaggi che sono noti dalla letteratura e dall'esperienza nella costruzione e progetto di macchine :
+	Con questo accorgimento si riesce a ridurre il numero minimo di denti del pignone e così si ottiene una riduzione dei diametri a parità di rapporto di trasmissione ottenuto. Si ottengono inoltre altri vantaggi che sono noti dalla letteratura e dall'esperienza nella costruzione e progetto di macchine :
 	\begin{itemize}
 		\item La variazione della distribuzione del carico sui denti avviene in maniera graduale 
 		\item Gli urti sono ridotti essendoci più denti in presa contemporaneamente
-		\item Il gioco tra i denti è ridotto, quindi si riduce il backlash
+		\item Il gioco tra i denti di conseguenza è ridotto, quindi si riduce il backlash
 	\end{itemize}
+
 	\section{Dimensionamento della trasmissione}
+	Per un primo dimensionamento della trasmissione si è scelto di utilizzare il metodo di Lewis. \\
+	Il dimensionamento di un ingranaggio, essendo nota la cinematica (rapporto di trasmissione, numeri di denti, angolo di pressione 
+	 e angolo d’elica ), si effettua con la determinazione del modulo normale mn e della larghezza di fascia (sviluppo del dente nella
+	direzione dell’asse di rotazione). Nel caso di studio in oggetto la larghezza di fascia è molto condizionata dagli ingombri che devono avere i componenti e si è deciso di fissarla e determinare il modulo normale. \\
+	Nel caso di dimensionamento statico vengono confrontate delle tensioni calcolate, rispettivamente una tensione di flessione (ottenuta tramite la formula di Lewis) e una dovuta al contatto hertziano (calcolata secondo le formule finali della teoria di Hertz),con una tensione ammissibile nel materiale ottenuta dividendo il carico di rottura (o
+	snervamento) per un opportuno coefficiente di sicurezza. \\
+	Nel caso del dimensionamento statico le tensioni massime calcolate sono ottenute considerando le forze massime scambiate dall’ingranaggio, quelle cioè che possono produrre rottura nel dente.
+	Come carico massimo si è scelto di prendere a riferimento il valore di coppia di stallo, o holding torque, degli attuatori \textit{Dynamixel MX-106} pari a 8,4 Newton per metro. Difatti l'attuatore, in grado di misurare la corrente assorbita dal motore, correla il valore di soglia massima di corrente con la caratteristica elettrica del motore e disattiva l'alimentazione una volta raggiunta la holding torque. \\
+	Il calcolo statico a flessione di una ruota a denti elicoidali può eseguirsi estendendo opportunamente le formule valevoli per le ruote a denti dritti.
+	\begin{equation}\label{torque}
+	C=\frac{Ft}{\cos\beta}
+	\end{equation}
+	La forza che sollecita il dente, basata sull'ipotesi di singolo dente in presa valida per Lewis è \ref{torque}
+	\begin{equation}\label{larghezza}
+	b"=\frac{b}{\cos\beta}
+	\end{equation}	
+	La larghezza di fascia effettiva proiettata sul cilindro di contatto \ref{larghezza}
+	\begin{equation}\label{sigmal}
+	\sigma=\frac{\frac{Ft}{\cos\beta}}{\frac{b}{\cos\beta}m_{n}Y_{lw}}=\frac{Ft}{b m_{n}Y_{lw}}
+	\end{equation}
+	Quindi la tensione flessionale è ricavata in \ref{sigmal} considerando il coefficiente $Y_{lw}$ che si trova tabellato in letteratura tecnica
+		\begin{equation}\label{mnlewis}
+	mn=\sqrt[3]{\frac{Y_{lw} \cdot C \cdot 2 \cos\beta}{\frac{\sigma_{yeld}}{CS} \cdot b \cdot Z}}
+	\end{equation}
+	Esplicitando il modulo normale rispetto alla larghezza di fascia, alla coppia di sollecitazione e alla tensione di snervamento, considerato un opportuno coefficiente di sicurezza restituisce il modulo normale come in \ref{mnlewis}
+	
+
+	\begin{lstlisting}[language=Matlab]
+	function [Y] = lewis_factor(Zn)
+	load lewisdata
+	i=1;
+	while lewisdata.Z(i)<Zn
+		i=i+1;
+	end
+	Y=lewisdata.Y(i);
+	end
+	
+	%carico tabella dati di progetto 
+	load data
+	%coefficiente di sicurezza
+	CS=2.5;
+	CSHertz=1.2;
+	
+	%calcolo formula di Lewis, modulo normale
+	data.mn=(lewis_factor(data.Z1)*(data.Cn*1000)*
+	2*cosd(data.beta)/(data.sigmaS/CS)/
+	data.larghezza/data.Z1)^(1/3);
+	
+	%calcolo rapporto di trasmissione
+	data.tau=data.Z2/data.Z1;
+	
+	%calcolo raggi primitivi 
+	R1=0.5*data.mn*data.Z1;
+	R2=0.5*data.mn*data.Z2;
+	
+	%calcolo forze
+	data.Ft=data.Cn*1000/R1;
+	data.F0=data.Ft/cosd(data.alfa);
+	data.Fr=data.F0*sind(data.alfa);
+	F=data.Ft/cosd(data.alfa)/cosd(data.beta);
+	data.Fa=F*sind(data.beta);
+	
+	%calcolo tensione di contatto Hertz
+	data.sigmaH=0.629*0.418*((data.Ft/cosd(data.alfa))*
+	(data.E*1000)*((1/R1)+(1/R2))*(1/sind(data.alfa))/
+	(data.larghezza/cosd(data.beta)))^(1/2);
+	
+	if data.sigmaH<(data.sigmaS/CSHertz)
+		data.Hertz="SI";
+	else
+		data.Hertz="NO";
+	end
+	%scrivo tabella risultati su file excel
+	writetable(data,'POLSO.xls');
+	\end{lstlisting}
+	
+		Per semplificare il processo di calcolo è stato scritto un semplice script in codice Matlab che calcola le grandezze necessarie al dimensionamento e il modulo normale a partire da una tabella \verb|data| contenente il numero di denti delle due ruote, la larghezza di fascia, gli angoli di pressione e di elica e le proprietà meccaniche del materiale. Sono inoltre calcolate le forze scambiate dai denti nei piani tangenziale, radiale, assiale.
+	
 		\subsection{Joint 4}
 			% Table generated by Excel2LaTeX from sheet 'Sheet1'
 		\begin{table}[htbp]

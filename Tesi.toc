@@ -27,19 +27,19 @@
 \contentsline {section}{\numberline {4.3}Integrazione e requisiti progettuali}{30}{section.4.3}% 
 \contentsline {section}{\numberline {4.4}Scelta dei Cuscinetti}{31}{section.4.4}% 
 \contentsline {section}{\numberline {4.5}Riduzione del numero minimo di denti: ingranamento elicoidale}{31}{section.4.5}% 
-\contentsline {section}{\numberline {4.6}Dimensionamento della trasmissione}{36}{section.4.6}% 
-\contentsline {subsection}{\numberline {4.6.1}Joint 4}{36}{subsection.4.6.1}% 
-\contentsline {subsection}{\numberline {4.6.2}Joint 5}{36}{subsection.4.6.2}% 
-\contentsline {subsection}{\numberline {4.6.3}Joint 6}{36}{subsection.4.6.3}% 
-\contentsline {section}{\numberline {4.7}Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}{36}{section.4.7}% 
-\contentsline {section}{\numberline {4.8}Risultati ottenuti dal dimensionamento}{36}{section.4.8}% 
-\contentsline {chapter}{\numberline {5}Costruzione mediante manifattura additiva e assemblaggio}{39}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Produzione dei componenti}{39}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Analisi dei costi}{39}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Assemblaggio}{39}{section.5.3}% 
-\contentsline {chapter}{\numberline {6}Risultati attesi ed ottenuti dal Robot realizzato}{43}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Test e collaudo del Robot assemblato}{43}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Carichi massimi applicati e precisione ottenuta}{43}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Risultati nelle Competizioni studentesche }{43}{section.6.3}% 
-\contentsline {chapter}{Disegni ed elaborati tecnici}{45}{chapter*.3}% 
-\contentsline {chapter}{Bibliografia}{46}{chapter*.4}% 
+\contentsline {section}{\numberline {4.6}Dimensionamento della trasmissione}{32}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Joint 4}{34}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Joint 5}{35}{subsection.4.6.2}% 
+\contentsline {subsection}{\numberline {4.6.3}Joint 6}{35}{subsection.4.6.3}% 
+\contentsline {section}{\numberline {4.7}Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}{35}{section.4.7}% 
+\contentsline {section}{\numberline {4.8}Risultati ottenuti dal dimensionamento}{35}{section.4.8}% 
+\contentsline {chapter}{\numberline {5}Costruzione mediante manifattura additiva e assemblaggio}{41}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Produzione dei componenti}{41}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Analisi dei costi}{41}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Assemblaggio}{41}{section.5.3}% 
+\contentsline {chapter}{\numberline {6}Risultati attesi ed ottenuti dal Robot realizzato}{45}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Test e collaudo del Robot assemblato}{45}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Carichi massimi applicati e precisione ottenuta}{45}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Risultati nelle Competizioni studentesche }{45}{section.6.3}% 
+\contentsline {chapter}{Disegni ed elaborati tecnici}{47}{chapter*.3}% 
+\contentsline {chapter}{Bibliografia}{48}{chapter*.4}% 

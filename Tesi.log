@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  21 APR 2020 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  21 APR 2020 15:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1103,6 +1103,31 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 Package: bigstrut 2019/01/01 v2.4 Provide larger struts in tabulars
 \bigstrutjot=\dimen146
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count275
+\lst@gtempboxa=\box53
+\lst@token=\toks21
+\lst@length=\count276
+\lst@currlwidth=\dimen147
+\lst@column=\count277
+\lst@pos=\count278
+\lst@lostspace=\dimen148
+\lst@width=\dimen149
+\lst@newlines=\count279
+\lst@lineno=\count280
+\lst@maxwidth=\dimen150
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count281
+\lst@skipnumbers=\count282
+\lst@framebox=\box54
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -1121,67 +1146,67 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks21
-\@arclen=\dimen147
-\@arcrad=\dimen148
-\@tempdimd=\dimen149
+\pIIe@GRAPH=\toks22
+\@arclen=\dimen151
+\@arcrad=\dimen152
+\@tempdimd=\dimen153
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 72.
-Package hyperref Info: Option `colorlinks' set `true' on input line 72.
-\c@osservazione=\count275
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 73.
+Package hyperref Info: Option `colorlinks' set `true' on input line 73.
+\c@osservazione=\count283
 
 (./Tesi.aux)
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 80.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 80.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 81.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 81.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 80.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
-LaTeX Font Info:    ... okay on input line 80.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 80.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 81.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \it@ocap on input line 80.
-LaTeX Info: Redefining \it@ccap on input line 80.
+LaTeX Info: Redefining \it@ocap on input line 81.
+LaTeX Info: Redefining \it@ccap on input line 81.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen150
-\scratchbox=\box53
-\nofMPsegments=\count277
-\nofMParguments=\count278
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen151
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count284
+\scratchdimen=\dimen154
+\scratchbox=\box55
+\nofMPsegments=\count285
+\nofMParguments=\count286
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count287
+\MPscratchDim=\dimen155
+\MPnumerator=\count288
+\makeMPintoPDFobject=\count289
+\everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1199,14 +1224,14 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\captionwidth=\dimen152
-\fullwidth=\dimen153
+\captionwidth=\dimen156
+\fullwidth=\dimen157
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/toptesi/topfront.sty
 Package: topfront 2019-05-01 v.6.3.04 Title page for TOPtesi and other classes
 \TPT@logospace=\skip56
-\TPT@logobox=\box54
-\TPT@logoheight=\dimen154
+\TPT@logobox=\box56
+\TPT@logoheight=\dimen158
 \T@Tlogoheight=\skip57
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/toptesi/toptesi.cfg))
@@ -1218,16 +1243,16 @@ e
 Package: fancyvrb 2019/01/15
 
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count282
+\FV@CodeLineNo=\count290
 \FV@InFile=\read3
-\FV@TabBox=\box55
-\c@FancyVerbLine=\count283
-\FV@StepNumber=\count284
+\FV@TabBox=\box57
+\c@FancyVerbLine=\count291
+\FV@StepNumber=\count292
 \FV@OutFile=\write4
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring ON on input line 80.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring ON on input line 81.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1235,64 +1260,65 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count285
+\c@section@level=\count293
 )
-LaTeX Info: Redefining \ref on input line 80.
-LaTeX Info: Redefining \pageref on input line 80.
-LaTeX Info: Redefining \nameref on input line 80.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 (./Tesi.out) (./Tesi.out)
 \@outlinefile=\write5
 \openout5 = `Tesi.out'.
 
+\c@lstlisting=\count294
 <logouno.png, id=174, 569.12625pt x 569.12625pt>
 File: logouno.png Graphic file (type png)
 <use logouno.png>
-Package pdftex.def Info: logouno.png  used on input line 107.
+Package pdftex.def Info: logouno.png  used on input line 108.
 (pdftex.def)             Requested size: 70.00298pt x 70.00249pt.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 108.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 108.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 109.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 109.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 108.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 109.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 108
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 109
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 108
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 109
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 108.
+(Font)              <11> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 108.
+(Font)              <7.69997> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 108.
+(Font)              <5.5> on input line 109.
 LaTeX Font Info:    Calculating math sizes for size <13.19997> on input line 10
-8.
+9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13.19997> on input line 108.
+(Font)              <13.19997> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.23993> on input line 108.
+(Font)              <9.23993> on input line 109.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.59998> on input line 108.
+(Font)              <6.59998> on input line 109.
 
 Overfull \vbox (10.4588pt too high) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 108.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 109.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
@@ -1316,12 +1342,12 @@ Capitolo 1.
 <image/amalia.png, id=245, 576.1525pt x 714.67pt>
 File: image/amalia.png Graphic file (type png)
 <use image/amalia.png>
-Package pdftex.def Info: image/amalia.png  used on input line 128.
+Package pdftex.def Info: image/amalia.png  used on input line 129.
 (pdftex.def)             Requested size: 126.75198pt x 157.21698pt.
 <image/toro.jpg, id=246, 1805.74625pt x 1268.74pt>
 File: image/toro.jpg Graphic file (type jpg)
 <use image/toro.jpg>
-Package pdftex.def Info: image/toro.jpg  used on input line 130.
+Package pdftex.def Info: image/toro.jpg  used on input line 131.
 (pdftex.def)             Requested size: 211.25116pt x 148.40907pt.
 [5
 
@@ -1332,13 +1358,13 @@ Package pdftex.def Info: image/toro.jpg  used on input line 130.
 <image/trinityerc.jpeg, id=255, 1284.8pt x 722.7pt>
 File: image/trinityerc.jpeg Graphic file (type jpg)
 <use image/trinityerc.jpeg>
-Package pdftex.def Info: image/trinityerc.jpeg  used on input line 144.
+Package pdftex.def Info: image/trinityerc.jpeg  used on input line 145.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
  [6 <./image/trinityerc.jpeg>]
 <image/terrain.jpeg, id=261, 1445.4pt x 1084.05pt>
 File: image/terrain.jpeg Graphic file (type jpg)
 <use image/terrain.jpeg>
-Package pdftex.def Info: image/terrain.jpeg  used on input line 165.
+Package pdftex.def Info: image/terrain.jpeg  used on input line 166.
 (pdftex.def)             Requested size: 253.50397pt x 190.12512pt.
 
 
@@ -1354,7 +1380,7 @@ Type  H <return>  for immediate help.
                                   \else \unskip \reserved@e {\reserved@f #1}...
 <to be read again> 
                    \relax 
-l.182 		\newline
+l.183 		\newline
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1364,122 +1390,122 @@ or  <return>  to continue without it.
 <image/panel.png, id=271, 396.48125pt x 481.8pt>
 File: image/panel.png Graphic file (type png)
 <use image/panel.png>
-Package pdftex.def Info: image/panel.png  used on input line 197.
+Package pdftex.def Info: image/panel.png  used on input line 198.
 (pdftex.def)             Requested size: 168.99834pt x 205.36879pt.
 <image/mainttoro.jpg, id=272, 4015.0pt x 2673.99pt>
 File: image/mainttoro.jpg Graphic file (type jpg)
 <use image/mainttoro.jpg>
-Package pdftex.def Info: image/mainttoro.jpg  used on input line 199.
+Package pdftex.def Info: image/mainttoro.jpg  used on input line 200.
 (pdftex.def)             Requested size: 211.25116pt x 140.68443pt.
  [8 <./image/panel.png> <./image/mainttoro.jpg>]
 Capitolo 2.
 
-Underfull \hbox (badness 5374) in paragraph at lines 220--220
+Underfull \hbox (badness 5374) in paragraph at lines 221--221
 []|\T1/lmr/bx/n/11 SOLUZIONE TEC-
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 225--228
+Underfull \hbox (badness 1226) in paragraph at lines 226--229
 []|\T1/lmr/m/n/11 Il sot-to-si-ste-ma brac-cio
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 225--228
+Underfull \hbox (badness 2126) in paragraph at lines 226--229
 \T1/lmr/m/n/11 rag-giun-ge-re il ter-re-no,
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 225--228
+Underfull \hbox (badness 2653) in paragraph at lines 226--229
 \T1/lmr/m/n/11 ro-ver, rag-giun-ge-re 1.5
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 225--228
+Underfull \hbox (badness 2035) in paragraph at lines 226--229
 \T1/lmr/m/n/11 me-tri di al-tez-za, ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 []|\T1/lmr/m/n/11 Manipolatore ro-bo-ti-co
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 229--230
+Underfull \hbox (badness 5592) in paragraph at lines 230--231
 \T1/lmr/m/n/11 an-tro-mor-fo a 6 as-si:
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 229--230
+Underfull \hbox (badness 3219) in paragraph at lines 230--231
 \T1/lmr/m/n/11 dal-la let-te-ra-tu-ra è la
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 230--230
+Underfull \hbox (badness 1092) in paragraph at lines 231--231
 []|\T1/lmr/m/n/11 Modellazione CAD as-
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 230--230
+Underfull \hbox (badness 2334) in paragraph at lines 231--231
 \T1/lmr/m/n/11 sie-me al-lo chas-sis del
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 234--234
+Underfull \hbox (badness 5119) in paragraph at lines 235--235
 \T1/lmr/m/n/11 de-ve es-se-re in gra-do
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 235--236
+Underfull \hbox (badness 6961) in paragraph at lines 236--237
 \T1/lmr/m/n/11 Tra-smis-sio-ne me-dian-te
  []
 
 
-Overfull \hbox (3.80783pt too wide) in paragraph at lines 239--239
+Overfull \hbox (3.80783pt too wide) in paragraph at lines 240--240
 []|\T1/lmr/m/n/11 MISSION| 
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 240--241
+Underfull \hbox (badness 1281) in paragraph at lines 241--242
 []|\T1/lmr/m/n/11 Controllo in mi-cro-step
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 240--241
+Underfull \hbox (badness 1742) in paragraph at lines 241--242
 \T1/lmr/m/n/11 dei mo-to-ri pas-so pas-
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 240--241
+Underfull \hbox (badness 4060) in paragraph at lines 241--242
 \T1/lmr/m/n/11 at-tua-to-re li-nea-re con-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 240--241
+Underfull \hbox (badness 1275) in paragraph at lines 241--242
 \T1/lmr/m/n/11 trol-lo in po-si-zio-ne dei
  []
 
 
-Overfull \hbox (3.80783pt too wide) in paragraph at lines 244--244
+Overfull \hbox (3.80783pt too wide) in paragraph at lines 245--245
 []|\T1/lmr/m/n/11 MISSION| 
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 244--245
+Underfull \hbox (badness 3861) in paragraph at lines 245--246
 \T1/lmr/m/n/11 pan-nel-lo ma-nu-ten-zio-ne
  []
 
 
-Underfull \hbox (badness 6995) in paragraph at lines 247--247
+Underfull \hbox (badness 6995) in paragraph at lines 248--248
 []|\T1/lmr/m/n/11 CAD de-si-gn, Ma-tlab
  []
 
 
-Overfull \hbox (9.98276pt too wide) in alignment at lines 218--250
+Overfull \hbox (9.98276pt too wide) in alignment at lines 219--251
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 250
+Underfull \vbox (badness 10000) detected at line 251
  []
 
 [9
@@ -1488,17 +1514,17 @@ Underfull \vbox (badness 10000) detected at line 250
 <pictures/6DOF.png, id=297, 963.6pt x 542.025pt>
 File: pictures/6DOF.png Graphic file (type png)
 <use pictures/6DOF.png>
-Package pdftex.def Info: pictures/6DOF.png  used on input line 263.
+Package pdftex.def Info: pictures/6DOF.png  used on input line 264.
 (pdftex.def)             Requested size: 422.50232pt x 237.6564pt.
 <pictures/KUKA.png, id=298, 853.1875pt x 880.28876pt>
 File: pictures/KUKA.png Graphic file (type png)
 <use pictures/KUKA.png>
-Package pdftex.def Info: pictures/KUKA.png  used on input line 272.
+Package pdftex.def Info: pictures/KUKA.png  used on input line 273.
 (pdftex.def)             Requested size: 253.50397pt x 261.54999pt.
 <Plots/workspace.png, id=299, 1084.05pt x 589.4522pt>
 File: Plots/workspace.png Graphic file (type png)
 <use Plots/workspace.png>
-Package pdftex.def Info: Plots/workspace.png  used on input line 279.
+Package pdftex.def Info: Plots/workspace.png  used on input line 280.
 (pdftex.def)             Requested size: 422.50232pt x 229.73253pt.
  [11 <./pictures/6DOF.png>]
 
@@ -1508,27 +1534,27 @@ LaTeX Warning: Text page 12 contains only floats.
 <pictures/ARM.png, id=319, 163.812pt x 100.4553pt>
 File: pictures/ARM.png Graphic file (type png)
 <use pictures/ARM.png>
-Package pdftex.def Info: pictures/ARM.png  used on input line 303.
+Package pdftex.def Info: pictures/ARM.png  used on input line 304.
 (pdftex.def)             Requested size: 295.75032pt x 181.39726pt.
 <Screen/ARMBollato.png, id=320, 354.72525pt x 445.30365pt>
 File: Screen/ARMBollato.png Graphic file (type png)
 <use Screen/ARMBollato.png>
-Package pdftex.def Info: Screen/ARMBollato.png  used on input line 309.
+Package pdftex.def Info: Screen/ARMBollato.png  used on input line 310.
 (pdftex.def)             Requested size: 295.75032pt x 371.27344pt.
 <Screen/Model1.png, id=322, 927.465pt x 484.81125pt>
 File: Screen/Model1.png Graphic file (type png)
 <use Screen/Model1.png>
-Package pdftex.def Info: Screen/Model1.png  used on input line 324.
+Package pdftex.def Info: Screen/Model1.png  used on input line 325.
 (pdftex.def)             Requested size: 422.50232pt x 220.85577pt.
 <Screen/inertia.png, id=325, 740.0147pt x 488.57532pt>
 File: Screen/inertia.png Graphic file (type png)
 <use Screen/inertia.png>
-Package pdftex.def Info: Screen/inertia.png  used on input line 334.
+Package pdftex.def Info: Screen/inertia.png  used on input line 335.
 (pdftex.def)             Requested size: 211.25116pt x 139.46906pt.
 <Screen/coordinate.png, id=326, 473.51906pt x 431.36156pt>
 File: Screen/coordinate.png Graphic file (type png)
 <use Screen/coordinate.png>
-Package pdftex.def Info: Screen/coordinate.png  used on input line 336.
+Package pdftex.def Info: Screen/coordinate.png  used on input line 337.
 (pdftex.def)             Requested size: 168.99834pt x 153.9473pt.
  [14 <./pictures/ARM.png>] [15 <./Screen/ARMBollato.png>] [16 <./Screen/Model1.
 png> <./Screen/inertia.png> <./Screen/coordinate.png>]
@@ -1536,27 +1562,27 @@ Capitolo 3.
 <Screen/STEPPER.png, id=348, 722.2182pt x 507.3354pt>
 File: Screen/STEPPER.png Graphic file (type png)
 <use Screen/STEPPER.png>
-Package pdftex.def Info: Screen/STEPPER.png  used on input line 351.
+Package pdftex.def Info: Screen/STEPPER.png  used on input line 352.
 (pdftex.def)             Requested size: 253.50397pt x 178.08096pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--357
+Underfull \hbox (badness 10000) in paragraph at lines 348--358
 
  []
 
 <Screen/base.PNG, id=349, 428.92245pt x 321.96284pt>
 File: Screen/base.PNG Graphic file (type png)
 <use Screen/base.PNG>
-Package pdftex.def Info: Screen/base.PNG  used on input line 361.
+Package pdftex.def Info: Screen/base.PNG  used on input line 362.
 (pdftex.def)             Requested size: 422.50232pt x 317.15247pt.
 <pictures/ralla.jpg, id=350, 2107.875pt x 1405.25pt>
 File: pictures/ralla.jpg Graphic file (type jpg)
 <use pictures/ralla.jpg>
-Package pdftex.def Info: pictures/ralla.jpg  used on input line 369.
+Package pdftex.def Info: pictures/ralla.jpg  used on input line 370.
 (pdftex.def)             Requested size: 170.69191pt x 113.81102pt.
 <pictures/pignone.png, id=351, 377.41pt x 369.38pt>
 File: pictures/pignone.png Graphic file (type png)
 <use pictures/pignone.png>
-Package pdftex.def Info: pictures/pignone.png  used on input line 371.
+Package pdftex.def Info: pictures/pignone.png  used on input line 372.
 (pdftex.def)             Requested size: 116.28178pt x 113.81102pt.
 
 Underfull \vbox (badness 1337) has occurred while \output is active []
@@ -1572,34 +1598,34 @@ LaTeX Warning: Text page 18 contains only floats.
 File: Plots/BASE/joint1_FAVOREVOLE.png Graphic file (type png)
 <use Plots/BASE/joint1_FAVOREVOLE.png>
 Package pdftex.def Info: Plots/BASE/joint1_FAVOREVOLE.png  used on input line 3
-97.
+98.
 (pdftex.def)             Requested size: 218.5661pt x 113.81102pt.
 <Plots/BASE/joint1_sfavorevole.png, id=368, 1044.90375pt x 520.94624pt>
 File: Plots/BASE/joint1_sfavorevole.png Graphic file (type png)
 <use Plots/BASE/joint1_sfavorevole.png>
 Package pdftex.def Info: Plots/BASE/joint1_sfavorevole.png  used on input line 
-399.
+400.
 (pdftex.def)             Requested size: 228.2692pt x 113.81102pt.
 
-Overfull \hbox (48.33301pt too wide) in paragraph at lines 396--401
+Overfull \hbox (48.33301pt too wide) in paragraph at lines 397--402
  [][] 
  []
 
 <Plots/BASE/joint1_forze.png, id=369, 931.98187pt x 539.01375pt>
 File: Plots/BASE/joint1_forze.png Graphic file (type png)
 <use Plots/BASE/joint1_forze.png>
-Package pdftex.def Info: Plots/BASE/joint1_forze.png  used on input line 407.
+Package pdftex.def Info: Plots/BASE/joint1_forze.png  used on input line 408.
 (pdftex.def)             Requested size: 253.50397pt x 146.61308pt.
 <Plots/BASE/joint1_ralla.png, id=370, 982.42032pt x 532.99126pt>
 File: Plots/BASE/joint1_ralla.png Graphic file (type png)
 <use Plots/BASE/joint1_ralla.png>
-Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 413.
+Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 414.
 (pdftex.def)             Requested size: 253.50397pt x 137.53346pt.
 [19 <./pictures/ralla.jpg> <./pictures/pignone.png>]
 <image/basefoto.png, id=383, 1067.99pt x 829.0975pt>
 File: image/basefoto.png Graphic file (type png)
 <use image/basefoto.png>
-Package pdftex.def Info: image/basefoto.png  used on input line 429.
+Package pdftex.def Info: image/basefoto.png  used on input line 430.
 (pdftex.def)             Requested size: 168.99834pt x 131.1908pt.
 
 Underfull \vbox (badness 2426) has occurred while \output is active []
@@ -1611,16 +1637,16 @@ t>
 File: Plots/SPALLA/1motore/JOINT2_conservativo.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2_conservativo.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2_conservativo.png  used on 
-input line 436.
+input line 437.
 (pdftex.def)             Requested size: 191.37994pt x 113.81102pt.
 <Plots/SPALLA/1motore/JOINT2-torque.png, id=390, 822.82407pt x 392.96812pt>
 File: Plots/SPALLA/1motore/JOINT2-torque.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2-torque.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2-torque.png  used on input 
-line 438.
+line 439.
 (pdftex.def)             Requested size: 238.29898pt x 113.81102pt.
 
-Overfull \hbox (31.17664pt too wide) in paragraph at lines 435--440
+Overfull \hbox (31.17664pt too wide) in paragraph at lines 436--441
  [][] 
  []
 
@@ -1628,17 +1654,17 @@ Overfull \hbox (31.17664pt too wide) in paragraph at lines 435--440
 File: Plots/SPALLA/2motori/JOINT22favorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22favorevole.png>
 Package pdftex.def Info: Plots/SPALLA/2motori/JOINT22favorevole.png  used on in
-put line 446.
+put line 447.
 (pdftex.def)             Requested size: 215.77031pt x 113.81102pt.
 <Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=392, 1014.79124pt x 545.78906p
 t>
 File: Plots/SPALLA/2motori/JOINT22sfavorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22sfavorevole.png>
 Package pdftex.def Info: Plots/SPALLA/2motori/JOINT22sfavorevole.png  used on i
-nput line 448.
+nput line 449.
 (pdftex.def)             Requested size: 211.61046pt x 113.81102pt.
 
-Overfull \hbox (28.87848pt too wide) in paragraph at lines 445--450
+Overfull \hbox (28.87848pt too wide) in paragraph at lines 446--451
  [][] 
  []
 
@@ -1648,45 +1674,45 @@ le.png> <./Plots/SPALLA/2motori/JOINT22sfavorevole.png>]
 <Screen/cuscinetto.png, id=405, 245.83846pt x 189.94965pt>
 File: Screen/cuscinetto.png Graphic file (type png)
 <use Screen/cuscinetto.png>
-Package pdftex.def Info: Screen/cuscinetto.png  used on input line 475.
+Package pdftex.def Info: Screen/cuscinetto.png  used on input line 476.
 (pdftex.def)             Requested size: 168.99834pt x 130.58136pt.
 <image/jfl12.jpg, id=406, 722.7pt x 481.8pt>
 File: image/jfl12.jpg Graphic file (type jpg)
 <use image/jfl12.jpg>
-Package pdftex.def Info: image/jfl12.jpg  used on input line 477.
+Package pdftex.def Info: image/jfl12.jpg  used on input line 478.
 (pdftex.def)             Requested size: 168.99834pt x 112.66428pt.
 <image/kukabelt.jpg, id=408, 481.8pt x 361.35pt>
 File: image/kukabelt.jpg Graphic file (type jpg)
 <use image/kukabelt.jpg>
-Package pdftex.def Info: image/kukabelt.jpg  used on input line 491.
+Package pdftex.def Info: image/kukabelt.jpg  used on input line 492.
 (pdftex.def)             Requested size: 168.99834pt x 126.74457pt.
  [22 <./Screen/cuscinetto.png> <./image/jfl12.jpg>]
 <image/linearact.jpg, id=416, 1204.5pt x 579.16376pt>
 File: image/linearact.jpg Graphic file (type jpg)
 <use image/linearact.jpg>
-Package pdftex.def Info: image/linearact.jpg  used on input line 503.
+Package pdftex.def Info: image/linearact.jpg  used on input line 504.
 (pdftex.def)             Requested size: 168.99834pt x 81.25911pt.
  [23 <./image/kukabelt.jpg> <./image/linearact.jpg>]
 <Plots/GOMITO/Joint3.png, id=424, 877.02657pt x 425.33907pt>
 File: Plots/GOMITO/Joint3.png Graphic file (type png)
 <use Plots/GOMITO/Joint3.png>
-Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 524.
+Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 525.
 (pdftex.def)             Requested size: 253.50397pt x 122.94276pt.
  [24 <./Plots/GOMITO/Joint3.png>]
 <image/dynamixel.png, id=431, 1284.8pt x 722.7pt>
 File: image/dynamixel.png Graphic file (type png)
 <use image/dynamixel.png>
-Package pdftex.def Info: image/dynamixel.png  used on input line 541.
+Package pdftex.def Info: image/dynamixel.png  used on input line 542.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
 <image/mx160data.png, id=432, 331.2375pt x 522.95375pt>
 File: image/mx160data.png Graphic file (type png)
 <use image/mx160data.png>
-Package pdftex.def Info: image/mx160data.png  used on input line 549.
+Package pdftex.def Info: image/mx160data.png  used on input line 550.
 (pdftex.def)             Requested size: 168.99834pt x 266.80661pt.
 <image/mx160figure.png, id=433, 516.93124pt x 471.7625pt>
 File: image/mx160figure.png Graphic file (type png)
 <use image/mx160figure.png>
-Package pdftex.def Info: image/mx160figure.png  used on input line 551.
+Package pdftex.def Info: image/mx160figure.png  used on input line 552.
 (pdftex.def)             Requested size: 168.99834pt x 154.228pt.
  [25 <./image/dynamixel.png (PNG copy)>]
 [26 <./image/mx160data.png> <./image/mx160figure.png>]
@@ -1694,15 +1720,15 @@ Capitolo 4.
 <image/sferico.png, id=449, 490.83376pt x 308.15125pt>
 File: image/sferico.png Graphic file (type png)
 <use image/sferico.png>
-Package pdftex.def Info: image/sferico.png  used on input line 571.
+Package pdftex.def Info: image/sferico.png  used on input line 572.
 (pdftex.def)             Requested size: 253.50397pt x 159.1534pt.
 <Screen/wristsection.png, id=450, 440.3652pt x 348.8232pt>
 File: Screen/wristsection.png Graphic file (type png)
 <use Screen/wristsection.png>
-Package pdftex.def Info: Screen/wristsection.png  used on input line 578.
+Package pdftex.def Info: Screen/wristsection.png  used on input line 579.
 (pdftex.def)             Requested size: 507.00148pt x 401.62259pt.
 
-Overfull \hbox (84.49916pt too wide) in paragraph at lines 578--579
+Overfull \hbox (84.49916pt too wide) in paragraph at lines 579--580
  [][] 
  []
 
@@ -1712,211 +1738,207 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [27
 
  <./image/sferico.png>] [28 <./Screen/wristsection.png>]
-Overfull \hbox (2.21431pt too wide) in paragraph at lines 602--602
+Overfull \hbox (2.21431pt too wide) in paragraph at lines 603--603
 []\T1/lmr/m/n/11 Spessore
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []\T1/lmr/m/n/11 Largh.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []\T1/lmr/m/n/11 E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []\T1/lmr/m/n/11 E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []\T1/lmr/m/n/11 Tensile
  []
 
 
-Overfull \hbox (1.25696pt too wide) in paragraph at lines 602--602
+Overfull \hbox (1.25696pt too wide) in paragraph at lines 603--603
 \T1/lmr/m/n/11 strength
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--602
+Underfull \hbox (badness 10000) in paragraph at lines 603--603
 []\T1/lmr/m/n/11 Elong.
  []
 
 
-Overfull \hbox (24.7739pt too wide) in paragraph at lines 600--624
+Overfull \hbox (24.7739pt too wide) in paragraph at lines 601--625
  [][][] 
  []
 
 <Screen/curvesmaterial.png, id=463, 627.09282pt x 405.01312pt>
 File: Screen/curvesmaterial.png Graphic file (type png)
 <use Screen/curvesmaterial.png>
-Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 627.
+Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 628.
 (pdftex.def)             Requested size: 295.75032pt x 191.01744pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-[30 <./Screen/curvesmaterial.png>] [31]
-<Plots/POLSO1/wrist1.png, id=495, 360.34625pt x 393.47pt>
+[30 <./Screen/curvesmaterial.png>] [31] [32]
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+) [33]
+<Plots/POLSO1/wrist1.png, id=526, 360.34625pt x 393.47pt>
 File: Plots/POLSO1/wrist1.png Graphic file (type png)
 <use Plots/POLSO1/wrist1.png>
-Package pdftex.def Info: Plots/POLSO1/wrist1.png  used on input line 717.
+Package pdftex.def Info: Plots/POLSO1/wrist1.png  used on input line 792.
 (pdftex.def)             Requested size: 253.50397pt x 276.80199pt.
-<Plots/POLSO1/polso1torque.png, id=496, 877.02657pt x 339.51843pt>
+<Plots/POLSO1/polso1torque.png, id=527, 877.02657pt x 339.51843pt>
 File: Plots/POLSO1/polso1torque.png Graphic file (type png)
 <use Plots/POLSO1/polso1torque.png>
-Package pdftex.def Info: Plots/POLSO1/polso1torque.png  used on input line 725.
+Package pdftex.def Info: Plots/POLSO1/polso1torque.png  used on input line 800.
 
 (pdftex.def)             Requested size: 253.50397pt x 98.13661pt.
-<Plots/POLSO1/polso1forces.png, id=497, 1042.64531pt x 548.0475pt>
+<Plots/POLSO1/polso1forces.png, id=528, 1042.64531pt x 548.0475pt>
 File: Plots/POLSO1/polso1forces.png Graphic file (type png)
 <use Plots/POLSO1/polso1forces.png>
-Package pdftex.def Info: Plots/POLSO1/polso1forces.png  used on input line 731.
+Package pdftex.def Info: Plots/POLSO1/polso1forces.png  used on input line 806.
 
 (pdftex.def)             Requested size: 253.50397pt x 133.2484pt.
-<Plots/POLSO1/gear_polso1.png, id=498, 595.47469pt x 374.14781pt>
+<Plots/POLSO1/gear_polso1.png, id=529, 595.47469pt x 374.14781pt>
 File: Plots/POLSO1/gear_polso1.png Graphic file (type png)
 <use Plots/POLSO1/gear_polso1.png>
-Package pdftex.def Info: Plots/POLSO1/gear_polso1.png  used on input line 737.
+Package pdftex.def Info: Plots/POLSO1/gear_polso1.png  used on input line 812.
 (pdftex.def)             Requested size: 253.50397pt x 159.28188pt.
 
-Underfull \vbox (badness 1043) has occurred while \output is active []
-
- [32]
-[33]
-<Plots/POLSO2/wrist2.png, id=511, 320.19624pt x 413.545pt>
+[34]
+<Plots/POLSO2/wrist2.png, id=567, 320.19624pt x 413.545pt>
 File: Plots/POLSO2/wrist2.png Graphic file (type png)
 <use Plots/POLSO2/wrist2.png>
-Package pdftex.def Info: Plots/POLSO2/wrist2.png  used on input line 759.
+Package pdftex.def Info: Plots/POLSO2/wrist2.png  used on input line 834.
 (pdftex.def)             Requested size: 253.50397pt x 327.41632pt.
-<Plots/POLSO2/polso2torque.png, id=512, 1040.38687pt x 533.74406pt>
+<Plots/POLSO2/polso2torque.png, id=568, 1040.38687pt x 533.74406pt>
 File: Plots/POLSO2/polso2torque.png Graphic file (type png)
 <use Plots/POLSO2/polso2torque.png>
-Package pdftex.def Info: Plots/POLSO2/polso2torque.png  used on input line 765.
+Package pdftex.def Info: Plots/POLSO2/polso2torque.png  used on input line 840.
 
 (pdftex.def)             Requested size: 253.50397pt x 130.04767pt.
-<Plots/POLSO2/polso2forces.png, id=513, 1068.99374pt x 495.35063pt>
+<Plots/POLSO2/polso2forces.png, id=569, 1068.99374pt x 495.35063pt>
 File: Plots/POLSO2/polso2forces.png Graphic file (type png)
 <use Plots/POLSO2/polso2forces.png>
-Package pdftex.def Info: Plots/POLSO2/polso2forces.png  used on input line 771.
+Package pdftex.def Info: Plots/POLSO2/polso2forces.png  used on input line 846.
 
 (pdftex.def)             Requested size: 253.50397pt x 117.46559pt.
-<Plots/POLSO2/gear_polso2.png, id=514, 602.25pt x 377.91188pt>
+<Plots/POLSO2/gear_polso2.png, id=570, 602.25pt x 377.91188pt>
 File: Plots/POLSO2/gear_polso2.png Graphic file (type png)
 <use Plots/POLSO2/gear_polso2.png>
-Package pdftex.def Info: Plots/POLSO2/gear_polso2.png  used on input line 777.
+Package pdftex.def Info: Plots/POLSO2/gear_polso2.png  used on input line 852.
 (pdftex.def)             Requested size: 253.50397pt x 159.07365pt.
-<Plots/POLSO3/gear_polso3.png, id=515, 596.2275pt x 374.90062pt>
+<Plots/POLSO3/gear_polso3.png, id=571, 596.2275pt x 374.90062pt>
 File: Plots/POLSO3/gear_polso3.png Graphic file (type png)
 <use Plots/POLSO3/gear_polso3.png>
-Package pdftex.def Info: Plots/POLSO3/gear_polso3.png  used on input line 803.
+Package pdftex.def Info: Plots/POLSO3/gear_polso3.png  used on input line 878.
 (pdftex.def)             Requested size: 253.50397pt x 159.40216pt.
+ [35 <./Plots/POLSO1/wrist1.png> <./Plots/POLSO1/polso1torque.png>]
+[36] [37 <./Plots/POLSO1/polso1forces.png> <./Plots/POLSO1/gear_polso1.png>]
+[38 <./Plots/POLSO2/wrist2.png> <./Plots/POLSO2/polso2torque.png>] [39 <./Plots
+/POLSO2/polso2forces.png> <./Plots/POLSO2/gear_polso2.png> <./Plots/POLSO3/gear
+_polso3.png>] [40
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./Plots/POLSO1/wrist1.png> <./Plots/POLSO1/polso1torque.png>] [35] [36 <.
-/Plots/POLSO1/polso1forces.png> <./Plots/POLSO1/gear_polso1.png>] [37 <./Plots/
-POLSO2/wrist2.png> <./Plots/POLSO2/polso2torque.png>] [38 <./Plots/POLSO2/polso
-2forces.png> <./Plots/POLSO2/gear_polso2.png> <./Plots/POLSO3/gear_polso3.png>]
-
+]
 Capitolo 5.
-<Screen/pack1.png, id=553, 690.32906pt x 539.76656pt>
+<Screen/pack1.png, id=613, 690.32906pt x 539.76656pt>
 File: Screen/pack1.png Graphic file (type png)
 <use Screen/pack1.png>
-Package pdftex.def Info: Screen/pack1.png  used on input line 822.
+Package pdftex.def Info: Screen/pack1.png  used on input line 897.
 (pdftex.def)             Requested size: 147.87839pt x 115.6275pt.
-<Screen/pack2.png, id=554, 692.5875pt x 537.50812pt>
+<Screen/pack2.png, id=614, 692.5875pt x 537.50812pt>
 File: Screen/pack2.png Graphic file (type png)
 <use Screen/pack2.png>
-Package pdftex.def Info: Screen/pack2.png  used on input line 824.
+Package pdftex.def Info: Screen/pack2.png  used on input line 899.
 (pdftex.def)             Requested size: 147.87839pt x 114.76642pt.
-<Screen/pack3.png, id=555, 688.07062pt x 533.74406pt>
+<Screen/pack3.png, id=615, 688.07062pt x 533.74406pt>
 File: Screen/pack3.png Graphic file (type png)
 <use Screen/pack3.png>
-Package pdftex.def Info: Screen/pack3.png  used on input line 826.
+Package pdftex.def Info: Screen/pack3.png  used on input line 901.
 (pdftex.def)             Requested size: 147.87839pt x 114.70386pt.
 
-Overfull \hbox (57.13289pt too wide) in paragraph at lines 821--828
+Overfull \hbox (57.13289pt too wide) in paragraph at lines 896--903
  [][] 
  []
 
-<image/uprint.jpg, id=556, 2457.18pt x 3276.24pt>
+<image/uprint.jpg, id=616, 2457.18pt x 3276.24pt>
 File: image/uprint.jpg Graphic file (type jpg)
 <use image/uprint.jpg>
-Package pdftex.def Info: image/uprint.jpg  used on input line 834.
+Package pdftex.def Info: image/uprint.jpg  used on input line 909.
 (pdftex.def)             Requested size: 128.0028pt x 170.71652pt.
-<image/uprintp.jpg, id=557, 2457.18pt x 3276.24pt>
+<image/uprintp.jpg, id=617, 2457.18pt x 3276.24pt>
 File: image/uprintp.jpg Graphic file (type jpg)
 <use image/uprintp.jpg>
-Package pdftex.def Info: image/uprintp.jpg  used on input line 836.
+Package pdftex.def Info: image/uprintp.jpg  used on input line 911.
 (pdftex.def)             Requested size: 128.0028pt x 170.71652pt.
 
-Overfull \hbox (28.28967pt too wide) in paragraph at lines 847--860
+Overfull \hbox (28.28967pt too wide) in paragraph at lines 922--935
  [][][] 
  []
 
-[39
+[41
 
- <./Screen/pack1.png> <./Screen/pack2.png> <./Screen/pack3.png>] [40]
-[41 <./image/uprint.jpg> <./image/uprintp.jpg>] [42
+ <./Screen/pack1.png> <./Screen/pack2.png> <./Screen/pack3.png>] [42]
+[43 <./image/uprint.jpg> <./image/uprintp.jpg>] [44
 
 ]
 Capitolo 6.
-[43
+[45
 
-] [44
+] [46
 
-] [45
+] [47
 
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 919.
- [46
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 919.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 994.
+ [48
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 994.
  (./Tesi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 919.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 919.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 994.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 994.
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
 (rerunfilecheck)             Checksum: 1D6106CC2D2BEE9B17A630E6F037D8C1;3781.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 27131 strings out of 492616
- 444567 string characters out of 6129481
- 651093 words of memory out of 5000000
- 30541 multiletter control sequences out of 15000+600000
+ 29348 strings out of 492616
+ 472821 string characters out of 6129481
+ 809979 words of memory out of 5000000
+ 32689 multiletter control sequences out of 15000+600000
  611465 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,75p,1077b,2341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,14n,75p,1077b,3821s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
-/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/
-texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist
+/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2
+019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist
 /fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc
 /dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/
 lm-ec.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texm
-f-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/font
-s/type1/public/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
-lic/lm/lmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr1
-7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/
-local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texliv
-e/2019/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/lm/lmro9.pfb></usr/local/texlive/2019/texmf-dist/fon
-ts/type1/public/lm/lmsy10.pfb>
-Output written on Tesi.pdf (46 pages, 18157320 bytes).
+f-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2019/texmf-dist/font
+s/type1/public/lm/lmmi8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pub
+lic/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr1
+2.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/public/lm/lmro9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
+blic/lm/lmsy10.pfb>
+Output written on Tesi.pdf (48 pages, 18182276 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 155 named destinations out of 1000 (max. 500000)
+ 782 PDF objects out of 1000 (max. 8388607)
+ 208 named destinations out of 1000 (max. 500000)
  614 words of extra memory for PDF output out of 10000 (max. 10000000)
 
