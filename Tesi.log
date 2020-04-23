@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  23 APR 2020 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  23 APR 2020 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1136,6 +1136,37 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks23
 \@floatcapt=\box56
 )
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count284
+\calc@Bcount=\count285
+\calc@Adimen=\dimen151
+\calc@Bdimen=\dimen152
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count286
+\calc@Cskip=\skip58
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
+)
+\AM@pagewidth=\dimen153
+\AM@pageheight=\dimen154
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box57
+\AM@global@opts=\toks24
+\AM@toc@title=\toks25
+\c@AM@survey=\count287
+\AM@templatesizebox=\box58
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -1154,67 +1185,67 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks24
-\@arclen=\dimen151
-\@arcrad=\dimen152
-\@tempdimd=\dimen153
+\pIIe@GRAPH=\toks26
+\@arclen=\dimen155
+\@arcrad=\dimen156
+\@tempdimd=\dimen157
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 74.
-Package hyperref Info: Option `colorlinks' set `true' on input line 74.
-\c@osservazione=\count284
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 75.
+Package hyperref Info: Option `colorlinks' set `true' on input line 75.
+\c@osservazione=\count288
 
 (./Tesi.aux)
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 82.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 83.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 83.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 82.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 82.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 83.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \it@ocap on input line 82.
-LaTeX Info: Redefining \it@ccap on input line 82.
+LaTeX Info: Redefining \it@ocap on input line 83.
+LaTeX Info: Redefining \it@ccap on input line 83.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen154
-\scratchbox=\box57
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen155
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count289
+\scratchdimen=\dimen158
+\scratchbox=\box59
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen159
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1232,15 +1263,15 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\captionwidth=\dimen156
-\fullwidth=\dimen157
+\captionwidth=\dimen160
+\fullwidth=\dimen161
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/toptesi/topfront.sty
 Package: topfront 2019-05-01 v.6.3.04 Title page for TOPtesi and other classes
-\TPT@logospace=\skip56
-\TPT@logobox=\box58
-\TPT@logoheight=\dimen158
-\T@Tlogoheight=\skip57
+\TPT@logospace=\skip59
+\TPT@logobox=\box60
+\TPT@logoheight=\dimen162
+\T@Tlogoheight=\skip60
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/toptesi/toptesi.cfg))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/toptesi/topcoman.sty
@@ -1251,16 +1282,16 @@ e
 Package: fancyvrb 2019/01/15
 
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count291
+\FV@CodeLineNo=\count295
 \FV@InFile=\read3
-\FV@TabBox=\box59
-\c@FancyVerbLine=\count292
-\FV@StepNumber=\count293
+\FV@TabBox=\box61
+\c@FancyVerbLine=\count296
+\FV@StepNumber=\count297
 \FV@OutFile=\write4
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring ON on input line 82.
+\AtBeginShipoutBox=\box62
+Package hyperref Info: Link coloring ON on input line 83.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1268,65 +1299,74 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count294
+\c@section@level=\count298
 )
-LaTeX Info: Redefining \ref on input line 82.
-LaTeX Info: Redefining \pageref on input line 82.
-LaTeX Info: Redefining \nameref on input line 82.
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
 
 (./Tesi.out) (./Tesi.out)
 \@outlinefile=\write5
 \openout5 = `Tesi.out'.
 
-\c@lstlisting=\count295
-<logouno.png, id=182, 569.12625pt x 569.12625pt>
+\c@lstlisting=\count299
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+<logouno.png, id=190, 569.12625pt x 569.12625pt>
 File: logouno.png Graphic file (type png)
 <use logouno.png>
-Package pdftex.def Info: logouno.png  used on input line 109.
+Package pdftex.def Info: logouno.png  used on input line 110.
 (pdftex.def)             Requested size: 70.00298pt x 70.00249pt.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 110.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 110.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 111.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 111.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 110.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 111.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 110
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 111
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 110
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 111
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 110.
+(Font)              <11> on input line 111.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 110.
+(Font)              <7.69997> on input line 111.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 110.
+(Font)              <5.5> on input line 111.
 LaTeX Font Info:    Calculating math sizes for size <13.19997> on input line 11
-0.
+1.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13.19997> on input line 110.
+(Font)              <13.19997> on input line 111.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.23993> on input line 110.
+(Font)              <9.23993> on input line 111.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.59998> on input line 110.
+(Font)              <6.59998> on input line 111.
 
 Overfull \vbox (10.4588pt too high) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 110.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 111.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
@@ -1345,19 +1385,35 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@toc=\write6
 \openout6 = `Tesi.toc'.
 
- [4]
+ [4] (./Tesi.lot)
+\tf@lot=\write7
+\openout7 = `Tesi.lot'.
+
+ [5
+
+
+] [6
+
+
+] (./Tesi.lof [7
+
+])
+\tf@lof=\write8
+\openout8 = `Tesi.lof'.
+
+ [8]
 Capitolo 1.
-<image/amalia.png, id=255, 576.1525pt x 714.67pt>
+<image/amalia.png, id=401, 576.1525pt x 714.67pt>
 File: image/amalia.png Graphic file (type png)
 <use image/amalia.png>
-Package pdftex.def Info: image/amalia.png  used on input line 130.
+Package pdftex.def Info: image/amalia.png  used on input line 133.
 (pdftex.def)             Requested size: 126.75198pt x 157.21698pt.
-<image/toro.jpg, id=256, 1805.74625pt x 1268.74pt>
+<image/toro.jpg, id=402, 1805.74625pt x 1268.74pt>
 File: image/toro.jpg Graphic file (type jpg)
 <use image/toro.jpg>
-Package pdftex.def Info: image/toro.jpg  used on input line 132.
+Package pdftex.def Info: image/toro.jpg  used on input line 135.
 (pdftex.def)             Requested size: 211.25116pt x 148.40907pt.
-[5
+[9
 
 
 
@@ -1380,28 +1436,28 @@ has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.143 
+l.146 
        <./image/amalia.png> <./image/toro.jpg>]
-<image/trinityerc.jpeg, id=265, 1284.8pt x 722.7pt>
+<image/trinityerc.jpeg, id=410, 1284.8pt x 722.7pt>
 File: image/trinityerc.jpeg Graphic file (type jpg)
 <use image/trinityerc.jpeg>
-Package pdftex.def Info: image/trinityerc.jpeg  used on input line 146.
+Package pdftex.def Info: image/trinityerc.jpeg  used on input line 149.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--156
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
 Underfull \vbox (badness 6428) has occurred while \output is active []
 
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2
-}) has been already used, duplicate ignored
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
@@ -1418,23 +1474,23 @@ Underfull \vbox (badness 6428) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.167 
+l.170 
        <./image/trinityerc.jpeg>]
-<image/terrain.jpeg, id=271, 1445.4pt x 1084.05pt>
+<image/terrain.jpeg, id=415, 1445.4pt x 1084.05pt>
 File: image/terrain.jpeg Graphic file (type jpg)
 <use image/terrain.jpeg>
-Package pdftex.def Info: image/terrain.jpeg  used on input line 170.
+Package pdftex.def Info: image/terrain.jpeg  used on input line 173.
 (pdftex.def)             Requested size: 253.50397pt x 190.12512pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
 
  []
 
 
 Underfull \vbox (badness 5490) has occurred while \output is active []
 
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3
-}) has been already used, duplicate ignored
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+3}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
@@ -1451,7 +1507,7 @@ Underfull \vbox (badness 5490) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.187 
+l.190 
        <./image/terrain.jpeg>]
 
 ! LaTeX Error: There's no line here to end.
@@ -1466,29 +1522,29 @@ Type  H <return>  for immediate help.
                                   \else \unskip \reserved@e {\reserved@f #1}...
 <to be read again> 
                    \relax 
-l.188 		\newline
+l.191 		\newline
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<image/panel.png, id=279, 396.48125pt x 481.8pt>
+<image/panel.png, id=421, 396.48125pt x 481.8pt>
 File: image/panel.png Graphic file (type png)
 <use image/panel.png>
-Package pdftex.def Info: image/panel.png  used on input line 203.
+Package pdftex.def Info: image/panel.png  used on input line 206.
 (pdftex.def)             Requested size: 168.99834pt x 205.36879pt.
-<image/mainttoro.jpg, id=280, 4015.0pt x 2673.99pt>
+<image/mainttoro.jpg, id=422, 4015.0pt x 2673.99pt>
 File: image/mainttoro.jpg Graphic file (type jpg)
 <use image/mainttoro.jpg>
-Package pdftex.def Info: image/mainttoro.jpg  used on input line 205.
+Package pdftex.def Info: image/mainttoro.jpg  used on input line 208.
 (pdftex.def)             Requested size: 211.25116pt x 140.68443pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
+Underfull \hbox (badness 10000) in paragraph at lines 216--218
 
  []
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}
-) has been already used, duplicate ignored
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4
+}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
@@ -1505,25 +1561,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 213--215
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.215 		
+l.218 		
          <./image/panel.png> <./image/mainttoro.jpg>]
-<pictures/sci1.jpg, id=295, 1935.23pt x 1353.055pt>
+<pictures/sci1.jpg, id=436, 1935.23pt x 1353.055pt>
 File: pictures/sci1.jpg Graphic file (type jpg)
 <use pictures/sci1.jpg>
-Package pdftex.def Info: pictures/sci1.jpg  used on input line 233.
+Package pdftex.def Info: pictures/sci1.jpg  used on input line 236.
 (pdftex.def)             Requested size: 211.25116pt x 147.70097pt.
-<pictures/sci2.jpg, id=296, 4015.0pt x 2673.99pt>
+<pictures/sci2.jpg, id=437, 4015.0pt x 2673.99pt>
 File: pictures/sci2.jpg Graphic file (type jpg)
 <use pictures/sci2.jpg>
-Package pdftex.def Info: pictures/sci2.jpg  used on input line 235.
+Package pdftex.def Info: pictures/sci2.jpg  used on input line 238.
 (pdftex.def)             Requested size: 211.25116pt x 140.68443pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 232--237
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 235--240
  [][] 
  []
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}
-) has been already used, duplicate ignored
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5
+}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
@@ -1549,25 +1605,25 @@ Overfull \hbox (24.00003pt too wide) in paragraph at lines 232--237
 
 \itemize ...\def \makelabel ##1{\hss \llap {##1}}}
                                                   \fi 
-l.248 		\begin{itemize}
+l.251 		\begin{itemize}
                         <./pictures/sci1.jpg> <./pictures/sci2.jpg>]
-<pictures/cache1.jpg, id=303, 2026.57124pt x 1576.89125pt>
+<pictures/cache1.jpg, id=444, 2026.57124pt x 1576.89125pt>
 File: pictures/cache1.jpg Graphic file (type jpg)
 <use pictures/cache1.jpg>
-Package pdftex.def Info: pictures/cache1.jpg  used on input line 268.
+Package pdftex.def Info: pictures/cache1.jpg  used on input line 271.
 (pdftex.def)             Requested size: 211.25116pt x 164.36336pt.
-<pictures/cache2.png, id=304, 722.7pt x 1284.8pt>
+<pictures/cache2.png, id=445, 722.7pt x 1284.8pt>
 File: pictures/cache2.png Graphic file (type png)
 <use pictures/cache2.png>
-Package pdftex.def Info: pictures/cache2.png  used on input line 275.
+Package pdftex.def Info: pictures/cache2.png  used on input line 278.
 (pdftex.def)             Requested size: 168.99834pt x 300.43811pt.
-<pictures/cache3.png, id=305, 722.7pt x 1284.8pt>
+<pictures/cache3.png, id=446, 722.7pt x 1284.8pt>
 File: pictures/cache3.png Graphic file (type png)
 <use pictures/cache3.png>
-Package pdftex.def Info: pictures/cache3.png  used on input line 277.
+Package pdftex.def Info: pictures/cache3.png  used on input line 280.
 (pdftex.def)             Requested size: 168.99834pt x 300.43811pt.
- [10]
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6
+ [14]
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -1593,7 +1649,7 @@ Package pdftex.def Info: pictures/cache3.png  used on input line 277.
 \@specialoutput ...tpenalty >-\@Mii \@doclearpage 
                                                   \else \ifnum \outputpenalt...
 ...
-l.284 \chapter
+l.287 \chapter
               {Design di un manipolatore a 6 gradi di libertà}pdfTeX warning (
 ext4): destination with the same identifier (name{figure.1.7}) has been already
  used, duplicate ignored
@@ -1621,148 +1677,148 @@ ext4): destination with the same identifier (name{figure.1.7}) has been already
 \@specialoutput ...tpenalty >-\@Mii \@doclearpage 
                                                   \else \ifnum \outputpenalt...
 ...
-l.284 \chapter
+l.287 \chapter
               {Design di un manipolatore a 6 gradi di libertà} <./pictures/cac
-he1.jpg> <./pictures/cache2.png> <./pictures/cache3.png>] [12
+he1.jpg> <./pictures/cache2.png> <./pictures/cache3.png>] [16
 
 ]
 Capitolo 2.
 
-Underfull \hbox (badness 5374) in paragraph at lines 293--293
+Underfull \hbox (badness 5374) in paragraph at lines 296--296
 []|\T1/lmr/bx/n/11 SOLUZIONE TEC-
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 298--301
+Underfull \hbox (badness 1226) in paragraph at lines 301--304
 []|\T1/lmr/m/n/11 Il sot-to-si-ste-ma brac-cio
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 298--301
+Underfull \hbox (badness 2126) in paragraph at lines 301--304
 \T1/lmr/m/n/11 rag-giun-ge-re il ter-re-no,
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 298--301
+Underfull \hbox (badness 2653) in paragraph at lines 301--304
 \T1/lmr/m/n/11 ro-ver, rag-giun-ge-re 1.5
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 298--301
+Underfull \hbox (badness 2035) in paragraph at lines 301--304
 \T1/lmr/m/n/11 me-tri di al-tez-za, ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 []|\T1/lmr/m/n/11 Manipolatore ro-bo-ti-co
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 302--303
+Underfull \hbox (badness 5592) in paragraph at lines 305--306
 \T1/lmr/m/n/11 an-tro-mor-fo a 6 as-si:
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 302--303
+Underfull \hbox (badness 3219) in paragraph at lines 305--306
 \T1/lmr/m/n/11 dal-la let-te-ra-tu-ra � la
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 303--303
+Underfull \hbox (badness 1092) in paragraph at lines 306--306
 []|\T1/lmr/m/n/11 Modellazione CAD as-
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 303--303
+Underfull \hbox (badness 2334) in paragraph at lines 306--306
 \T1/lmr/m/n/11 sie-me al-lo chas-sis del
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 307--307
+Underfull \hbox (badness 5119) in paragraph at lines 310--310
 \T1/lmr/m/n/11 de-ve es-se-re in gra-do
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 308--309
+Underfull \hbox (badness 6961) in paragraph at lines 311--312
 \T1/lmr/m/n/11 Tra-smis-sio-ne me-dian-te
  []
 
 
-Overfull \hbox (3.80783pt too wide) in paragraph at lines 312--312
+Overfull \hbox (3.80783pt too wide) in paragraph at lines 315--315
 []|\T1/lmr/m/n/11 MISSION| 
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 313--314
+Underfull \hbox (badness 1281) in paragraph at lines 316--317
 []|\T1/lmr/m/n/11 Controllo in mi-cro-step
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 313--314
+Underfull \hbox (badness 1742) in paragraph at lines 316--317
 \T1/lmr/m/n/11 dei mo-to-ri pas-so pas-
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 313--314
+Underfull \hbox (badness 4060) in paragraph at lines 316--317
 \T1/lmr/m/n/11 at-tua-to-re li-nea-re con-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 313--314
+Underfull \hbox (badness 1275) in paragraph at lines 316--317
 \T1/lmr/m/n/11 trol-lo in po-si-zio-ne dei
  []
 
 
-Overfull \hbox (3.80783pt too wide) in paragraph at lines 317--317
+Overfull \hbox (3.80783pt too wide) in paragraph at lines 320--320
 []|\T1/lmr/m/n/11 MISSION| 
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 317--318
+Underfull \hbox (badness 3861) in paragraph at lines 320--321
 \T1/lmr/m/n/11 pan-nel-lo ma-nu-ten-zio-ne
  []
 
 
-Underfull \hbox (badness 6995) in paragraph at lines 320--320
+Underfull \hbox (badness 6995) in paragraph at lines 323--323
 []|\T1/lmr/m/n/11 CAD de-si-gn, Ma-tlab
  []
 
 
-Overfull \hbox (9.98276pt too wide) in alignment at lines 291--323
+Overfull \hbox (9.98276pt too wide) in alignment at lines 294--326
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 323
+Underfull \vbox (badness 10000) detected at line 326
  []
 
-[13
+[17
 
-] [14]
-<pictures/6DOF.png, id=335, 963.6pt x 542.025pt>
+] [18]
+<pictures/6DOF.png, id=472, 963.6pt x 542.025pt>
 File: pictures/6DOF.png Graphic file (type png)
 <use pictures/6DOF.png>
-Package pdftex.def Info: pictures/6DOF.png  used on input line 345.
+Package pdftex.def Info: pictures/6DOF.png  used on input line 348.
 (pdftex.def)             Requested size: 422.50232pt x 237.6564pt.
-<pictures/KUKA.png, id=336, 853.1875pt x 880.28876pt>
+<pictures/KUKA.png, id=473, 853.1875pt x 880.28876pt>
 File: pictures/KUKA.png Graphic file (type png)
 <use pictures/KUKA.png>
-Package pdftex.def Info: pictures/KUKA.png  used on input line 354.
+Package pdftex.def Info: pictures/KUKA.png  used on input line 357.
 (pdftex.def)             Requested size: 253.50397pt x 261.54999pt.
-<Plots/workspace.png, id=337, 1084.05pt x 589.4522pt>
+<Plots/workspace.png, id=474, 1084.05pt x 589.4522pt>
 File: Plots/workspace.png Graphic file (type png)
 <use Plots/workspace.png>
-Package pdftex.def Info: Plots/workspace.png  used on input line 361.
+Package pdftex.def Info: Plots/workspace.png  used on input line 364.
 (pdftex.def)             Requested size: 422.50232pt x 229.73253pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 365--373
+Underfull \hbox (badness 10000) in paragraph at lines 368--376
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 1}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -1780,8 +1836,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.373 
-       <./pictures/6DOF.png>] [16pdfTeX warning (ext4): destination with the sa
+l.376 
+       <./pictures/6DOF.png>] [20pdfTeX warning (ext4): destination with the sa
 me identifier (name{figure.2.2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -1799,11 +1855,11 @@ me identifier (name{figure.2.2}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.373 
+l.376 
        <./pictures/KUKA.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 3}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -1821,27 +1877,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.389 
+l.392 
        <./Plots/workspace.png (PNG copy)>]
-<pictures/ARM.png, id=356, 163.812pt x 100.4553pt>
+<pictures/ARM.png, id=491, 163.812pt x 100.4553pt>
 File: pictures/ARM.png Graphic file (type png)
 <use pictures/ARM.png>
-Package pdftex.def Info: pictures/ARM.png  used on input line 392.
+Package pdftex.def Info: pictures/ARM.png  used on input line 395.
 (pdftex.def)             Requested size: 295.75032pt x 181.39726pt.
-<Screen/ARMBollato.png, id=357, 354.72525pt x 445.30365pt>
+<Screen/ARMBollato.png, id=492, 354.72525pt x 445.30365pt>
 File: Screen/ARMBollato.png Graphic file (type png)
 <use Screen/ARMBollato.png>
-Package pdftex.def Info: Screen/ARMBollato.png  used on input line 398.
+Package pdftex.def Info: Screen/ARMBollato.png  used on input line 401.
 (pdftex.def)             Requested size: 295.75032pt x 371.27344pt.
-<Screen/Model1.png, id=359, 927.465pt x 484.81125pt>
+<Screen/Model1.png, id=494, 927.465pt x 484.81125pt>
 File: Screen/Model1.png Graphic file (type png)
 <use Screen/Model1.png>
-Package pdftex.def Info: Screen/Model1.png  used on input line 413.
+Package pdftex.def Info: Screen/Model1.png  used on input line 416.
 (pdftex.def)             Requested size: 295.75032pt x 154.59534pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 4}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -1859,8 +1915,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.417 	
-        <./pictures/ARM.png>] [19pdfTeX warning (ext4): destination with the sa
+l.420 	
+        <./pictures/ARM.png>] [23pdfTeX warning (ext4): destination with the sa
 me identifier (name{figure.2.5}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -1878,19 +1934,19 @@ me identifier (name{figure.2.5}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.417 	
+l.420 	
         <./Screen/ARMBollato.png>]
-<Screen/inertia.png, id=375, 740.0147pt x 488.57532pt>
+<Screen/inertia.png, id=507, 740.0147pt x 488.57532pt>
 File: Screen/inertia.png Graphic file (type png)
 <use Screen/inertia.png>
-Package pdftex.def Info: Screen/inertia.png  used on input line 425.
+Package pdftex.def Info: Screen/inertia.png  used on input line 428.
 (pdftex.def)             Requested size: 211.25116pt x 139.46906pt.
-<Screen/coordinate.png, id=376, 473.51906pt x 431.36156pt>
+<Screen/coordinate.png, id=508, 473.51906pt x 431.36156pt>
 File: Screen/coordinate.png Graphic file (type png)
 <use Screen/coordinate.png>
-Package pdftex.def Info: Screen/coordinate.png  used on input line 427.
+Package pdftex.def Info: Screen/coordinate.png  used on input line 430.
 (pdftex.def)             Requested size: 168.99834pt x 153.9473pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
 6}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -1917,7 +1973,7 @@ Package pdftex.def Info: Screen/coordinate.png  used on input line 427.
 \\cleardoublepage [#1]->\clearpage 
                                    \unless \ifodd \value {page} \if@twoside ...
 ...
-l.435 \chapter
+l.438 \chapter
               {Attuatori per un progetto di robotica low-cost}pdfTeX warning (e
 xt4): destination with the same identifier (name{figure.2.7}) has been already 
 used, duplicate ignored
@@ -1946,74 +2002,74 @@ used, duplicate ignored
 \\cleardoublepage [#1]->\clearpage 
                                    \unless \ifodd \value {page} \if@twoside ...
 ...
-l.435 \chapter
+l.438 \chapter
               {Attuatori per un progetto di robotica low-cost} <./Screen/Model1
 .png> <./Screen/inertia.png> <./Screen/coordinate.png>]
 Capitolo 3.
-<Screen/STEPPER.png, id=386, 722.2182pt x 507.3354pt>
+<Screen/STEPPER.png, id=516, 722.2182pt x 507.3354pt>
 File: Screen/STEPPER.png Graphic file (type png)
 <use Screen/STEPPER.png>
-Package pdftex.def Info: Screen/STEPPER.png  used on input line 446.
+Package pdftex.def Info: Screen/STEPPER.png  used on input line 449.
 (pdftex.def)             Requested size: 253.50397pt x 178.08096pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 441--452
+Underfull \hbox (badness 10000) in paragraph at lines 444--455
 
  []
 
-<Screen/base.PNG, id=387, 428.92245pt x 321.96284pt>
+<Screen/base.PNG, id=517, 428.92245pt x 321.96284pt>
 File: Screen/base.PNG Graphic file (type png)
 <use Screen/base.PNG>
-Package pdftex.def Info: Screen/base.PNG  used on input line 456.
+Package pdftex.def Info: Screen/base.PNG  used on input line 459.
 (pdftex.def)             Requested size: 422.50232pt x 317.15247pt.
-<pictures/ralla.jpg, id=388, 2107.875pt x 1405.25pt>
+<pictures/ralla.jpg, id=518, 2107.875pt x 1405.25pt>
 File: pictures/ralla.jpg Graphic file (type jpg)
 <use pictures/ralla.jpg>
-Package pdftex.def Info: pictures/ralla.jpg  used on input line 464.
+Package pdftex.def Info: pictures/ralla.jpg  used on input line 467.
 (pdftex.def)             Requested size: 170.69191pt x 113.81102pt.
-<pictures/pignone.png, id=389, 377.41pt x 369.38pt>
+<pictures/pignone.png, id=519, 377.41pt x 369.38pt>
 File: pictures/pignone.png Graphic file (type png)
 <use pictures/pignone.png>
-Package pdftex.def Info: pictures/pignone.png  used on input line 466.
+Package pdftex.def Info: pictures/pignone.png  used on input line 469.
 (pdftex.def)             Requested size: 116.28178pt x 113.81102pt.
 
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
- [21
+ [25
 
 ]
-<Plots/BASE/joint1_FAVOREVOLE.png, id=397, 1000.48781pt x 520.94624pt>
+<Plots/BASE/joint1_FAVOREVOLE.png, id=528, 1000.48781pt x 520.94624pt>
 File: Plots/BASE/joint1_FAVOREVOLE.png Graphic file (type png)
 <use Plots/BASE/joint1_FAVOREVOLE.png>
 Package pdftex.def Info: Plots/BASE/joint1_FAVOREVOLE.png  used on input line 4
-93.
+96.
 (pdftex.def)             Requested size: 218.5661pt x 113.81102pt.
-<Plots/BASE/joint1_sfavorevole.png, id=398, 1044.90375pt x 520.94624pt>
+<Plots/BASE/joint1_sfavorevole.png, id=529, 1044.90375pt x 520.94624pt>
 File: Plots/BASE/joint1_sfavorevole.png Graphic file (type png)
 <use Plots/BASE/joint1_sfavorevole.png>
 Package pdftex.def Info: Plots/BASE/joint1_sfavorevole.png  used on input line 
-495.
+498.
 (pdftex.def)             Requested size: 228.2692pt x 113.81102pt.
 
-Overfull \hbox (48.33301pt too wide) in paragraph at lines 492--497
+Overfull \hbox (48.33301pt too wide) in paragraph at lines 495--500
  [][] 
  []
 
-<Plots/BASE/joint1_forze.png, id=399, 931.98187pt x 539.01375pt>
+<Plots/BASE/joint1_forze.png, id=530, 931.98187pt x 539.01375pt>
 File: Plots/BASE/joint1_forze.png Graphic file (type png)
 <use Plots/BASE/joint1_forze.png>
-Package pdftex.def Info: Plots/BASE/joint1_forze.png  used on input line 503.
+Package pdftex.def Info: Plots/BASE/joint1_forze.png  used on input line 506.
 (pdftex.def)             Requested size: 253.50397pt x 146.61308pt.
-<Plots/BASE/joint1_ralla.png, id=400, 982.42032pt x 532.99126pt>
+<Plots/BASE/joint1_ralla.png, id=531, 982.42032pt x 532.99126pt>
 File: Plots/BASE/joint1_ralla.png Graphic file (type png)
 <use Plots/BASE/joint1_ralla.png>
-Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 509.
+Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 512.
 (pdftex.def)             Requested size: 253.50397pt x 137.53346pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--516
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
-[22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2031,11 +2087,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 514--516
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.516 			
+l.519 			
           <./Screen/STEPPER.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2053,7 +2109,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.516 			
+l.519 			
          pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.3.3}) has been already used, duplicate ignored
 
@@ -2072,13 +2128,13 @@ re.3.3}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.516 			
+l.519 			
           <./Screen/base.PNG> <./pictures/ralla.jpg> <./pictures/pignone.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 517--519
+Underfull \hbox (badness 10000) in paragraph at lines 520--522
 
  []
 
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
+[28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2096,7 +2152,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--519
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.519 			
+l.522 			
          pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.3.5}) has been already used, duplicate ignored
 
@@ -2115,7 +2171,7 @@ re.3.5}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.519 			
+l.522 			
          pdfTeX warning (ext4): destination with the same identifier (name{figu
 re.3.6}) has been already used, duplicate ignored
 
@@ -2134,56 +2190,56 @@ re.3.6}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.519 			
+l.522 			
           <./Plots/BASE/joint1_FAVOREVOLE.png> <./Plots/BASE/joint1_sfavorevole
 .png> <./Plots/BASE/joint1_forze.png> <./Plots/BASE/joint1_ralla.png>]
-<image/basefoto.png, id=425, 1067.99pt x 829.0975pt>
+<image/basefoto.png, id=550, 1067.99pt x 829.0975pt>
 File: image/basefoto.png Graphic file (type png)
 <use image/basefoto.png>
-Package pdftex.def Info: image/basefoto.png  used on input line 525.
+Package pdftex.def Info: image/basefoto.png  used on input line 528.
 (pdftex.def)             Requested size: 168.99834pt x 131.1908pt.
-<Plots/SPALLA/1motore/JOINT2_conservativo.png, id=426, 822.82407pt x 489.32813p
+<Plots/SPALLA/1motore/JOINT2_conservativo.png, id=551, 822.82407pt x 489.32813p
 t>
 File: Plots/SPALLA/1motore/JOINT2_conservativo.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2_conservativo.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2_conservativo.png  used on 
-input line 532.
+input line 535.
 (pdftex.def)             Requested size: 191.37994pt x 113.81102pt.
-<Plots/SPALLA/1motore/JOINT2-torque.png, id=427, 822.82407pt x 392.96812pt>
+<Plots/SPALLA/1motore/JOINT2-torque.png, id=552, 822.82407pt x 392.96812pt>
 File: Plots/SPALLA/1motore/JOINT2-torque.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2-torque.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2-torque.png  used on input 
-line 534.
+line 537.
 (pdftex.def)             Requested size: 238.29898pt x 113.81102pt.
 
-Overfull \hbox (31.17664pt too wide) in paragraph at lines 531--536
+Overfull \hbox (31.17664pt too wide) in paragraph at lines 534--539
  [][] 
  []
 
-<Plots/SPALLA/2motori/JOINT22favorevole.png, id=428, 987.69pt x 520.94624pt>
+<Plots/SPALLA/2motori/JOINT22favorevole.png, id=553, 987.69pt x 520.94624pt>
 File: Plots/SPALLA/2motori/JOINT22favorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22favorevole.png>
 Package pdftex.def Info: Plots/SPALLA/2motori/JOINT22favorevole.png  used on in
-put line 542.
+put line 545.
 (pdftex.def)             Requested size: 215.77031pt x 113.81102pt.
-<Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=429, 1014.79124pt x 545.78906p
+<Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=554, 1014.79124pt x 545.78906p
 t>
 File: Plots/SPALLA/2motori/JOINT22sfavorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22sfavorevole.png>
 Package pdftex.def Info: Plots/SPALLA/2motori/JOINT22sfavorevole.png  used on i
-nput line 544.
+nput line 547.
 (pdftex.def)             Requested size: 211.61046pt x 113.81102pt.
 
-Overfull \hbox (28.87848pt too wide) in paragraph at lines 541--546
+Overfull \hbox (28.87848pt too wide) in paragraph at lines 544--549
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 549--555
+Underfull \hbox (badness 10000) in paragraph at lines 552--558
 
  []
 
-[25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2201,7 +2257,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 549--555
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.555 		
+l.558 		
         pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.3.8}) has been already used, duplicate ignored
 
@@ -2220,24 +2276,24 @@ e.3.8}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.555 		
+l.558 		
          <./image/basefoto.png> <./Plots/SPALLA/1motore/JOINT2_conservativo.png
 > <./Plots/SPALLA/1motore/JOINT2-torque.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 566--567
+Underfull \hbox (badness 10000) in paragraph at lines 569--570
 
  []
 
-<Screen/cuscinetto.png, id=442, 245.83846pt x 189.94965pt>
+<Screen/cuscinetto.png, id=564, 245.83846pt x 189.94965pt>
 File: Screen/cuscinetto.png Graphic file (type png)
 <use Screen/cuscinetto.png>
-Package pdftex.def Info: Screen/cuscinetto.png  used on input line 571.
+Package pdftex.def Info: Screen/cuscinetto.png  used on input line 574.
 (pdftex.def)             Requested size: 168.99834pt x 130.58136pt.
-<image/jfl12.jpg, id=443, 722.7pt x 481.8pt>
+<image/jfl12.jpg, id=565, 722.7pt x 481.8pt>
 File: image/jfl12.jpg Graphic file (type jpg)
 <use image/jfl12.jpg>
-Package pdftex.def Info: image/jfl12.jpg  used on input line 573.
+Package pdftex.def Info: image/jfl12.jpg  used on input line 576.
 (pdftex.def)             Requested size: 168.99834pt x 112.66428pt.
-[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2255,7 +2311,7 @@ Package pdftex.def Info: image/jfl12.jpg  used on input line 573.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.580 	
+l.583 	
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .3.10}) has been already used, duplicate ignored
 
@@ -2274,20 +2330,20 @@ l.580
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.580 	
+l.583 	
         <./Plots/SPALLA/2motori/JOINT22favorevole.png> <./Plots/SPALLA/2motori/
 JOINT22sfavorevole.png> <./Screen/cuscinetto.png> <./image/jfl12.jpg>]
-<image/kukabelt.jpg, id=452, 481.8pt x 361.35pt>
+<image/kukabelt.jpg, id=572, 481.8pt x 361.35pt>
 File: image/kukabelt.jpg Graphic file (type jpg)
 <use image/kukabelt.jpg>
-Package pdftex.def Info: image/kukabelt.jpg  used on input line 587.
+Package pdftex.def Info: image/kukabelt.jpg  used on input line 590.
 (pdftex.def)             Requested size: 168.99834pt x 126.74457pt.
-<image/linearact.jpg, id=454, 1204.5pt x 579.16376pt>
+<image/linearact.jpg, id=574, 1204.5pt x 579.16376pt>
 File: image/linearact.jpg Graphic file (type jpg)
 <use image/linearact.jpg>
-Package pdftex.def Info: image/linearact.jpg  used on input line 599.
+Package pdftex.def Info: image/linearact.jpg  used on input line 602.
 (pdftex.def)             Requested size: 168.99834pt x 81.25911pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 11}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2305,14 +2361,14 @@ Package pdftex.def Info: image/linearact.jpg  used on input line 599.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.606 	
+l.609 	
         <./image/kukabelt.jpg>]
-<Plots/GOMITO/Joint3.png, id=462, 877.02657pt x 425.33907pt>
+<Plots/GOMITO/Joint3.png, id=581, 877.02657pt x 425.33907pt>
 File: Plots/GOMITO/Joint3.png Graphic file (type png)
 <use Plots/GOMITO/Joint3.png>
-Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 621.
+Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 624.
 (pdftex.def)             Requested size: 253.50397pt x 122.94276pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 12}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2330,29 +2386,29 @@ Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 621.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.639 	
+l.642 	
         <./image/linearact.jpg>]
-<image/dynamixel.png, id=469, 1284.8pt x 722.7pt>
+<image/dynamixel.png, id=587, 1284.8pt x 722.7pt>
 File: image/dynamixel.png Graphic file (type png)
 <use image/dynamixel.png>
-Package pdftex.def Info: image/dynamixel.png  used on input line 642.
+Package pdftex.def Info: image/dynamixel.png  used on input line 645.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
-<image/mx160data.png, id=470, 331.2375pt x 522.95375pt>
+<image/mx160data.png, id=588, 331.2375pt x 522.95375pt>
 File: image/mx160data.png Graphic file (type png)
 <use image/mx160data.png>
-Package pdftex.def Info: image/mx160data.png  used on input line 650.
+Package pdftex.def Info: image/mx160data.png  used on input line 653.
 (pdftex.def)             Requested size: 168.99834pt x 266.80661pt.
-<image/mx160figure.png, id=471, 516.93124pt x 471.7625pt>
+<image/mx160figure.png, id=589, 516.93124pt x 471.7625pt>
 File: image/mx160figure.png Graphic file (type png)
 <use image/mx160figure.png>
-Package pdftex.def Info: image/mx160figure.png  used on input line 652.
+Package pdftex.def Info: image/mx160figure.png  used on input line 655.
 (pdftex.def)             Requested size: 168.99834pt x 154.228pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--663
+Underfull \hbox (badness 10000) in paragraph at lines 663--666
 
  []
 
-[29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 3}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2370,7 +2426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 660--663
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.663 	
+l.666 	
        pdfTeX warning (ext4): destination with the same identifier (name{figure
 .3.14}) has been already used, duplicate ignored
 
@@ -2389,9 +2445,9 @@ l.663
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.663 	
+l.666 	
         <./Plots/GOMITO/Joint3.png> <./image/dynamixel.png (PNG copy)>]
-[30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+[34pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
 5}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2418,29 +2474,29 @@ l.663
 \\cleardoublepage [#1]->\clearpage 
                                    \unless \ifodd \value {page} \if@twoside ...
 ...
-l.668 \chapter
+l.671 \chapter
               {Polso sferico, design e scelte progettuali} <./image/mx160data.p
 ng> <./image/mx160figure.png>]
 Capitolo 4.
-<image/sferico.png, id=486, 490.83376pt x 308.15125pt>
+<image/sferico.png, id=602, 490.83376pt x 308.15125pt>
 File: image/sferico.png Graphic file (type png)
 <use image/sferico.png>
-Package pdftex.def Info: image/sferico.png  used on input line 672.
+Package pdftex.def Info: image/sferico.png  used on input line 675.
 (pdftex.def)             Requested size: 253.50397pt x 159.1534pt.
-<Screen/wristsection.png, id=487, 440.3652pt x 348.8232pt>
+<Screen/wristsection.png, id=603, 440.3652pt x 348.8232pt>
 File: Screen/wristsection.png Graphic file (type png)
 <use Screen/wristsection.png>
-Package pdftex.def Info: Screen/wristsection.png  used on input line 679.
+Package pdftex.def Info: Screen/wristsection.png  used on input line 682.
 (pdftex.def)             Requested size: 507.00148pt x 401.62259pt.
 
-Overfull \hbox (84.49916pt too wide) in paragraph at lines 679--680
+Overfull \hbox (84.49916pt too wide) in paragraph at lines 682--683
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31
+ [35
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
 has been already used, duplicate ignored
@@ -2460,8 +2516,8 @@ has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.693 	
-        <./image/sferico.png>] [32pdfTeX warning (ext4): destination with the s
+l.696 	
+        <./image/sferico.png>] [36pdfTeX warning (ext4): destination with the s
 ame identifier (name{figure.4.2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2479,53 +2535,53 @@ ame identifier (name{figure.4.2}) has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.693 	
+l.696 	
         <./Screen/wristsection.png>]
-Overfull \hbox (2.21431pt too wide) in paragraph at lines 706--706
+Overfull \hbox (2.21431pt too wide) in paragraph at lines 709--709
 []\T1/lmr/m/n/11 Spessore
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--706
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
 []\T1/lmr/m/n/11 Largh.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--706
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
 []\T1/lmr/m/n/11 E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--706
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
 []\T1/lmr/m/n/11 E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--706
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
 []\T1/lmr/m/n/11 Tensile
  []
 
 
-Overfull \hbox (1.25696pt too wide) in paragraph at lines 706--706
+Overfull \hbox (1.25696pt too wide) in paragraph at lines 709--709
 \T1/lmr/m/n/11 strength
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 706--706
+Underfull \hbox (badness 10000) in paragraph at lines 709--709
 []\T1/lmr/m/n/11 Elong.
  []
 
 
-Overfull \hbox (24.7739pt too wide) in paragraph at lines 704--728
+Overfull \hbox (24.7739pt too wide) in paragraph at lines 707--731
  [][][] 
  []
 
-<Screen/curvesmaterial.png, id=501, 627.09282pt x 405.01312pt>
+<Screen/curvesmaterial.png, id=614, 627.09282pt x 405.01312pt>
 File: Screen/curvesmaterial.png Graphic file (type png)
 <use Screen/curvesmaterial.png>
-Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 731.
+Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 734.
 (pdftex.def)             Requested size: 295.75032pt x 191.01744pt.
-[33pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+[37pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
 ) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2551,9 +2607,9 @@ Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 731.
 \@item ...tem \else \addpenalty \@beginparpenalty 
                                                   \addvspace \@topsep \addvs...
 ...
-l.743 		\item T
+l.746 		\item T
                utta la parte in movimento del componente dovrà trovarsi all...
-] [34pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+] [38pdfTeX warning (ext4): destination with the same identifier (name{figure.4
 .3}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2571,34 +2627,34 @@ l.743 		\item T
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.761 	
+l.764 	
         <./Screen/curvesmaterial.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 765--767
+Underfull \hbox (badness 10000) in paragraph at lines 768--770
 
  []
 
-[35]
+[39]
 Underfull \vbox (badness 1043) has occurred while \output is active []
 
- [36]
-[37] (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+ [40]
+[41] (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
 )
-[38]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 896.
+[42]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 899.
 
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<Plots/POLSO1/wrist1.png, id=586, 360.34625pt x 393.47pt>
+<Plots/POLSO1/wrist1.png, id=697, 360.34625pt x 393.47pt>
 File: Plots/POLSO1/wrist1.png Graphic file (type png)
 <use Plots/POLSO1/wrist1.png>
-Package pdftex.def Info: Plots/POLSO1/wrist1.png  used on input line 922.
+Package pdftex.def Info: Plots/POLSO1/wrist1.png  used on input line 925.
 (pdftex.def)             Requested size: 253.50397pt x 276.80199pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39pdfTeX warning (ext4): destination with the same identifier (name{table.4.2
+ [43pdfTeX warning (ext4): destination with the same identifier (name{table.4.2
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2620,30 +2676,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
            \if@nobreak \@nobreakfalse \clubpenalty \@M \if@afterindent \else...
 <to be read again> 
                    N
-l.926 		N
+l.929 		N
          ella tabella \ref{tab:lewis1} troviamo i dati calcolati e in figura...
 ]
-<Plots/POLSO1/polso1torque.png, id=615, 877.02657pt x 339.51843pt>
+<Plots/POLSO1/polso1torque.png, id=726, 877.02657pt x 339.51843pt>
 File: Plots/POLSO1/polso1torque.png Graphic file (type png)
 <use Plots/POLSO1/polso1torque.png>
-Package pdftex.def Info: Plots/POLSO1/polso1torque.png  used on input line 930.
+Package pdftex.def Info: Plots/POLSO1/polso1torque.png  used on input line 933.
 
 (pdftex.def)             Requested size: 422.50232pt x 163.56276pt.
-<Plots/POLSO1/polso1forces.png, id=616, 1042.64531pt x 548.0475pt>
+<Plots/POLSO1/polso1forces.png, id=727, 1042.64531pt x 548.0475pt>
 File: Plots/POLSO1/polso1forces.png Graphic file (type png)
 <use Plots/POLSO1/polso1forces.png>
-Package pdftex.def Info: Plots/POLSO1/polso1forces.png  used on input line 936.
+Package pdftex.def Info: Plots/POLSO1/polso1forces.png  used on input line 939.
 
 (pdftex.def)             Requested size: 422.50232pt x 222.08345pt.
-<Plots/POLSO1/gear_polso1.png, id=617, 595.47469pt x 374.14781pt>
+<Plots/POLSO1/gear_polso1.png, id=728, 595.47469pt x 374.14781pt>
 File: Plots/POLSO1/gear_polso1.png Graphic file (type png)
 <use Plots/POLSO1/gear_polso1.png>
-Package pdftex.def Info: Plots/POLSO1/gear_polso1.png  used on input line 942.
+Package pdftex.def Info: Plots/POLSO1/gear_polso1.png  used on input line 945.
 (pdftex.def)             Requested size: 211.25116pt x 132.72919pt.
 
 Underfull \vbox (badness 8019) has occurred while \output is active []
 
- [40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 4}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2666,7 +2722,7 @@ Underfull \vbox (badness 8019) has occurred while \output is active []
                                                   \vskip \intextsep \relax 
 \end ...use {@end@#1@hook}\csname end#1\endcsname 
                                                   \@checkend {#1}\expandafte...
-l.945 		\end{figure}
+l.948 		\end{figure}
                     pdfTeX warning (ext4): destination with the same identifier
  (name{figure.4.5}) has been already used, duplicate ignored
 
@@ -2690,12 +2746,12 @@ l.945 		\end{figure}
                                                   \vskip \intextsep \relax 
 \end ...use {@end@#1@hook}\csname end#1\endcsname 
                                                   \@checkend {#1}\expandafte...
-l.945 		\end{figure}
+l.948 		\end{figure}
                      <./Plots/POLSO1/wrist1.png> <./Plots/POLSO1/polso1torque.p
 ng>]
 Underfull \vbox (badness 4229) has occurred while \output is active []
 
- [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 6}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2722,7 +2778,7 @@ Underfull \vbox (badness 4229) has occurred while \output is active []
 
 \itemize ...\def \makelabel ##1{\hss \llap {##1}}}
                                                   \fi 
-l.950 		\begin{itemize}
+l.953 		\begin{itemize}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.4.7}) has been already used, duplicate ignored
 
@@ -2750,15 +2806,15 @@ ier (name{figure.4.7}) has been already used, duplicate ignored
 
 \itemize ...\def \makelabel ##1{\hss \llap {##1}}}
                                                   \fi 
-l.950 		\begin{itemize}
+l.953 		\begin{itemize}
                         <./Plots/POLSO1/polso1forces.png> <./Plots/POLSO1/gear_
 polso1.png>]
-<Plots/POLSO2/wrist2.png, id=635, 320.19624pt x 413.545pt>
+<Plots/POLSO2/wrist2.png, id=742, 320.19624pt x 413.545pt>
 File: Plots/POLSO2/wrist2.png Graphic file (type png)
 <use Plots/POLSO2/wrist2.png>
-Package pdftex.def Info: Plots/POLSO2/wrist2.png  used on input line 958.
+Package pdftex.def Info: Plots/POLSO2/wrist2.png  used on input line 961.
 (pdftex.def)             Requested size: 168.99834pt x 218.26913pt.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 8}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2776,7 +2832,7 @@ Package pdftex.def Info: Plots/POLSO2/wrist2.png  used on input line 958.
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.978 		
+l.981 		
         pdfTeX warning (ext4): destination with the same identifier (name{table
 .4.3}) has been already used, duplicate ignored
 
@@ -2795,26 +2851,26 @@ l.978
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.978 		
+l.981 		
          <./Plots/POLSO2/wrist2.png>]
-<Plots/POLSO2/polso2torque.png, id=644, 1040.38687pt x 533.74406pt>
+<Plots/POLSO2/polso2torque.png, id=749, 1040.38687pt x 533.74406pt>
 File: Plots/POLSO2/polso2torque.png Graphic file (type png)
 <use Plots/POLSO2/polso2torque.png>
-Package pdftex.def Info: Plots/POLSO2/polso2torque.png  used on input line 984.
+Package pdftex.def Info: Plots/POLSO2/polso2torque.png  used on input line 987.
 
 (pdftex.def)             Requested size: 422.50232pt x 216.75154pt.
-<Plots/POLSO2/polso2forces.png, id=645, 1068.99374pt x 495.35063pt>
+<Plots/POLSO2/polso2forces.png, id=750, 1068.99374pt x 495.35063pt>
 File: Plots/POLSO2/polso2forces.png Graphic file (type png)
 <use Plots/POLSO2/polso2forces.png>
-Package pdftex.def Info: Plots/POLSO2/polso2forces.png  used on input line 990.
+Package pdftex.def Info: Plots/POLSO2/polso2forces.png  used on input line 993.
 
 (pdftex.def)             Requested size: 422.50232pt x 195.7785pt.
-<Plots/POLSO2/gear_polso2.png, id=646, 602.25pt x 377.91188pt>
+<Plots/POLSO2/gear_polso2.png, id=751, 602.25pt x 377.91188pt>
 File: Plots/POLSO2/gear_polso2.png Graphic file (type png)
 <use Plots/POLSO2/gear_polso2.png>
-Package pdftex.def Info: Plots/POLSO2/gear_polso2.png  used on input line 996.
+Package pdftex.def Info: Plots/POLSO2/gear_polso2.png  used on input line 999.
 (pdftex.def)             Requested size: 253.50397pt x 159.07365pt.
- [43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 9}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2834,7 +2890,7 @@ Package pdftex.def Info: Plots/POLSO2/gear_polso2.png  used on input line 996.
                                                   \@startcolumn \@whilesw \i...
 <to be read again> 
                    I
-l.1000 		I
+l.1003 		I
            valori calcolati in tabella \ref{tab:lewis2} mostrano valori magg...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
  has been already used, duplicate ignored
@@ -2856,19 +2912,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
                                                   \@startcolumn \@whilesw \i...
 <to be read again> 
                    I
-l.1000 		I
+l.1003 		I
            valori calcolati in tabella \ref{tab:lewis2} mostrano valori magg...
  <./Plots/POLSO2/polso2torque.png> <./Plots/POLSO2/polso2forces.png>]
-<Plots/POLSO3/gear_polso3.png, id=658, 596.2275pt x 374.90062pt>
+<Plots/POLSO3/gear_polso3.png, id=760, 596.2275pt x 374.90062pt>
 File: Plots/POLSO3/gear_polso3.png Graphic file (type png)
 <use Plots/POLSO3/gear_polso3.png>
-Package pdftex.def Info: Plots/POLSO3/gear_polso3.png  used on input line 1026.
+Package pdftex.def Info: Plots/POLSO3/gear_polso3.png  used on input line 1029.
 
 (pdftex.def)             Requested size: 253.50397pt x 159.40216pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 11}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2890,7 +2946,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
            \if@nobreak \@nobreakfalse \clubpenalty \@M \if@afterindent \else...
 <to be read again> 
                    I
-l.1030 	I
+l.1033 	I
          l Joint 6 fornisce la piastra di attacco per l'end effector ed è s...
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.4}) h
 as been already used, duplicate ignored
@@ -2914,14 +2970,14 @@ as been already used, duplicate ignored
            \if@nobreak \@nobreakfalse \clubpenalty \@M \if@afterindent \else...
 <to be read again> 
                    I
-l.1030 	I
+l.1033 	I
          l Joint 6 fornisce la piastra di attacco per l'end effector ed è s...
  <./Plots/POLSO2/gear_polso2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1033--1039
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1042
 
  []
 
-[45pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+[49pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
 2}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -2948,43 +3004,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 1033--1039
 \\cleardoublepage [#1]->\clearpage 
                                    \unless \ifodd \value {page} \if@twoside ...
 ...
-l.1049 \chapter
+l.1052 \chapter
                {Costruzione mediante manifattura additiva e assemblaggio} <./Pl
-ots/POLSO3/gear_polso3.png>] [46
+ots/POLSO3/gear_polso3.png>] [50
 
 ]
 Capitolo 5.
-<Screen/pack1.png, id=682, 690.32906pt x 539.76656pt>
+<Screen/pack1.png, id=782, 690.32906pt x 539.76656pt>
 File: Screen/pack1.png Graphic file (type png)
 <use Screen/pack1.png>
-Package pdftex.def Info: Screen/pack1.png  used on input line 1057.
+Package pdftex.def Info: Screen/pack1.png  used on input line 1060.
 (pdftex.def)             Requested size: 147.87839pt x 115.6275pt.
-<Screen/pack2.png, id=683, 692.5875pt x 537.50812pt>
+<Screen/pack2.png, id=783, 692.5875pt x 537.50812pt>
 File: Screen/pack2.png Graphic file (type png)
 <use Screen/pack2.png>
-Package pdftex.def Info: Screen/pack2.png  used on input line 1059.
+Package pdftex.def Info: Screen/pack2.png  used on input line 1062.
 (pdftex.def)             Requested size: 147.87839pt x 114.76642pt.
-<Screen/pack3.png, id=684, 688.07062pt x 533.74406pt>
+<Screen/pack3.png, id=784, 688.07062pt x 533.74406pt>
 File: Screen/pack3.png Graphic file (type png)
 <use Screen/pack3.png>
-Package pdftex.def Info: Screen/pack3.png  used on input line 1061.
+Package pdftex.def Info: Screen/pack3.png  used on input line 1064.
 (pdftex.def)             Requested size: 147.87839pt x 114.70386pt.
 
-Overfull \hbox (57.13289pt too wide) in paragraph at lines 1056--1063
+Overfull \hbox (57.13289pt too wide) in paragraph at lines 1059--1066
  [][] 
  []
 
-<image/uprint.jpg, id=685, 2457.18pt x 3276.24pt>
+<image/uprint.jpg, id=785, 2457.18pt x 3276.24pt>
 File: image/uprint.jpg Graphic file (type jpg)
 <use image/uprint.jpg>
-Package pdftex.def Info: image/uprint.jpg  used on input line 1069.
+Package pdftex.def Info: image/uprint.jpg  used on input line 1072.
 (pdftex.def)             Requested size: 128.0028pt x 170.71652pt.
-<image/uprintp.jpg, id=686, 2457.18pt x 3276.24pt>
+<image/uprintp.jpg, id=786, 2457.18pt x 3276.24pt>
 File: image/uprintp.jpg Graphic file (type jpg)
 <use image/uprintp.jpg>
-Package pdftex.def Info: image/uprintp.jpg  used on input line 1071.
+Package pdftex.def Info: image/uprintp.jpg  used on input line 1074.
 (pdftex.def)             Requested size: 128.0028pt x 170.71652pt.
-[47
+[51
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
 has been already used, duplicate ignored
@@ -3004,13 +3060,13 @@ has been already used, duplicate ignored
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.1083 	
+l.1086 	
          <./Screen/pack1.png> <./Screen/pack2.png> <./Screen/pack3.png>]
-Overfull \hbox (21.5842pt too wide) in paragraph at lines 1091--1104
+Overfull \hbox (21.5842pt too wide) in paragraph at lines 1094--1107
  [][][] 
  []
 
-[48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+[52pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
 }) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -3032,35 +3088,35 @@ Overfull \hbox (21.5842pt too wide) in paragraph at lines 1091--1104
            \if@nobreak \@nobreakfalse \clubpenalty \@M \if@afterindent \else...
 <to be read again> 
                    I
-l.1105 	I
+l.1108 	I
          n tabella \ref{tab:printcost} riportiamo i costi di stampa dei 3 pa...
  <./image/uprint.jpg> <./image/uprintp.jpg>]
-<image/w1.jpg, id=704, 2457.18pt x 2690.05pt>
+<image/w1.jpg, id=802, 2457.18pt x 2690.05pt>
 File: image/w1.jpg Graphic file (type jpg)
 <use image/w1.jpg>
-Package pdftex.def Info: image/w1.jpg  used on input line 1138.
+Package pdftex.def Info: image/w1.jpg  used on input line 1141.
 (pdftex.def)             Requested size: 139.42653pt x 152.61201pt.
-<image/w2.jpg, id=705, 2445.135pt x 2436.10126pt>
+<image/w2.jpg, id=803, 2445.135pt x 2436.10126pt>
 File: image/w2.jpg Graphic file (type jpg)
 <use image/w2.jpg>
-Package pdftex.def Info: image/w2.jpg  used on input line 1140.
+Package pdftex.def Info: image/w2.jpg  used on input line 1143.
 (pdftex.def)             Requested size: 139.42653pt x 138.91125pt.
-<image/w3.jpg, id=706, 2413.015pt x 2650.90375pt>
+<image/w3.jpg, id=804, 2413.015pt x 2650.90375pt>
 File: image/w3.jpg Graphic file (type jpg)
 <use image/w3.jpg>
-Package pdftex.def Info: image/w3.jpg  used on input line 1142.
+Package pdftex.def Info: image/w3.jpg  used on input line 1145.
 (pdftex.def)             Requested size: 139.42653pt x 153.14174pt.
 
-Overfull \hbox (31.77731pt too wide) in paragraph at lines 1137--1144
+Overfull \hbox (31.77731pt too wide) in paragraph at lines 1140--1147
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1147--1150
+Underfull \hbox (badness 10000) in paragraph at lines 1150--1153
 
  []
 
-[49pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
+[53pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
 ) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -3078,7 +3134,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1147--1150
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.1150 	
+l.1153 	
         pdfTeX warning (ext4): destination with the same identifier (name{table
 .5.2}) has been already used, duplicate ignored
 
@@ -3097,17 +3153,17 @@ l.1150
                                                   \fi \global \@mparbottom \...
 <output> ...specialoutput \else \@makecol \@opcol 
                                                   \@startcolumn \@whilesw \i...
-l.1150 	
+l.1153 	
         ]
-<image/wizard.png, id=716, 478.78876pt x 362.10281pt>
+<image/wizard.png, id=811, 478.78876pt x 362.10281pt>
 File: image/wizard.png Graphic file (type png)
 <use image/wizard.png>
-Package pdftex.def Info: image/wizard.png  used on input line 1153.
+Package pdftex.def Info: image/wizard.png  used on input line 1156.
 (pdftex.def)             Requested size: 253.50397pt x 191.72018pt.
 
 Underfull \vbox (badness 2142) has occurred while \output is active []
 
- [50pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [54pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 3}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
@@ -3134,7 +3190,7 @@ Underfull \vbox (badness 2142) has occurred while \output is active []
 
 \itemize ...\def \makelabel ##1{\hss \llap {##1}}}
                                                   \fi 
-l.1161 	\begin{itemize}
+l.1164 	\begin{itemize}
                        pdfTeX warning (ext4): destination with the same identif
 ier (name{figure.5.4}) has been already used, duplicate ignored
 
@@ -3162,40 +3218,258 @@ ier (name{figure.5.4}) has been already used, duplicate ignored
 
 \itemize ...\def \makelabel ##1{\hss \llap {##1}}}
                                                   \fi 
-l.1161 	\begin{itemize}
+l.1164 	\begin{itemize}
                         <./image/w1.jpg> <./image/w2.jpg> <./image/w3.jpg> <./i
-mage/wizard.png>] [51] [52
+mage/wizard.png>] [55] [56
 
 ]
 Capitolo 6.
-[53
+[57
 
-] [54
+] [58
 
-] [55
+]
+<draws/Arm.pdf, id=833, 1195.01462pt x 845.0471pt>
+File: draws/Arm.pdf Graphic file (type pdf)
+<use draws/Arm.pdf>
+Package pdftex.def Info: draws/Arm.pdf  used on input line 1183.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: draws/Arm.pdf Graphic file (type pdf)
+<use draws/Arm.pdf>
+Package pdftex.def Info: draws/Arm.pdf  used on input line 1183.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+<draws/Arm.pdf, id=836, page=1, 1195.01462pt x 845.0471pt>
+File: draws/Arm.pdf Graphic file (type pdf)
+<use draws/Arm.pdf, page 1>
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: draws/Arm.pdf Graphic file (type pdf)
+<use draws/Arm.pdf, page 1>
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+(pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
+ [59
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1201.
- [56
+File: draws/Arm.pdf Graphic file (type pdf)
+<use draws/Arm.pdf, page 1>
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+(pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
+File: draws/Arm.pdf Graphic file (type pdf)
+<use draws/Arm.pdf, page 1>
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+(pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
+File: draws/Arm.pdf Graphic file (type pdf)
+<use draws/Arm.pdf, page 1>
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+(pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
+ [60 <./draws/Arm.pdf>]
+<draws/1.pdf, id=866, 845.0471pt x 597.50829pt>
+File: draws/1.pdf Graphic file (type pdf)
+<use draws/1.pdf>
+Package pdftex.def Info: draws/1.pdf  used on input line 1184.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/1.pdf Graphic file (type pdf)
+<use draws/1.pdf>
+Package pdftex.def Info: draws/1.pdf  used on input line 1184.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+<draws/1.pdf, id=869, page=1, 845.0471pt x 597.50829pt>
+File: draws/1.pdf Graphic file (type pdf)
+<use draws/1.pdf, page 1>
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/1.pdf Graphic file (type pdf)
+<use draws/1.pdf, page 1>
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/1.pdf Graphic file (type pdf)
+<use draws/1.pdf, page 1>
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/1.pdf Graphic file (type pdf)
+<use draws/1.pdf, page 1>
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/1.pdf Graphic file (type pdf)
+<use draws/1.pdf, page 1>
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+ [61 <./draws/1.pdf>]
+<draws/2.pdf, id=888, 845.0471pt x 597.50829pt>
+File: draws/2.pdf Graphic file (type pdf)
+<use draws/2.pdf>
+Package pdftex.def Info: draws/2.pdf  used on input line 1185.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/2.pdf Graphic file (type pdf)
+<use draws/2.pdf>
+Package pdftex.def Info: draws/2.pdf  used on input line 1185.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+<draws/2.pdf, id=891, page=1, 845.0471pt x 597.50829pt>
+File: draws/2.pdf Graphic file (type pdf)
+<use draws/2.pdf, page 1>
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/2.pdf Graphic file (type pdf)
+<use draws/2.pdf, page 1>
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/2.pdf Graphic file (type pdf)
+<use draws/2.pdf, page 1>
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/2.pdf Graphic file (type pdf)
+<use draws/2.pdf, page 1>
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/2.pdf Graphic file (type pdf)
+<use draws/2.pdf, page 1>
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+ [62 <./draws/2.pdf>]
+<draws/3.pdf, id=909, 845.0471pt x 597.50829pt>
+File: draws/3.pdf Graphic file (type pdf)
+<use draws/3.pdf>
+Package pdftex.def Info: draws/3.pdf  used on input line 1186.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/3.pdf Graphic file (type pdf)
+<use draws/3.pdf>
+Package pdftex.def Info: draws/3.pdf  used on input line 1186.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+<draws/3.pdf, id=912, page=1, 845.0471pt x 597.50829pt>
+File: draws/3.pdf Graphic file (type pdf)
+<use draws/3.pdf, page 1>
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/3.pdf Graphic file (type pdf)
+<use draws/3.pdf, page 1>
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/3.pdf Graphic file (type pdf)
+<use draws/3.pdf, page 1>
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/3.pdf Graphic file (type pdf)
+<use draws/3.pdf, page 1>
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/3.pdf Graphic file (type pdf)
+<use draws/3.pdf, page 1>
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+[63 <./draws/3.pdf>]
+<draws/3b.pdf, id=928, 845.0471pt x 597.50829pt>
+File: draws/3b.pdf Graphic file (type pdf)
+<use draws/3b.pdf>
+Package pdftex.def Info: draws/3b.pdf  used on input line 1187.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/3b.pdf Graphic file (type pdf)
+<use draws/3b.pdf>
+Package pdftex.def Info: draws/3b.pdf  used on input line 1187.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+<draws/3b.pdf, id=931, page=1, 845.0471pt x 597.50829pt>
+File: draws/3b.pdf Graphic file (type pdf)
+<use draws/3b.pdf, page 1>
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/3b.pdf Graphic file (type pdf)
+<use draws/3b.pdf, page 1>
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/3b.pdf Graphic file (type pdf)
+<use draws/3b.pdf, page 1>
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/3b.pdf Graphic file (type pdf)
+<use draws/3b.pdf, page 1>
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/3b.pdf Graphic file (type pdf)
+<use draws/3b.pdf, page 1>
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+ [64 <./draws/3b.pdf>]
+<draws/45.pdf, id=949, 845.0471pt x 597.50829pt>
+File: draws/45.pdf Graphic file (type pdf)
+<use draws/45.pdf>
+Package pdftex.def Info: draws/45.pdf  used on input line 1188.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/45.pdf Graphic file (type pdf)
+<use draws/45.pdf>
+Package pdftex.def Info: draws/45.pdf  used on input line 1188.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+<draws/45.pdf, id=952, page=1, 845.0471pt x 597.50829pt>
+File: draws/45.pdf Graphic file (type pdf)
+<use draws/45.pdf, page 1>
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/45.pdf Graphic file (type pdf)
+<use draws/45.pdf, page 1>
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/45.pdf Graphic file (type pdf)
+<use draws/45.pdf, page 1>
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/45.pdf Graphic file (type pdf)
+<use draws/45.pdf, page 1>
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/45.pdf Graphic file (type pdf)
+<use draws/45.pdf, page 1>
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+ [65 <./draws/45.pdf>]
+<draws/56.pdf, id=972, 845.0471pt x 597.50829pt>
+File: draws/56.pdf Graphic file (type pdf)
+<use draws/56.pdf>
+Package pdftex.def Info: draws/56.pdf  used on input line 1189.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/56.pdf Graphic file (type pdf)
+<use draws/56.pdf>
+Package pdftex.def Info: draws/56.pdf  used on input line 1189.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+<draws/56.pdf, id=975, page=1, 845.0471pt x 597.50829pt>
+File: draws/56.pdf Graphic file (type pdf)
+<use draws/56.pdf, page 1>
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+(pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
+File: draws/56.pdf Graphic file (type pdf)
+<use draws/56.pdf, page 1>
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/56.pdf Graphic file (type pdf)
+<use draws/56.pdf, page 1>
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/56.pdf Graphic file (type pdf)
+<use draws/56.pdf, page 1>
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+File: draws/56.pdf Graphic file (type pdf)
+<use draws/56.pdf, page 1>
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+(pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
+ [66 <./draws/56.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1206.
+ [67
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1206.
  (./Tesi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1201.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1206.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1206.
 
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: A66C3E2DF18C1EAF0FB2F08E5FB6D4F7;3933.
+(rerunfilecheck)             Checksum: 396FE8BC677EDED14C16FDB4BAE2A603;4056.
  ) 
 Here is how much of TeX's memory you used:
- 29518 strings out of 492616
- 475380 string characters out of 6129481
- 804704 words of memory out of 5000000
- 32826 multiletter control sequences out of 15000+600000
+ 30306 strings out of 492616
+ 488230 string characters out of 6129481
+ 821136 words of memory out of 5000000
+ 33559 multiletter control sequences out of 15000+600000
  611783 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,75p,802b,3823s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,18n,75p,802b,3823s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
 /texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/
 texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist
@@ -3215,9 +3489,9 @@ f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/lm/lmro9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
 blic/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lm
 tt12.pfb>
-Output written on Tesi.pdf (56 pages, 31326605 bytes).
+Output written on Tesi.pdf (67 pages, 32052786 bytes).
 PDF statistics:
- 881 PDF objects out of 1000 (max. 8388607)
- 224 named destinations out of 1000 (max. 500000)
- 675 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1137 PDF objects out of 1200 (max. 8388607)
+ 237 named destinations out of 1000 (max. 500000)
+ 831 words of extra memory for PDF output out of 10000 (max. 10000000)
 

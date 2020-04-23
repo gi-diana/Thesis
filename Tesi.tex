@@ -27,6 +27,7 @@ greek,% per comporre parte del testo in greco (qui solo con classica)
 \usepackage{bigstrut}
 \usepackage{listings}
 \usepackage{float}
+\usepackage{pdfpages}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lipsum}% Per scrivere testo fasullo in "latinorum"
 
@@ -119,6 +120,8 @@ greek,% per comporre parte del testo in greco (qui solo con classica)
 
 
 \mainmatter
+\tablespagetrue\figurespagetrue % usare solo se necessario
+
 \indici
 \chapter{Rover Esplorativi e di Assistenza: Scenari di missione}
 Il team DIANA, acronimo di  \textit{Ducti Ingenio Accipimus Naturam Astrorum}, lavora nella ricerca e nello sviluppo della robotica per applicazioni spaziali.\\
@@ -1177,11 +1180,13 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 
 \backmatter
 \chapter{Disegni ed elaborati tecnici}
-
-
-
-
-
+\includepdf{draws/Arm.pdf}
+\includepdf{draws/1.pdf}
+\includepdf{draws/2.pdf}
+\includepdf{draws/3.pdf}
+\includepdf{draws/3b.pdf}
+\includepdf{draws/45.pdf}
+\includepdf{draws/56.pdf}
 
 
 \begin{thebibliography}{9}
