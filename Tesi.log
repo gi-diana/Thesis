@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  21 APR 2020 15:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  23 APR 2020 12:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1128,6 +1128,14 @@ File: listings.cfg 2019/02/27 1.8b listings configuration
 ))
 Package: listings 2019/02/27 1.8b (Carsten Heinz)
 
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count283
+\float@exts=\toks22
+\float@box=\box55
+\@float@everytoks=\toks23
+\@floatcapt=\box56
+)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -1146,67 +1154,67 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks22
+\pIIe@GRAPH=\toks24
 \@arclen=\dimen151
 \@arcrad=\dimen152
 \@tempdimd=\dimen153
 )
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 73.
-Package hyperref Info: Option `colorlinks' set `true' on input line 73.
-\c@osservazione=\count283
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 74.
+Package hyperref Info: Option `colorlinks' set `true' on input line 74.
+\c@osservazione=\count284
 
 (./Tesi.aux)
 \openout1 = `Tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 82.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2017/07/29 v1.2 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 82.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 81.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 82.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \it@ocap on input line 81.
-LaTeX Info: Redefining \it@ccap on input line 81.
+LaTeX Info: Redefining \it@ocap on input line 82.
+LaTeX Info: Redefining \it@ccap on input line 82.
 
 (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
+\scratchcounter=\count285
 \scratchdimen=\dimen154
-\scratchbox=\box55
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count287
+\scratchbox=\box57
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count288
 \MPscratchDim=\dimen155
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1230,7 +1238,7 @@ e
 (/usr/local/texlive/2019/texmf-dist/tex/latex/toptesi/topfront.sty
 Package: topfront 2019-05-01 v.6.3.04 Title page for TOPtesi and other classes
 \TPT@logospace=\skip56
-\TPT@logobox=\box56
+\TPT@logobox=\box58
 \TPT@logoheight=\dimen158
 \T@Tlogoheight=\skip57
 
@@ -1243,16 +1251,16 @@ e
 Package: fancyvrb 2019/01/15
 
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count290
+\FV@CodeLineNo=\count291
 \FV@InFile=\read3
-\FV@TabBox=\box57
-\c@FancyVerbLine=\count291
-\FV@StepNumber=\count292
+\FV@TabBox=\box59
+\c@FancyVerbLine=\count292
+\FV@StepNumber=\count293
 \FV@OutFile=\write4
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring ON on input line 81.
+\AtBeginShipoutBox=\box60
+Package hyperref Info: Link coloring ON on input line 82.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1260,65 +1268,65 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count293
+\c@section@level=\count294
 )
-LaTeX Info: Redefining \ref on input line 81.
-LaTeX Info: Redefining \pageref on input line 81.
-LaTeX Info: Redefining \nameref on input line 81.
+LaTeX Info: Redefining \ref on input line 82.
+LaTeX Info: Redefining \pageref on input line 82.
+LaTeX Info: Redefining \nameref on input line 82.
 
 (./Tesi.out) (./Tesi.out)
 \@outlinefile=\write5
 \openout5 = `Tesi.out'.
 
-\c@lstlisting=\count294
-<logouno.png, id=174, 569.12625pt x 569.12625pt>
+\c@lstlisting=\count295
+<logouno.png, id=182, 569.12625pt x 569.12625pt>
 File: logouno.png Graphic file (type png)
 <use logouno.png>
-Package pdftex.def Info: logouno.png  used on input line 108.
+Package pdftex.def Info: logouno.png  used on input line 109.
 (pdftex.def)             Requested size: 70.00298pt x 70.00249pt.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 109.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 109.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 110.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 110.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 109.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 110.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 109
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 110
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 109
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 110
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <11> on input line 109.
+(Font)              <11> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7.69997> on input line 109.
+(Font)              <7.69997> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5.5> on input line 109.
-LaTeX Font Info:    Calculating math sizes for size <13.19997> on input line 10
-9.
+(Font)              <5.5> on input line 110.
+LaTeX Font Info:    Calculating math sizes for size <13.19997> on input line 11
+0.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13.19997> on input line 109.
+(Font)              <13.19997> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9.23993> on input line 109.
+(Font)              <9.23993> on input line 110.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6.59998> on input line 109.
+(Font)              <6.59998> on input line 110.
 
 Overfull \vbox (10.4588pt too high) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 109.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 110.
 
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/ts1lmr.fd
@@ -1339,34 +1347,112 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
  [4]
 Capitolo 1.
-<image/amalia.png, id=245, 576.1525pt x 714.67pt>
+<image/amalia.png, id=255, 576.1525pt x 714.67pt>
 File: image/amalia.png Graphic file (type png)
 <use image/amalia.png>
-Package pdftex.def Info: image/amalia.png  used on input line 129.
+Package pdftex.def Info: image/amalia.png  used on input line 130.
 (pdftex.def)             Requested size: 126.75198pt x 157.21698pt.
-<image/toro.jpg, id=246, 1805.74625pt x 1268.74pt>
+<image/toro.jpg, id=256, 1805.74625pt x 1268.74pt>
 File: image/toro.jpg Graphic file (type jpg)
 <use image/toro.jpg>
-Package pdftex.def Info: image/toro.jpg  used on input line 131.
+Package pdftex.def Info: image/toro.jpg  used on input line 132.
 (pdftex.def)             Requested size: 211.25116pt x 148.40907pt.
 [5
 
 
 
 
- <./image/amalia.png> <./image/toro.jpg>]
-<image/trinityerc.jpeg, id=255, 1284.8pt x 722.7pt>
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.143 
+       <./image/amalia.png> <./image/toro.jpg>]
+<image/trinityerc.jpeg, id=265, 1284.8pt x 722.7pt>
 File: image/trinityerc.jpeg Graphic file (type jpg)
 <use image/trinityerc.jpeg>
-Package pdftex.def Info: image/trinityerc.jpeg  used on input line 145.
+Package pdftex.def Info: image/trinityerc.jpeg  used on input line 146.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
- [6 <./image/trinityerc.jpeg>]
-<image/terrain.jpeg, id=261, 1445.4pt x 1084.05pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \vbox (badness 6428) has occurred while \output is active []
+
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.167 
+       <./image/trinityerc.jpeg>]
+<image/terrain.jpeg, id=271, 1445.4pt x 1084.05pt>
 File: image/terrain.jpeg Graphic file (type jpg)
 <use image/terrain.jpeg>
-Package pdftex.def Info: image/terrain.jpeg  used on input line 166.
+Package pdftex.def Info: image/terrain.jpeg  used on input line 170.
 (pdftex.def)             Requested size: 253.50397pt x 190.12512pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 176--178
+
+ []
+
+
+Underfull \vbox (badness 5490) has occurred while \output is active []
+
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.187 
+       <./image/terrain.jpeg>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1380,550 +1466,1722 @@ Type  H <return>  for immediate help.
                                   \else \unskip \reserved@e {\reserved@f #1}...
 <to be read again> 
                    \relax 
-l.183 		\newline
+l.188 		\newline
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[7 <./image/terrain.jpeg>]
-<image/panel.png, id=271, 396.48125pt x 481.8pt>
+<image/panel.png, id=279, 396.48125pt x 481.8pt>
 File: image/panel.png Graphic file (type png)
 <use image/panel.png>
-Package pdftex.def Info: image/panel.png  used on input line 198.
+Package pdftex.def Info: image/panel.png  used on input line 203.
 (pdftex.def)             Requested size: 168.99834pt x 205.36879pt.
-<image/mainttoro.jpg, id=272, 4015.0pt x 2673.99pt>
+<image/mainttoro.jpg, id=280, 4015.0pt x 2673.99pt>
 File: image/mainttoro.jpg Graphic file (type jpg)
 <use image/mainttoro.jpg>
-Package pdftex.def Info: image/mainttoro.jpg  used on input line 200.
+Package pdftex.def Info: image/mainttoro.jpg  used on input line 205.
 (pdftex.def)             Requested size: 211.25116pt x 140.68443pt.
- [8 <./image/panel.png> <./image/mainttoro.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}
+) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.215 		
+         <./image/panel.png> <./image/mainttoro.jpg>]
+<pictures/sci1.jpg, id=295, 1935.23pt x 1353.055pt>
+File: pictures/sci1.jpg Graphic file (type jpg)
+<use pictures/sci1.jpg>
+Package pdftex.def Info: pictures/sci1.jpg  used on input line 233.
+(pdftex.def)             Requested size: 211.25116pt x 147.70097pt.
+<pictures/sci2.jpg, id=296, 4015.0pt x 2673.99pt>
+File: pictures/sci2.jpg Graphic file (type jpg)
+<use pictures/sci2.jpg>
+Package pdftex.def Info: pictures/sci2.jpg  used on input line 235.
+(pdftex.def)             Requested size: 211.25116pt x 140.68443pt.
+
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 232--237
+ [][] 
+ []
+
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}
+) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\@trivlist ...epadd \partopsep \else \unskip \par 
+                                                  \fi \if@inlabel \@noparite...
+
+\list ...klab \@nmbrlistfalse #2\relax \@trivlist 
+                                                  \parskip \parsep \parinden...
+
+\itemize ...\def \makelabel ##1{\hss \llap {##1}}}
+                                                  \fi 
+l.248 		\begin{itemize}
+                        <./pictures/sci1.jpg> <./pictures/sci2.jpg>]
+<pictures/cache1.jpg, id=303, 2026.57124pt x 1576.89125pt>
+File: pictures/cache1.jpg Graphic file (type jpg)
+<use pictures/cache1.jpg>
+Package pdftex.def Info: pictures/cache1.jpg  used on input line 268.
+(pdftex.def)             Requested size: 211.25116pt x 164.36336pt.
+<pictures/cache2.png, id=304, 722.7pt x 1284.8pt>
+File: pictures/cache2.png Graphic file (type png)
+<use pictures/cache2.png>
+Package pdftex.def Info: pictures/cache2.png  used on input line 275.
+(pdftex.def)             Requested size: 168.99834pt x 300.43811pt.
+<pictures/cache3.png, id=305, 722.7pt x 1284.8pt>
+File: pictures/cache3.png Graphic file (type png)
+<use pictures/cache3.png>
+Package pdftex.def Info: pictures/cache3.png  used on input line 277.
+(pdftex.def)             Requested size: 168.99834pt x 300.43811pt.
+ [10]
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<argument> \@opcol 
+                   \@makefcolumn \@deferlist 
+\@whilesw #1\fi #2->#1#2
+                        \@iwhilesw {#1#2}\fi \fi 
+\@doclearpage ...opcol \@makefcolumn \@deferlist }
+                                                  \if@twocolumn \if@firstcol...
+
+\@specialoutput ...tpenalty >-\@Mii \@doclearpage 
+                                                  \else \ifnum \outputpenalt...
+...
+l.284 \chapter
+              {Design di un manipolatore a 6 gradi di libertà}pdfTeX warning (
+ext4): destination with the same identifier (name{figure.1.7}) has been already
+ used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<argument> \@opcol 
+                   \@makefcolumn \@deferlist 
+\@whilesw #1\fi #2->#1#2
+                        \@iwhilesw {#1#2}\fi \fi 
+\@doclearpage ...opcol \@makefcolumn \@deferlist }
+                                                  \if@twocolumn \if@firstcol...
+
+\@specialoutput ...tpenalty >-\@Mii \@doclearpage 
+                                                  \else \ifnum \outputpenalt...
+...
+l.284 \chapter
+              {Design di un manipolatore a 6 gradi di libertà} <./pictures/cac
+he1.jpg> <./pictures/cache2.png> <./pictures/cache3.png>] [12
+
+]
 Capitolo 2.
 
-Underfull \hbox (badness 5374) in paragraph at lines 221--221
+Underfull \hbox (badness 5374) in paragraph at lines 293--293
 []|\T1/lmr/bx/n/11 SOLUZIONE TEC-
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 226--229
+Underfull \hbox (badness 1226) in paragraph at lines 298--301
 []|\T1/lmr/m/n/11 Il sot-to-si-ste-ma brac-cio
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 226--229
+Underfull \hbox (badness 2126) in paragraph at lines 298--301
 \T1/lmr/m/n/11 rag-giun-ge-re il ter-re-no,
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 226--229
+Underfull \hbox (badness 2653) in paragraph at lines 298--301
 \T1/lmr/m/n/11 ro-ver, rag-giun-ge-re 1.5
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 226--229
+Underfull \hbox (badness 2035) in paragraph at lines 298--301
 \T1/lmr/m/n/11 me-tri di al-tez-za, ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 302--303
 []|\T1/lmr/m/n/11 Manipolatore ro-bo-ti-co
  []
 
 
-Underfull \hbox (badness 5592) in paragraph at lines 230--231
+Underfull \hbox (badness 5592) in paragraph at lines 302--303
 \T1/lmr/m/n/11 an-tro-mor-fo a 6 as-si:
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 230--231
+Underfull \hbox (badness 3219) in paragraph at lines 302--303
 \T1/lmr/m/n/11 dal-la let-te-ra-tu-ra � la
  []
 
 
-Underfull \hbox (badness 1092) in paragraph at lines 231--231
+Underfull \hbox (badness 1092) in paragraph at lines 303--303
 []|\T1/lmr/m/n/11 Modellazione CAD as-
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 231--231
+Underfull \hbox (badness 2334) in paragraph at lines 303--303
 \T1/lmr/m/n/11 sie-me al-lo chas-sis del
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 235--235
+Underfull \hbox (badness 5119) in paragraph at lines 307--307
 \T1/lmr/m/n/11 de-ve es-se-re in gra-do
  []
 
 
-Underfull \hbox (badness 6961) in paragraph at lines 236--237
+Underfull \hbox (badness 6961) in paragraph at lines 308--309
 \T1/lmr/m/n/11 Tra-smis-sio-ne me-dian-te
  []
 
 
-Overfull \hbox (3.80783pt too wide) in paragraph at lines 240--240
+Overfull \hbox (3.80783pt too wide) in paragraph at lines 312--312
 []|\T1/lmr/m/n/11 MISSION| 
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 241--242
+Underfull \hbox (badness 1281) in paragraph at lines 313--314
 []|\T1/lmr/m/n/11 Controllo in mi-cro-step
  []
 
 
-Underfull \hbox (badness 1742) in paragraph at lines 241--242
+Underfull \hbox (badness 1742) in paragraph at lines 313--314
 \T1/lmr/m/n/11 dei mo-to-ri pas-so pas-
  []
 
 
-Underfull \hbox (badness 4060) in paragraph at lines 241--242
+Underfull \hbox (badness 4060) in paragraph at lines 313--314
 \T1/lmr/m/n/11 at-tua-to-re li-nea-re con-
  []
 
 
-Underfull \hbox (badness 1275) in paragraph at lines 241--242
+Underfull \hbox (badness 1275) in paragraph at lines 313--314
 \T1/lmr/m/n/11 trol-lo in po-si-zio-ne dei
  []
 
 
-Overfull \hbox (3.80783pt too wide) in paragraph at lines 245--245
+Overfull \hbox (3.80783pt too wide) in paragraph at lines 317--317
 []|\T1/lmr/m/n/11 MISSION| 
  []
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 245--246
+Underfull \hbox (badness 3861) in paragraph at lines 317--318
 \T1/lmr/m/n/11 pan-nel-lo ma-nu-ten-zio-ne
  []
 
 
-Underfull \hbox (badness 6995) in paragraph at lines 248--248
+Underfull \hbox (badness 6995) in paragraph at lines 320--320
 []|\T1/lmr/m/n/11 CAD de-si-gn, Ma-tlab
  []
 
 
-Overfull \hbox (9.98276pt too wide) in alignment at lines 219--251
+Overfull \hbox (9.98276pt too wide) in alignment at lines 291--323
  [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 251
+Underfull \vbox (badness 10000) detected at line 323
  []
 
-[9
+[13
 
-] [10]
-<pictures/6DOF.png, id=297, 963.6pt x 542.025pt>
+] [14]
+<pictures/6DOF.png, id=335, 963.6pt x 542.025pt>
 File: pictures/6DOF.png Graphic file (type png)
 <use pictures/6DOF.png>
-Package pdftex.def Info: pictures/6DOF.png  used on input line 264.
+Package pdftex.def Info: pictures/6DOF.png  used on input line 345.
 (pdftex.def)             Requested size: 422.50232pt x 237.6564pt.
-<pictures/KUKA.png, id=298, 853.1875pt x 880.28876pt>
+<pictures/KUKA.png, id=336, 853.1875pt x 880.28876pt>
 File: pictures/KUKA.png Graphic file (type png)
 <use pictures/KUKA.png>
-Package pdftex.def Info: pictures/KUKA.png  used on input line 273.
+Package pdftex.def Info: pictures/KUKA.png  used on input line 354.
 (pdftex.def)             Requested size: 253.50397pt x 261.54999pt.
-<Plots/workspace.png, id=299, 1084.05pt x 589.4522pt>
+<Plots/workspace.png, id=337, 1084.05pt x 589.4522pt>
 File: Plots/workspace.png Graphic file (type png)
 <use Plots/workspace.png>
-Package pdftex.def Info: Plots/workspace.png  used on input line 280.
+Package pdftex.def Info: Plots/workspace.png  used on input line 361.
 (pdftex.def)             Requested size: 422.50232pt x 229.73253pt.
- [11 <./pictures/6DOF.png>]
 
-LaTeX Warning: Text page 12 contains only floats.
-
-[12 <./pictures/KUKA.png> <./Plots/workspace.png (PNG copy)>] [13]
-<pictures/ARM.png, id=319, 163.812pt x 100.4553pt>
-File: pictures/ARM.png Graphic file (type png)
-<use pictures/ARM.png>
-Package pdftex.def Info: pictures/ARM.png  used on input line 304.
-(pdftex.def)             Requested size: 295.75032pt x 181.39726pt.
-<Screen/ARMBollato.png, id=320, 354.72525pt x 445.30365pt>
-File: Screen/ARMBollato.png Graphic file (type png)
-<use Screen/ARMBollato.png>
-Package pdftex.def Info: Screen/ARMBollato.png  used on input line 310.
-(pdftex.def)             Requested size: 295.75032pt x 371.27344pt.
-<Screen/Model1.png, id=322, 927.465pt x 484.81125pt>
-File: Screen/Model1.png Graphic file (type png)
-<use Screen/Model1.png>
-Package pdftex.def Info: Screen/Model1.png  used on input line 325.
-(pdftex.def)             Requested size: 422.50232pt x 220.85577pt.
-<Screen/inertia.png, id=325, 740.0147pt x 488.57532pt>
-File: Screen/inertia.png Graphic file (type png)
-<use Screen/inertia.png>
-Package pdftex.def Info: Screen/inertia.png  used on input line 335.
-(pdftex.def)             Requested size: 211.25116pt x 139.46906pt.
-<Screen/coordinate.png, id=326, 473.51906pt x 431.36156pt>
-File: Screen/coordinate.png Graphic file (type png)
-<use Screen/coordinate.png>
-Package pdftex.def Info: Screen/coordinate.png  used on input line 337.
-(pdftex.def)             Requested size: 168.99834pt x 153.9473pt.
- [14 <./pictures/ARM.png>] [15 <./Screen/ARMBollato.png>] [16 <./Screen/Model1.
-png> <./Screen/inertia.png> <./Screen/coordinate.png>]
-Capitolo 3.
-<Screen/STEPPER.png, id=348, 722.2182pt x 507.3354pt>
-File: Screen/STEPPER.png Graphic file (type png)
-<use Screen/STEPPER.png>
-Package pdftex.def Info: Screen/STEPPER.png  used on input line 352.
-(pdftex.def)             Requested size: 253.50397pt x 178.08096pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 348--358
+Underfull \hbox (badness 10000) in paragraph at lines 365--373
 
  []
 
-<Screen/base.PNG, id=349, 428.92245pt x 321.96284pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.373 
+       <./pictures/6DOF.png>] [16pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.2.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.373 
+       <./pictures/KUKA.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.389 
+       <./Plots/workspace.png (PNG copy)>]
+<pictures/ARM.png, id=356, 163.812pt x 100.4553pt>
+File: pictures/ARM.png Graphic file (type png)
+<use pictures/ARM.png>
+Package pdftex.def Info: pictures/ARM.png  used on input line 392.
+(pdftex.def)             Requested size: 295.75032pt x 181.39726pt.
+<Screen/ARMBollato.png, id=357, 354.72525pt x 445.30365pt>
+File: Screen/ARMBollato.png Graphic file (type png)
+<use Screen/ARMBollato.png>
+Package pdftex.def Info: Screen/ARMBollato.png  used on input line 398.
+(pdftex.def)             Requested size: 295.75032pt x 371.27344pt.
+<Screen/Model1.png, id=359, 927.465pt x 484.81125pt>
+File: Screen/Model1.png Graphic file (type png)
+<use Screen/Model1.png>
+Package pdftex.def Info: Screen/Model1.png  used on input line 413.
+(pdftex.def)             Requested size: 295.75032pt x 154.59534pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.417 	
+        <./pictures/ARM.png>] [19pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.2.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.417 	
+        <./Screen/ARMBollato.png>]
+<Screen/inertia.png, id=375, 740.0147pt x 488.57532pt>
+File: Screen/inertia.png Graphic file (type png)
+<use Screen/inertia.png>
+Package pdftex.def Info: Screen/inertia.png  used on input line 425.
+(pdftex.def)             Requested size: 211.25116pt x 139.46906pt.
+<Screen/coordinate.png, id=376, 473.51906pt x 431.36156pt>
+File: Screen/coordinate.png Graphic file (type png)
+<use Screen/coordinate.png>
+Package pdftex.def Info: Screen/coordinate.png  used on input line 427.
+(pdftex.def)             Requested size: 168.99834pt x 153.9473pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+6}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+\clearpage ...opskip \hbox {}\fi \fi \fi \newpage 
+                                                  \write \m@ne {}\vbox {}\pe...
+
+\\cleardoublepage [#1]->\clearpage 
+                                   \unless \ifodd \value {page} \if@twoside ...
+...
+l.435 \chapter
+              {Attuatori per un progetto di robotica low-cost}pdfTeX warning (e
+xt4): destination with the same identifier (name{figure.2.7}) has been already 
+used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+\clearpage ...opskip \hbox {}\fi \fi \fi \newpage 
+                                                  \write \m@ne {}\vbox {}\pe...
+
+\\cleardoublepage [#1]->\clearpage 
+                                   \unless \ifodd \value {page} \if@twoside ...
+...
+l.435 \chapter
+              {Attuatori per un progetto di robotica low-cost} <./Screen/Model1
+.png> <./Screen/inertia.png> <./Screen/coordinate.png>]
+Capitolo 3.
+<Screen/STEPPER.png, id=386, 722.2182pt x 507.3354pt>
+File: Screen/STEPPER.png Graphic file (type png)
+<use Screen/STEPPER.png>
+Package pdftex.def Info: Screen/STEPPER.png  used on input line 446.
+(pdftex.def)             Requested size: 253.50397pt x 178.08096pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--452
+
+ []
+
+<Screen/base.PNG, id=387, 428.92245pt x 321.96284pt>
 File: Screen/base.PNG Graphic file (type png)
 <use Screen/base.PNG>
-Package pdftex.def Info: Screen/base.PNG  used on input line 362.
+Package pdftex.def Info: Screen/base.PNG  used on input line 456.
 (pdftex.def)             Requested size: 422.50232pt x 317.15247pt.
-<pictures/ralla.jpg, id=350, 2107.875pt x 1405.25pt>
+<pictures/ralla.jpg, id=388, 2107.875pt x 1405.25pt>
 File: pictures/ralla.jpg Graphic file (type jpg)
 <use pictures/ralla.jpg>
-Package pdftex.def Info: pictures/ralla.jpg  used on input line 370.
+Package pdftex.def Info: pictures/ralla.jpg  used on input line 464.
 (pdftex.def)             Requested size: 170.69191pt x 113.81102pt.
-<pictures/pignone.png, id=351, 377.41pt x 369.38pt>
+<pictures/pignone.png, id=389, 377.41pt x 369.38pt>
 File: pictures/pignone.png Graphic file (type png)
 <use pictures/pignone.png>
-Package pdftex.def Info: pictures/pignone.png  used on input line 372.
+Package pdftex.def Info: pictures/pignone.png  used on input line 466.
 (pdftex.def)             Requested size: 116.28178pt x 113.81102pt.
 
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
- [17
+ [21
 
 ]
-
-LaTeX Warning: Text page 18 contains only floats.
-
-[18 <./Screen/STEPPER.png> <./Screen/base.PNG>]
-<Plots/BASE/joint1_FAVOREVOLE.png, id=367, 1000.48781pt x 520.94624pt>
+<Plots/BASE/joint1_FAVOREVOLE.png, id=397, 1000.48781pt x 520.94624pt>
 File: Plots/BASE/joint1_FAVOREVOLE.png Graphic file (type png)
 <use Plots/BASE/joint1_FAVOREVOLE.png>
-Package pdftex.def Info: Plots/BASE/joint1_FAVOREVOLE.png  used on input line 3
-98.
+Package pdftex.def Info: Plots/BASE/joint1_FAVOREVOLE.png  used on input line 4
+93.
 (pdftex.def)             Requested size: 218.5661pt x 113.81102pt.
-<Plots/BASE/joint1_sfavorevole.png, id=368, 1044.90375pt x 520.94624pt>
+<Plots/BASE/joint1_sfavorevole.png, id=398, 1044.90375pt x 520.94624pt>
 File: Plots/BASE/joint1_sfavorevole.png Graphic file (type png)
 <use Plots/BASE/joint1_sfavorevole.png>
 Package pdftex.def Info: Plots/BASE/joint1_sfavorevole.png  used on input line 
-400.
+495.
 (pdftex.def)             Requested size: 228.2692pt x 113.81102pt.
 
-Overfull \hbox (48.33301pt too wide) in paragraph at lines 397--402
+Overfull \hbox (48.33301pt too wide) in paragraph at lines 492--497
  [][] 
  []
 
-<Plots/BASE/joint1_forze.png, id=369, 931.98187pt x 539.01375pt>
+<Plots/BASE/joint1_forze.png, id=399, 931.98187pt x 539.01375pt>
 File: Plots/BASE/joint1_forze.png Graphic file (type png)
 <use Plots/BASE/joint1_forze.png>
-Package pdftex.def Info: Plots/BASE/joint1_forze.png  used on input line 408.
+Package pdftex.def Info: Plots/BASE/joint1_forze.png  used on input line 503.
 (pdftex.def)             Requested size: 253.50397pt x 146.61308pt.
-<Plots/BASE/joint1_ralla.png, id=370, 982.42032pt x 532.99126pt>
+<Plots/BASE/joint1_ralla.png, id=400, 982.42032pt x 532.99126pt>
 File: Plots/BASE/joint1_ralla.png Graphic file (type png)
 <use Plots/BASE/joint1_ralla.png>
-Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 414.
+Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 509.
 (pdftex.def)             Requested size: 253.50397pt x 137.53346pt.
-[19 <./pictures/ralla.jpg> <./pictures/pignone.png>]
-<image/basefoto.png, id=383, 1067.99pt x 829.0975pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--516
+
+ []
+
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.516 			
+          <./Screen/STEPPER.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.516 			
+         pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.516 			
+          <./Screen/base.PNG> <./pictures/ralla.jpg> <./pictures/pignone.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 517--519
+
+ []
+
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.519 			
+         pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.519 			
+         pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.6}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.519 			
+          <./Plots/BASE/joint1_FAVOREVOLE.png> <./Plots/BASE/joint1_sfavorevole
+.png> <./Plots/BASE/joint1_forze.png> <./Plots/BASE/joint1_ralla.png>]
+<image/basefoto.png, id=425, 1067.99pt x 829.0975pt>
 File: image/basefoto.png Graphic file (type png)
 <use image/basefoto.png>
-Package pdftex.def Info: image/basefoto.png  used on input line 430.
+Package pdftex.def Info: image/basefoto.png  used on input line 525.
 (pdftex.def)             Requested size: 168.99834pt x 131.1908pt.
-
-Underfull \vbox (badness 2426) has occurred while \output is active []
-
- [20 <./Plots/BASE/joint1_FAVOREVOLE.png> <./Plots/BASE/joint1_sfavorevole.png>
- <./Plots/BASE/joint1_forze.png> <./Plots/BASE/joint1_ralla.png>]
-<Plots/SPALLA/1motore/JOINT2_conservativo.png, id=389, 822.82407pt x 489.32813p
+<Plots/SPALLA/1motore/JOINT2_conservativo.png, id=426, 822.82407pt x 489.32813p
 t>
 File: Plots/SPALLA/1motore/JOINT2_conservativo.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2_conservativo.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2_conservativo.png  used on 
-input line 437.
+input line 532.
 (pdftex.def)             Requested size: 191.37994pt x 113.81102pt.
-<Plots/SPALLA/1motore/JOINT2-torque.png, id=390, 822.82407pt x 392.96812pt>
+<Plots/SPALLA/1motore/JOINT2-torque.png, id=427, 822.82407pt x 392.96812pt>
 File: Plots/SPALLA/1motore/JOINT2-torque.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2-torque.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2-torque.png  used on input 
-line 439.
+line 534.
 (pdftex.def)             Requested size: 238.29898pt x 113.81102pt.
 
-Overfull \hbox (31.17664pt too wide) in paragraph at lines 436--441
+Overfull \hbox (31.17664pt too wide) in paragraph at lines 531--536
  [][] 
  []
 
-<Plots/SPALLA/2motori/JOINT22favorevole.png, id=391, 987.69pt x 520.94624pt>
+<Plots/SPALLA/2motori/JOINT22favorevole.png, id=428, 987.69pt x 520.94624pt>
 File: Plots/SPALLA/2motori/JOINT22favorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22favorevole.png>
 Package pdftex.def Info: Plots/SPALLA/2motori/JOINT22favorevole.png  used on in
-put line 447.
+put line 542.
 (pdftex.def)             Requested size: 215.77031pt x 113.81102pt.
-<Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=392, 1014.79124pt x 545.78906p
+<Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=429, 1014.79124pt x 545.78906p
 t>
 File: Plots/SPALLA/2motori/JOINT22sfavorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22sfavorevole.png>
 Package pdftex.def Info: Plots/SPALLA/2motori/JOINT22sfavorevole.png  used on i
-nput line 449.
+nput line 544.
 (pdftex.def)             Requested size: 211.61046pt x 113.81102pt.
 
-Overfull \hbox (28.87848pt too wide) in paragraph at lines 446--451
+Overfull \hbox (28.87848pt too wide) in paragraph at lines 541--546
  [][] 
  []
 
-[21 <./image/basefoto.png> <./Plots/SPALLA/1motore/JOINT2_conservativo.png> <./
-Plots/SPALLA/1motore/JOINT2-torque.png> <./Plots/SPALLA/2motori/JOINT22favorevo
-le.png> <./Plots/SPALLA/2motori/JOINT22sfavorevole.png>]
-<Screen/cuscinetto.png, id=405, 245.83846pt x 189.94965pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--555
+
+ []
+
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.555 		
+        pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.3.8}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.555 		
+         <./image/basefoto.png> <./Plots/SPALLA/1motore/JOINT2_conservativo.png
+> <./Plots/SPALLA/1motore/JOINT2-torque.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+
+ []
+
+<Screen/cuscinetto.png, id=442, 245.83846pt x 189.94965pt>
 File: Screen/cuscinetto.png Graphic file (type png)
 <use Screen/cuscinetto.png>
-Package pdftex.def Info: Screen/cuscinetto.png  used on input line 476.
+Package pdftex.def Info: Screen/cuscinetto.png  used on input line 571.
 (pdftex.def)             Requested size: 168.99834pt x 130.58136pt.
-<image/jfl12.jpg, id=406, 722.7pt x 481.8pt>
+<image/jfl12.jpg, id=443, 722.7pt x 481.8pt>
 File: image/jfl12.jpg Graphic file (type jpg)
 <use image/jfl12.jpg>
-Package pdftex.def Info: image/jfl12.jpg  used on input line 478.
+Package pdftex.def Info: image/jfl12.jpg  used on input line 573.
 (pdftex.def)             Requested size: 168.99834pt x 112.66428pt.
-<image/kukabelt.jpg, id=408, 481.8pt x 361.35pt>
+[26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.580 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.3.10}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.580 	
+        <./Plots/SPALLA/2motori/JOINT22favorevole.png> <./Plots/SPALLA/2motori/
+JOINT22sfavorevole.png> <./Screen/cuscinetto.png> <./image/jfl12.jpg>]
+<image/kukabelt.jpg, id=452, 481.8pt x 361.35pt>
 File: image/kukabelt.jpg Graphic file (type jpg)
 <use image/kukabelt.jpg>
-Package pdftex.def Info: image/kukabelt.jpg  used on input line 492.
+Package pdftex.def Info: image/kukabelt.jpg  used on input line 587.
 (pdftex.def)             Requested size: 168.99834pt x 126.74457pt.
- [22 <./Screen/cuscinetto.png> <./image/jfl12.jpg>]
-<image/linearact.jpg, id=416, 1204.5pt x 579.16376pt>
+<image/linearact.jpg, id=454, 1204.5pt x 579.16376pt>
 File: image/linearact.jpg Graphic file (type jpg)
 <use image/linearact.jpg>
-Package pdftex.def Info: image/linearact.jpg  used on input line 504.
+Package pdftex.def Info: image/linearact.jpg  used on input line 599.
 (pdftex.def)             Requested size: 168.99834pt x 81.25911pt.
- [23 <./image/kukabelt.jpg> <./image/linearact.jpg>]
-<Plots/GOMITO/Joint3.png, id=424, 877.02657pt x 425.33907pt>
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+11}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.606 	
+        <./image/kukabelt.jpg>]
+<Plots/GOMITO/Joint3.png, id=462, 877.02657pt x 425.33907pt>
 File: Plots/GOMITO/Joint3.png Graphic file (type png)
 <use Plots/GOMITO/Joint3.png>
-Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 525.
+Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 621.
 (pdftex.def)             Requested size: 253.50397pt x 122.94276pt.
- [24 <./Plots/GOMITO/Joint3.png>]
-<image/dynamixel.png, id=431, 1284.8pt x 722.7pt>
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+12}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.639 	
+        <./image/linearact.jpg>]
+<image/dynamixel.png, id=469, 1284.8pt x 722.7pt>
 File: image/dynamixel.png Graphic file (type png)
 <use image/dynamixel.png>
-Package pdftex.def Info: image/dynamixel.png  used on input line 542.
+Package pdftex.def Info: image/dynamixel.png  used on input line 642.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
-<image/mx160data.png, id=432, 331.2375pt x 522.95375pt>
+<image/mx160data.png, id=470, 331.2375pt x 522.95375pt>
 File: image/mx160data.png Graphic file (type png)
 <use image/mx160data.png>
-Package pdftex.def Info: image/mx160data.png  used on input line 550.
+Package pdftex.def Info: image/mx160data.png  used on input line 650.
 (pdftex.def)             Requested size: 168.99834pt x 266.80661pt.
-<image/mx160figure.png, id=433, 516.93124pt x 471.7625pt>
+<image/mx160figure.png, id=471, 516.93124pt x 471.7625pt>
 File: image/mx160figure.png Graphic file (type png)
 <use image/mx160figure.png>
-Package pdftex.def Info: image/mx160figure.png  used on input line 552.
+Package pdftex.def Info: image/mx160figure.png  used on input line 652.
 (pdftex.def)             Requested size: 168.99834pt x 154.228pt.
- [25 <./image/dynamixel.png (PNG copy)>]
-[26 <./image/mx160data.png> <./image/mx160figure.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 660--663
+
+ []
+
+[29pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.663 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.3.14}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.663 	
+        <./Plots/GOMITO/Joint3.png> <./image/dynamixel.png (PNG copy)>]
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+\clearpage ...opskip \hbox {}\fi \fi \fi \newpage 
+                                                  \write \m@ne {}\vbox {}\pe...
+
+\\cleardoublepage [#1]->\clearpage 
+                                   \unless \ifodd \value {page} \if@twoside ...
+...
+l.668 \chapter
+              {Polso sferico, design e scelte progettuali} <./image/mx160data.p
+ng> <./image/mx160figure.png>]
 Capitolo 4.
-<image/sferico.png, id=449, 490.83376pt x 308.15125pt>
+<image/sferico.png, id=486, 490.83376pt x 308.15125pt>
 File: image/sferico.png Graphic file (type png)
 <use image/sferico.png>
-Package pdftex.def Info: image/sferico.png  used on input line 572.
+Package pdftex.def Info: image/sferico.png  used on input line 672.
 (pdftex.def)             Requested size: 253.50397pt x 159.1534pt.
-<Screen/wristsection.png, id=450, 440.3652pt x 348.8232pt>
+<Screen/wristsection.png, id=487, 440.3652pt x 348.8232pt>
 File: Screen/wristsection.png Graphic file (type png)
 <use Screen/wristsection.png>
-Package pdftex.def Info: Screen/wristsection.png  used on input line 579.
+Package pdftex.def Info: Screen/wristsection.png  used on input line 679.
 (pdftex.def)             Requested size: 507.00148pt x 401.62259pt.
 
-Overfull \hbox (84.49916pt too wide) in paragraph at lines 579--580
+Overfull \hbox (84.49916pt too wide) in paragraph at lines 679--680
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27
+ [31
 
- <./image/sferico.png>] [28 <./Screen/wristsection.png>]
-Overfull \hbox (2.21431pt too wide) in paragraph at lines 603--603
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.693 	
+        <./image/sferico.png>] [32pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.4.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.693 	
+        <./Screen/wristsection.png>]
+Overfull \hbox (2.21431pt too wide) in paragraph at lines 706--706
 []\T1/lmr/m/n/11 Spessore
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\T1/lmr/m/n/11 Largh.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\T1/lmr/m/n/11 E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\T1/lmr/m/n/11 E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\T1/lmr/m/n/11 Tensile
  []
 
 
-Overfull \hbox (1.25696pt too wide) in paragraph at lines 603--603
+Overfull \hbox (1.25696pt too wide) in paragraph at lines 706--706
 \T1/lmr/m/n/11 strength
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 603--603
+Underfull \hbox (badness 10000) in paragraph at lines 706--706
 []\T1/lmr/m/n/11 Elong.
  []
 
 
-Overfull \hbox (24.7739pt too wide) in paragraph at lines 601--625
+Overfull \hbox (24.7739pt too wide) in paragraph at lines 704--728
  [][][] 
  []
 
-<Screen/curvesmaterial.png, id=463, 627.09282pt x 405.01312pt>
+<Screen/curvesmaterial.png, id=501, 627.09282pt x 405.01312pt>
 File: Screen/curvesmaterial.png Graphic file (type png)
 <use Screen/curvesmaterial.png>
-Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 628.
+Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 731.
 (pdftex.def)             Requested size: 295.75032pt x 191.01744pt.
+[33pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}
+) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<argument> \@beginparpenalty 
+                             
+\addpenalty ...e \ifdim \lastskip =\z@ \penalty #1
+                                                  \relax \else \@tempskipb \...
+
+\@item ...tem \else \addpenalty \@beginparpenalty 
+                                                  \addvspace \@topsep \addvs...
+...
+l.743 		\item T
+               utta la parte in movimento del componente dovrà trovarsi all...
+] [34pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.761 	
+        <./Screen/curvesmaterial.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 765--767
+
+ []
+
+[35]
+Underfull \vbox (badness 1043) has occurred while \output is active []
+
+ [36]
+[37] (/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+[38]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 896.
+
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<Plots/POLSO1/wrist1.png, id=586, 360.34625pt x 393.47pt>
+File: Plots/POLSO1/wrist1.png Graphic file (type png)
+<use Plots/POLSO1/wrist1.png>
+Package pdftex.def Info: Plots/POLSO1/wrist1.png  used on input line 919.
+(pdftex.def)             Requested size: 168.99834pt x 184.52866pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
-[30 <./Screen/curvesmaterial.png>] [31] [32]
-(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-) [33]
-<Plots/POLSO1/wrist1.png, id=526, 360.34625pt x 393.47pt>
-File: Plots/POLSO1/wrist1.png Graphic file (type png)
-<use Plots/POLSO1/wrist1.png>
-Package pdftex.def Info: Plots/POLSO1/wrist1.png  used on input line 792.
-(pdftex.def)             Requested size: 253.50397pt x 276.80199pt.
-<Plots/POLSO1/polso1torque.png, id=527, 877.02657pt x 339.51843pt>
+ [39pdfTeX warning (ext4): destination with the same identifier (name{table.4.2
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.923 	
+       ]
+<Plots/POLSO1/polso1torque.png, id=613, 877.02657pt x 339.51843pt>
 File: Plots/POLSO1/polso1torque.png Graphic file (type png)
 <use Plots/POLSO1/polso1torque.png>
-Package pdftex.def Info: Plots/POLSO1/polso1torque.png  used on input line 800.
+Package pdftex.def Info: Plots/POLSO1/polso1torque.png  used on input line 927.
 
-(pdftex.def)             Requested size: 253.50397pt x 98.13661pt.
-<Plots/POLSO1/polso1forces.png, id=528, 1042.64531pt x 548.0475pt>
+(pdftex.def)             Requested size: 422.50232pt x 163.56276pt.
+<Plots/POLSO1/polso1forces.png, id=614, 1042.64531pt x 548.0475pt>
 File: Plots/POLSO1/polso1forces.png Graphic file (type png)
 <use Plots/POLSO1/polso1forces.png>
-Package pdftex.def Info: Plots/POLSO1/polso1forces.png  used on input line 806.
+Package pdftex.def Info: Plots/POLSO1/polso1forces.png  used on input line 933.
 
-(pdftex.def)             Requested size: 253.50397pt x 133.2484pt.
-<Plots/POLSO1/gear_polso1.png, id=529, 595.47469pt x 374.14781pt>
+(pdftex.def)             Requested size: 422.50232pt x 222.08345pt.
+<Plots/POLSO1/gear_polso1.png, id=615, 595.47469pt x 374.14781pt>
 File: Plots/POLSO1/gear_polso1.png Graphic file (type png)
 <use Plots/POLSO1/gear_polso1.png>
-Package pdftex.def Info: Plots/POLSO1/gear_polso1.png  used on input line 812.
-(pdftex.def)             Requested size: 253.50397pt x 159.28188pt.
+Package pdftex.def Info: Plots/POLSO1/gear_polso1.png  used on input line 939.
+(pdftex.def)             Requested size: 211.25116pt x 132.72919pt.
 
-[34]
-<Plots/POLSO2/wrist2.png, id=567, 320.19624pt x 413.545pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\endfigure ...box \columnwidth \fi \box \@currbox 
+                                                  \vskip \intextsep \relax 
+\end ...use {@end@#1@hook}\csname end#1\endcsname 
+                                                  \@checkend {#1}\expandafte...
+l.942 		\end{figure}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.4.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\endfigure ...box \columnwidth \fi \box \@currbox 
+                                                  \vskip \intextsep \relax 
+\end ...use {@end@#1@hook}\csname end#1\endcsname 
+                                                  \@checkend {#1}\expandafte...
+l.942 		\end{figure}
+                     <./Plots/POLSO1/wrist1.png> <./Plots/POLSO1/polso1torque.p
+ng>]
+<Plots/POLSO2/wrist2.png, id=623, 320.19624pt x 413.545pt>
 File: Plots/POLSO2/wrist2.png Graphic file (type png)
 <use Plots/POLSO2/wrist2.png>
-Package pdftex.def Info: Plots/POLSO2/wrist2.png  used on input line 834.
-(pdftex.def)             Requested size: 253.50397pt x 327.41632pt.
-<Plots/POLSO2/polso2torque.png, id=568, 1040.38687pt x 533.74406pt>
+Package pdftex.def Info: Plots/POLSO2/wrist2.png  used on input line 961.
+(pdftex.def)             Requested size: 168.99834pt x 218.26913pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+6}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\endfigure ...box \columnwidth \fi \box \@currbox 
+                                                  \vskip \intextsep \relax 
+\end ...use {@end@#1@hook}\csname end#1\endcsname 
+                                                  \@checkend {#1}\expandafte...
+l.964 		\end{figure}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.4.7}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\endfigure ...box \columnwidth \fi \box \@currbox 
+                                                  \vskip \intextsep \relax 
+\end ...use {@end@#1@hook}\csname end#1\endcsname 
+                                                  \@checkend {#1}\expandafte...
+l.964 		\end{figure}
+                     <./Plots/POLSO1/polso1forces.png> <./Plots/POLSO1/gear_pol
+so1.png>]
+<Plots/POLSO2/polso2torque.png, id=631, 1040.38687pt x 533.74406pt>
 File: Plots/POLSO2/polso2torque.png Graphic file (type png)
 <use Plots/POLSO2/polso2torque.png>
-Package pdftex.def Info: Plots/POLSO2/polso2torque.png  used on input line 840.
+Package pdftex.def Info: Plots/POLSO2/polso2torque.png  used on input line 967.
 
-(pdftex.def)             Requested size: 253.50397pt x 130.04767pt.
-<Plots/POLSO2/polso2forces.png, id=569, 1068.99374pt x 495.35063pt>
+(pdftex.def)             Requested size: 422.50232pt x 216.75154pt.
+<Plots/POLSO2/polso2forces.png, id=632, 1068.99374pt x 495.35063pt>
 File: Plots/POLSO2/polso2forces.png Graphic file (type png)
 <use Plots/POLSO2/polso2forces.png>
-Package pdftex.def Info: Plots/POLSO2/polso2forces.png  used on input line 846.
+Package pdftex.def Info: Plots/POLSO2/polso2forces.png  used on input line 973.
 
-(pdftex.def)             Requested size: 253.50397pt x 117.46559pt.
-<Plots/POLSO2/gear_polso2.png, id=570, 602.25pt x 377.91188pt>
+(pdftex.def)             Requested size: 422.50232pt x 195.7785pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42pdfTeX warning (ext4): destination with the same identifier (name{table.4.3
+}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\endfigure ...box \columnwidth \fi \box \@currbox 
+                                                  \vskip \intextsep \relax 
+\end ...use {@end@#1@hook}\csname end#1\endcsname 
+                                                  \@checkend {#1}\expandafte...
+l.976 		\end{figure}
+                    pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.4.8}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\endfigure ...box \columnwidth \fi \box \@currbox 
+                                                  \vskip \intextsep \relax 
+\end ...use {@end@#1@hook}\csname end#1\endcsname 
+                                                  \@checkend {#1}\expandafte...
+l.976 		\end{figure}
+                     <./Plots/POLSO2/wrist2.png>]
+<Plots/POLSO2/gear_polso2.png, id=640, 602.25pt x 377.91188pt>
 File: Plots/POLSO2/gear_polso2.png Graphic file (type png)
 <use Plots/POLSO2/gear_polso2.png>
-Package pdftex.def Info: Plots/POLSO2/gear_polso2.png  used on input line 852.
+Package pdftex.def Info: Plots/POLSO2/gear_polso2.png  used on input line 979.
 (pdftex.def)             Requested size: 253.50397pt x 159.07365pt.
-<Plots/POLSO3/gear_polso3.png, id=571, 596.2275pt x 374.90062pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+9}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.983 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.4.10}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.983 	
+        <./Plots/POLSO2/polso2torque.png> <./Plots/POLSO2/polso2forces.png>]
+<Plots/POLSO3/gear_polso3.png, id=648, 596.2275pt x 374.90062pt>
 File: Plots/POLSO3/gear_polso3.png Graphic file (type png)
 <use Plots/POLSO3/gear_polso3.png>
-Package pdftex.def Info: Plots/POLSO3/gear_polso3.png  used on input line 878.
+Package pdftex.def Info: Plots/POLSO3/gear_polso3.png  used on input line 1005.
+
 (pdftex.def)             Requested size: 253.50397pt x 159.40216pt.
- [35 <./Plots/POLSO1/wrist1.png> <./Plots/POLSO1/polso1torque.png>]
-[36] [37 <./Plots/POLSO1/polso1forces.png> <./Plots/POLSO1/gear_polso1.png>]
-[38 <./Plots/POLSO2/wrist2.png> <./Plots/POLSO2/polso2torque.png>] [39 <./Plots
-/POLSO2/polso2forces.png> <./Plots/POLSO2/gear_polso2.png> <./Plots/POLSO3/gear
-_polso3.png>] [40
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1016
+
+ []
+
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1
+1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1016 		
+         pdfTeX warning (ext4): destination with the same identifier (name{tabl
+e.4.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1016 		
+         pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.12}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1016 		
+          <./Plots/POLSO2/gear_polso2.png> <./Plots/POLSO3/gear_polso3.png>]
+[45] [46
 
 ]
 Capitolo 5.
-<Screen/pack1.png, id=613, 690.32906pt x 539.76656pt>
+<Screen/pack1.png, id=670, 690.32906pt x 539.76656pt>
 File: Screen/pack1.png Graphic file (type png)
 <use Screen/pack1.png>
-Package pdftex.def Info: Screen/pack1.png  used on input line 897.
+Package pdftex.def Info: Screen/pack1.png  used on input line 1034.
 (pdftex.def)             Requested size: 147.87839pt x 115.6275pt.
-<Screen/pack2.png, id=614, 692.5875pt x 537.50812pt>
+<Screen/pack2.png, id=671, 692.5875pt x 537.50812pt>
 File: Screen/pack2.png Graphic file (type png)
 <use Screen/pack2.png>
-Package pdftex.def Info: Screen/pack2.png  used on input line 899.
+Package pdftex.def Info: Screen/pack2.png  used on input line 1036.
 (pdftex.def)             Requested size: 147.87839pt x 114.76642pt.
-<Screen/pack3.png, id=615, 688.07062pt x 533.74406pt>
+<Screen/pack3.png, id=672, 688.07062pt x 533.74406pt>
 File: Screen/pack3.png Graphic file (type png)
 <use Screen/pack3.png>
-Package pdftex.def Info: Screen/pack3.png  used on input line 901.
+Package pdftex.def Info: Screen/pack3.png  used on input line 1038.
 (pdftex.def)             Requested size: 147.87839pt x 114.70386pt.
 
-Overfull \hbox (57.13289pt too wide) in paragraph at lines 896--903
+Overfull \hbox (57.13289pt too wide) in paragraph at lines 1033--1040
  [][] 
  []
 
-<image/uprint.jpg, id=616, 2457.18pt x 3276.24pt>
+<image/uprint.jpg, id=673, 2457.18pt x 3276.24pt>
 File: image/uprint.jpg Graphic file (type jpg)
 <use image/uprint.jpg>
-Package pdftex.def Info: image/uprint.jpg  used on input line 909.
+Package pdftex.def Info: image/uprint.jpg  used on input line 1046.
 (pdftex.def)             Requested size: 128.0028pt x 170.71652pt.
-<image/uprintp.jpg, id=617, 2457.18pt x 3276.24pt>
+<image/uprintp.jpg, id=674, 2457.18pt x 3276.24pt>
 File: image/uprintp.jpg Graphic file (type jpg)
 <use image/uprintp.jpg>
-Package pdftex.def Info: image/uprintp.jpg  used on input line 911.
+Package pdftex.def Info: image/uprintp.jpg  used on input line 1048.
 (pdftex.def)             Requested size: 128.0028pt x 170.71652pt.
+[47
 
-Overfull \hbox (28.28967pt too wide) in paragraph at lines 922--935
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
+has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1060 	
+         <./Screen/pack1.png> <./Screen/pack2.png> <./Screen/pack3.png>]
+Overfull \hbox (21.5842pt too wide) in paragraph at lines 1068--1081
  [][][] 
  []
 
-[41
+[48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+}) has been already used, duplicate ignored
 
- <./Screen/pack1.png> <./Screen/pack2.png> <./Screen/pack3.png>] [42]
-[43 <./image/uprint.jpg> <./image/uprintp.jpg>] [44
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+<everypar> 
+           \if@nobreak \@nobreakfalse \clubpenalty \@M \if@afterindent \else...
+<to be read again> 
+                   I
+l.1082 	I
+         n tabella \ref{tab:printcost} riportiamo i costi di stampa dei 3 pa...
+ <./image/uprint.jpg> <./image/uprintp.jpg>]
+<image/w1.jpg, id=692, 2457.18pt x 2690.05pt>
+File: image/w1.jpg Graphic file (type jpg)
+<use image/w1.jpg>
+Package pdftex.def Info: image/w1.jpg  used on input line 1115.
+(pdftex.def)             Requested size: 139.42653pt x 152.61201pt.
+<image/w2.jpg, id=693, 2445.135pt x 2436.10126pt>
+File: image/w2.jpg Graphic file (type jpg)
+<use image/w2.jpg>
+Package pdftex.def Info: image/w2.jpg  used on input line 1117.
+(pdftex.def)             Requested size: 139.42653pt x 138.91125pt.
+<image/w3.jpg, id=694, 2413.015pt x 2650.90375pt>
+File: image/w3.jpg Graphic file (type jpg)
+<use image/w3.jpg>
+Package pdftex.def Info: image/w3.jpg  used on input line 1119.
+(pdftex.def)             Requested size: 139.42653pt x 153.14174pt.
+
+Overfull \hbox (31.77731pt too wide) in paragraph at lines 1114--1121
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1127
+
+ []
+
+[49pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}
+) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1127 	
+        pdfTeX warning (ext4): destination with the same identifier (name{table
+.5.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1127 	
+        ]
+<image/wizard.png, id=704, 478.78876pt x 362.10281pt>
+File: image/wizard.png Graphic file (type png)
+<use image/wizard.png>
+Package pdftex.def Info: image/wizard.png  used on input line 1130.
+(pdftex.def)             Requested size: 253.50397pt x 191.72018pt.
+
+Underfull \vbox (badness 2142) has occurred while \output is active []
+
+ [50pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\@trivlist ...epadd \partopsep \else \unskip \par 
+                                                  \fi \if@inlabel \@noparite...
+
+\list ...klab \@nmbrlistfalse #2\relax \@trivlist 
+                                                  \parskip \parsep \parinden...
+
+\itemize ...\def \makelabel ##1{\hss \llap {##1}}}
+                                                  \fi 
+l.1138 	\begin{itemize}
+                       pdfTeX warning (ext4): destination with the same identif
+ier (name{figure.5.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\@trivlist ...epadd \partopsep \else \unskip \par 
+                                                  \fi \if@inlabel \@noparite...
+
+\list ...klab \@nmbrlistfalse #2\relax \@trivlist 
+                                                  \parskip \parsep \parinden...
+
+\itemize ...\def \makelabel ##1{\hss \llap {##1}}}
+                                                  \fi 
+l.1138 	\begin{itemize}
+                        <./image/w1.jpg> <./image/w2.jpg> <./image/w3.jpg> <./i
+mage/wizard.png>] [51] [52
 
 ]
 Capitolo 6.
-[45
+[53
 
-] [46
+] [54
 
-] [47
+] [55
 
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 994.
- [48
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 994.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1178.
+ [56
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1178.
  (./Tesi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 994.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 994.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1178.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1178.
+
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 1D6106CC2D2BEE9B17A630E6F037D8C1;3781.
+(rerunfilecheck)             Checksum: A66C3E2DF18C1EAF0FB2F08E5FB6D4F7;3933.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 29348 strings out of 492616
- 472821 string characters out of 6129481
- 809979 words of memory out of 5000000
- 32689 multiletter control sequences out of 15000+600000
- 611465 words of font info for 67 fonts, out of 8000000 for 9000
+ 29517 strings out of 492616
+ 475373 string characters out of 6129481
+ 804615 words of memory out of 5000000
+ 32825 multiletter control sequences out of 15000+600000
+ 611783 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,14n,75p,1077b,3821s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,14n,75p,802b,3823s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
-/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2
-019/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist
-/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc
-/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/
-lm-ec.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
+/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2019/
+texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2019/texmf-dist
+/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvi
+ps/lm/lm-mathex.enc}{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/lm/lm-m
+athsy.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive
 /2019/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2019/texm
@@ -1935,10 +3193,11 @@ lic/lm/lmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lmr1
 ve/2019/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2019/texm
 f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/lm/lmro9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
-blic/lm/lmsy10.pfb>
-Output written on Tesi.pdf (48 pages, 18182276 bytes).
+blic/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lm
+tt12.pfb>
+Output written on Tesi.pdf (56 pages, 31321373 bytes).
 PDF statistics:
- 782 PDF objects out of 1000 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
- 614 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 869 PDF objects out of 1000 (max. 8388607)
+ 224 named destinations out of 1000 (max. 500000)
+ 675 words of extra memory for PDF output out of 10000 (max. 10000000)
 
