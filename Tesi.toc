@@ -1,8 +1,8 @@
 \babel@toc {italian}{}
 \babel@toc {italian}{}
 \babel@toc {italian}{}
-\contentsline {chapter}{Elenco delle tabelle}{5}{chapter*.3}% 
-\contentsline {chapter}{Elenco delle figure}{7}{chapter*.4}% 
+\contentsline {chapter}{Elenco delle tabelle}{5}{chapter*.2}% 
+\contentsline {chapter}{Elenco delle figure}{7}{chapter*.3}% 
 \contentsline {chapter}{\numberline {1}Rover Esplorativi e di Assistenza: Scenari di missione}{9}{chapter.1}% 
 \contentsline {section}{\numberline {1.1}Dall'esplorazione robotica all'assistenza di equipaggi}{10}{section.1.1}% 
 \contentsline {section}{\numberline {1.2}Rover Challenge Series: regolamento e requisiti nelle competizioni tra Rover}{11}{section.1.2}% 
@@ -45,5 +45,5 @@
 \contentsline {section}{\numberline {6.1}Test e collaudo del Robot assemblato}{57}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Carichi massimi applicati e precisione ottenuta}{57}{section.6.2}% 
 \contentsline {section}{\numberline {6.3}Risultati nelle Competizioni studentesche }{57}{section.6.3}% 
-\contentsline {chapter}{Disegni ed elaborati tecnici}{59}{chapter*.5}% 
-\contentsline {chapter}{Bibliografia}{67}{chapter*.6}% 
+\contentsline {chapter}{Disegni ed elaborati tecnici}{59}{chapter*.4}% 
+\contentsline {chapter}{Bibliografia}{67}{chapter*.5}% 
