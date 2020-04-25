@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  25 APR 2020 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.11.6)  25 APR 2020 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1319,7 +1319,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-<logouno.png, id=190, 569.12625pt x 569.12625pt>
+<logouno.png, id=182, 569.12625pt x 569.12625pt>
 File: logouno.png Graphic file (type png)
 <use logouno.png>
 Package pdftex.def Info: logouno.png  used on input line 110.
@@ -1403,12 +1403,12 @@ File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
  [8]
 Capitolo 1.
-<image/amalia.png, id=400, 576.1525pt x 714.67pt>
+<image/amalia.png, id=398, 576.1525pt x 714.67pt>
 File: image/amalia.png Graphic file (type png)
 <use image/amalia.png>
 Package pdftex.def Info: image/amalia.png  used on input line 133.
 (pdftex.def)             Requested size: 126.75198pt x 157.21698pt.
-<image/toro.jpg, id=401, 1805.74625pt x 1268.74pt>
+<image/toro.jpg, id=399, 1805.74625pt x 1268.74pt>
 File: image/toro.jpg Graphic file (type jpg)
 <use image/toro.jpg>
 Package pdftex.def Info: image/toro.jpg  used on input line 135.
@@ -1438,7 +1438,7 @@ has been already used, duplicate ignored
                                                   \@startcolumn \@whilesw \i...
 l.146 
        <./image/amalia.png> <./image/toro.jpg>]
-<image/trinityerc.jpeg, id=409, 1284.8pt x 722.7pt>
+<image/trinityerc.jpeg, id=407, 1284.8pt x 722.7pt>
 File: image/trinityerc.jpeg Graphic file (type jpg)
 <use image/trinityerc.jpeg>
 Package pdftex.def Info: image/trinityerc.jpeg  used on input line 149.
@@ -1476,7 +1476,7 @@ Underfull \vbox (badness 2689) has occurred while \output is active []
                                                   \@startcolumn \@whilesw \i...
 l.170 
        <./image/trinityerc.jpeg>]
-<image/terrain.jpeg, id=414, 1445.4pt x 1084.05pt>
+<image/terrain.jpeg, id=412, 1445.4pt x 1084.05pt>
 File: image/terrain.jpeg Graphic file (type jpg)
 <use image/terrain.jpeg>
 Package pdftex.def Info: image/terrain.jpeg  used on input line 173.
@@ -1528,12 +1528,12 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<image/panel.png, id=420, 396.48125pt x 481.8pt>
+<image/panel.png, id=418, 396.48125pt x 481.8pt>
 File: image/panel.png Graphic file (type png)
 <use image/panel.png>
 Package pdftex.def Info: image/panel.png  used on input line 206.
 (pdftex.def)             Requested size: 168.99834pt x 205.36879pt.
-<image/mainttoro.jpg, id=421, 4015.0pt x 2673.99pt>
+<image/mainttoro.jpg, id=419, 4015.0pt x 2673.99pt>
 File: image/mainttoro.jpg Graphic file (type jpg)
 <use image/mainttoro.jpg>
 Package pdftex.def Info: image/mainttoro.jpg  used on input line 208.
@@ -1563,12 +1563,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--218
                                                   \@startcolumn \@whilesw \i...
 l.218 		
          <./image/panel.png> <./image/mainttoro.jpg>]
-<pictures/sci1.jpg, id=435, 1935.23pt x 1353.055pt>
+<pictures/sci1.jpg, id=433, 1935.23pt x 1353.055pt>
 File: pictures/sci1.jpg Graphic file (type jpg)
 <use pictures/sci1.jpg>
 Package pdftex.def Info: pictures/sci1.jpg  used on input line 237.
 (pdftex.def)             Requested size: 211.25116pt x 147.70097pt.
-<pictures/sci2.jpg, id=436, 4015.0pt x 2673.99pt>
+<pictures/sci2.jpg, id=434, 4015.0pt x 2673.99pt>
 File: pictures/sci2.jpg Graphic file (type jpg)
 <use pictures/sci2.jpg>
 Package pdftex.def Info: pictures/sci2.jpg  used on input line 239.
@@ -1607,17 +1607,17 @@ Overfull \hbox (24.00003pt too wide) in paragraph at lines 236--241
                                                   \fi 
 l.252 		\begin{itemize}
                         <./pictures/sci1.jpg> <./pictures/sci2.jpg>]
-<pictures/cache1.jpg, id=443, 2026.57124pt x 1576.89125pt>
+<pictures/cache1.jpg, id=441, 2026.57124pt x 1576.89125pt>
 File: pictures/cache1.jpg Graphic file (type jpg)
 <use pictures/cache1.jpg>
 Package pdftex.def Info: pictures/cache1.jpg  used on input line 272.
 (pdftex.def)             Requested size: 211.25116pt x 164.36336pt.
-<pictures/cache2.png, id=444, 722.7pt x 1284.8pt>
+<pictures/cache2.png, id=442, 722.7pt x 1284.8pt>
 File: pictures/cache2.png Graphic file (type png)
 <use pictures/cache2.png>
 Package pdftex.def Info: pictures/cache2.png  used on input line 279.
 (pdftex.def)             Requested size: 168.99834pt x 300.43811pt.
-<pictures/cache3.png, id=445, 722.7pt x 1284.8pt>
+<pictures/cache3.png, id=443, 722.7pt x 1284.8pt>
 File: pictures/cache3.png Graphic file (type png)
 <use pictures/cache3.png>
 Package pdftex.def Info: pictures/cache3.png  used on input line 281.
@@ -1795,17 +1795,17 @@ Underfull \vbox (badness 10000) detected at line 327
 [17
 
 ] [18]
-<pictures/6DOF.png, id=471, 963.6pt x 542.025pt>
+<pictures/6DOF.png, id=469, 963.6pt x 542.025pt>
 File: pictures/6DOF.png Graphic file (type png)
 <use pictures/6DOF.png>
 Package pdftex.def Info: pictures/6DOF.png  used on input line 349.
 (pdftex.def)             Requested size: 422.50232pt x 237.6564pt.
-<pictures/KUKA.png, id=472, 853.1875pt x 880.28876pt>
+<pictures/KUKA.png, id=470, 853.1875pt x 880.28876pt>
 File: pictures/KUKA.png Graphic file (type png)
 <use pictures/KUKA.png>
 Package pdftex.def Info: pictures/KUKA.png  used on input line 358.
 (pdftex.def)             Requested size: 253.50397pt x 261.54999pt.
-<Plots/workspace.png, id=473, 1084.05pt x 589.4522pt>
+<Plots/workspace.png, id=471, 1084.05pt x 589.4522pt>
 File: Plots/workspace.png Graphic file (type png)
 <use Plots/workspace.png>
 Package pdftex.def Info: Plots/workspace.png  used on input line 365.
@@ -1879,17 +1879,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
                                                   \@startcolumn \@whilesw \i...
 l.393 
        <./Plots/workspace.png (PNG copy)>]
-<pictures/ARM.png, id=491, 163.812pt x 100.4553pt>
+<pictures/ARM.png, id=489, 163.812pt x 100.4553pt>
 File: pictures/ARM.png Graphic file (type png)
 <use pictures/ARM.png>
 Package pdftex.def Info: pictures/ARM.png  used on input line 396.
 (pdftex.def)             Requested size: 295.75032pt x 181.39726pt.
-<Screen/ARMBollato.png, id=492, 354.72525pt x 445.30365pt>
+<Screen/ARMBollato.png, id=490, 354.72525pt x 445.30365pt>
 File: Screen/ARMBollato.png Graphic file (type png)
 <use Screen/ARMBollato.png>
 Package pdftex.def Info: Screen/ARMBollato.png  used on input line 402.
 (pdftex.def)             Requested size: 295.75032pt x 371.27344pt.
-<Screen/Model1.png, id=494, 927.465pt x 484.81125pt>
+<Screen/Model1.png, id=492, 927.465pt x 484.81125pt>
 File: Screen/Model1.png Graphic file (type png)
 <use Screen/Model1.png>
 Package pdftex.def Info: Screen/Model1.png  used on input line 417.
@@ -1936,12 +1936,12 @@ me identifier (name{figure.2.5}) has been already used, duplicate ignored
                                                   \@startcolumn \@whilesw \i...
 l.421 	
         <./Screen/ARMBollato.png>]
-<Screen/inertia.png, id=507, 740.0147pt x 488.57532pt>
+<Screen/inertia.png, id=505, 740.0147pt x 488.57532pt>
 File: Screen/inertia.png Graphic file (type png)
 <use Screen/inertia.png>
 Package pdftex.def Info: Screen/inertia.png  used on input line 429.
 (pdftex.def)             Requested size: 172.37909pt x 113.81102pt.
-<Screen/coordinate.png, id=508, 473.51906pt x 431.36156pt>
+<Screen/coordinate.png, id=506, 473.51906pt x 431.36156pt>
 File: Screen/coordinate.png Graphic file (type png)
 <use Screen/coordinate.png>
 Package pdftex.def Info: Screen/coordinate.png  used on input line 431.
@@ -2006,7 +2006,7 @@ l.439 \chapter
               {Attuatori per un progetto di robotica low-cost} <./Screen/Model1
 .png> <./Screen/inertia.png> <./Screen/coordinate.png>]
 Capitolo 3.
-<Screen/STEPPER.png, id=516, 722.2182pt x 507.3354pt>
+<Screen/STEPPER.png, id=514, 722.2182pt x 507.3354pt>
 File: Screen/STEPPER.png Graphic file (type png)
 <use Screen/STEPPER.png>
 Package pdftex.def Info: Screen/STEPPER.png  used on input line 450.
@@ -2016,7 +2016,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 445--456
 
  []
 
-<Screen/base.PNG, id=517, 428.92245pt x 321.96284pt>
+<Screen/base.PNG, id=515, 428.92245pt x 321.96284pt>
 File: Screen/base.PNG Graphic file (type png)
 <use Screen/base.PNG>
 Package pdftex.def Info: Screen/base.PNG  used on input line 460.
@@ -2027,23 +2027,23 @@ Underfull \vbox (badness 1337) has occurred while \output is active []
  [25
 
 ]
-<pictures/ralla.jpg, id=524, 2107.875pt x 1405.25pt>
+<pictures/ralla.jpg, id=522, 2107.875pt x 1405.25pt>
 File: pictures/ralla.jpg Graphic file (type jpg)
 <use pictures/ralla.jpg>
 Package pdftex.def Info: pictures/ralla.jpg  used on input line 468.
 (pdftex.def)             Requested size: 170.69191pt x 113.81102pt.
-<pictures/pignone.png, id=525, 377.41pt x 369.38pt>
+<pictures/pignone.png, id=523, 377.41pt x 369.38pt>
 File: pictures/pignone.png Graphic file (type png)
 <use pictures/pignone.png>
 Package pdftex.def Info: pictures/pignone.png  used on input line 470.
 (pdftex.def)             Requested size: 116.28178pt x 113.81102pt.
-<Plots/BASE/joint1_FAVOREVOLE.png, id=528, 1000.48781pt x 520.94624pt>
+<Plots/BASE/joint1_FAVOREVOLE.png, id=526, 1000.48781pt x 520.94624pt>
 File: Plots/BASE/joint1_FAVOREVOLE.png Graphic file (type png)
 <use Plots/BASE/joint1_FAVOREVOLE.png>
 Package pdftex.def Info: Plots/BASE/joint1_FAVOREVOLE.png  used on input line 4
 97.
 (pdftex.def)             Requested size: 218.5661pt x 113.81102pt.
-<Plots/BASE/joint1_sfavorevole.png, id=529, 1044.90375pt x 520.94624pt>
+<Plots/BASE/joint1_sfavorevole.png, id=527, 1044.90375pt x 520.94624pt>
 File: Plots/BASE/joint1_sfavorevole.png Graphic file (type png)
 <use Plots/BASE/joint1_sfavorevole.png>
 Package pdftex.def Info: Plots/BASE/joint1_sfavorevole.png  used on input line 
@@ -2054,12 +2054,12 @@ Overfull \hbox (48.33301pt too wide) in paragraph at lines 496--501
  [][] 
  []
 
-<Plots/BASE/joint1_forze.png, id=530, 931.98187pt x 539.01375pt>
+<Plots/BASE/joint1_forze.png, id=528, 931.98187pt x 539.01375pt>
 File: Plots/BASE/joint1_forze.png Graphic file (type png)
 <use Plots/BASE/joint1_forze.png>
 Package pdftex.def Info: Plots/BASE/joint1_forze.png  used on input line 507.
 (pdftex.def)             Requested size: 253.50397pt x 146.61308pt.
-<Plots/BASE/joint1_ralla.png, id=531, 982.42032pt x 532.99126pt>
+<Plots/BASE/joint1_ralla.png, id=529, 982.42032pt x 532.99126pt>
 File: Plots/BASE/joint1_ralla.png Graphic file (type png)
 <use Plots/BASE/joint1_ralla.png>
 Package pdftex.def Info: Plots/BASE/joint1_ralla.png  used on input line 513.
@@ -2193,19 +2193,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 521--523
 
  []
 
-<image/basefoto.png, id=550, 1067.99pt x 829.0975pt>
+<image/basefoto.png, id=548, 1067.99pt x 829.0975pt>
 File: image/basefoto.png Graphic file (type png)
 <use image/basefoto.png>
 Package pdftex.def Info: image/basefoto.png  used on input line 529.
 (pdftex.def)             Requested size: 168.99834pt x 131.1908pt.
-<Plots/SPALLA/1motore/JOINT2_conservativo.png, id=551, 822.82407pt x 489.32813p
+<Plots/SPALLA/1motore/JOINT2_conservativo.png, id=549, 822.82407pt x 489.32813p
 t>
 File: Plots/SPALLA/1motore/JOINT2_conservativo.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2_conservativo.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2_conservativo.png  used on 
 input line 536.
 (pdftex.def)             Requested size: 191.37994pt x 113.81102pt.
-<Plots/SPALLA/1motore/JOINT2-torque.png, id=552, 822.82407pt x 392.96812pt>
+<Plots/SPALLA/1motore/JOINT2-torque.png, id=550, 822.82407pt x 392.96812pt>
 File: Plots/SPALLA/1motore/JOINT2-torque.png Graphic file (type png)
 <use Plots/SPALLA/1motore/JOINT2-torque.png>
 Package pdftex.def Info: Plots/SPALLA/1motore/JOINT2-torque.png  used on input 
@@ -2216,13 +2216,13 @@ Overfull \hbox (31.17664pt too wide) in paragraph at lines 535--540
  [][] 
  []
 
-<Plots/SPALLA/2motori/JOINT22favorevole.png, id=553, 987.69pt x 520.94624pt>
+<Plots/SPALLA/2motori/JOINT22favorevole.png, id=551, 987.69pt x 520.94624pt>
 File: Plots/SPALLA/2motori/JOINT22favorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22favorevole.png>
 Package pdftex.def Info: Plots/SPALLA/2motori/JOINT22favorevole.png  used on in
 put line 546.
 (pdftex.def)             Requested size: 215.77031pt x 113.81102pt.
-<Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=554, 1014.79124pt x 545.78906p
+<Plots/SPALLA/2motori/JOINT22sfavorevole.png, id=552, 1014.79124pt x 545.78906p
 t>
 File: Plots/SPALLA/2motori/JOINT22sfavorevole.png Graphic file (type png)
 <use Plots/SPALLA/2motori/JOINT22sfavorevole.png>
@@ -2283,22 +2283,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 570--571
 
  []
 
-<Screen/cuscinetto.png, id=564, 245.83846pt x 189.94965pt>
+<Screen/cuscinetto.png, id=562, 245.83846pt x 189.94965pt>
 File: Screen/cuscinetto.png Graphic file (type png)
 <use Screen/cuscinetto.png>
 Package pdftex.def Info: Screen/cuscinetto.png  used on input line 575.
 (pdftex.def)             Requested size: 168.99834pt x 130.58136pt.
-<image/jfl12.jpg, id=565, 722.7pt x 481.8pt>
+<image/jfl12.jpg, id=563, 722.7pt x 481.8pt>
 File: image/jfl12.jpg Graphic file (type jpg)
 <use image/jfl12.jpg>
 Package pdftex.def Info: image/jfl12.jpg  used on input line 577.
 (pdftex.def)             Requested size: 168.99834pt x 112.66428pt.
-<image/kukabelt.jpg, id=567, 481.8pt x 361.35pt>
+<image/kukabelt.jpg, id=565, 481.8pt x 361.35pt>
 File: image/kukabelt.jpg Graphic file (type jpg)
 <use image/kukabelt.jpg>
 Package pdftex.def Info: image/kukabelt.jpg  used on input line 591.
 (pdftex.def)             Requested size: 168.99834pt x 126.74457pt.
-<image/linearact.jpg, id=569, 1204.5pt x 579.16376pt>
+<image/linearact.jpg, id=567, 1204.5pt x 579.16376pt>
 File: image/linearact.jpg Graphic file (type jpg)
 <use image/linearact.jpg>
 Package pdftex.def Info: image/linearact.jpg  used on input line 603.
@@ -2365,7 +2365,7 @@ l.610
                                                   \@startcolumn \@whilesw \i...
 l.610 	
         <./Screen/cuscinetto.png> <./image/jfl12.jpg> <./image/kukabelt.jpg>]
-<Plots/GOMITO/Joint3.png, id=581, 877.02657pt x 425.33907pt>
+<Plots/GOMITO/Joint3.png, id=579, 877.02657pt x 425.33907pt>
 File: Plots/GOMITO/Joint3.png Graphic file (type png)
 <use Plots/GOMITO/Joint3.png>
 Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 625.
@@ -2391,17 +2391,17 @@ Package pdftex.def Info: Plots/GOMITO/Joint3.png  used on input line 625.
                                                   \@startcolumn \@whilesw \i...
 l.633 	
         <./image/linearact.jpg>]
-<image/dynamixel.png, id=587, 1284.8pt x 722.7pt>
+<image/dynamixel.png, id=585, 1284.8pt x 722.7pt>
 File: image/dynamixel.png Graphic file (type png)
 <use image/dynamixel.png>
 Package pdftex.def Info: image/dynamixel.png  used on input line 645.
 (pdftex.def)             Requested size: 253.50397pt x 142.58557pt.
-<image/mx160data.png, id=588, 331.2375pt x 522.95375pt>
+<image/mx160data.png, id=586, 331.2375pt x 522.95375pt>
 File: image/mx160data.png Graphic file (type png)
 <use image/mx160data.png>
 Package pdftex.def Info: image/mx160data.png  used on input line 653.
 (pdftex.def)             Requested size: 168.99834pt x 266.80661pt.
-<image/mx160figure.png, id=589, 516.93124pt x 471.7625pt>
+<image/mx160figure.png, id=587, 516.93124pt x 471.7625pt>
 File: image/mx160figure.png Graphic file (type png)
 <use image/mx160figure.png>
 Package pdftex.def Info: image/mx160figure.png  used on input line 655.
@@ -2491,12 +2491,12 @@ l.671 \chapter
               {Polso sferico, design e scelte progettuali} <./image/dynamixel.p
 ng (PNG copy)> <./image/mx160data.png> <./image/mx160figure.png>]
 Capitolo 4.
-<image/sferico.png, id=602, 490.83376pt x 308.15125pt>
+<image/sferico.png, id=600, 490.83376pt x 308.15125pt>
 File: image/sferico.png Graphic file (type png)
 <use image/sferico.png>
 Package pdftex.def Info: image/sferico.png  used on input line 675.
 (pdftex.def)             Requested size: 253.50397pt x 159.1534pt.
-<Screen/wristsection.png, id=603, 440.3652pt x 348.8232pt>
+<Screen/wristsection.png, id=601, 440.3652pt x 348.8232pt>
 File: Screen/wristsection.png Graphic file (type png)
 <use Screen/wristsection.png>
 Package pdftex.def Info: Screen/wristsection.png  used on input line 682.
@@ -2589,7 +2589,7 @@ Overfull \hbox (24.7739pt too wide) in paragraph at lines 707--731
  [][][] 
  []
 
-<Screen/curvesmaterial.png, id=614, 627.09282pt x 405.01312pt>
+<Screen/curvesmaterial.png, id=612, 627.09282pt x 405.01312pt>
 File: Screen/curvesmaterial.png Graphic file (type png)
 <use Screen/curvesmaterial.png>
 Package pdftex.def Info: Screen/curvesmaterial.png  used on input line 734.
@@ -2659,7 +2659,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 899.
  (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<Plots/POLSO1/wrist1.png, id=697, 360.34625pt x 393.47pt>
+<Plots/POLSO1/wrist1.png, id=695, 360.34625pt x 393.47pt>
 File: Plots/POLSO1/wrist1.png Graphic file (type png)
 <use Plots/POLSO1/wrist1.png>
 Package pdftex.def Info: Plots/POLSO1/wrist1.png  used on input line 925.
@@ -2692,19 +2692,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 l.929 		N
          ella tabella \ref{tab:lewis1} troviamo i dati calcolati e in figura...
 ]
-<Plots/POLSO1/polso1torque.png, id=726, 877.02657pt x 339.51843pt>
+<Plots/POLSO1/polso1torque.png, id=724, 877.02657pt x 339.51843pt>
 File: Plots/POLSO1/polso1torque.png Graphic file (type png)
 <use Plots/POLSO1/polso1torque.png>
 Package pdftex.def Info: Plots/POLSO1/polso1torque.png  used on input line 933.
 
 (pdftex.def)             Requested size: 422.50232pt x 163.56276pt.
-<Plots/POLSO1/polso1forces.png, id=727, 1042.64531pt x 548.0475pt>
+<Plots/POLSO1/polso1forces.png, id=725, 1042.64531pt x 548.0475pt>
 File: Plots/POLSO1/polso1forces.png Graphic file (type png)
 <use Plots/POLSO1/polso1forces.png>
 Package pdftex.def Info: Plots/POLSO1/polso1forces.png  used on input line 939.
 
 (pdftex.def)             Requested size: 422.50232pt x 222.08345pt.
-<Plots/POLSO1/gear_polso1.png, id=728, 595.47469pt x 374.14781pt>
+<Plots/POLSO1/gear_polso1.png, id=726, 595.47469pt x 374.14781pt>
 File: Plots/POLSO1/gear_polso1.png Graphic file (type png)
 <use Plots/POLSO1/gear_polso1.png>
 Package pdftex.def Info: Plots/POLSO1/gear_polso1.png  used on input line 945.
@@ -2822,7 +2822,7 @@ ier (name{figure.4.7}) has been already used, duplicate ignored
 l.953 		\begin{itemize}
                         <./Plots/POLSO1/polso1forces.png> <./Plots/POLSO1/gear_
 polso1.png>]
-<Plots/POLSO2/wrist2.png, id=742, 320.19624pt x 413.545pt>
+<Plots/POLSO2/wrist2.png, id=740, 320.19624pt x 413.545pt>
 File: Plots/POLSO2/wrist2.png Graphic file (type png)
 <use Plots/POLSO2/wrist2.png>
 Package pdftex.def Info: Plots/POLSO2/wrist2.png  used on input line 961.
@@ -2866,19 +2866,19 @@ l.981
                                                   \@startcolumn \@whilesw \i...
 l.981 		
          <./Plots/POLSO2/wrist2.png>]
-<Plots/POLSO2/polso2torque.png, id=749, 1040.38687pt x 533.74406pt>
+<Plots/POLSO2/polso2torque.png, id=747, 1040.38687pt x 533.74406pt>
 File: Plots/POLSO2/polso2torque.png Graphic file (type png)
 <use Plots/POLSO2/polso2torque.png>
 Package pdftex.def Info: Plots/POLSO2/polso2torque.png  used on input line 987.
 
 (pdftex.def)             Requested size: 422.50232pt x 216.75154pt.
-<Plots/POLSO2/polso2forces.png, id=750, 1068.99374pt x 495.35063pt>
+<Plots/POLSO2/polso2forces.png, id=748, 1068.99374pt x 495.35063pt>
 File: Plots/POLSO2/polso2forces.png Graphic file (type png)
 <use Plots/POLSO2/polso2forces.png>
 Package pdftex.def Info: Plots/POLSO2/polso2forces.png  used on input line 993.
 
 (pdftex.def)             Requested size: 422.50232pt x 195.7785pt.
-<Plots/POLSO2/gear_polso2.png, id=751, 602.25pt x 377.91188pt>
+<Plots/POLSO2/gear_polso2.png, id=749, 602.25pt x 377.91188pt>
 File: Plots/POLSO2/gear_polso2.png Graphic file (type png)
 <use Plots/POLSO2/gear_polso2.png>
 Package pdftex.def Info: Plots/POLSO2/gear_polso2.png  used on input line 999.
@@ -2928,7 +2928,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10})
 l.1003 		I
            valori calcolati in tabella \ref{tab:lewis2} mostrano valori magg...
  <./Plots/POLSO2/polso2torque.png> <./Plots/POLSO2/polso2forces.png>]
-<Plots/POLSO3/gear_polso3.png, id=760, 596.2275pt x 374.90062pt>
+<Plots/POLSO3/gear_polso3.png, id=758, 596.2275pt x 374.90062pt>
 File: Plots/POLSO3/gear_polso3.png Graphic file (type png)
 <use Plots/POLSO3/gear_polso3.png>
 Package pdftex.def Info: Plots/POLSO3/gear_polso3.png  used on input line 1029.
@@ -3023,17 +3023,17 @@ ots/POLSO3/gear_polso3.png>] [50
 
 ]
 Capitolo 5.
-<Screen/pack1.png, id=782, 690.32906pt x 539.76656pt>
+<Screen/pack1.png, id=780, 690.32906pt x 539.76656pt>
 File: Screen/pack1.png Graphic file (type png)
 <use Screen/pack1.png>
 Package pdftex.def Info: Screen/pack1.png  used on input line 1060.
 (pdftex.def)             Requested size: 147.87839pt x 115.6275pt.
-<Screen/pack2.png, id=783, 692.5875pt x 537.50812pt>
+<Screen/pack2.png, id=781, 692.5875pt x 537.50812pt>
 File: Screen/pack2.png Graphic file (type png)
 <use Screen/pack2.png>
 Package pdftex.def Info: Screen/pack2.png  used on input line 1062.
 (pdftex.def)             Requested size: 147.87839pt x 114.76642pt.
-<Screen/pack3.png, id=784, 688.07062pt x 533.74406pt>
+<Screen/pack3.png, id=782, 688.07062pt x 533.74406pt>
 File: Screen/pack3.png Graphic file (type png)
 <use Screen/pack3.png>
 Package pdftex.def Info: Screen/pack3.png  used on input line 1064.
@@ -3043,12 +3043,12 @@ Overfull \hbox (57.13289pt too wide) in paragraph at lines 1059--1066
  [][] 
  []
 
-<image/uprint.jpg, id=785, 2457.18pt x 3276.24pt>
+<image/uprint.jpg, id=783, 2457.18pt x 3276.24pt>
 File: image/uprint.jpg Graphic file (type jpg)
 <use image/uprint.jpg>
 Package pdftex.def Info: image/uprint.jpg  used on input line 1072.
 (pdftex.def)             Requested size: 128.0028pt x 170.71652pt.
-<image/uprintp.jpg, id=786, 2457.18pt x 3276.24pt>
+<image/uprintp.jpg, id=784, 2457.18pt x 3276.24pt>
 File: image/uprintp.jpg Graphic file (type jpg)
 <use image/uprintp.jpg>
 Package pdftex.def Info: image/uprintp.jpg  used on input line 1074.
@@ -3104,17 +3104,17 @@ Overfull \hbox (21.5842pt too wide) in paragraph at lines 1094--1107
 l.1108 	I
          n tabella \ref{tab:printcost} riportiamo i costi di stampa dei 3 pa...
  <./image/uprint.jpg> <./image/uprintp.jpg>]
-<image/w1.jpg, id=802, 2457.18pt x 2690.05pt>
+<image/w1.jpg, id=800, 2457.18pt x 2690.05pt>
 File: image/w1.jpg Graphic file (type jpg)
 <use image/w1.jpg>
 Package pdftex.def Info: image/w1.jpg  used on input line 1141.
 (pdftex.def)             Requested size: 139.42653pt x 152.61201pt.
-<image/w2.jpg, id=803, 2445.135pt x 2436.10126pt>
+<image/w2.jpg, id=801, 2445.135pt x 2436.10126pt>
 File: image/w2.jpg Graphic file (type jpg)
 <use image/w2.jpg>
 Package pdftex.def Info: image/w2.jpg  used on input line 1143.
 (pdftex.def)             Requested size: 139.42653pt x 138.91125pt.
-<image/w3.jpg, id=804, 2413.015pt x 2650.90375pt>
+<image/w3.jpg, id=802, 2413.015pt x 2650.90375pt>
 File: image/w3.jpg Graphic file (type jpg)
 <use image/w3.jpg>
 Package pdftex.def Info: image/w3.jpg  used on input line 1145.
@@ -3168,7 +3168,7 @@ l.1153
                                                   \@startcolumn \@whilesw \i...
 l.1153 	
         ]
-<image/wizard.png, id=811, 478.78876pt x 362.10281pt>
+<image/wizard.png, id=809, 478.78876pt x 362.10281pt>
 File: image/wizard.png Graphic file (type png)
 <use image/wizard.png>
 Package pdftex.def Info: image/wizard.png  used on input line 1156.
@@ -3237,249 +3237,373 @@ mage/wizard.png>] [55] [56
 
 ]
 Capitolo 6.
+<image/armfoto.jpg, id=823, 2457.18pt x 3276.24pt>
+File: image/armfoto.jpg Graphic file (type jpg)
+<use image/armfoto.jpg>
+Package pdftex.def Info: image/armfoto.jpg  used on input line 1182.
+(pdftex.def)             Requested size: 168.99834pt x 225.31093pt.
+<image/baseass.jpg, id=824, 1666.225pt x 1946.27126pt>
+File: image/baseass.jpg Graphic file (type jpg)
+<use image/baseass.jpg>
+Package pdftex.def Info: image/baseass.jpg  used on input line 1184.
+(pdftex.def)             Requested size: 168.99834pt x 197.4004pt.
+<image/5kg1.png, id=825, 722.7pt x 1284.8pt>
+File: image/5kg1.png Graphic file (type png)
+<use image/5kg1.png>
+Package pdftex.def Info: image/5kg1.png  used on input line 1192.
+(pdftex.def)             Requested size: 168.99834pt x 300.43811pt.
+<image/5kg2.png, id=826, 722.7pt x 1284.8pt>
+File: image/5kg2.png Graphic file (type png)
+<use image/5kg2.png>
+Package pdftex.def Info: image/5kg2.png  used on input line 1194.
+(pdftex.def)             Requested size: 168.99834pt x 300.43811pt.
+<Screen/coppelia.png, id=827, 1057.9525pt x 636.3775pt>
+File: Screen/coppelia.png Graphic file (type png)
+<use Screen/coppelia.png>
+Package pdftex.def Info: Screen/coppelia.png  used on input line 1201.
+(pdftex.def)             Requested size: 253.50397pt x 152.48125pt.
+<image/cace.png, id=828, 722.7pt x 1047.915pt>
+File: image/cace.png Graphic file (type png)
+<use image/cace.png>
+Package pdftex.def Info: image/cace.png  used on input line 1208.
+(pdftex.def)             Requested size: 156.97646pt x 227.62204pt.
+<image/mant.jpg, id=829, 3108.61375pt x 3993.92125pt>
+File: image/mant.jpg Graphic file (type jpg)
+<use image/mant.jpg>
+Package pdftex.def Info: image/mant.jpg  used on input line 1210.
+(pdftex.def)             Requested size: 177.16437pt x 227.62204pt.
 [57
 
-] [58
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) 
+has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1220  		
+           <./image/armfoto.jpg> <./image/baseass.jpg>] [58pdfTeX warning (ext4
+): destination with the same identifier (name{figure.6.2}) has been already use
+d, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1220  		
+          pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.6.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+l.1220  		
+           <./image/5kg1.png (PNG copy)> <./image/5kg2.png (PNG copy)> <./Scree
+n/coppelia.png>] [59pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.6.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+\@EveryShipout@Test ...else \@EveryShipout@Output 
+                                                  \fi 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+<to be read again> \AtBegShi@Output 
+                                    \endgroup \set@typeset@protect 
+\@outputpage ...width {\@thefoot }\color@endbox }}
+                                                  \global \let \if@newlist \...
+
+\@opcol ...lumn \@outputdblcol \else \@outputpage 
+                                                  \fi \global \@mparbottom \...
+<output> ...specialoutput \else \@makecol \@opcol 
+                                                  \@startcolumn \@whilesw \i...
+
+\newpage ...prevdepth \fi \fi \vfil \penalty -\@M 
+                                                  
+\clearpage ...opskip \hbox {}\fi \fi \fi \newpage 
+                                                  \write \m@ne {}\vbox {}\pe...
+
+\\cleardoublepage [#1]->\clearpage 
+                                   \unless \ifodd \value {page} \if@twoside ...
+...
+l.1223 \backmatter
+                   <./image/cace.png> <./image/mant.jpg>] [60
 
 ]
-<draws/Arm.pdf, id=833, 1195.01462pt x 845.0471pt>
+<draws/Arm.pdf, id=855, 1195.01462pt x 845.0471pt>
 File: draws/Arm.pdf Graphic file (type pdf)
 <use draws/Arm.pdf>
-Package pdftex.def Info: draws/Arm.pdf  used on input line 1183.
+Package pdftex.def Info: draws/Arm.pdf  used on input line 1225.
 (pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
 File: draws/Arm.pdf Graphic file (type pdf)
 <use draws/Arm.pdf>
-Package pdftex.def Info: draws/Arm.pdf  used on input line 1183.
+Package pdftex.def Info: draws/Arm.pdf  used on input line 1225.
 (pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-<draws/Arm.pdf, id=836, page=1, 1195.01462pt x 845.0471pt>
+<draws/Arm.pdf, id=858, page=1, 1195.01462pt x 845.0471pt>
 File: draws/Arm.pdf Graphic file (type pdf)
 <use draws/Arm.pdf, page 1>
-Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1225.
 (pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
 File: draws/Arm.pdf Graphic file (type pdf)
 <use draws/Arm.pdf, page 1>
-Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1225.
 (pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
- [59
+ [61
 
 
 ]
 File: draws/Arm.pdf Graphic file (type pdf)
 <use draws/Arm.pdf, page 1>
-Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1225.
 (pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
 File: draws/Arm.pdf Graphic file (type pdf)
 <use draws/Arm.pdf, page 1>
-Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1225.
 (pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
 File: draws/Arm.pdf Graphic file (type pdf)
 <use draws/Arm.pdf, page 1>
-Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1183.
+Package pdftex.def Info: draws/Arm.pdf , page1 used on input line 1225.
 (pdftex.def)             Requested size: 597.50584pt x 422.52252pt.
- [60 <./draws/Arm.pdf>]
-<draws/1.pdf, id=866, 845.0471pt x 597.50829pt>
+ [62 <./draws/Arm.pdf>]
+<draws/1.pdf, id=889, 845.0471pt x 597.50829pt>
 File: draws/1.pdf Graphic file (type pdf)
 <use draws/1.pdf>
-Package pdftex.def Info: draws/1.pdf  used on input line 1184.
+Package pdftex.def Info: draws/1.pdf  used on input line 1226.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/1.pdf Graphic file (type pdf)
 <use draws/1.pdf>
-Package pdftex.def Info: draws/1.pdf  used on input line 1184.
+Package pdftex.def Info: draws/1.pdf  used on input line 1226.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-<draws/1.pdf, id=869, page=1, 845.0471pt x 597.50829pt>
+<draws/1.pdf, id=892, page=1, 845.0471pt x 597.50829pt>
 File: draws/1.pdf Graphic file (type pdf)
 <use draws/1.pdf, page 1>
-Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1226.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/1.pdf Graphic file (type pdf)
 <use draws/1.pdf, page 1>
-Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1226.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/1.pdf Graphic file (type pdf)
 <use draws/1.pdf, page 1>
-Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1226.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/1.pdf Graphic file (type pdf)
 <use draws/1.pdf, page 1>
-Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1226.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/1.pdf Graphic file (type pdf)
 <use draws/1.pdf, page 1>
-Package pdftex.def Info: draws/1.pdf , page1 used on input line 1184.
+Package pdftex.def Info: draws/1.pdf , page1 used on input line 1226.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
- [61 <./draws/1.pdf>]
-<draws/2.pdf, id=888, 845.0471pt x 597.50829pt>
+ [63 <./draws/1.pdf>]
+<draws/2.pdf, id=910, 845.0471pt x 597.50829pt>
 File: draws/2.pdf Graphic file (type pdf)
 <use draws/2.pdf>
-Package pdftex.def Info: draws/2.pdf  used on input line 1185.
+Package pdftex.def Info: draws/2.pdf  used on input line 1227.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/2.pdf Graphic file (type pdf)
 <use draws/2.pdf>
-Package pdftex.def Info: draws/2.pdf  used on input line 1185.
+Package pdftex.def Info: draws/2.pdf  used on input line 1227.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-<draws/2.pdf, id=891, page=1, 845.0471pt x 597.50829pt>
+<draws/2.pdf, id=913, page=1, 845.0471pt x 597.50829pt>
 File: draws/2.pdf Graphic file (type pdf)
 <use draws/2.pdf, page 1>
-Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1227.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/2.pdf Graphic file (type pdf)
 <use draws/2.pdf, page 1>
-Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1227.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/2.pdf Graphic file (type pdf)
 <use draws/2.pdf, page 1>
-Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1227.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/2.pdf Graphic file (type pdf)
 <use draws/2.pdf, page 1>
-Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1227.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/2.pdf Graphic file (type pdf)
 <use draws/2.pdf, page 1>
-Package pdftex.def Info: draws/2.pdf , page1 used on input line 1185.
+Package pdftex.def Info: draws/2.pdf , page1 used on input line 1227.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
- [62 <./draws/2.pdf>]
-<draws/3.pdf, id=909, 845.0471pt x 597.50829pt>
+ [64 <./draws/2.pdf>]
+<draws/3.pdf, id=931, 845.0471pt x 597.50829pt>
 File: draws/3.pdf Graphic file (type pdf)
 <use draws/3.pdf>
-Package pdftex.def Info: draws/3.pdf  used on input line 1186.
+Package pdftex.def Info: draws/3.pdf  used on input line 1228.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/3.pdf Graphic file (type pdf)
 <use draws/3.pdf>
-Package pdftex.def Info: draws/3.pdf  used on input line 1186.
+Package pdftex.def Info: draws/3.pdf  used on input line 1228.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-<draws/3.pdf, id=912, page=1, 845.0471pt x 597.50829pt>
+<draws/3.pdf, id=934, page=1, 845.0471pt x 597.50829pt>
 File: draws/3.pdf Graphic file (type pdf)
 <use draws/3.pdf, page 1>
-Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1228.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/3.pdf Graphic file (type pdf)
 <use draws/3.pdf, page 1>
-Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1228.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/3.pdf Graphic file (type pdf)
 <use draws/3.pdf, page 1>
-Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1228.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/3.pdf Graphic file (type pdf)
 <use draws/3.pdf, page 1>
-Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1228.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/3.pdf Graphic file (type pdf)
 <use draws/3.pdf, page 1>
-Package pdftex.def Info: draws/3.pdf , page1 used on input line 1186.
+Package pdftex.def Info: draws/3.pdf , page1 used on input line 1228.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
-[63 <./draws/3.pdf>]
-<draws/3b.pdf, id=928, 845.0471pt x 597.50829pt>
+ [65 <./draws/3.pdf>]
+<draws/3b.pdf, id=950, 845.0471pt x 597.50829pt>
 File: draws/3b.pdf Graphic file (type pdf)
 <use draws/3b.pdf>
-Package pdftex.def Info: draws/3b.pdf  used on input line 1187.
+Package pdftex.def Info: draws/3b.pdf  used on input line 1229.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/3b.pdf Graphic file (type pdf)
 <use draws/3b.pdf>
-Package pdftex.def Info: draws/3b.pdf  used on input line 1187.
+Package pdftex.def Info: draws/3b.pdf  used on input line 1229.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-<draws/3b.pdf, id=931, page=1, 845.0471pt x 597.50829pt>
+<draws/3b.pdf, id=953, page=1, 845.0471pt x 597.50829pt>
 File: draws/3b.pdf Graphic file (type pdf)
 <use draws/3b.pdf, page 1>
-Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1229.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/3b.pdf Graphic file (type pdf)
 <use draws/3b.pdf, page 1>
-Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1229.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/3b.pdf Graphic file (type pdf)
 <use draws/3b.pdf, page 1>
-Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1229.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/3b.pdf Graphic file (type pdf)
 <use draws/3b.pdf, page 1>
-Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1229.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/3b.pdf Graphic file (type pdf)
 <use draws/3b.pdf, page 1>
-Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1187.
+Package pdftex.def Info: draws/3b.pdf , page1 used on input line 1229.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
- [64 <./draws/3b.pdf>]
-<draws/45.pdf, id=949, 845.0471pt x 597.50829pt>
+
+[66 <./draws/3b.pdf>]
+<draws/45.pdf, id=971, 845.0471pt x 597.50829pt>
 File: draws/45.pdf Graphic file (type pdf)
 <use draws/45.pdf>
-Package pdftex.def Info: draws/45.pdf  used on input line 1188.
+Package pdftex.def Info: draws/45.pdf  used on input line 1230.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/45.pdf Graphic file (type pdf)
 <use draws/45.pdf>
-Package pdftex.def Info: draws/45.pdf  used on input line 1188.
+Package pdftex.def Info: draws/45.pdf  used on input line 1230.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-<draws/45.pdf, id=952, page=1, 845.0471pt x 597.50829pt>
+<draws/45.pdf, id=974, page=1, 845.0471pt x 597.50829pt>
 File: draws/45.pdf Graphic file (type pdf)
 <use draws/45.pdf, page 1>
-Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1230.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/45.pdf Graphic file (type pdf)
 <use draws/45.pdf, page 1>
-Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1230.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/45.pdf Graphic file (type pdf)
 <use draws/45.pdf, page 1>
-Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1230.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/45.pdf Graphic file (type pdf)
 <use draws/45.pdf, page 1>
-Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1230.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/45.pdf Graphic file (type pdf)
 <use draws/45.pdf, page 1>
-Package pdftex.def Info: draws/45.pdf , page1 used on input line 1188.
+Package pdftex.def Info: draws/45.pdf , page1 used on input line 1230.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
- [65 <./draws/45.pdf>]
-<draws/56.pdf, id=972, 845.0471pt x 597.50829pt>
+ [67 <./draws/45.pdf>]
+<draws/56.pdf, id=995, 845.0471pt x 597.50829pt>
 File: draws/56.pdf Graphic file (type pdf)
 <use draws/56.pdf>
-Package pdftex.def Info: draws/56.pdf  used on input line 1189.
+Package pdftex.def Info: draws/56.pdf  used on input line 1231.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/56.pdf Graphic file (type pdf)
 <use draws/56.pdf>
-Package pdftex.def Info: draws/56.pdf  used on input line 1189.
+Package pdftex.def Info: draws/56.pdf  used on input line 1231.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
-<draws/56.pdf, id=975, page=1, 845.0471pt x 597.50829pt>
+<draws/56.pdf, id=998, page=1, 845.0471pt x 597.50829pt>
 File: draws/56.pdf Graphic file (type pdf)
 <use draws/56.pdf, page 1>
-Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1231.
 (pdftex.def)             Requested size: 845.04504pt x 597.50682pt.
 File: draws/56.pdf Graphic file (type pdf)
 <use draws/56.pdf, page 1>
-Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1231.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/56.pdf Graphic file (type pdf)
 <use draws/56.pdf, page 1>
-Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1231.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/56.pdf Graphic file (type pdf)
 <use draws/56.pdf, page 1>
-Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1231.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
 File: draws/56.pdf Graphic file (type pdf)
 <use draws/56.pdf, page 1>
-Package pdftex.def Info: draws/56.pdf , page1 used on input line 1189.
+Package pdftex.def Info: draws/56.pdf , page1 used on input line 1231.
 (pdftex.def)             Requested size: 597.53772pt x 422.50157pt.
- [66 <./draws/56.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1206.
- [67
+ [68 <./draws/56.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1248.
+ [69
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1206.
- (./Tesi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1206.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1206.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1248.
+
+(./Tesi.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1248.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1248.
 
 Package rerunfilecheck Info: File `Tesi.out' has not changed.
-(rerunfilecheck)             Checksum: A5E6859807669A68FD00E13E8C768D9B;4056.
+(rerunfilecheck)             Checksum: 6F513B351D068AED8C3137E2A9CF6F2E;3848.
  ) 
 Here is how much of TeX's memory you used:
- 30305 strings out of 492616
- 488220 string characters out of 6129481
- 821136 words of memory out of 5000000
- 33559 multiletter control sequences out of 15000+600000
+ 30346 strings out of 492616
+ 488907 string characters out of 6129481
+ 821448 words of memory out of 5000000
+ 33589 multiletter control sequences out of 15000+600000
  611783 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,18n,75p,802b,3823s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3502,9 +3626,9 @@ f-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2019/texmf-dist/fon
 ts/type1/public/lm/lmro9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/pu
 blic/lm/lmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/lm/lm
 tt12.pfb>
-Output written on Tesi.pdf (67 pages, 32053204 bytes).
+Output written on Tesi.pdf (69 pages, 41581226 bytes).
 PDF statistics:
- 1137 PDF objects out of 1200 (max. 8388607)
- 236 named destinations out of 1000 (max. 500000)
- 831 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1159 PDF objects out of 1200 (max. 8388607)
+ 240 named destinations out of 1000 (max. 500000)
+ 850 words of extra memory for PDF output out of 10000 (max. 10000000)
 

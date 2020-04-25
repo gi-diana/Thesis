@@ -43,7 +43,5 @@
 \contentsline {section}{\numberline {5.3}Assemblaggio}{53}{section.5.3}% 
 \contentsline {chapter}{\numberline {6}Risultati attesi ed ottenuti dal Robot realizzato}{57}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}Test e collaudo del Robot assemblato}{57}{section.6.1}% 
-\contentsline {section}{\numberline {6.2}Carichi massimi applicati e precisione ottenuta}{57}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Risultati nelle Competizioni studentesche }{57}{section.6.3}% 
-\contentsline {chapter}{Disegni ed elaborati tecnici}{59}{chapter*.4}% 
-\contentsline {chapter}{Bibliografia}{67}{chapter*.5}% 
+\contentsline {chapter}{Disegni ed elaborati tecnici}{61}{chapter*.4}% 
+\contentsline {chapter}{Bibliografia}{69}{chapter*.5}% 
