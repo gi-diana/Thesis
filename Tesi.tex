@@ -475,7 +475,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 		Per il Joint 1, su cui ruota tutta la struttura del robot nel piano orizzontale, è necessario realizzare una base rigida su cui gravano il peso dell'intero robot ed un importante momento quando il braccio è completamente disteso e a sbalzo.\\
 		 Perciò è stato impiegato un apposito giunto asso-radiale prodotto da IGUS, il \textit{PRT-01-30} in figura \ref{fig:RALLA}. \\
 		La ralla IGUS è dotata di una corona esterna dentata di modulo unificato 2 e 54 denti perciò è stato possibile applicare un pignone prodotto da \textit{MISUMI codice GEAKS2.0-18-20-B-12N} al motoriduttore con 18 denti per realizzare un rapporto di riduzione 1 a 3. L'angolo di pressione è standard di 20° e la dentatura è a denti dritti. 
-		
+		\\
 		\begin{tabular}{|c|c|c|c|c|c|c|c|}
 			
 			\hline
@@ -485,7 +485,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 			\hline
 			
 		\end{tabular}
-		
+		\\
 		Si assume che la dentatura di modulo 2 in acciaio sia in grado di trasmettere la potenza prodotta dal motoriduttore con ampio margine di sicurezza, pertanto non è stata dimensionata ma sono state verificate le forze scambiate dal modello multibody in figura \ref{fig:MBDforze1}. \\
 		Dal modello multibody sono state misurati due set di dati: quelli relativi alla ralla e quelli relativi all'attuazione. \\
 		In figura possiamo valutare la coppia richiesta all'attuatore dalla trasmissione con rapporto di riduzione 1 a 3 per realizzare una rotazione della base con il braccio in posizione distesa e ritratta, evidenziando l'impatto della posizione del braccio sulla prestazione del motore. \\
@@ -530,6 +530,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 			\caption{Disposizione dei motori passo-passo e della ruota condotta flagiata al link 3}
 			\label{fig:Stepper_foto}
 		\end{figure}
+	
 		\begin{figure}[!ht]
 			\centering
 			\begin{tabular}{ll}
@@ -566,7 +567,8 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 			\hline
 			
 		\end{tabular}
-		
+		\\
+		\\
 		L'ingranamento non è stato dimensionato in quanto si ritiene sicuramente verificato per la potenza in gioco  ruota condotta applicata al link 3 offre un perfetto compromesso dimensionale per poterla flagiare direttamente sul link 3 come si vede in figura \ref{fig:Stepper_foto} con una corona di viti, in modo da non richiedere un albero di trasmissione, una cartella o la realizzazione di sedi linguetta sulla sottile trave in alluminio che aveva evidenziato una forte criticità dal punto di vista strutturale e di concentrazione degli sforzi. \\
 		
 		\begin{figure} [!ht]
@@ -586,15 +588,10 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 	
 	
 	\section{Attuatori Lineari, Cinematismo Joint 3}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.4\textwidth]{image/kukabelt.jpg}
-		\caption{Sistema di trasmissione di un robot KUKA KR5}
-		\label{fig:kukabelt}
-	\end{figure}
+	
 	Nella scelta dell'attuatore per il Joint 3 è rilevante non solo la potenza richiesta ma anche il peso del componente. Difatti, lo svantaggio degli attuatori passo-passo precedentemente descritti è sicuramente il rapporto tra peso del componente e potenza erogata che risulta sfavorevole.\\
 	Per il Joint 3 la scelta di un attuatore rotativo sufficientemente potente da collocare sull'asse del giunto avrebbe peggiorato fortemente le proprietà inerziali del Link 3, collocando una massa importante concentrata in punta alla trave. \\
-	Nei robot industriali questo problema viene aggirato collocando i motori alla base dei link e trasmettendo potenza meccanica ad alta velocità di rotazione tramite una cinghia contenuta all'interno della trave e collocando un riduttore epicicloidale o armonico dotato di encoder coassiale al giunto come in figura \ref{fig:kukabelt}. \\
+	Nei robot industriali questo problema viene aggirato collocando i motori alla base dei link e trasmettendo potenza meccanica ad alta velocità di rotazione tramite una cinghia contenuta all'interno della trave e collocando un riduttore epicicloidale o armonico dotato di encoder coassiale al giunto. \\
 	Per risolvere questo problema si è optato per una soluzione alternativa e non convenzionale nel campo dei robot industriali. 
 	\\
 	La scelta di un attuatore lineare, un componente molto economico e di larga diffusione nelle forniture di automazione, ha permesso di posizionare l'attuatore e quindi la sua massa molto in basso e non appensantendo il link 3. \\
@@ -654,7 +651,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 			&
 			\includegraphics[width=0.4\textwidth]{image/mx160figure.png}
 		\end{tabular}
-		\caption{Caratteristiche tecniche dell'MX-106 }
+		\caption{Caratteristiche tecniche dell'MX-106 FONTE Robotis E-Manual \cite{mx106}}
 		\label{fig:MX160data}
 	\end{figure}
 
@@ -712,19 +709,19 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 		\hline
 		\multicolumn{1}{|c|}{2} & 7,80  & 3,40  & 12,78 & 43,45 & 0,88  & 880,80 & 17,96 & 5,50 \bigstrut\\
 		\hline
-		L     & 7,83  & 3,39  & 12,80 & 43,38 & 0,96  & 955,62 & 16,54 & 5,21 \bigstrut\\
+		\multicolumn{1}{|c|}{C}    & 7,83  & 3,39  & 12,80 & 43,38 & 0,96  & 955,62 & 16,54 & 5,21 \bigstrut\\
 		\hline
 		\multicolumn{1}{|c|}{3} & 8,71  & 3,45  & 12,95 & 44,68 & 0,91  & 907,36 & 16,46 & 5,09 \bigstrut\\
 		\hline
 		\multicolumn{1}{|c|}{4} & 8,75  & 3,40  & 12,87 & 43,76 & 0,89  & 885,46 & 15,76 & 4,88 \bigstrut\\
 		\hline
-		M     & 8,69  & 3,41  & 12,85 & 43,81 & 1,08  & 1083,89 & 19,26 & 5,37 \bigstrut\\
+		\multicolumn{1}{|c|}{M}     & 8,69  & 3,41  & 12,85 & 43,81 & 1,08  & 1083,89 & 19,26 & 5,37 \bigstrut\\
 		\hline
 		\multicolumn{1}{|c|}{5} & 9,86  & 3,48  & 12,80 & 44,54 & 1,18  & 1180,36 & 19,97 & 6,22 \bigstrut\\
 		\hline
 		\multicolumn{1}{|c|}{6} & 9,91  & 3,40  & 12,81 & 43,55 & 1,37  & 1371,50 & 22,02 & 7,22 \bigstrut\\
 		\hline
-		P     & 9,87  & 3,50  & 12,77 & 44,70 & 1,28  & 1280,19 & 21,91 & 7,01 \bigstrut\\
+		\multicolumn{1}{|c|}{P}     & 9,87  & 3,50  & 12,77 & 44,70 & 1,28  & 1280,19 & 21,91 & 7,01 \bigstrut\\
 		\hline
 	\end{tabular}%
 	\label{tab:testdata}%
@@ -744,7 +741,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	I requirements che sono emersi dal primo studio di design sono :
 	\begin{itemize}
 		\item Tutta la parte in movimento del componente dovrà trovarsi all'interno dell'inviluppo sferico generato dalla rotazione del Joint 4 per garantire che non ci siano zone interdette al moto.
-		\item Il Joint 4 deve 
+		
 		\item Sono neccessari dei passaggi per i cavi degli attuatori, quindi sono stati scelti alberi forati assialmente per le cerniere e predisposto un contatto strisciante a 12 conduttori per il Joint 6. I cavi passando all'interno degli alberi non rischiano di incastrarsi nei denti delle ruote dentate. 
 		\item Minimo peso possibile per gli accessori, i cuscinetti sono un target su cui ridurre le masse.
 		\item Da una prima considerazione delle potenze in gioco, confrontate col modello multbody e con la caratteristica meccanica dell'attuatore è necessaria una riduzione con rapporto di almeno 2 per rendere possibile il funzionamento a pieno carico, ma un rapporto 3 sarebbe ideale. 
@@ -840,7 +837,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	Dal punto di vista del contatto hertziano due denti diritti che ingranano possono essere considerati come due cilindri a contatto lungo una generatrice di lunghezza pari alla larghezza di fascia del dente b. \\
 	Il carico normale all’orma di contatto P è ancora la forza F che si scambiano i denti lungo la retta dei contatti. 
 	\begin{equation}\label{hertz}
-	\sigma_{H}=0,629\cdot0,418\cdot\sqrt{\frac{\frac{Ft}{\cos\alpha}\cdot E\cdot(\frac{1}{R_{1}}+\frac{1}{R_{2}})\cdot \frac{1}{\sin\alpha}}{\frac{b}{\cos\beta}}}\leq \frac{\sigma_{Yeld}}{CS}
+	\sigma_{H}=0,629\cdot0,418\cdot\sqrt{\frac{\frac{Ft}{\cos\alpha}\cdot E\cdot(\frac{1}{R_{1}}+\frac{1}{R_{2}})\cdot \frac{1}{\sin\alpha}}{\frac{b}{\cos\beta}}}\leq \frac{\sigma_{Yield}}{CS}
 	\end{equation}
 	
 	La relazione con cui si effettua la verifica delle ruote elicoidali è \ref{hertz}
@@ -1243,6 +1240,8 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 \bibitem{Jacazioteo}Giovanni Jacazio, Stefano Pastorelli \emph{Meccanica applicata alle macchine}, Levrotto e Bella
 
 \bibitem{P430paper} R. Henandez, D. Slaughter, D. Whaley, J. Tate, B. Asiabanpour, Analyzing the tensile, compressive and flexural properties of 3D printed ABS P430 plastic based on printing orientation using fused deposition modeling, Proceedings of the 26th Annual International Solid Freeform Fabrication Symposium – An Additive Manufacturing Conference, 2016
+
+\bibitem{mx106} MX-106T/R - ROBOTIS e-Manual \url{http://emanual.robotis.com/docs/en/dxl/mx/mx-106/}
 \end{thebibliography}
 
 \end{document}
