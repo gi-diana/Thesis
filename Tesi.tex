@@ -155,7 +155,7 @@ Il team è in crescita dal 2018 e la partecipazione all'\textit{European Rover C
 Nell'ambito del team DIANA, che sta diventando un forte gruppo di giovani ingegneri che lavorano nella ricerca e nello sviluppo della robotica spaziale, testare il lavoro svolto in laboratorio è un passaggio fondamentale dello sviluppo.\\
 Inoltre, il Team DIANA ha vissuto l'European Rover Challenge come un evento eccezionale, in grado di riunire ingegneri appassionati e qualificati in un ambiente internazionale.\\
 
-Pertanto, per essere una fonte di competenza, un occasione di testing e un'opportunità senza precedenti di crescita e raccolta, la partecipazione all'European Rover Challenge 2019 è senza dubbio un'esperienza necessaria e fondamentale per il Team DIANA.\\
+Pertanto, per essere una fonte di competenza, un occasione di testing e un'opportunità senza precedenti di crescita e raccolta di informazioni sul progetto, la partecipazione all'European Rover Challenge 2019 è senza dubbio un'esperienza necessaria e fondamentale per il Team DIANA.\\
 
 	\section{Dall'esplorazione robotica all'assistenza di equipaggi}
 	I Rover di assistenza progettati dal Team DIANA rappresentano dei modelli di future missioni in cui i Rover vengono impiegati nell'assistenza ad un equipaggio umano. \\
@@ -632,10 +632,10 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 	% CONTINUARE REVISIONE	
 		
 	\section{Servomotori digitali: Dynamixel MX-106}
-	Per la movimentazione dei giunti di orientamento del polso sferisco è stato necessario considerare requisiti diversi dai giunti di posizionamento.\\
-	 Nel polso sferico è richiesta precisione angolare ad alta velocità di rotazione e la capacità di mantenere una data posizione angolare al variare del carico.\\
-	  Pertanto è richiesto un controllo in posizione dell'attuatore più raffinato di quello ottenibile per via meccanica negli attuatori precedentemente analizzati. Inoltre visto che il componente si trova all'estremità del link 4 il peso è un fattore importantissimo nella scelta. \\
-	Dopo una ricerca nel panorama dei componenti industriali si è presto concluso che un componente ad uso industriale è troppo voluminoso e pesante ed utilizza protocolli di comunicazione poco applicabili ad un progetto sperimentale. 
+	Per la movimentazione dei giunti di orientamento del polso sferico è stato necessario considerare requisiti diversi dai giunti di posizionamento del braccio.\\
+	 A livello del polso sferico è necessaria precisione angolare ad alta velocità di rotazione e la capacità di mantenere una data posizione angolare al variare del carico.\\
+	  Pertanto è richiesto un controllo in posizione dell'attuatore più raffinato di quello ottenibile per via meccanica negli attuatori precedentemente analizzati. Inoltre, visto che il componente si trova all'estremità del link 4 il peso è un fattore importantissimo nella scelta. \\
+	Dopo una ricerca nel panorama dei componenti industriali si è concluso che un componente ad uso industriale è troppo voluminoso e pesante, ed utilizza protocolli di comunicazione poco applicabili ad un progetto sperimentale. 
 	
 	\begin{figure}
 		\centering
@@ -657,12 +657,12 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 
 
 
-	La ricerca è stata orientata allora a prodotti specifici per la robotica sperimentale e i servomotori della \textit{ROBOTIS} sono emersi tra i più diffusi nel settore. Dal catalogo è stato selezionato il modello \textit{MX-106}. \\
-	Dalla tabella delle caratteristiche fornite dal produttore in figura \ref{fig:MX160data} si evidenzia subito la compattezza, la leggerezza del componente e le possibilità di controllo offerte tramite un semplice protocollo di comunicazione seriale implementabile sia su un microcontrollore sia direttamente da un computer dotato di interfaccia seriale.\\
-	Guardando alla caratteristica meccanica in figura \ref{fig:MX160data} l'attuatore ha le performance migliori nell'intervallo di velocità tra 30 e 40 giri al minuto con una coppia massima di 3 Newton per metro ed in questo intervallo si cercherà di progettare la trasmissione. \\
+	La ricerca è stata orientata quindi verso prodotti specifici per la robotica sperimentale. I servomotori \textit{ROBOTIS} sono emersi tra i più diffusi nel settore. Dal catalogo è stato selezionato il modello \textit{MX-106}. \\
+	Dalla tabella delle caratteristiche fornite dal produttore in figura \ref{fig:MX160data} si evidenzia la compattezza, la leggerezza del componente e le possibilità di controllo offerte dal protocollo di comunicazione seriale implementabile sia su un microcontrollore sia su un computer dotato di interfaccia seriale.\\
+	Guardando alla caratteristica meccanica in figura \ref{fig:MX160data} l'attuatore ha le performance migliori nell'intervallo di velocità tra 30 e 40 giri al minuto con una coppia massima di 3 Newton per metro. In questo intervallo si cercherà di progettare la trasmissione. \\
 	
-	Il produttore fornisce i modelli CAD tridimensionali del componente e delle flange di accoppiamento per l'albero di uscita scanalato. L'utilizzo di flange, dette Horns, permette di accoppiare all'albero di uscita scanalato componenti prodotti in manifattura additiva mediante viti. \\
-	Ogni attuatore viene alimentato e riceve il bus dati attraverso un collegamento daisy chain, è quindi possibile realizzare una catena semplificando il cablaggio, che come vedremo per il polso sferico è molto delicato. 
+	Il produttore fornisce i modelli CAD tridimensionali del componente e delle flange di accoppiamento per l'albero di uscita scanalato. L'utilizzo di flange, dette \textit{horns}, permette di accoppiare all'albero di uscita scanalato componenti prodotti in manifattura additiva mediante viti. \\
+	Ogni attuatore viene alimentato e riceve il bus dati attraverso un collegamento daisy chain, permettendo di realizzare una catena semplificando il cablaggio, che come vedremo per il polso sferico è delicato e soggetto a movimenti che ne causano la torsione. 
 
 		
 \chapter{Polso sferico, design e scelte progettuali}
@@ -680,23 +680,23 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 		\caption{Sezione del componente realizzato con evidenziati i punti salienti trattati in questo capitolo}
 		\label{fig:disegnosferico}
 	\end{figure} 
-	La caratteristica chiave di un polso sferico è il disaccoppiamento tra posizione e orientamento dell'utensile; il braccio ha il compito di posizionare il punto di origine della terna utensile, mentre il polso determina l'orientamento della terna utensile.\\
-	La sfericità del polso è data dal fatto che gli assi dei giunti si intersecano tutti nello stesso punto.
+	La caratteristica chiave di un polso sferico è il disaccoppiamento tra posizione e orientamento dell'utensile: il braccio ha il compito di posizionare il punto di origine della terna utensile, mentre il polso ne determina l'orientamento.\\
+	La caratteristica che rende sferico il polso è l'intersezione dei tre assi di rotazione in un unico punto.
 	
 	
 	\section{Studio del materiale da stampa ABSPlus P430}
 	In funzione della possibilità di realizzare componenti in manifattura additiva presso i laboratori  del Dipartimento di Ingegneria Meccanica e Aerospaziale il Team DIANA ha deciso di approfondire la conoscenza delle risorse di produzione a disposizione. \\
 	Il processo di stampa a deposizione di filamento (FDM) produce componenti caratterizzati da una struttura interna non isotropa, caratterizzata dalla presenza di layers e aree vuote.\\ 
-	Nel caso della FDM il materiale non è isotropo, nello specifico l’anisotropia è data sia dalla direzione della stampa (cioè la direzione dei piani depositati), dove è più resistente nello strato che tra gli strati, sia dalla geometria dell’infill (geometrie che sostituiscono il volume interno in maniera più efficiente).\\
+	Nel caso della FDM il materiale non è isotropo. Nello specifico l’anisotropia è data sia dalla direzione della stampa (cioè la direzione dei piani depositati), dove è più resistente nella direzione parallela allo strato che in quella normale allo strato, sia dalla geometria dell’infill (geometrie che sostituiscono il volume interno pieno con un reticolato di aree vuote).\\
 	 Pertanto è evidente che le proprietà meccaniche dipenderanno dalla direzione in cui sono applicati gli sforzi. 
 	 Usando queste strutture si ottiene una struttura più leggera ma con proprietà non altrettanto inferiori. 
 	 
 	
 	Il produttore del materiale e dell'attrezzatura di stampa fornisce una caratterizzazione del materiale isotropo, estruso come componente solido.\\
 	 Questa condizione è però lontana dall'utilizzo reale, in quanto genera componenti estremamente costosi in termini di peso, tempo di lavorazione e quantità di materiale impiegato. \\
-	Date le risorse a disposizione, per realizzare un studio quantomeno indicativo sulle proprietà del materiale, è stato prodotto un set di provini e sottoposto a prova di trazione.\\
+	Date le risorse a disposizione, al fine di realizzare un studio quantomeno indicativo sulle proprietà del materiale, è stato prodotto un set di provini e sottoposti a prova di trazione.\\
 	Per le prove di trazione si segue la normativa \textit{ASTM D638 Standard method for Tensile Plastics}. Questa normativa permette di ottenere le proprietà a trazione di materiali polimerici sia semplici che rinforzati usando provini a forma di osso di cane. \\
-	Questo test è utilizzabile per campioni con spessore fino a 14 mm. Questo metodo inoltre permette di ottenere il modulo di poisson a temperatura ambiente. 
+	Il test è utilizzabile per campioni con spessore fino a 14 mm. Questo metodo inoltre permette di ottenere il modulo di poisson a temperatura ambiente. 
 % Table generated by Excel2LaTeX from sheet 'Foglio1'
 \begin{table}[htbp]
 	\centering
@@ -740,11 +740,11 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	\section{Integrazione e requisiti progettuali}
 	I requirements che sono emersi dal primo studio di design sono :
 	\begin{itemize}
-		\item Tutta la parte in movimento del componente dovrà trovarsi all'interno dell'inviluppo sferico generato dalla rotazione del Joint 4 per garantire che non ci siano zone interdette al moto.
+		\item Tutta la parte in movimento del componente dovrà trovarsi all'interno dell'inviluppo sferico generato dalla rotazione del Joint 4 al fine di garantire che non ci siano zone interdette al moto.
 		
 		\item Sono neccessari dei passaggi per i cavi degli attuatori, quindi sono stati scelti alberi forati assialmente per le cerniere e predisposto un contatto strisciante a 12 conduttori per il Joint 6. I cavi passando all'interno degli alberi non rischiano di incastrarsi nei denti delle ruote dentate. 
 		\item Minimo peso possibile per gli accessori, i cuscinetti sono un target su cui ridurre le masse.
-		\item Da una prima considerazione delle potenze in gioco, confrontate col modello multbody e con la caratteristica meccanica dell'attuatore è necessaria una riduzione con rapporto di almeno 2 per rendere possibile il funzionamento a pieno carico, ma un rapporto 3 sarebbe ideale. 
+		\item Da una prima considerazione delle potenze in gioco, confrontate col modello multbody e con la caratteristica meccanica dell'attuatore, è necessaria una riduzione con rapporto di almeno 2 per rendere possibile il funzionamento a pieno carico, tuttavia un rapporto 3 sarebbe ideale. 
 		\item La precisione della stampante UPRINT verificata con delle prove di stampa di dentature non è sufficiente per realizzare un ingranamento di buona qualità al di sotto del modulo 2. 
 		\item La stessa considerazione sulla precisione vale per i cuscinetti, che risultano avere sedi poco accurate. 
 		
@@ -753,34 +753,34 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	
 	\section{Scelta dei Cuscinetti}
 	I test effettuati sulla realizzazione di sedi per cuscinetti con la stampante UPRINT hanno dimostrato alcune criticità, peraltro diffuse e confermate dalla comunità di utilizzatori di stampa FDM per componenti meccanici. \\
-	Le tolleranze dimensionali e di circolarità normalmente richieste per accoppiare un cuscinetto a corpi volventi sono state determinate per le lavorazioni tradizionali ad asportazione di truciolo. Viene semplice verificare la circolarità di una sede utilizzando un tornio o una rettificatrice, molto meno su un componente stampato in 3D. \\
+	Le tolleranze dimensionali e di circolarità normalmente richieste per accoppiare un cuscinetto a corpi volventi sono state determinate per le lavorazioni tradizionali ad asportazione di truciolo. \`E semplice verificare la circolarità di una sede utilizzando un tornio o una rettificatrice, molto meno su un componente stampato in 3D. \\
 	Il reparto meccanico del Team DIANA ha rilevato che le sedi realizzate non hanno una circolarità regolare e il diametro varia con le stampe in maniera non ripetibile. Pertanto un accoppiamento bloccato con forzamento (possibile con una piccola forza applicabile manualmente) risulta più sicuro di un accoppiamento incerto classico per cuscinetti. \\
 	I cuscinetti a strisciamento IGUS sono dimensionati per il piantaggio in sede. Il dimensionamento definitivo si ottiene dopo adeguato piantaggio, pertanto le quote e le tolleranze vanno rilevate a boccola montata.
 	Dopo alcune prove su piccoli componenti di prova è stata trovata una regola di tolleranza che garantiva un buon fissaggio sui diametri solitamente utilizzati dal reparto meccanico. \\
-	Un altro vantaggio di questi cuscinetti è il peso irrisorio rispetto a un cuscinetto a corpi volventi confrontabile, infatti la boccola $\phi$ 10 e lunghezza 10 pesa appena 3 grammi mentre il modello \textit{SKF 6200} ne pesa 30. 
+	Un altro vantaggio di questi cuscinetti è il peso irrisorio rispetto a un cuscinetto ad corpi volventi confrontabile, infatti la boccola $\phi$ 10 e lunghezza 10 pesa appena 3 grammi mentre il modello \textit{SKF 6200} ne pesa 30. 
 	
 	
 	
 	\section{Riduzione del numero minimo di denti: ingranamento elicoidale}\label{denti}
-	Affinchè l'ingranamento tra due ruote dentate, come si legge dal testo \cite{Jacazioteo}, avvenga in modo corretto è necessario che il contatto avvenga lungo il profilo ad evolvente dei denti. \\
+	Affinchè l'ingranamento tra due ruote dentate, come si apprende dal testo di Meccanica applicata alle meccaniche \cite{Jacazioteo} nel capitolo sulle trasmissioni mediante ruote dentate, avvenga in modo corretto è necessario che si abbia contatto delle superfici lungo il profilo ad evolvente dei denti. \\
 	Il caso limite da evitare è quello in cui avviene una compenetrazione dei denti delle ruote, ossia interferenza. Per evitare l'interferenza è necessario che l'addendum, pari al modulo in un sistema modulare, assuma un valore tale da far cadere il punto di contatto all'interno del segmento di contatto. \\
 	
 	\begin{equation}\label{relazionedenti}
 	\frac{a}{m}\leq\frac{z1}{2}\sqrt{\frac{1}{\tau^2}+(1+\frac{2}{\tau})\sin^2\alpha} -\frac{1}{\tau}
 	\end{equation}
-	Nella relazione \ref{relazionedenti} viene esplicitato la relazione che deve esserci tra addendum e il rapporto di trasmissione $\tau=\frac{r1}{r2}$ 
+	Nella relazione \ref{relazionedenti} viene esplicitata la relazione che deve esserci tra addendum e il rapporto di trasmissione $\tau=\frac{r1}{r2}$ 
 	
 	\begin{equation}\label{relazionedenti2}
 	Zmin=\frac{2[1+\sqrt{1+(2\tau+\tau^2)\sin^2\alpha}]}{(2+\tau)\sin^2\alpha}
 	\end{equation}
-	\\Se esplicitiamo il valore del numero di denti del pignone Zmin otteniamo la relazione \ref{relazionedenti2}.
+	\\Se esplicitiamo il valore del numero di denti del pignone $Z_{min}$ otteniamo la relazione \ref{relazionedenti2}.
 	Calcolando la formula per una rotismo con $\tau=\frac{1}{3}$ e angolo $\alpha=20$ otteniamo un valore $Zmin=17$.\\
 	Questa condizione pone un limite progettuale piuttosto invasivo per la riduzione delle dimensioni. A parità di modulo si otterranno ruote di diametro maggiore se si vuole mantenere lo stesso rapporto di trasmissione. \\
-	Produrre ingranaggi è un operazione tradizionalmente costosa e complessa a livello tecnologico: è richiesta una dentatrice oppure appositi utensili di forma già solo per una semplice dentatura a denti dritti. \\
-	Produrre una dentatura elicoidale è ancora più complesso essendo necessaria una variazione dell'angolo di incidenza della dentatrice e pertanto sicuramente sconveniente per realizzare un prototipo, dovendosi rivolgere a ditte specializzate con costi elevati. \\
-	La manifattura additiva pone in gioco un inifinita possibilità di forme e design, con la possibilità di integrare il componente strutturale con quello di trasmissione e realizzare pezzi unici e dalle geometrie arbitrarie. \\
-	Questa possibilità offerta dalla manifattura additiva apre sicuramente la strada alla valutazione di una dentatura elicoidale. 
-	Per calcolare il numero minimo di denti da assegnare ad una ruota elicoidale si fa riferimento ad una ruota fittizia a denti dritti su cui calcolare in numero minimo di denti.\\
+	Produrre ingranaggi è un operazione tradizionalmente costosa e complessa a livello tecnologico: è richiesta una dentatrice oppure appositi utensili di forma già solo per ottenere una semplice dentatura a denti dritti. \\
+	Produrre una dentatura elicoidale è ancora più complesso poichè richiede una variazione dell'angolo di incidenza della dentatrice e pertanto risulta sconveniente per realizzare un prototipo, dovendo ricorrere a ditte specializzate con costi elevati. \\
+	La manifattura additiva rende disponibile un illimitato numero di forme e design, con la possibilità di integrare il componente strutturale con quello di trasmissione e realizzare pezzi unici dalle geometrie arbitrarie. \\
+	Questa possibilità offerta dalla manifattura additiva apre sicuramente la strada alla valutazione di una dentatura elicoidale. \\
+	Per calcolare il numero minimo di denti da assegnare ad una ruota elicoidale si fa riferimento ad una ruota fittizia a denti dritti per cui andremo a calcolare il numero minimo di denti.\\
 	Bisogna ricordare infatti, come illustrato nel testo \cite{Jacazioteo} nel capitolo sulle ruote dentate elicoidali, che una ruota dentata elicoidale mantiene in ogni sezione effettuata da un piano frontale normale all'asse della ruota la forma di una evolvente del cilindro fondamentale. Tale proprietà non vale per una sezione normale all'elica primitiva e l'intersezione è rappresentata da un'ellisse con semiassi pari a $a=\frac{r}{cos\beta}$ e $b=r$ dove $\beta$ rappresenta l'angolo d'elica. 
 	Pertanto è lecito considerare il moto relativo tra le due ruote come un moto di rotolamento tra i due cilindri avente asse inclinato di $\beta$ .
 	
@@ -794,12 +794,12 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	Z=Z" cos^3\beta
 	\end{equation} 
 	E ricavando il numero di denti reale $Z$ come in \ref{dentivirtuale2} otteniamo per la trasmissione studiata con angolo d'elica $\beta=20$ un valore di 14 denti. \\
-	Con questo accorgimento si riesce a ridurre il numero minimo di denti del pignone e così si ottiene una riduzione dei diametri a parità di rapporto di trasmissione ottenuto.\\
-	 Si ottengono inoltre altri vantaggi che sono noti dalla letteratura e dall'esperienza nella costruzione e progetto di macchine :
+	Con questo accorgimento si riesce a ridurre il numero minimo di denti del pignone ottenendo una riduzione dei diametri a parità di rapporto di trasmissione.\\
+	 Si ottengono inoltre altri vantaggi noti dalla letteratura tecnica sulla costruzione e progetto di macchine :
 	\begin{itemize}
 		\item La variazione della distribuzione del carico sui denti avviene in maniera graduale 
 		\item Gli urti sono ridotti essendoci più denti in presa contemporaneamente
-		\item Il gioco tra i denti di conseguenza è ridotto, quindi si riduce il backlash
+		\item Il gioco tra i denti è di conseguenza ridotto, quindi si riduce il gioco angolare dell'ingranamento
 	\end{itemize}
 
 	\section{Dimensionamento della trasmissione}
@@ -810,10 +810,9 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	 e angolo d’elica ), si effettua con la determinazione del modulo normale mn e della larghezza di fascia (sviluppo del dente nella
 	direzione dell’asse di rotazione).\\
 	 Nel caso di studio in oggetto la larghezza di fascia è molto condizionata dagli ingombri che devono avere i componenti e si è deciso di fissarla e determinare il modulo normale. \\
-	Nel caso di dimensionamento statico vengono confrontate delle tensioni calcolate, rispettivamente una tensione di flessione (ottenuta tramite la formula di Lewis) e una dovuta al contatto hertziano (calcolata secondo le formule finali della teoria di Hertz),con una tensione ammissibile nel materiale ottenuta dividendo il carico di rottura (o
-	snervamento) per un opportuno coefficiente di sicurezza. \\
+	Nel caso di dimensionamento statico vengono confrontate delle tensioni calcolate, rispettivamente una tensione di flessione (ottenuta tramite la formula di Lewis) e una dovuta al contatto hertziano (calcolata secondo le formule finali della teoria di Hertz), con una tensione ammissibile nel materiale ottenuta dividendo il carico di rottura (o snervamento) per un opportuno coefficiente di sicurezza. \\
 	Nel caso del dimensionamento statico le tensioni massime calcolate sono ottenute considerando le forze massime scambiate dall’ingranaggio, quelle cioè che possono produrre rottura nel dente.\\
-	Come carico massimo si è scelto di prendere a riferimento il valore di coppia di stallo, o holding torque, degli attuatori \textit{Dynamixel MX-106} pari a 8,4 Newton per metro. Difatti l'attuatore, in grado di misurare la corrente assorbita dal motore, correla il valore di soglia massima di corrente con la caratteristica elettrica del motore e disattiva l'alimentazione una volta raggiunta la holding torque. \\
+	Come carico massimo si è scelto di prendere a riferimento il valore di coppia di stallo, o holding torque, degli attuatori \textit{Dynamixel MX-106} pari a 8,4 Newton per metro. Difatti l'attuatore, in grado di misurare la corrente assorbita dal motore, correla il valore di soglia massima di corrente con la caratteristica elettrica del motore e disattiva l'alimentazione una volta raggiunta la coppia di stallo. \\
 	Il calcolo statico a flessione di una ruota a denti elicoidali può eseguirsi estendendo opportunamente le formule valevoli per le ruote a denti dritti.
 	\begin{equation}\label{torque}
 	C=\frac{Ft}{\cos\beta}
@@ -828,7 +827,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	\end{equation}
 	Quindi la tensione flessionale è ricavata in \ref{sigmal} considerando il coefficiente $Y_{lw}$ che si trova tabellato in letteratura tecnica
 		\begin{equation}\label{mnlewis}
-	mn=\sqrt[3]{\frac{Y_{lw} \cdot C \cdot 2 \cos\beta}{\frac{\sigma_{yeld}}{CS} \cdot b \cdot Z}}
+	mn=\sqrt[3]{\frac{Y_{lw} \cdot C \cdot 2 \cos\beta}{\frac{\sigma_{Yield}}{CS} \cdot b \cdot Z}}
 	\end{equation}
 	Esplicitando il modulo normale rispetto alla larghezza di fascia, alla coppia di sollecitazione e alla tensione di snervamento, considerato un opportuno coefficiente di sicurezza restituisce il modulo normale come in \ref{mnlewis}.
 	\subsection{Contatto Hertziano}
@@ -845,6 +844,8 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	\subsection{Codice di calcolo}
 	\label{matlabcode}
 	\begin{lstlisting}[language=Matlab]
+	% La funzione lewis_factor ricerca all'iterno della tabella lewisdata
+	% il valore opportuno per il coefficiente Y
 	function [Y] = lewis_factor(Zn)
 	load lewisdata
 	i=1;
@@ -899,8 +900,8 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 		
 		\subsection{Risultati Joint 4}
 		
-		Il Joint 4 è il primo grado di libertà del polso ed orienta la struttura lungo l'asse parallelo all'avanmbraccio. 
-		Il risultato del calcolo di dimensionamento, tramite le considerazioni precedentemente fatte, ha prodotto un componente  che integra la ruota condotta con dimensioni compatibili per ospitare il supporto per l'attuatore del joint 5 e la relativa cerniera.
+		Il Joint 4 rappresenta il primo grado di libertà del polso ed orienta la struttura lungo l'asse parallelo all'avambraccio. 
+		Il risultato del calcolo di dimensionamento, tramite le considerazioni precedentemente fatte, ha prodotto un componente  che integra la ruota condotta con dimensioni compatibili ad ospitare il supporto per l'attuatore del joint 5 e la relativa cerniera.
 			% Table generated by Excel2LaTeX from sheet 'Sheet1'
 		\begin{table}[H]
 			\centering
@@ -1027,15 +1028,15 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 		\caption{Parametri impostati nello script di design automatizzato GearTrax per il Joint 6}
 		\label{fig:Gearpolso3}
 	\end{figure} 
-	Il Joint 6 fornisce la piastra di attacco per l'end effector ed è stato dimensionato in analogia al Joint 4 per semplificare il controllo. Differisce dal Joint 4 in quanto l'ingranamento è di due ruote interne ed è stato previsto nel firmware dell'attuatore l'inversione del senso di rotazione, così da essere sempre concorde col Joint 4. Strutturalmente e meccanicamente è il meno sollecitato della struttura e lo si considera verificato per analogia al Joint 4, si riportano in tabella \ref{tab:lewis3} e in figura \ref{fig:Gearpolso3} i valori scelti per la costruzione. 
+	Il Joint 6 fornisce la piastra di attacco con l'end effector ed è stato dimensionato in analogia al Joint 4 per semplificare il controllo. Esso differisce dal Joint 4 in quanto l'ingranamento è di due ruote interne ed è stato previsto nel firmware dell'attuatore l'inversione del senso di rotazione, così da essere sempre concorde col Joint 4. Strutturalmente e meccanicamente è il meno sollecitato della struttura e lo si considera verificato per analogia al Joint 4, si riportano in tabella \ref{tab:lewis3} e in figura \ref{fig:Gearpolso3} i valori scelti per la costruzione. 
 	
 		\subsection{Disegno di ruote dentate elicoidali prodotte in FDM}
 		Per realizzare i modelli CAD delle ruote dentate calcolate, noto il modulo, il numero di denti, gli angoli caratteristici e la larghezza di fascia sono possibili diversi metodi.\\ 
-		Quello che appare più accessibile di prima analisi è utilizzare le capacità parametriche del \textit{ CAD Solidworks}, riportando la sezione di un dente ed estrudendolo lungo la generatrice dell'elica cilindrica. \\
-		Questo approccio trova subito un limite pratico: correggere il design per la necessità di una modifica implica di ricominciare dall'inizio la modellazione e poco si adatta a una progettazione iterativa. \\
+		Quello che appare più accessibile di prima analisi consiste nell' utilizzare le capacità parametriche del \textit{ CAD Solidworks}, riportando la sezione di un dente ed estrudendolo lungo la generatrice dell'elica cilindrica. \\
+		Questo approccio trova subito un limite pratico: correggere il design per la necessità di una modifica implica ricominciare dall'inizio la modellazione e poco si adatta a una progettazione iterativa. \\
 		Un approccio iterativo è stato necessario vista la necessità di coniugare i risultati di calcolo di dimensionamento con gli ingombri delle ruote e il collocamento degli attuatori sul polso.\\
-		 Soprattutto nel Joint 5 \ref{fig:wrist2} il collocamento dell'attuatore per movimentare il Joint 6 è piuttosto complesso e doveva rispettare degli spessori minimi per la sede dell'albero, le dimensioni del Dynamixel e l'interasse della ruota interna del Joint 6. \\
-		Pertanto un software di disegno automatizzato di questi componenti ha rappresentato un aiuto importante nel realizzare velocemente i componenti e poter fare variazioni e tentativi per valutare la soluzione migliore. \\
+		 Soprattutto nel Joint 5 \ref{fig:wrist2} il collocamento dell'attuatore per movimentare il Joint 6 è piuttosto complesso e doveva rispettare gli spessori minimi per la sede dell'albero, le dimensioni del Dynamixel e l'interasse della ruota interna del Joint 6. \\
+		Un software di disegno automatizzato di questi componenti è stato di grande aiuto nel realizzare velocemente i componenti e per poter fare variazioni e tentativi nel valutare la soluzione migliore. \\
 		
 		Il software \textit{GearTrax}, introdotto nel corso di Disegno di Macchine, prende il controllo del CAD e automaticamente genera le geometrie una volta configurati tutti i parametri che troviamo in figura \ref{fig:Gearpolso1} e \ref{fig:Gearpolso2} e \ref{fig:Gearpolso3}.
 			
@@ -1047,9 +1048,9 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	
 
 \chapter{Costruzione mediante manifattura additiva e assemblaggio}
-Nella realizzazione di un prototipo la parte sicuramente più interessante dopo la progettazione e la realizzazione dei modelli CAD è quella della costruzione del componente.\\
- La manifattura additiva, al contrario delle tecnologie tradizionali che spesso richiedono una dotazione di macchine da officina e materiali da lavorare disponibili presso un'azienda esterna, ha concesso spesso agli studenti del \textit{Team DIANA} di vedere realizzati rapidamente i propri progetti e partecipare al processo di produzione.\\
-  Una volta prodotti i componenti in FDM, programmati i servomotori e ricevuti i cuscinetti e la viteria necessaria è stato possibile assemblare il polso. 
+Nella realizzazione di un prototipo la parte indubbiamente più interessante dopo la progettazione e la realizzazione dei modelli CAD è quella della costruzione del componente.\\
+ La manifattura additiva, al contrario delle tecnologie tradizionali che spesso richiedono una dotazione di macchine da officina e materiali da lavorare disponibili presso un'azienda esterna, ha concesso spesso agli studenti del \textit{Team DIANA} di vedere realizzati rapidamente i propri progetti e di partecipare al processo di produzione.\\
+  Una volta prodotti i componenti in FDM, programmati i servomotori e ricevuti i cuscinetti e la viteria necessaria è stato possibile assemblare il polso sferico. 
 	\section{Produzione dei componenti}
 		\begin{figure}
 		\centering
@@ -1074,12 +1075,12 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 	\label{fig:uprint}
 	\end{figure}	
 	La fase di produzione di un componente FDM parte dalla generazione del codice in linguaggio G-CODE per il controllo delle macchine utensili. 
-	La generazione del codice viene svolta in maniera automatizzata da un software di slicing, in questo caso \textit{Stratasys CatalystEX}  proprietario della stampante, che contiene già tutti i parametri necessari per una corretta configurazione della stampa. \\
+	La generazione del codice viene svolta in maniera automatizzata da un software di slicing, in questo caso da parte di \textit{Stratasys CatalystEX},  proprietario della stampante, che contiene già tutti i parametri necessari per una corretta configurazione della stampa. \\
 	All'utente spetta solo la collocazione dei manufatti da realizzare all'interno del \textit{pack}, una rappresentazione del volume di stampa che ha come base la tavoletta removibile su cui vengono depositati i materiali.\\
-	 Un fattore importante è la scelta dell'orientazione spaziale dei componenti e per le ruote dentate è assolutamente mandatorio adagiarle su un piano frontale e far si che l'estrusione sviluppi il dente in altezza, in modo che ogni layer contenga una sezione del dente che conservi il profilo ad evolvente.\\ Come vediamo nella fotografia \ref{fig:uprint} i componenti dentati vengono estrusi sul piano frontale, assieme alle eventuali strutture di supporto che andranno rimosse in colore più chiaro. \\
-	Sono stati prodotti in totale 3 pack, per un tempo di stampa totale predetto dal software di 55 ore, in figura \ref{fig:pack}.\\
-	Una volta terminata la fase di stampa si rimuove la tavoletta e si staccano i pezzi, ripulendoli dai supporti di colore più chiaro che servono a sostenere le geometrie che sono sospese o in aggetto. 
-	Dopo la pulizia a volte è necessaria la sbavatura e la rifinitura mediante carta abrasiva sottile, limetta e taglierino per rimuovere bave e filamenti interrotti. 
+	 Un fattore importante è la scelta dell'orientazione spaziale dei componenti e nel caso delle ruote dentate è assolutamente mandatorio adagiarle su un piano frontale e facendo si che l'estrusione sviluppi il dente in altezza, in modo che ogni layer contenga una sezione del dente che conservi il profilo ad evolvente.\\ Come vediamo nella fotografia \ref{fig:uprint} i componenti dentati vengono estrusi sul piano frontale, assieme alle eventuali strutture di supporto in colore più chiaro che andranno rimosse. \\
+	Sono stati prodotti 3 pack, per un tempo di stampa totale predetto dal software di 55 ore, in figura \ref{fig:pack}.\\
+	Una volta terminata la fase di stampa si procede alla rimozione della tavoletta e si staccano i pezzi, ripulendoli dai supporti di colore più chiaro che servono a sostenere le geometrie che sono sospese o in aggetto. 
+	Dopo la pulizia sono necessarie la sbavatura e la rifinitura mediante carta abrasiva sottile, limetta e taglierino al fine di rimuovere bave e filamenti interrotti. 
 	
 	\section{Analisi dei costi}
 	In questa fase analizzeremo il costo di produzione di questo componente mediante manifattura FDM e il costo dei componenti accessori e degli attuatori. 
@@ -1102,7 +1103,7 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 			\cline{3-5}    \end{tabular}%
 		\label{tab:printcost}%
 	\end{table}%
-	In tabella \ref{tab:printcost} riportiamo i costi di stampa dei 3 pack realizzati, riferite alle quantità di materiale predette dal software \textit{CatalystEX}. Il costo è sicuramente elevato, a causa del materiale proprietario usato dalla stampante, ma ha garantito un risultato positivo al primo tentativo senza sprechi di materiale. 
+	In tabella \ref{tab:printcost} riportiamo i costi di stampa dei 3 pack realizzati, riferiti alle quantità di materiale predette dal software \textit{CatalystEX}. Il costo è sicuramente elevato, essendo il materiale originale usato dalla stampante, che tuttavia ha garantito un risultato positivo al primo tentativo senza sprechi di materiale. 
 	
 	% Table generated by Excel2LaTeX from sheet 'Foglio1'
 	\begin{table}[H]
@@ -1130,7 +1131,7 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 			\cline{4-5}    \end{tabular}%
 		\label{tab:projectcost}%
 	\end{table}%
-	Nella tabella \ref{tab:projectcost} invece riportiamo il costo totale di stampa assieme a tutti gli altri componenti necessari all'assemblaggio. Spicca sicuramente il costo dei 3 attuatori Dynamixel, che essendo componenti specializzati per robotica hanno dei costi sicuramente elevati, anche se rappresentano un oggetto molto durevole nel tempo in quanto non sono stati acquistati ma riciclati da un precedente progetto del Team DIANA risalente al 2010. 
+	Nella tabella \ref{tab:projectcost} invece riportiamo il costo totale di stampa sommato a tutti gli altri componenti necessari all'assemblaggio. Spicca sicuramente il costo dei 3 attuatori Dynamixel, che essendo componenti specialistici per robotica hanno sicuramente dei costi elevati, pur rappresentando un oggetto molto durevole nel tempo. Gli attuatori sono stati infatti riciclati da un precedente progetto del Team DIANA risalente al 2010. 
 	\section{Assemblaggio}
 	\begin{figure}
 		\centering
@@ -1144,9 +1145,9 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 		\caption{Polso assemblato per la prima volta dopo la fase di produzione e corredato dei servomotori}
 		\label{fig:wristassembled}
 	\end{figure}
-	L'assemblaggio del componente è molto semplice e facilmente intuibile dalla sezione \ref{fig:sferico}. Una volta collocata la ralla \textit{IGUS PRT 01 20} sul link 3 ed inserito in sede il primo attuatore completo di pignone è possibile avvitare alla ralla il link 4. Si inseriscono le boccole nelle rispettive sedi del link 4 e del link 5 e si avvitano i Dynamixel 2 e 3 in sede con viti M2. Così è possibile inserire il link 5 e l'albero della cerniera e una volta ruotato connettere i pignoni ai Dynamixel. Si completa l'assemblaggio con l'inserimento del link 6 completo di albero e si blocca con anelli seeger.\\
-	I cablaggi passano all'interno degli alberi e vengono completati di connettori saldati e ricoperti di guaina termorestringente e connessi al contatto strisciante per poter portare potenza e segnale anche ad un end effector. \\
-	Una volta completato il cablaggio e controllato con il multimetro l'assenza di cortocircuiti e la correttezza dei collegamenti è possibile alimentare con un alimentatore da banco a tensione di 12 Volt gli attuatori. \\
+	L'assemblaggio del componente è molto semplice e facilmente intuibile dalla sezione \ref{fig:sferico}. Una volta collocata la ralla \textit{IGUS PRT 01 20} sul link 3 ed inserito in sede il primo attuatore completo di pignone è possibile avvitare alla ralla il link 4. Si inseriscono le boccole nelle rispettive sedi del link 4 e del link 5 e si avvitano i Dynamixel 2 e 3 in sede con viti M2. \'E possibile inserire il link 5 e l'albero della cerniera e una volta ruotato connettere i pignoni ai Dynamixel. Si completa l'assemblaggio con l'inserimento del link 6 completo di albero e si blocca con anelli seeger.\\
+	I cablaggi passano all'interno degli alberi e sono completati di connettori saldati e ricoperti di guaina termorestringente e connessi al contatto strisciante per poter portare potenza e segnale all'end effector. \\
+	Una volta completato il cablaggio e controllato con il multimetro l'assenza di cortocircuiti e la correttezza dei collegamenti è possibile alimentare gli attuatori con un alimentatore da banco a tensione di 12 Volt. \\
 	
 	\begin{figure}
 		\centering
@@ -1156,7 +1157,7 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 		\label{fig:wizard}
 	\end{figure}
 	
-	Tramite il software \textit{Dynamixel Wizard} e un'interfaccia seriale USB è possibile connettere al PC gli attuatori ed effettuare la configurazione. \\
+	Tramite il software \textit{Dynamixel Wizard} ed un'interfaccia seriale USB è possibile connettere al PC gli attuatori ed effettuare la configurazione. \\
 	Per configurare il polso è necessario :
 	\begin{itemize}
 		\item Assegnare il baud rate di 57600 bps corrispondente  al valore 34 dell'indirizzo 4 della Control Table
@@ -1167,12 +1168,12 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 		\item Verificare lo scostamento dallo zero e compensare con il comando Multi Turn Offset all'indirizzo 20 finchè non sarà tutto centrato
 		
 	\end{itemize}
-	Una volta configurato è possibile togliere l'alimentazione e i valori settati saranno conservati nella EEPROM degli attuatori oppure continuare ad inviare posizioni per verificare che vengano raggiunte. 
-	Il raggiungimento di posizioni interdette causa un urto e un bloccaggio, che viene risolto dal sistema di sicurezza di coppia massima degli attuatori che impedisce la rottura dei componenti o del servomotore. 
+	Una volta configurato è possibile sospendere l'alimentazione e i valori settati saranno conservati nella EEPROM degli attuatori oppure continuare ad inviare posizioni per verificare che vengano raggiunte. 
+	Il raggiungimento di posizioni interdette causa un urto ed un bloccaggio, che viene risolto dal sistema di sicurezza di coppia massima degli attuatori che impedisce la rottura dei componenti o del servomotore. 
 	
 \chapter{Risultati attesi ed ottenuti dal Robot realizzato}
 	\section{Test e collaudo del Robot assemblato}
-	Il robot è stato completamente assemblato dopo la produzione del polso sferico e una volta completato anche il cablaggio e l'installazione dell'elettronica è iniziata una fase di collaudo e di familiarizzazione con i comandi. 
+	Una volta conclusa la produzione del polso sferico il robot è stato completamente assemblato e dopo aver completato anche il cablaggio e l'installazione dell'elettronica è iniziata una fase di collaudo e di familiarizzazione con i comandi. 
 	\begin{figure}
 		\centering
 		\begin{tabular}{ll}
@@ -1196,7 +1197,7 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 \begin{figure}
 	\centering
 		\includegraphics[width=0.6\textwidth]{Screen/coppelia.png}
-	\caption{Test di raccolta cache e operazione di manutenzione}
+	\caption{Modello di simulazione robotica VREP, riceve lo stesso input dell'elettronica di controllo}
 	\label{fig:coppelia}
 \end{figure}
 \begin{figure}
@@ -1209,11 +1210,11 @@ Nella realizzazione di un prototipo la parte sicuramente più interessante dopo 
 	\caption{Test di raccolta cache e operazione di manutenzione}
 	\label{fig:test2}
 \end{figure}	
- 	Essendo infatti un prototipo completamente sperimentale, al di là del modello di simulazione è stato necessario testare a lungo il suo funzionamento e comprendere i comandi da impartire agli attuatori. 
- 	Il modello della posizione attesa viene visualizzato a schermo nell'ambiente di simulazione robotica \textit{VREP} come in figura \ref{fig:coppelia}. Si confronta poi la posizione ottenuta in realtà dal robot, misurando con metro e goniometro, col modello e poi corregendo il software di controllo adattandolo se necessario. 
- 	Dopo una serie di esperimenti è stato ottenuto un robot molto preciso nei movimenti, caratteristica notata anche dalla giuria della competizione European Rover Challenge. 
- 	I test sono proseguiti sollevando un carico equivalente a quello imposto nelle simulazioni multibody come in figura \ref{fig:test1} e simulando in laboratorio alcuni task come nella foto \ref{fig:test2}. 
- 	I risultati in sede di competizione si possono vedere anche nelle foto \ref{fig:maintanance} \ref{fig:cache} \ref{fig:science} \ref{fig:torocache} anticipate nel primo capitolo per descrivere le task operative nella competizione. I risultati per quanto riguarda il manipolatore sono stati buoni e hanno permesso di raggiungere un buon punteggio nelle task dove le capacità di manipolazione erano fondamentali. 
+ 	Essendo infatti il robot un prototipo completamente sperimentale, al di là del modello di simulazione è stato necessario testare a lungo il suo funzionamento e comprendere i comandi da impartire agli attuatori. 
+ 	Il modello della posizione attesa viene visualizzato a schermo nell'ambiente di simulazione robotica \textit{VREP} come in figura \ref{fig:coppelia}. Si confronta poi la posizione ottenuta in realtà dal robot col modello, misurando con metro e goniometro, e poi corregendo il software di controllo adattandolo se necessario. 
+ 	Dopo una serie di esperimenti si è ottenuto un robot molto preciso nei movimenti, caratteristica notata anche dalla giuria della competizione European Rover Challenge. 
+ 	I test sono proseguiti con il sollevamento un carico equivalente a quello imposto nelle simulazioni multibody di 5 chilogrammi come in figura \ref{fig:test1} e simulando in laboratorio alcune task come in foto \ref{fig:test2}. 
+ 	I risultati in sede di competizione si possono vedere anche nelle foto \ref{fig:maintanance} \ref{fig:cache} \ref{fig:science} \ref{fig:torocache} anticipate nel primo capitolo per descrivere le task operative della competizione. I risultati, per quanto riguarda il manipolatore sono stati buoni ed hanno permesso di raggiungere un notevole punteggio nelle task in cui le capacità di manipolazione erano centrali. 
  		
 
 
