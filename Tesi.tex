@@ -10,7 +10,7 @@ twoside,
  stile=classica,
 oldstyle,
 %autoretitolo,
-greek,% per comporre parte del testo in greco (qui solo con classica)
+greek,% per comporre parte del testo in greco (qui solo con cl prassica)
 %cucitura,
 ]{toptesi}
 % \usepackage{teubner}% per le notazioni filologiche greche
@@ -161,6 +161,14 @@ Pertanto, per essere una fonte di competenza, un occasione di testing e un'oppor
 	I Rover di assistenza progettati dal Team DIANA rappresentano dei modelli di future missioni in cui i Rover vengono impiegati nell'assistenza ad un equipaggio umano. \\
 	Viene a cadere il presupposto per cui le sonde esplorative operano in scenari \textbf{unmanned} e il ruolo dell'operatore diventa centrale nella progettazione del Robot.\\
 	 Esso dovrà avere quanto più possibile un funzionamento autonomo per non sottrarre risorse all'utilizzatore, considerare la presenza di esseri umani nel suo workspace e portare a termine mansioni in ambienti rischiosi per l'essere umano. 
+	
+	TRINITY è un rover rocker-boogie con ruote elastiche e capacità di sterzo e un braccio robotico e ha un approccio ibrido di operazioni sia autonome che teleoperate.
+	
+	È un modello ingegneristico di un esploratore marziano e un rover di assistenza in grado di svolgere compiti di navigazione, manutenzione, raccolta e recupero di campioni scientifici.
+	
+	TRINITY si basa su un design fortemente modulare. Questo tipo di approccio è spesso associato a costi più elevati, elevato consumo di energia e problemi relativi alla comunicazione tra sottosistemi. Tuttavia, da precedenti esperienze il Team ha appreso che un design modulare riduce drasticamente i tempi di sviluppo e produzione e consente di eseguire facilmente modifiche sulla piattaforma esistente per aggiornamenti e correzioni.
+	
+	
 	 
 		
 	\section{Rover Challenge Series: regolamento e requisiti nelle competizioni tra Rover}
@@ -185,7 +193,7 @@ Pertanto, per essere una fonte di competenza, un occasione di testing e un'oppor
 		La  \textbf{Maintanance Task} come definita dal regolamento 
 		\textit{ERC 2019 Student Rules} \cite{ERC2019} 
 		\newline
-		\textit{"The Maintenance tTask is intended to demonstrate rovers and teams ability and performance in operating electrical panel on which several switches and other electrical components are mounted. \\
+		\textit{"The Maintenance Task is intended to demonstrate rovers and teams ability and performance in operating electrical panel on which several switches and other electrical components are mounted. \\
 		The Team has to use rover’s manipulating device to set switches to correct positions, measure electrical parameters, set other panel controls and observe device feedback."}
 
 		\newline
@@ -286,6 +294,7 @@ Pertanto, per essere una fonte di competenza, un occasione di testing e un'oppor
 		
 	
 \chapter{Design di un manipolatore a 6 gradi di libertà}
+
 \section{Analisi preliminare dei requisiti}
 Ogni progetto con applicazione aerospaziale, come quello svolto per il \textbf{Rover TRINITY}, parte dall'analisi dei requisiti di progetto e dalla formalizzazione dei requisiti in maniera codificata. \\
 La tracciabilità dei requisiti, analizzati a partire da uno scenario di missione e dalla vigente normativa è fondamentale all'interno di un progetto aerospaziale poichè consente di semplificare eventuali sviluppi futuri.\\
@@ -325,26 +334,50 @@ La costituzione di un database di requisiti, lezioni apprese ed errori commessi 
 	
 \caption{Tabella dei requisiti derivati dal progetto e dal regolamento}	
 \end{longtable}
+	\section{Obbiettivi del progetto}
+	Il progetto finale presentato in questo documento ha come obiettivo quello di raccogliere l'esperienza progettuale fatta nel corso di due anni accademici, nella fattispecie 2018/2019 e 2019/2020, all'interno del Team DIANA. Lo stato del progetto del manipolatore robotico al mio ingresso nel gruppo di progettazione era agli inizi, con delle criticità da affrontare. Nella fattispecie:
+	\begin{itemize}
+		\item Il workspace doveva essere ancora definito
+		\item Il dimensionamento delle trasmissioni e degli attuatori doveva essere validato tramite un modello di calcolo
+		\item Il modello di polso ipotizzato era cartesiano e non ancora dotato di attuatori adatti
+		\item Il giunto del gomito presentava delle criticità strutturali 
+		\item Le fasi di produzione, validazione della controllistica e testing dovevano ancora essere delineate
+	\end{itemize}
+	
+	Pertanto il progetto finale ripercorrà questi punti di cui mi sono occupato avendone la responsabilità della progettazione, lavorando in collaborazione con il gruppo analisi FEM che si è occupato della validazione delle strutture e della loro ottimizzazione.  L'obiettivo di questo percorso di progettazione è illustrare e raccogliere il lavoro svolto all'interno del gruppo di progettazione del manipolatore robotico di cui sono stato responsabile. 
 	
 	
 	\section{Gradi di libertà necessari}
 	Il robot antropomorfo debutta in campo industriale all’inizio degli anni Settanta con l’obiettivo di sostituire l’uomo in alcuni passaggi della catena di montaggio che prevedono lo svolgimento di attività usuranti e pericolose. \\
 	La struttura meccanica dei robot è costituita da una sequenza di elementi meccanici connessi tra loro da giunti che ne consentono il moto relativo.\\
-	 I singoli elementi possono essere connessi tra loro in serie od in parallelo.\\
-	 La struttura è seriale quando i singoli elementi sono collegati l'uno all'altro come gli anelli di una catena;èparallela quando tutti gli elementi sono collegati sia a terra sia all'estremità della struttura tramite dei giunti rotoidali. L'approccio seriale garantisce una più ampia possibilità di movimento, mentre quello parallelo permette di ottenere una maggiore rigidezza.\\
-	 Un arbitrario spostamento di un corpo rigido può essere ottenuto componendo dei singoli spostamenti fondamentali; ognuno di essi rappresenta un grado di libertà per l'oggetto. \\
+	 
+	 
 	 I robot industriali, a cui si ispira il progetto, hanno fondamentalmente lo scopo di manipolare degli oggetti, cioè di muoverli nello spazio controllandone posizione ed orientamento.\\
 	  Gli oggetti che i robot si trovano a dover manipolare sono, nella quasi totalità dei casi, riconducibili a corpi solidi. \\
 	  Si tratterà quindi di studiarne i possibili movimenti nello spazio per poi definire quelle caratteristiche che la struttura deve possedere per poterli realizzare. \\
 	  Infatti l'oggetto, una volta afferrato, è solidale con l'estremità della struttura e quindi ne riproduce fedelmente gli spostamenti. \\
-	 Un corpo rigido ha, nello spazio, sei gradi di libertà corrispondenti ad altrettante possibilità di spostamento. 
+	 Un corpo rigido ha, nello spazio, sei gradi di libertà corrispondenti a tre traslazioni lungo gli assi e tre rotazioni attorno ad essi. 
 	 Ciò significa che la sua posizione ed il suo orientamento rispetto ad un sistema di riferimento sono descritte da sei parametri. \\
 	 Per rendere piu' intuitiva questa affermazione si immagini di rendere solidale con l'oggetto rigido la terna cartesiana xyz in figura \ref{fig:6DOF}. \\
 	 I sei parametri prima citati risultano ora di facile interpretazione: tre definiscono la posizione dell'origine della terna xyz mentre le rimanenti ne individuano l'orientazione. Gli spostamenti corrispondenti sono tre traslazioni (parallelamente agli assi coordinati) e tre rotazioni (attorno agli stessi assi).\\
 	  Questo permette di affermare che la struttura di un robot, per poter muovere ed orientare arbitrariamente un corpo nello spazio, ha bisogno di un minimo di sei gradi di libertà. \\
 	  Con analoghe considerazioni è facile arrivare a concludere che un corpo rigido, se vincolato a muoversi in un piano, ha tre gradi di libertà. 
+	  
+	 \begin{figure} [H]
+	 	\centering
+	 	\includegraphics[width=0.6\textwidth]{pictures/KUKA.png}
+	 	\caption{Un robot industriale antropomorfo a 6 assi}
+	 	\label{fig:KUKA}
+	 \end{figure}
 	 
-	 \begin{figure}
+	 I robot come quello in figura \ref{fig:KUKA}, sono detti antropomorfi in quanto riproducono abbastanza fedelmente le possibilità di movimento di un braccio umano ed hanno una struttura ben definita con 3 giunti rotoidali per il braccio con il secondo e terzo paralleli tra loro e ortogonali al primo a cui si aggiunge tradizionalmente un polso a 3 gdl rotoidali per ottenere un robot a 6 assi.\\ 
+	 
+	 L'estremità della struttura di un robot possiede in genere sei diverse possibilità di movimento: tre di traslazione per spostamenti nello spazio e tre di rotazione per l'orientazione.\\
+	 Questa divisione dei gradi di libertà in due gruppi con finalità distinte si riflette nella struttura con una specializzazione dei giunti. \\
+	 I gradi di libertà principali si occupano di posizionare nello spazio gli oggetti manipolati dal robot, quelli secondari di orientarli. Sono detti principali gli assi che formano il braccio del robot mentre sono detti secondari quelli che costituiscono il polso. Braccio e polso, avendo funzioni diverse, presentano caratteristiche diverse. \\
+	 In primo luogo nella realizzazione del braccio si può scegliere se utilizzare giunti rotoidali o prismatici mentre la realizzazione del polso può avvenire solo con giunti rotoidali. \\
+	 Inoltre gli elementi strutturali che compongono il braccio hanno una certa lunghezza mentre quelli del polso sono privi di dimensione se si tratta di giunti monocentrici, cioè gli assi di rotazione dei tre giunti idealmente si incontrano in un punto. \\
+	 \begin{figure} [H]
 	 	\centering
 	 	\includegraphics[width=\textwidth]{pictures/6DOF.png}
 	 	\caption{6 gradi di libertà di un corpo rigido nello spazio}
@@ -353,34 +386,85 @@ La costituzione di un database di requisiti, lezioni apprese ed errori commessi 
 
 \section{Workspace necessario}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\textwidth]{pictures/KUKA.png}
-	\caption{Un robot industriale antropomorfo a 6 assi}
-	\label{fig:KUKA}
-\end{figure}
 
-\begin{figure}
+
+\begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{Plots/workspace.png}
 	\caption{Workspace in vista laterale, è rappresentato il piano dello chassis e i punti raggiunti dal TCP}
 	\label{fig:workspace}
 \end{figure}
-I robot come quello in figura \ref{fig:KUKA}, sono detti antropomorfi in quanto riproducono abbastanza fedelmente le possibilità di movimento di un braccio umano o a giunti rotoidali verticali (in quanto il secondo e il terzo grado di libertà, detti rispettivamente spalla e gomito, muovono il braccio del robot all'interno di un piano verticale).\\ 
+
 Il volume di lavoro può essere considerato, in prima approssimazione, come una porzione di sfera.
 Il workspace richiesto per il manipolatore deriva dalle richieste del regolamento e dallo scenario operativo e si può riassumere nella necessità di raggiungere un altezza che va da 1,5 metri e quella del suolo e di operare sullo chassis del rover per depositare oggetti e campioni. \\
 Il workspace è stato valutato attraverso un calcolo iterativo di cinematica diretta in cui la struttura è statz parametrizzata attraverso le lunghezze dei link. L'obiettivo è quello di realizzare uno spazio di lavoro sufficiente rappresentando graficamente la posizione del \textbf{Tool Center Point} per ogni iterazione in una vista laterale in figura \ref{fig:workspace}. \\
+\begin{lstlisting}[language=Matlab]
+%%% Dati Rover per il calcolo del workspace%%%
+
+% CHASSIS 
+h1=500; %altezza lato superiore chassis [mm]
+h2=100; %distanza tra giunto spalla e chassis [mm]
+h0=h1+h2; %distanza giunto spalla da terra [mm]
+
+% ARM
+%lunghezze link: braccio ,avambraccio , distanza tra polso e TCP   [mm]
+l=[600 367 315];
+
+% escursione angoli giunti: 
+
+a=[-5 120   %spalla(zero: link parallelo al terreno che punta verso fronte rover)
+                  % 125 gradi di escursione
+33 129   	 %elbow (zero: link parallelo al link precedente che punta fronte rover) 
+	              %96 gradi di escursione
+-90 90]; 	 %second wrist joint (zerolink parallelo al precedente che punta fronte rover) 
+             	  %180 gradi di escursione
+
+%% Calcolo cinematica diretta per braccio rivolto di fronte
+
+j1=[0 h0]; %Posizione giunto spalla
+i=0;
+
+for a1=deg2rad(linspace(a(1,1),a(1,2),10)) 
+
+%giunto gomito
+for a2=deg2rad(linspace(a(2,1),a(2,2),10))
+
+%giunto polso
+for a3=deg2rad(linspace(a(3,1),a(3,2),3))
+
+j2=[j1(1)+l(1)*cos(a1),j1(2)+l(1)*sin(a1)];
+j3=[j2(1)+l(2)*cos(a1-a2),j2(2)+l(2)*sin(a1-a2)];
+j4=[j3(1)+l(3)*cos(a1-a2-a3),j3(2)+l(3)*sin(a1-a2-a3)]; %TCP
+
+i=i+1; 
+plot([j1(1),j2(1)],[j1(2),j2(2)],'b')
+plot([j2(1),j3(1)],[j2(2),j3(2)],'g')
+% plot([j3(1),j4(1)],[j3(2),j4(2)],'c')%escluso dalla visualizzazione il polso 
+plot(j4(1),j4(2),'.k')
+x(i)=j4(1);
+y(i)=j4(2);
+pause(0.00001)
+end         
+end
+end 
+
+%frontiera
+% scatter(x,y)
+k = boundary(x(:),y(:));
+plot(x(k),y(k),'r','LineWidth',1)
+hold on
+
+\end{lstlisting}
+
+Questo listato contiene i valori finali che sono stati scelti per costruire il workspace in figura \ref{fig:workspace}, verificato graficamente tramite la linea di terra e la forma dello chassis riportata nel grafico. Le linee rosse rappresentano la frontiera dello spazio del workspace e sono i punti di estremo raggiungibili dal Tool Center Point. I punti in nero rappresentano invece le coordinate raggiunte ma che non si trovano alla frontiera, si è scelto di iterare il calcolo per intervalli di 10 gradi in modo da non riempire troppo la figura. Le linee verdi e blu invece rappresentano braccio e avambraccio.
+
+
 Una volta decise delle lunghezze dei link principali è stato possibile costruire i primi modelli cad della struttura del robot al fine di realizzare un modello dinamico e non solo più cinematico. \\
 L'abilità di raggiungere facilmente delle posizioni intorno al basamento, il fatto che il robot possa scendere al di sotto della quota della base, estendersi verso l'alto e infine depositare degli oggetti alle sue spalle sono i requisiti principali per il progetto. 
 Molte applicazioni pratiche non richiedono necessariamente tutte queste possibilità ma, in generale, si può dire che tutto ciò che gli altri robot possono fare, può essere fatto con più facilità da un robot antropomorfo.\\
 
 
-\section{Struttura del robot}
-L'estremità della struttura di un robot possiede in genere sei diverse possibilità di movimento: tre di traslazione per spostamenti nello spazio e tre di rotazione per l'orientazione.\\
- Questa divisione dei gradi di libertà in due gruppi con finalità distinte si riflette nella struttura con una specializzazione dei giunti. \\
- I gradi di libertà principali si occupano di posizionare nello spazio gli oggetti manipolati dal robot, quelli secondari di orientarli. Sono detti principali gli assi che formano il braccio del robot mentre sono detti secondari quelli che costituiscono il polso. Braccio e polso, avendo funzioni diverse, presentano caratteristiche diverse. \\
- In primo luogo nella realizzazione del braccio si può scegliere se utilizzare giunti rotoidali o prismatici mentre la realizzazione del polso può avvenire solo con giunti rotoidali. \\
- Inoltre gli elementi strutturali che compongono il braccio hanno una certa lunghezza mentre quelli del polso sono privi di dimensione, nel senso che gli assi di rotazione dei tre giunti idealmente si incontrano in un punto. 
+
 \section{Descrizione del modello di Robot}
 La configurazione scelta è quella di un manipolatore antropomorfo a 6 assi. \\
 La struttura per i giunti principali è realizzata tramite link costituiti da profilati in alluminio estruso e parti lavorate in alluminio mentre le cerniere sono realizzate da alberi in acciaio supportati da cuscinetti a strisciamento a basso coefficiente di attrito. \\
@@ -403,7 +487,7 @@ Si pensi, come esempio, ad un robot utilizzato in un'applicazione di avvitatura,
 	\caption{Schema delle componenti}
 	\label{fig:bollatura}
 \end{figure}
-Il robot è schematizzato nel disegno \ref{fig:bollatura} e nel capitolo 3 verrà analizzato il dimensionamento degli  \textbf{Attuatori Passo Passo} e dell'\textbf{Attuatore Lineare} mentre al \textbf{Polso Sferico} sarà dedicato il capitolo 4. 
+Il robot in figura \ref{fig:render} è schematizzato nel disegno \ref{fig:bollatura} e nel capitolo 3 verrà analizzato il dimensionamento degli  \textbf{Attuatori Passo Passo} e dell'\textbf{Attuatore Lineare} mentre al \textbf{Polso Sferico} sarà dedicato il capitolo 4. 
 
 	
 	\section{Modello multibody}
@@ -438,12 +522,12 @@ Il robot è schematizzato nel disegno \ref{fig:bollatura} e nel capitolo 3 verr�
 
 \chapter{Attuatori per un progetto di robotica low-cost} 
 Il progetto dei Rover che partecipano alle Rover Challenge Series competitions è sottoposto ad un vincolo di costo molto importante.\\
- Difatti nella gara progettuale è posto un limite di costo per l'intero progetto che varia da competizione a competizione o ,dove non ci fosse un limite esplicito, è sicuramente premiata l'economia e l'utilizzo di componenti standard già disponibili sul mercato. \\
+ Difatti nella gara progettuale è posto un limite di costo per l'intero progetto che varia da competizione a competizione o dove non ci fosse un limite esplicito, è sicuramente premiata l'economia e l'utilizzo di componenti standard già disponibili sul mercato. \\
 Questo vincolo si rivela molto importante nella scelta degli attuatori e relativa elettronica di controllo essendo essi i componenti più costosi in un progetto di questo tipo. \\
 Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e un attuatore lineare mentre per i giunti del polso sono stati scelti dei servomotori digitali per applicazioni robotiche. 
-	\section{Motoriduttori Passo-Passo, trasmissione del Moto e componenti utilizzati}
+	\section{Motoriduttori Passo-Passo}
 	I motoriduttori passo-passo scelti sono commercializzati dalla Phidgets ed offrono un potente e robusto attuatore a basso costo. \\
-	Hanno risoluzione angolare di 0.023° ed una coppia massima di 23 Newton per metro, sono dotati di flangiatura standard NEMA-23 ed albero di uscita di diametro $\phi 12$ con sede linguetta e anello elastico per accoppiare una ruota dentata. 
+	Hanno risoluzione angolare di 0.023° ed una coppia massima di 23 Nm, sono dotati di flangiatura standard NEMA-23 ed albero di uscita di diametro $\phi 12$ con sede linguetta e anello elastico per accoppiare una ruota dentata. 
 	Il secondo alberino di uscita permette di ospitare un encoder ottico per realizzare un controllo in posizione ad anello chiuso.\\
 		\begin{figure}
 		\centering
@@ -451,7 +535,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 		\caption{Scheda tecnica dell'attuatore 57STH56 NEMA-23}
 		\label{fig:Stepper}
 	\end{figure}
-	Il controllo dei motori passo-passo è molto semplice poichè possibile ad anello aperto, tramite l'uso du un controllore per la commutazione delle fasi ad onda quadra. \\
+	Il controllo dei motori passo-passo è molto semplice poichè possibile ad anello aperto, tramite l'uso di un controllore per la commutazione delle fasi ad onda quadra. Tutte le informazioni necessarie al collegamento meccanico ed elettrico sono state desunte dalla scheda tecnica in figura \ref{fig:Stepper} \\
 	Il controllore scelto è il driver L6208 della STMicroelectronics, è un driver completamente integrato per motore passo-passo con protezione da sovracorrente. Il dispositivo include tutti i circuiti necessari per pilotare un motore passo-passo bipolare bifase: un doppio ponte DMOS completo, controller di corrente PWM a tempo di spegnimento costante che esegue la regolazione del taglio e della fase ed un generatore di sequenza che genera il passo. \\
 	
 
@@ -474,7 +558,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 		\end{figure}
 		Per il Joint 1, su cui ruota tutta la struttura del robot nel piano orizzontale, è necessario realizzare una base rigida su cui gravano il peso dell'intero robot ed un importante momento quando il braccio è completamente disteso e a sbalzo.\\
 		 Perciò è stato impiegato un apposito giunto asso-radiale prodotto da IGUS, il \textit{PRT-01-30} in figura \ref{fig:RALLA}. \\
-		La ralla IGUS è dotata di una corona esterna dentata di modulo unificato 2 e 54 denti perciò è stato possibile applicare un pignone prodotto da \textit{MISUMI codice GEAKS2.0-18-20-B-12N} al motoriduttore con 18 denti per realizzare un rapporto di riduzione 1 a 3. L'angolo di pressione è standard di 20° e la dentatura è a denti dritti. 
+		La ralla IGUS è dotata di una corona esterna dentata di modulo unificato 2 mm e 54 denti perciò è stato possibile applicare un pignone prodotto da \textit{MISUMI codice GEAKS2.0-18-20-B-12N} al motoriduttore con 18 denti per realizzare un rapporto di riduzione 1 a 3. L'angolo di pressione è standard di 20° e la dentatura è a denti dritti. 
 		\\
 		\begin{tabular}{|c|c|c|c|c|c|c|c|}
 			
@@ -486,10 +570,18 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 			
 		\end{tabular}
 		\\
-		Si assume che la dentatura di modulo 2 in acciaio sia in grado di trasmettere la potenza prodotta dal motoriduttore con ampio margine di sicurezza, pertanto non è stata dimensionata ma sono state verificate le forze scambiate dal modello multibody in figura \ref{fig:MBDforze1}. \\
+		Si assume che la dentatura di modulo 2 mm in acciaio sia in grado di trasmettere la potenza prodotta dal motoriduttore con ampio margine di sicurezza, pertanto non è stata dimensionata ma sono state verificate le forze scambiate dal modello multibody in figura \ref{fig:MBDforze1}. \\
 		Dal modello multibody sono state misurati due set di dati: quelli relativi alla ralla e quelli relativi all'attuazione. \\
 		In figura possiamo valutare la coppia richiesta all'attuatore dalla trasmissione con rapporto di riduzione 1 a 3 per realizzare una rotazione della base con il braccio in posizione distesa e ritratta, evidenziando l'impatto della posizione del braccio sulla prestazione del motore. \\
 		Il modello tiene conto dell'attrito opposto dalla cerniera avendo inserito nel modello di simulazione il corretto valore di coefficiente di attrito dinamico fornito dalla produttrice IGUS pari a 0.2. 
+		
+		Condizioni di simulazione :
+		\begin{itemize}
+			\item Traiettoria svolta nella condizione favorevole: il braccio si chiude e il giunto compie una rotazione di 90° 
+			\item Traiettoria svolta nella condizione sfavorevole: il braccio si distende e il giunto compie una rotazione di 90° 
+			\item Velocità dell'attuatore 1 rpm
+			\item Payload : massa concentrata di 5kg nel TCP 
+		\end{itemize}
 
 		\begin{figure} [!ht]
 			\centering
@@ -515,11 +607,11 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 		\label{fig:MBDralla1}
 	\end{figure}
 	
-			Dai dati raccolti si evidenzia che nella condizione più sfavorevole in figura \ref{fig:MBDcoppia1}  ci si avvicina al valore di coppia massima prevista per l'attuatore con un valore di 20 Newton per metro senza comunque superarla mentre nella condizione favorevole si è ben al di sotto con massimo di 12 Newton per metro. \\
+			Dai dati raccolti si evidenzia che nella condizione più sfavorevole in figura \ref{fig:MBDcoppia1}  ci si avvicina al valore di coppia massima prevista per l'attuatore con un valore di 20 Nm senza comunque superarla mentre nella condizione favorevole si è ben al di sotto con massimo di 12 Nm. \\
 			Pertanto si prevede che l'attuatore sarà in grado di movimentare il carico senza che perda passi e che si crei quindi uno shift tra la posizione attesa e quella effettivamente raggiunta. Questa condizione può essere comunque recuperata dalla presenza di un encoder che registri la posizione effettivamente raggiunta. \\
 			
 			Successivamente è necessario verificare che il componente scelto per la cerniera possa sopportare i carichi imposti dal meccanismo quando si trova nella condizione più sfavorevole.\\
-			Dai dati raccolti in figura \ref{fig:MBDralla1} il carico assiale massimo è inferiore ai 7000 Newton previsti dalla scheda tecnica e il momento massimo è inferiore ai 200 Newton per metro previsti. Pertanto il componente è sicuramente in grado di sopportare i carichi imposti dal robot garantendo l'assenza di gioco nella trasmissione. \\
+			Dai dati raccolti in figura \ref{fig:MBDralla1} il carico assiale massimo è inferiore ai 7000 N previsti dalla scheda tecnica e il momento massimo è inferiore ai 200 Nm previsti. Pertanto il componente è sicuramente in grado di sopportare i carichi imposti dal robot garantendo l'assenza di gioco nella trasmissione. \\
 			
 	
 	
@@ -552,10 +644,21 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 			\label{fig:MBDJoint22motore}
 		\end{figure}
 		Per il Joint 2 sono stati scelti gli stessi motoriduttori mostrati precedentemente, montati in configurazione gemellata che si vede in figura \ref{fig:Stepper_foto}. \\
-		Questa soluzione si è resa necessaria in quanto un solo attuatore non è sufficiente a garantire la coppia necessaria come mostrato in figura \ref{fig:MBDJoint21motore} e per realizzare una simmetria delle coppie di reazione che si scaricano sulla struttura del Link 2. \\
-		I due attuatori lavorano su una stessa trasmissione e sommano la loro azione annullando vicendevolmente la torsione che si sarebbe scaricata sul Link 3 della trave del braccio, permettendo al team di analisi FEM di validare un design leggero grazie alla simmetria degli sforzi. Nella soluzione con 2 attuatori come si vede in figura \ref{fig:MBDJoint22motore} le prestazioni del motore sono sufficienti a movimentare il carico. \\
+		Questa soluzione si è resa necessaria in quanto un solo attuatore non è sufficiente a garantire la coppia necessaria come mostrato in figura \ref{fig:MBDJoint21motore} e per realizzare una simmetria delle coppie di reazione che si scaricano sulla struttura del Link 1. \\
+		
+		
+		I due attuatori trasmettono il moto al Link 1 mediante ruote dentate flangiate sulla struttura ed erogano potenza lavorando in parallelo. Ciò permette inoltre di non caricare a torsione la trave del Link 1 visto che i carichi risultano simmetrici. 
+		
+		Nella soluzione con 2 attuatori come si vede in figura \ref{fig:MBDJoint22motore} le prestazioni del motore sono sufficienti a movimentare il carico. Nel grafico è rappresentata la coppia erogata dal singolo motore.\\
 		Il modello multibody anche in questa fase si è rivelato fondamentale al fine di fornire dei carichi verosimili da applicare all'analisi strutturale e nell'ottimizzazione della struttura da parte del team di analisi FEM. 
 		\\
+			Condizioni di simulazione :
+		\begin{itemize}
+			\item Traiettoria svolta nella condizione favorevole: il braccio si chiude e il giunto compie una rotazione di 90° 
+			\item Traiettoria svolta nella condizione sfavorevole: il braccio si distende e il giunto compie una rotazione di 90° 
+			\item Velocità dell'attuatore 1 rpm
+			\item Payload : massa concentrata di 5kg nel TCP 
+		\end{itemize}
 		L'attuatore trasferisce il moto al Link 3 del braccio mediante un ingranamento tra ruote dentate a denti dritti di modulo 1,5 e rapporto di riduzione 3. Al motoriduttore è applicato un pignone da 20 denti \textit{MISUMI GEAKS1.5-20-15-B-12N} e al link 3 una ruota condotta da 60 denti \textit{GEAKS1.5-60-15-A-12N} con larghezza di fascia 15mm. \\
 		
 			\begin{tabular}{|c|c|c|c|c|c|c|c|}

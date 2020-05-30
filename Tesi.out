@@ -9,13 +9,13 @@
 \BOOKMARK [2][]{subsection.1.3.3}{Scenario\040Fetch\040and\040Collect}{section.1.3}% 9
 \BOOKMARK [0][]{chapter.2}{Design\040di\040un\040manipolatore\040a\0406\040gradi\040di\040libert\340}{}% 10
 \BOOKMARK [1][]{section.2.1}{Analisi\040preliminare\040dei\040requisiti}{chapter.2}% 11
-\BOOKMARK [1][]{section.2.2}{Gradi\040di\040libert\340\040necessari}{chapter.2}% 12
-\BOOKMARK [1][]{section.2.3}{Workspace\040necessario}{chapter.2}% 13
-\BOOKMARK [1][]{section.2.4}{Struttura\040del\040robot}{chapter.2}% 14
+\BOOKMARK [1][]{section.2.2}{Obbiettivi\040del\040progetto}{chapter.2}% 12
+\BOOKMARK [1][]{section.2.3}{Gradi\040di\040libert\340\040necessari}{chapter.2}% 13
+\BOOKMARK [1][]{section.2.4}{Workspace\040necessario}{chapter.2}% 14
 \BOOKMARK [1][]{section.2.5}{Descrizione\040del\040modello\040di\040Robot}{chapter.2}% 15
 \BOOKMARK [1][]{section.2.6}{Modello\040multibody}{chapter.2}% 16
 \BOOKMARK [0][]{chapter.3}{Attuatori\040per\040un\040progetto\040di\040robotica\040low-cost}{}% 17
-\BOOKMARK [1][]{section.3.1}{Motoriduttori\040Passo-Passo,\040trasmissione\040del\040Moto\040e\040componenti\040utilizzati}{chapter.3}% 18
+\BOOKMARK [1][]{section.3.1}{Motoriduttori\040Passo-Passo}{chapter.3}% 18
 \BOOKMARK [2][]{subsection.3.1.1}{Joint\0401}{section.3.1}% 19
 \BOOKMARK [2][]{subsection.3.1.2}{Joint\0402}{section.3.1}% 20
 \BOOKMARK [1][]{section.3.2}{Attuatori\040Lineari,\040Cinematismo\040Joint\0403}{chapter.3}% 21
