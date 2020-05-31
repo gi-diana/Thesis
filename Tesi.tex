@@ -654,9 +654,8 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 		\\
 			Condizioni di simulazione :
 		\begin{itemize}
-			\item Traiettoria svolta nella condizione favorevole: il braccio si chiude e il giunto compie una rotazione di 90° 
-			\item Traiettoria svolta nella condizione sfavorevole: il braccio si distende e il giunto compie una rotazione di 90° 
-			\item Velocità dell'attuatore 1 rpm
+			\item Traiettoria svolta nella condizione favorevole: l'avambraccio è perpendicolare e il giunto compie tutta la sua escursione nelle due direzioni 
+			\item Traiettoria svolta nella condizione sfavorevole: l'avambraccio è disteso e il giunto compie tutta la sua escursione nelle due direzioni 
 			\item Payload : massa concentrata di 5kg nel TCP 
 		\end{itemize}
 		L'attuatore trasferisce il moto al Link 3 del braccio mediante un ingranamento tra ruote dentate a denti dritti di modulo 1,5 e rapporto di riduzione 3. Al motoriduttore è applicato un pignone da 20 denti \textit{MISUMI GEAKS1.5-20-15-B-12N} e al link 3 una ruota condotta da 60 denti \textit{GEAKS1.5-60-15-A-12N} con larghezza di fascia 15mm. \\
@@ -700,7 +699,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 	La scelta di un attuatore lineare, un componente molto economico e di larga diffusione nelle forniture di automazione, ha permesso di posizionare l'attuatore e quindi la sua massa molto in basso e non appensantendo il link 3. \\
 		\begin{figure}
 		\centering
-		\includegraphics[width=0.4\textwidth]{image/linearact.jpg}
+		\includegraphics[width=0.5\textwidth]{image/linearact.jpg}
 		\caption{Interno di un attuatore lineare del tipo scelto nel progetto }
 		\label{fig:linearact}
 	\end{figure}
@@ -720,9 +719,15 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 	 Grazie alla possibilità di parametrizzare alcune variabii che costituiscono il modello si può svolgere un esperimento di esplorazione del design. \\
 	Fissato un obiettivo, che in questo caso è l'escursione di almeno 100° di rotazione del giunto per rispettare il workspace previsto, si realizzano varie simulazioni in cui variano dei parametri, in questo caso l'escursione dell'attuatore e la posizione delle cerniere. \\
 	Con questo approccio è stato determinato che un attuatore con escursione di 200 millimetri era il compromesso ideale tra quelli disponibili in commercio. 
+		Condizioni di simulazione :
+	\begin{itemize}
+		\item Traiettoria svolta: il giunto compie la sua escursione completa
+		\item Velocità = 0.5 rpm 
+		\item Payload : massa concentrata di 5kg nel TCP 
+	\end{itemize}
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.6\textwidth]{Plots/GOMITO/Joint3.png}
+		\includegraphics[width=0.7\textwidth]{Plots/GOMITO/Joint3.png}
 		\caption{Dati raccolti nell'iterazione finale dello studio di design in cui viene compiuta una corsa completa del giunto }
 		\label{fig:MBDLinear}
 	\end{figure}
@@ -845,7 +850,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	\begin{itemize}
 		\item Tutta la parte in movimento del componente dovrà trovarsi all'interno dell'inviluppo sferico generato dalla rotazione del Joint 4 al fine di garantire che non ci siano zone interdette al moto.
 		
-		\item Sono neccessari dei passaggi per i cavi degli attuatori, quindi sono stati scelti alberi forati assialmente per le cerniere e predisposto un contatto strisciante a 12 conduttori per il Joint 6. I cavi passando all'interno degli alberi non rischiano di incastrarsi nei denti delle ruote dentate. 
+		\item Sono necessari dei passaggi per i cavi degli attuatori, quindi sono stati scelti alberi forati assialmente per le cerniere e predisposto un contatto strisciante a 12 conduttori per il Joint 6. I cavi passando all'interno degli alberi non rischiano di incastrarsi nei denti delle ruote dentate. 
 		\item Minimo peso possibile per gli accessori, i cuscinetti sono un target su cui ridurre le masse.
 		\item Da una prima considerazione delle potenze in gioco, confrontate col modello multbody e con la caratteristica meccanica dell'attuatore, è necessaria una riduzione con rapporto di almeno 2 per rendere possibile il funzionamento a pieno carico, tuttavia un rapporto 3 sarebbe ideale. 
 		\item La precisione della stampante UPRINT verificata con delle prove di stampa di dentature non è sufficiente per realizzare un ingranamento di buona qualità al di sotto del modulo 2. 
@@ -884,7 +889,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	La manifattura additiva rende disponibile un illimitato numero di forme e design, con la possibilità di integrare il componente strutturale con quello di trasmissione e realizzare pezzi unici dalle geometrie arbitrarie. \\
 	Questa possibilità offerta dalla manifattura additiva apre sicuramente la strada alla valutazione di una dentatura elicoidale. \\
 	Per calcolare il numero minimo di denti da assegnare ad una ruota elicoidale si fa riferimento ad una ruota fittizia a denti dritti per cui andremo a calcolare il numero minimo di denti.\\
-	Bisogna ricordare infatti, come illustrato nel testo \cite{Jacazioteo} nel capitolo sulle ruote dentate elicoidali, che una ruota dentata elicoidale mantiene in ogni sezione effettuata da un piano frontale normale all'asse della ruota la forma di una evolvente del cilindro fondamentale. Tale proprietà non vale per una sezione normale all'elica primitiva e l'intersezione è rappresentata da un'ellisse con semiassi pari a $a=\frac{r}{cos\beta}$ e $b=r$ dove $\beta$ rappresenta l'angolo d'elica. 
+	Bisogna ricordare infatti, come illustrato in \cite{Jacazioteo} nel capitolo sulle ruote dentate elicoidali, che una ruota dentata elicoidale mantiene in ogni sezione effettuata da un piano frontale normale all'asse della ruota la forma di una evolvente del cilindro fondamentale. Tale proprietà non vale per una sezione normale all'elica primitiva e l'intersezione è rappresentata da un'ellisse con semiassi pari a $a=\frac{r}{cos\beta}$ e $b=r$ dove $\beta$ rappresenta l'angolo d'elica. 
 	Pertanto è lecito considerare il moto relativo tra le due ruote come un moto di rotolamento tra i due cilindri avente asse inclinato di $\beta$ .
 	
 	\begin{equation}\label{dentivirtuale1}
@@ -917,34 +922,41 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	Nel caso del dimensionamento statico le tensioni massime calcolate sono ottenute considerando le forze massime scambiate dall’ingranaggio, quelle cioè che possono produrre rottura nel dente.\\
 	Come carico massimo si è scelto di prendere a riferimento il valore di coppia di stallo, o holding torque, degli attuatori \textit{Dynamixel MX-106} pari a 8,4 Newton per metro. Difatti l'attuatore, in grado di misurare la corrente assorbita dal motore, correla il valore di soglia massima di corrente con la caratteristica elettrica del motore e disattiva l'alimentazione una volta raggiunta la coppia di stallo. \\
 	Il calcolo statico a flessione di una ruota a denti elicoidali può eseguirsi estendendo opportunamente le formule valevoli per le ruote a denti dritti.
+	La forza $Ft$  che sollecita il dente, basata sull'ipotesi di singolo dente in presa valida per Lewis è espressa come \ref{torque}
 	\begin{equation}\label{torque}
-	C=\frac{Ft}{\cos\beta}
+	Ft=C \cdot \cos\beta
 	\end{equation}
-	La forza che sollecita il dente, basata sull'ipotesi di singolo dente in presa valida per Lewis è \ref{torque}
+	Dove $C$ rappresenta la coppia esercitata sulla ruota dentata, e $\beta$ l'angolo d'elica
+
+	Proiettiamo la larghezza di faccia effettiva $b"$ sul cilindro di contatto \ref{larghezza}
 	\begin{equation}\label{larghezza}
 	b"=\frac{b}{\cos\beta}
 	\end{equation}	
-	La larghezza di fascia effettiva proiettata sul cilindro di contatto \ref{larghezza}
+	Quindi ricaviamo la tensione flessionale in \ref{sigmal} considerando il coefficiente $Y_{lw}$ che si trova tabellato in letteratura tecnica e il modulo normale $m_{n}$
 	\begin{equation}\label{sigmal}
 	\sigma=\frac{\frac{Ft}{\cos\beta}}{\frac{b}{\cos\beta}m_{n}Y_{lw}}=\frac{Ft}{b m_{n}Y_{lw}}
 	\end{equation}
-	Quindi la tensione flessionale è ricavata in \ref{sigmal} considerando il coefficiente $Y_{lw}$ che si trova tabellato in letteratura tecnica
+	
+	Esplicitando il modulo normale rispetto alla larghezza di fascia, alla coppia di sollecitazione e alla tensione di snervamento, considerato un opportuno coefficiente di sicurezza possiamo ricavare il modulo normale come in \ref{mnlewis}.
+	
 		\begin{equation}\label{mnlewis}
 	mn=\sqrt[3]{\frac{Y_{lw} \cdot C \cdot 2 \cos\beta}{\frac{\sigma_{Yield}}{CS} \cdot b \cdot Z}}
 	\end{equation}
-	Esplicitando il modulo normale rispetto alla larghezza di fascia, alla coppia di sollecitazione e alla tensione di snervamento, considerato un opportuno coefficiente di sicurezza restituisce il modulo normale come in \ref{mnlewis}.
+	
 	\subsection{Contatto Hertziano}
 	Il calcolo a contatto hertziano verifica che le pressioni specifiche di contatto, cioè le tensioni di tipo hertziano che si instaurano localmente durante l’ingranamento, siano inferiori alla tensione ammissibile del materiale, già definita per il calcolo statico a flessione.\\
 	Un’eccessiva pressione specifica di contatto, infatti, comporterebbe un deterioramento della superficie del dente, inaccettabile ai fini di un corretto funzionamento dell’ingranaggio.\\
 	Dal punto di vista del contatto hertziano due denti diritti che ingranano possono essere considerati come due cilindri a contatto lungo una generatrice di lunghezza pari alla larghezza di fascia del dente b. \\
 	Il carico normale all’orma di contatto P è ancora la forza F che si scambiano i denti lungo la retta dei contatti. 
+		La relazione con cui si effettua la verifica delle ruote elicoidali è \ref{hertz}
 	\begin{equation}\label{hertz}
 	\sigma_{H}=0,629\cdot0,418\cdot\sqrt{\frac{\frac{Ft}{\cos\alpha}\cdot E\cdot(\frac{1}{R_{1}}+\frac{1}{R_{2}})\cdot \frac{1}{\sin\alpha}}{\frac{b}{\cos\beta}}}\leq \frac{\sigma_{Yield}}{CS}
 	\end{equation}
 	
-	La relazione con cui si effettua la verifica delle ruote elicoidali è \ref{hertz}
+
 	
 	\subsection{Codice di calcolo}
+	Per semplificare il processo di calcolo è stato utilizzato un semplice script in codice Matlab \ref{matlabcode} che calcola le grandezze necessarie al dimensionamento e il modulo normale a partire da una tabella \verb|data| contenente il numero di denti delle due ruote, la larghezza di fascia, gli angoli di pressione e di elica e le proprietà meccaniche del materiale. Sono inoltre calcolate le forze scambiate dai denti nei piani tangenziale, radiale, assiale.
 	\label{matlabcode}
 	\begin{lstlisting}[language=Matlab]
 	% La funzione lewis_factor ricerca all'iterno della tabella lewisdata
@@ -997,7 +1009,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	writetable(data,'POLSO.xls');
 	\end{lstlisting}
 	
-		Per semplificare il processo di calcolo è stato utilizzato un semplice script in codice Matlab \ref{matlabcode} che calcola le grandezze necessarie al dimensionamento e il modulo normale a partire da una tabella \verb|data| contenente il numero di denti delle due ruote, la larghezza di fascia, gli angoli di pressione e di elica e le proprietà meccaniche del materiale. Sono inoltre calcolate le forze scambiate dai denti nei piani tangenziale, radiale, assiale.
+		
 		
 		
 		
@@ -1019,16 +1031,24 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 			\end{tabular}%
 			\label{tab:lewis1}%
 		\end{table}%
+			Condizioni di simulazione :
+		\begin{itemize} 
+			\item Traiettoria svolta nella condizione sfavorevole: il link successivo è perpendicolare e il giunto compie una rotazione di 180° 
+			\item Velocità del giunto 1 rpm
+			\item Payload : massa concentrata di 5kg nel TCP 
+		\end{itemize}
 	
-	
+		
+		Nel modello multibody è stata verificata la coppia richiesta all'attuatore durante una rotazione in configurazione sfavorevole in figura \ref{fig:MBDpolso1t} che risulta inferiore a quella massima di 8.4 Nm. Come verifica sono state misurate le forze di ingranamento in figura \ref{fig:MBDpolso1f} che sono confrontabili con quelle risultate dal calcolo analitico, considerando che il carico applicato è inferiore. Infine si è passati a generare l'accoppiamento di ruote dentate tramite il CAD con i parametri in figura \ref{fig:Gearpolso1}. Una volta generate le ruote dentate nell'ambiente \textit{Solidworks} è possibile modellarle come un qualsiasi altro componente e aggiungere le strutture necessarie, fori e sedi per cuscinetti.  
+		Nella tabella \ref{tab:lewis1} troviamo i dati calcolati e in figura \ref{fig:wrist1} il modello CAD del componente integrato. 
 		\begin{figure} [H]
 			\centering
 			\includegraphics[width=0.6\textwidth]{Plots/POLSO1/wrist1.png}
 			\caption{Ingranamento studiato per il Joint 4}
 			\label{fig:wrist1}
 		\end{figure} 
-		Nella tabella \ref{tab:lewis1} troviamo i dati calcolati e in figura \ref{fig:wrist1} il modello CAD del componente integrato. 
-	
+		
+		
 		\begin{figure} [H]
 			\centering
 			\includegraphics[width=1\textwidth]{Plots/POLSO1/polso1torque.png}
@@ -1047,8 +1067,6 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 			\caption{Parametri impostati nello script di design automatizzato GearTrax per il Joint 4}
 			\label{fig:Gearpolso1}
 		\end{figure} 
-		Nel modello multibody è stata verificata la coppia richiesta all'attuatore durante una rotazione in configurazione sfavorevole in figura \ref{fig:MBDpolso1t} che risulta inferiore a quella massima di 8.4 Nm. Come verifica sono state misurate le forze di ingranamento in figura \ref{fig:MBDpolso1f} che sono confrontabili con quelle risultate dal calcolo analitico, considerando che il carico applicato è inferiore. Infine si è passati a generare l'accoppiamento di ruote dentate tramite il CAD con i parametri in figura \ref{fig:Gearpolso1}. Una volta generate le ruote dentate nell'ambiente \textit{Solidworks} è possibile modellarle come un qualsiasi altro componente e aggiungere le strutture necessarie, fori e sedi per cuscinetti.  
-		
 		\subsection{Risultati Joint 5}
 		Il Joint 5 è perpendicolare al Joint 4 e contiene l'attuatore del Joint 6. Si tratta del giunto più problematico per una questione di ingombri ed è costituito da un componente di geometria complessa che integra :
 		\begin{itemize}
@@ -1057,12 +1075,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 			\item I cuscinetti della cerniera del Joint 6 
 			\item La sede per l'attuatore del Joint 6 
 		\end{itemize}
-			\begin{figure} [H]
-		\centering
-		\includegraphics[width=0.4\textwidth]{Plots/POLSO2/wrist2.png}
-		\caption{Ingranamento studiato per il Joint 5}
-		\label{fig:wrist2}
-	\end{figure} 
+		
 		\begin{table}[H]
 			\centering
 			\caption{Dati calcolati Joint 5}
@@ -1079,10 +1092,22 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	
 		Pertanto per una questione di ingombri si è dovuto sacrificare il rapporto di trasmissione ed accontentarsi di una riduzione di rapporto 1 a 2. L'aumento di interasse avrebbe causato un allungamento del componente con relativo aumento di momento all'incastro del supporto che non superava la verifica statica svolta dal gruppo analisi FEM. 
 		In questo caso la riduzione del numero minimo di denti trattata nel paragrafo \ref{denti} è stata fondamentale. 
+		Condizioni di simulazione :
+		\begin{itemize} 
+			\item Traiettoria svolta nella condizione sfavorevole:il link precedente posiziona il giunto parallelo al terreno e il giunto compie tutta la sua escursione passando per lo zero
+			\item Velocità del giunto 1 rpm
+			\item Payload : massa concentrata di 5kg nel TCP 
+		\end{itemize}
+			I valori calcolati in tabella \ref{tab:lewis2} mostrano valori maggiori delle sollecitazioni rispetto al Joint 4 e richiedono un modulo più grande. 
+		Il modello multibody ha permesso di verificare la coppia massima richiesta all'attuatore, che sfiora valori limite \ref{fig:MBDpolso2t} senza superarli e le forze di ingranamento \ref{fig:MBDpolso2f} confrontabili con quelle calcolate.
+		L'ingranamento è stato poi modellato come in figura \ref{fig:Gearpolso2} per poi costruire il resto della geometria mediante la definizione di piani paralleli e perpendicolari a quello frontale della ruota dentata. 
 		
-		
-	
-
+			\begin{figure} [H]
+			\centering
+			\includegraphics[width=0.4\textwidth]{Plots/POLSO2/wrist2.png}
+			\caption{Ingranamento studiato per il Joint 5}
+			\label{fig:wrist2}
+		\end{figure} 
 		\begin{figure} [H]
 			\centering
 			\includegraphics[width=1\textwidth]{Plots/POLSO2/polso2torque.png}
@@ -1101,14 +1126,12 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 			\caption{Parametri impostati nello script di design automatizzato GearTrax per il Joint 5}
 			\label{fig:Gearpolso2}
 		\end{figure} 
-		I valori calcolati in tabella \ref{tab:lewis2} mostrano valori maggiori delle sollecitazioni rispetto al Joint 4 e richiedono un modulo più grande. 
-		Il modello multibody ha permesso di verificare la coppia massima richiesta all'attuatore, che sfiora valori limite \ref{fig:MBDpolso2t} senza superarli e le forze di ingranamento \ref{fig:MBDpolso2f} confrontabili con quelle calcolate.
-		L'ingranamento è stato poi modellato come in figura \ref{fig:Gearpolso2} per poi costruire il resto della geometria mediante la definizione di piani paralleli e perpendicolari a quello frontale della ruota dentata. 
+	
 		
 	
 	
 	\subsection{Risultati Joint 6}
-		Il Joint 6 provedde alla rotazione del tool sul suo asse ed è parallelo al Joint 4. 
+		Il Joint 6 provedde alla rotazione del tool sul suo asse e fornisce la piastra di attacco con l'end effector ed è stato dimensionato in analogia al Joint 4 per semplificare il controllo. Esso differisce dal Joint 4 in quanto l'ingranamento è di due ruote interne ed è stato previsto nel firmware dell'attuatore l'inversione del senso di rotazione, così da essere sempre concorde col Joint 4. Strutturalmente e meccanicamente è il meno sollecitato della struttura e lo si considera verificato per analogia al Joint 4, si riportano in tabella \ref{tab:lewis3} e in figura \ref{fig:Gearpolso3} i valori scelti per la costruzione. 
 	
 		\begin{table}[H]
 		\centering
@@ -1131,14 +1154,14 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 		\caption{Parametri impostati nello script di design automatizzato GearTrax per il Joint 6}
 		\label{fig:Gearpolso3}
 	\end{figure} 
-	Il Joint 6 fornisce la piastra di attacco con l'end effector ed è stato dimensionato in analogia al Joint 4 per semplificare il controllo. Esso differisce dal Joint 4 in quanto l'ingranamento è di due ruote interne ed è stato previsto nel firmware dell'attuatore l'inversione del senso di rotazione, così da essere sempre concorde col Joint 4. Strutturalmente e meccanicamente è il meno sollecitato della struttura e lo si considera verificato per analogia al Joint 4, si riportano in tabella \ref{tab:lewis3} e in figura \ref{fig:Gearpolso3} i valori scelti per la costruzione. 
+
 	
 		\subsection{Disegno di ruote dentate elicoidali prodotte in FDM}
 		Per realizzare i modelli CAD delle ruote dentate calcolate, noto il modulo, il numero di denti, gli angoli caratteristici e la larghezza di fascia sono possibili diversi metodi.\\ 
 		Quello che appare più accessibile di prima analisi consiste nell' utilizzare le capacità parametriche del \textit{ CAD Solidworks}, riportando la sezione di un dente ed estrudendolo lungo la generatrice dell'elica cilindrica. \\
 		Questo approccio trova subito un limite pratico: correggere il design per la necessità di una modifica implica ricominciare dall'inizio la modellazione e poco si adatta a una progettazione iterativa. \\
 		Un approccio iterativo è stato necessario vista la necessità di coniugare i risultati di calcolo di dimensionamento con gli ingombri delle ruote e il collocamento degli attuatori sul polso.\\
-		 Soprattutto nel Joint 5 \ref{fig:wrist2} il collocamento dell'attuatore per movimentare il Joint 6 è piuttosto complesso e doveva rispettare gli spessori minimi per la sede dell'albero, le dimensioni del Dynamixel e l'interasse della ruota interna del Joint 6. \\
+		 Soprattutto in figura \ref{fig:wrist2} dove è rappresentato il Joint 5 il collocamento dell'attuatore per movimentare il Joint 6 è piuttosto complesso e deve rispettare gli spessori minimi per la sede dell'albero, le dimensioni del Dynamixel e l'interasse della ruota interna del Joint 6. \\
 		Un software di disegno automatizzato di questi componenti è stato di grande aiuto nel realizzare velocemente i componenti e per poter fare variazioni e tentativi nel valutare la soluzione migliore. \\
 		
 		Il software \textit{GearTrax}, introdotto nel corso di Disegno di Macchine, prende il controllo del CAD e automaticamente genera le geometrie una volta configurati tutti i parametri che troviamo in figura \ref{fig:Gearpolso1} e \ref{fig:Gearpolso2} e \ref{fig:Gearpolso3}.
@@ -1155,6 +1178,13 @@ Nella realizzazione di un prototipo la parte indubbiamente più interessante dop
  La manifattura additiva, al contrario delle tecnologie tradizionali che spesso richiedono una dotazione di macchine da officina e materiali da lavorare disponibili presso un'azienda esterna, ha concesso spesso agli studenti del \textit{Team DIANA} di vedere realizzati rapidamente i propri progetti e di partecipare al processo di produzione.\\
   Una volta prodotti i componenti in FDM, programmati i servomotori e ricevuti i cuscinetti e la viteria necessaria è stato possibile assemblare il polso sferico. 
 	\section{Produzione dei componenti}
+		La fase di produzione di un componente FDM parte dalla generazione del codice in linguaggio G-CODE per il controllo delle macchine utensili. 
+	La generazione del codice viene svolta in maniera automatizzata da un software di slicing, in questo caso da parte di \textit{Stratasys CatalystEX},  proprietario della stampante, che contiene già tutti i parametri necessari per una corretta configurazione della stampa. \\
+	All'utente spetta solo la collocazione dei manufatti da realizzare all'interno del \textit{pack}, una rappresentazione del volume di stampa che ha come base la tavoletta removibile su cui vengono depositati i materiali.\\
+	Un fattore importante è la scelta dell'orientazione spaziale dei componenti e nel caso delle ruote dentate è assolutamente mandatorio adagiarle su un piano frontale e facendo si che l'estrusione sviluppi il dente in altezza, in modo che ogni layer contenga una sezione del dente che conservi il profilo ad evolvente.\\ Come vediamo nella fotografia \ref{fig:uprint} i componenti dentati vengono estrusi sul piano frontale, assieme alle eventuali strutture di supporto in colore più chiaro che andranno rimosse. \\
+	Sono stati prodotti 3 pack, per un tempo di stampa totale predetto dal software di 55 ore, in figura \ref{fig:pack}.\\
+	Una volta terminata la fase di stampa si procede alla rimozione della tavoletta e si staccano i pezzi, ripulendoli dai supporti di colore più chiaro che servono a sostenere le geometrie che sono sospese o in aggetto. 
+	Dopo la pulizia sono necessarie la sbavatura e la rifinitura mediante carta abrasiva sottile, limetta e taglierino al fine di rimuovere bave e filamenti interrotti. 
 		\begin{figure}
 		\centering
 		\begin{tabular}{lll}
@@ -1177,13 +1207,7 @@ Nella realizzazione di un prototipo la parte indubbiamente più interessante dop
 	\caption{Stampante Stratasys UPRINT SE e pack in fase di stampa}
 	\label{fig:uprint}
 	\end{figure}	
-	La fase di produzione di un componente FDM parte dalla generazione del codice in linguaggio G-CODE per il controllo delle macchine utensili. 
-	La generazione del codice viene svolta in maniera automatizzata da un software di slicing, in questo caso da parte di \textit{Stratasys CatalystEX},  proprietario della stampante, che contiene già tutti i parametri necessari per una corretta configurazione della stampa. \\
-	All'utente spetta solo la collocazione dei manufatti da realizzare all'interno del \textit{pack}, una rappresentazione del volume di stampa che ha come base la tavoletta removibile su cui vengono depositati i materiali.\\
-	 Un fattore importante è la scelta dell'orientazione spaziale dei componenti e nel caso delle ruote dentate è assolutamente mandatorio adagiarle su un piano frontale e facendo si che l'estrusione sviluppi il dente in altezza, in modo che ogni layer contenga una sezione del dente che conservi il profilo ad evolvente.\\ Come vediamo nella fotografia \ref{fig:uprint} i componenti dentati vengono estrusi sul piano frontale, assieme alle eventuali strutture di supporto in colore più chiaro che andranno rimosse. \\
-	Sono stati prodotti 3 pack, per un tempo di stampa totale predetto dal software di 55 ore, in figura \ref{fig:pack}.\\
-	Una volta terminata la fase di stampa si procede alla rimozione della tavoletta e si staccano i pezzi, ripulendoli dai supporti di colore più chiaro che servono a sostenere le geometrie che sono sospese o in aggetto. 
-	Dopo la pulizia sono necessarie la sbavatura e la rifinitura mediante carta abrasiva sottile, limetta e taglierino al fine di rimuovere bave e filamenti interrotti. 
+
 	
 	\section{Analisi dei costi}
 	In questa fase analizzeremo il costo di produzione di questo componente mediante manifattura FDM e il costo dei componenti accessori e degli attuatori. 
@@ -1248,19 +1272,10 @@ Nella realizzazione di un prototipo la parte indubbiamente più interessante dop
 		\caption{Polso assemblato per la prima volta dopo la fase di produzione e corredato dei servomotori}
 		\label{fig:wristassembled}
 	\end{figure}
-	L'assemblaggio del componente è molto semplice e facilmente intuibile dalla sezione \ref{fig:sferico}. Una volta collocata la ralla \textit{IGUS PRT 01 20} sul link 3 ed inserito in sede il primo attuatore completo di pignone è possibile avvitare alla ralla il link 4. Si inseriscono le boccole nelle rispettive sedi del link 4 e del link 5 e si avvitano i Dynamixel 2 e 3 in sede con viti M2. \'E possibile inserire il link 5 e l'albero della cerniera e una volta ruotato connettere i pignoni ai Dynamixel. Si completa l'assemblaggio con l'inserimento del link 6 completo di albero e si blocca con anelli seeger.\\
+	L'assemblaggio del componente è molto semplice e facilmente intuibile dalla sezione \ref{fig:disegnosferico}. Una volta collocata la ralla \textit{IGUS PRT 01 20} sul link 3 ed inserito in sede il primo attuatore completo di pignone è possibile avvitare alla ralla il link 4. Si inseriscono le boccole nelle rispettive sedi del link 4 e del link 5 e si avvitano i Dynamixel 2 e 3 in sede con viti M2. \'E possibile inserire il link 5 e l'albero della cerniera e una volta ruotato connettere i pignoni ai Dynamixel. Si completa l'assemblaggio con l'inserimento del link 6 completo di albero e si blocca con anelli seeger.\\
 	I cablaggi passano all'interno degli alberi e sono completati di connettori saldati e ricoperti di guaina termorestringente e connessi al contatto strisciante per poter portare potenza e segnale all'end effector. \\
 	Una volta completato il cablaggio e controllato con il multimetro l'assenza di cortocircuiti e la correttezza dei collegamenti è possibile alimentare gli attuatori con un alimentatore da banco a tensione di 12 Volt. \\
-	
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.6\textwidth]{image/wizard.png}
-		
-		\caption{Software Dynamixel Wizard, permette di accedere a tutta la control table degli attuatori serie MX tramite un'interfaccia grafica}
-		\label{fig:wizard}
-	\end{figure}
-	
-	Tramite il software \textit{Dynamixel Wizard} ed un'interfaccia seriale USB è possibile connettere al PC gli attuatori ed effettuare la configurazione. \\
+		Tramite il software \textit{Dynamixel Wizard} ed un'interfaccia seriale USB è possibile connettere al PC gli attuatori ed effettuare la configurazione. \\
 	Per configurare il polso è necessario :
 	\begin{itemize}
 		\item Assegnare il baud rate di 57600 bps corrispondente  al valore 34 dell'indirizzo 4 della Control Table
@@ -1274,6 +1289,15 @@ Nella realizzazione di un prototipo la parte indubbiamente più interessante dop
 	Una volta configurato è possibile sospendere l'alimentazione e i valori settati saranno conservati nella EEPROM degli attuatori oppure continuare ad inviare posizioni per verificare che vengano raggiunte. 
 	Il raggiungimento di posizioni interdette causa un urto ed un bloccaggio, che viene risolto dal sistema di sicurezza di coppia massima degli attuatori che impedisce la rottura dei componenti o del servomotore. 
 	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\textwidth]{image/wizard.png}
+		
+		\caption{Software Dynamixel Wizard, permette di accedere a tutta la control table degli attuatori serie MX tramite un'interfaccia grafica}
+		\label{fig:wizard}
+	\end{figure}
+	
+
 \chapter{Risultati attesi ed ottenuti dal Robot realizzato}
 	\section{Test e collaudo del Robot assemblato}
 	Una volta conclusa la produzione del polso sferico il robot è stato completamente assemblato e dopo aver completato anche il cablaggio e l'installazione dell'elettronica è iniziata una fase di collaudo e di familiarizzazione con i comandi. 
@@ -1341,7 +1365,7 @@ Nella realizzazione di un prototipo la parte indubbiamente più interessante dop
 
 \bibitem{Jacazioes}Giovanni Jacazio, Stefano Pastorelli \emph{Esercizi di meccanica applicata alle macchine}, Levrotto e Bella
 
-\bibitem{Jacazioteo}Giovanni Jacazio, Stefano Pastorelli \emph{Meccanica applicata alle macchine}, Levrotto e Bella
+\bibitem{Jacazioteo}Jacazio, Piombo, \emph{Meccanica applicata alle macchine}, Vol. II, Levrotto e Bella,
 
 \bibitem{P430paper} R. Henandez, D. Slaughter, D. Whaley, J. Tate, B. Asiabanpour, Analyzing the tensile, compressive and flexural properties of 3D printed ABS P430 plastic based on printing orientation using fused deposition modeling, Proceedings of the 26th Annual International Solid Freeform Fabrication Symposium – An Additive Manufacturing Conference, 2016
 

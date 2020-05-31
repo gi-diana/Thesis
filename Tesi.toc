@@ -35,8 +35,8 @@
 \contentsline {subsection}{\numberline {4.6.3}Codice di calcolo}{48}{subsection.4.6.3}% 
 \contentsline {subsection}{\numberline {4.6.4}Risultati Joint 4}{49}{subsection.4.6.4}% 
 \contentsline {subsection}{\numberline {4.6.5}Risultati Joint 5}{52}{subsection.4.6.5}% 
-\contentsline {subsection}{\numberline {4.6.6}Risultati Joint 6}{54}{subsection.4.6.6}% 
-\contentsline {subsection}{\numberline {4.6.7}Disegno di ruote dentate elicoidali prodotte in FDM}{55}{subsection.4.6.7}% 
+\contentsline {subsection}{\numberline {4.6.6}Risultati Joint 6}{55}{subsection.4.6.6}% 
+\contentsline {subsection}{\numberline {4.6.7}Disegno di ruote dentate elicoidali prodotte in FDM}{56}{subsection.4.6.7}% 
 \contentsline {chapter}{\numberline {5}Costruzione mediante manifattura additiva e assemblaggio}{57}{chapter.5}% 
 \contentsline {section}{\numberline {5.1}Produzione dei componenti}{57}{section.5.1}% 
 \contentsline {section}{\numberline {5.2}Analisi dei costi}{58}{section.5.2}% 

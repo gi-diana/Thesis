@@ -37,19 +37,19 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Sezione del componente realizzato con evidenziati i punti salienti trattati in questo capitolo}}{42}{figure.4.2}% 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Grafico Sforzo-Deformazione ottenuto }}{44}{figure.4.3}% 
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Ingranamento studiato per il Joint 4}}{50}{figure.4.4}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Misura della coppia richiesta all'attuatore durante una rotazione in configurazione sfavolrevole per il Joint 4}}{50}{figure.4.5}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Misura della coppia richiesta all'attuatore durante una rotazione in configurazione sfavolrevole per il Joint 4}}{51}{figure.4.5}% 
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Misura della forze scambiate nella trasmissione per il Joint 4}}{51}{figure.4.6}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 4}}{51}{figure.4.7}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Ingranamento studiato per il Joint 5}}{52}{figure.4.8}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Misura della coppia richiesta all'attuatore durante una rotazione in configurazione sfavolrevole per il Joint 5}}{53}{figure.4.9}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Misura della forze scambiate nella trasmissione per il Joint 5}}{53}{figure.4.10}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 5}}{54}{figure.4.11}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 6}}{55}{figure.4.12}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 4}}{52}{figure.4.7}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ingranamento studiato per il Joint 5}}{53}{figure.4.8}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Misura della coppia richiesta all'attuatore durante una rotazione in configurazione sfavolrevole per il Joint 5}}{54}{figure.4.9}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Misura della forze scambiate nella trasmissione per il Joint 5}}{54}{figure.4.10}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 5}}{55}{figure.4.11}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 6}}{56}{figure.4.12}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Pack di stampa in output dal software di slicing }}{57}{figure.5.1}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pack di stampa in output dal software di slicing }}{58}{figure.5.1}% 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Stampante Stratasys UPRINT SE e pack in fase di stampa}}{58}{figure.5.2}% 
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Polso assemblato per la prima volta dopo la fase di produzione e corredato dei servomotori}}{60}{figure.5.3}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Software Dynamixel Wizard, permette di accedere a tutta la control table degli attuatori serie MX tramite un'interfaccia grafica}}{60}{figure.5.4}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Software Dynamixel Wizard, permette di accedere a tutta la control table degli attuatori serie MX tramite un'interfaccia grafica}}{61}{figure.5.4}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Braccio robotico in fase di assemblaggio e cablaggio}}{63}{figure.6.1}% 
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Test di sollevamento di un carico da 5 chilogrammi}}{64}{figure.6.2}% 
