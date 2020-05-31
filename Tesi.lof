@@ -11,48 +11,48 @@
 \contentsline {figure}{\numberline {1.7}{\ignorespaces Manipolazione della cache, si evidenzia l'abilit\IeC {\`a} di orientamento nello spazio del polso sferico}}{15}{figure.1.7}% 
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Un robot industriale antropomorfo a 6 assi}}{20}{figure.2.1}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces 6 gradi di libert\IeC {\`a} di un corpo rigido nello spazio}}{21}{figure.2.2}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Workspace in vista laterale, \IeC {\`e} rappresentato il piano dello chassis e i punti raggiunti dal TCP}}{22}{figure.2.3}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Render del modello CAD preliminare del robot}}{25}{figure.2.4}% 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Schema delle componenti}}{26}{figure.2.5}% 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Modello del Robot in ambiente Adams, in ciano le icone dei giunti e le trasmissioni mediante ruote dentate}}{27}{figure.2.6}% 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Propriet\IeC {\`a} inerziali del componente e sistema di coordinate nel CAD}}{27}{figure.2.7}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces 6 gradi di libert\IeC {\`a} di un corpo rigido nello spazio}}{20}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Workspace in vista laterale, \IeC {\`e} rappresentato il piano dello chassis e i punti raggiunti dal TCP}}{21}{figure.2.3}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Render del modello CAD preliminare del robot}}{24}{figure.2.4}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Schema delle componenti}}{25}{figure.2.5}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Modello del Robot in ambiente Adams, in ciano le icone dei giunti e le trasmissioni mediante ruote dentate}}{26}{figure.2.6}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Propriet\IeC {\`a} inerziali del componente e sistema di coordinate nel CAD}}{26}{figure.2.7}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Scheda tecnica dell'attuatore 57STH56 NEMA-23}}{30}{figure.3.1}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Schema della disposizione degli organi di trasmissione per i motori passo-passo}}{31}{figure.3.2}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Ralla IGUS PRT 01-30 e pignone MISUMI GEAKS2.0-18-20-B-12N}}{31}{figure.3.3}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Coppia richiesta al motore per attuare la rotazione della base con braccio disteso e ritratto}}{32}{figure.3.4}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Forze scambiate nell'ingranamento}}{32}{figure.3.5}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Momento di ribaltamento sul giunto e forza assiale nella configurazione pi\IeC {\`u} sfavorevole}}{32}{figure.3.6}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Disposizione dei motori passo-passo e della ruota condotta flagiata al link 3}}{33}{figure.3.7}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Valori di coppia richiesti nel caso in cui ci fosse un solo attuatore}}{34}{figure.3.8}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Valori di coppia richiesti con due attuatori gemellati}}{34}{figure.3.9}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Dettaglio del cuscinetto del Joint 2}}{35}{figure.3.10}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Interno di un attuatore lineare del tipo scelto nel progetto }}{36}{figure.3.11}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Dati raccolti nell'iterazione finale dello studio di design in cui viene compiuta una corsa completa del giunto }}{37}{figure.3.12}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Attuatori Dynamixel presenti a bordo del rover TRINITY durante un test di integrazione, a sinistra gli MX-106}}{38}{figure.3.13}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Caratteristiche tecniche dell'MX-106 FONTE Robotis E-Manual \cite {mx106}}}{38}{figure.3.14}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Scheda tecnica dell'attuatore 57STH56 NEMA-23}}{28}{figure.3.1}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Schema della disposizione degli organi di trasmissione per i motori passo-passo}}{29}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Ralla IGUS PRT 01-30 e pignone MISUMI GEAKS2.0-18-20-B-12N}}{29}{figure.3.3}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Coppia richiesta al motore per attuare la rotazione della base con braccio disteso e ritratto}}{30}{figure.3.4}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Forze scambiate nell'ingranamento}}{30}{figure.3.5}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Momento di ribaltamento sul giunto e forza assiale nella configurazione pi\IeC {\`u} sfavorevole}}{30}{figure.3.6}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Disposizione dei motori passo-passo e della ruota condotta flagiata al link 3}}{31}{figure.3.7}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Valori di coppia richiesti nel caso in cui ci fosse un solo attuatore}}{32}{figure.3.8}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Valori di coppia richiesti con due attuatori gemellati}}{32}{figure.3.9}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Dettaglio del cuscinetto del Joint 2}}{33}{figure.3.10}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Interno di un attuatore lineare del tipo scelto nel progetto }}{34}{figure.3.11}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Dati raccolti nell'iterazione finale dello studio di design in cui viene compiuta una corsa completa del giunto }}{35}{figure.3.12}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Attuatori Dynamixel presenti a bordo del rover TRINITY durante un test di integrazione, a sinistra gli MX-106}}{36}{figure.3.13}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Caratteristiche tecniche dell'MX-106 FONTE Robotis E-Manual \cite {mx106}}}{37}{figure.3.14}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Schema dei giunti del polso sferico con rappresentata una terna dell'utensile}}{41}{figure.4.1}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Sezione del componente realizzato con evidenziati i punti salienti trattati in questo capitolo}}{42}{figure.4.2}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Grafico Sforzo-Deformazione ottenuto }}{44}{figure.4.3}% 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Ingranamento studiato per il Joint 4}}{50}{figure.4.4}% 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Misura della coppia richiesta all'attuatore durante una rotazione in configurazione sfavolrevole per il Joint 4}}{51}{figure.4.5}% 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Misura della forze scambiate nella trasmissione per il Joint 4}}{51}{figure.4.6}% 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 4}}{52}{figure.4.7}% 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Ingranamento studiato per il Joint 5}}{53}{figure.4.8}% 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Misura della coppia richiesta all'attuatore durante una rotazione in configurazione sfavolrevole per il Joint 5}}{54}{figure.4.9}% 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Misura della forze scambiate nella trasmissione per il Joint 5}}{54}{figure.4.10}% 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 5}}{55}{figure.4.11}% 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 6}}{56}{figure.4.12}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Schema dei giunti del polso sferico con rappresentata una terna dell'utensile}}{39}{figure.4.1}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Sezione del componente realizzato con evidenziati i punti salienti trattati in questo capitolo}}{40}{figure.4.2}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Grafico Sforzo-Deformazione ottenuto }}{42}{figure.4.3}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ingranamento studiato per il Joint 4}}{49}{figure.4.4}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Misura della coppia richiesta all'attuatore durante una rotazione in configurazione sfavolrevole per il Joint 4}}{49}{figure.4.5}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Misura della forze scambiate nella trasmissione per il Joint 4}}{50}{figure.4.6}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 4}}{50}{figure.4.7}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ingranamento studiato per il Joint 5}}{52}{figure.4.8}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Misura della coppia richiesta all'attuatore durante una rotazione in configurazione sfavolrevole per il Joint 5}}{52}{figure.4.9}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Misura della forze scambiate nella trasmissione per il Joint 5}}{53}{figure.4.10}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 5}}{53}{figure.4.11}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Parametri impostati nello script di design automatizzato GearTrax per il Joint 6}}{54}{figure.4.12}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Pack di stampa in output dal software di slicing }}{58}{figure.5.1}% 
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Stampante Stratasys UPRINT SE e pack in fase di stampa}}{58}{figure.5.2}% 
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Polso assemblato per la prima volta dopo la fase di produzione e corredato dei servomotori}}{60}{figure.5.3}% 
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Software Dynamixel Wizard, permette di accedere a tutta la control table degli attuatori serie MX tramite un'interfaccia grafica}}{61}{figure.5.4}% 
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Pack di stampa in output dal software di slicing }}{56}{figure.5.1}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Stampante Stratasys UPRINT SE e pack in fase di stampa}}{56}{figure.5.2}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Polso assemblato per la prima volta dopo la fase di produzione e corredato dei servomotori}}{59}{figure.5.3}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Software Dynamixel Wizard, permette di accedere a tutta la control table degli attuatori serie MX tramite un'interfaccia grafica}}{59}{figure.5.4}% 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Braccio robotico in fase di assemblaggio e cablaggio}}{63}{figure.6.1}% 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Test di sollevamento di un carico da 5 chilogrammi}}{64}{figure.6.2}% 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Modello di simulazione robotica VREP, riceve lo stesso input dell'elettronica di controllo}}{64}{figure.6.3}% 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Test di raccolta cache e operazione di manutenzione}}{65}{figure.6.4}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Braccio robotico in fase di assemblaggio e cablaggio}}{61}{figure.6.1}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Test di sollevamento di un carico da 5 chilogrammi}}{62}{figure.6.2}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Modello di simulazione robotica VREP, riceve lo stesso input dell'elettronica di controllo}}{62}{figure.6.3}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Test di raccolta cache e operazione di manutenzione}}{63}{figure.6.4}% 
 \addvspace {10\p@ }

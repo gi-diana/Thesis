@@ -363,12 +363,7 @@ La costituzione di un database di requisiti, lezioni apprese ed errori commessi 
 	  Questo permette di affermare che la struttura di un robot, per poter muovere ed orientare arbitrariamente un corpo nello spazio, ha bisogno di un minimo di sei gradi di libertà. \\
 	  Con analoghe considerazioni è facile arrivare a concludere che un corpo rigido, se vincolato a muoversi in un piano, ha tre gradi di libertà. 
 	  
-	 \begin{figure} [H]
-	 	\centering
-	 	\includegraphics[width=0.6\textwidth]{pictures/KUKA.png}
-	 	\caption{Un robot industriale antropomorfo a 6 assi}
-	 	\label{fig:KUKA}
-	 \end{figure}
+	 
 	 
 	 I robot come quello in figura \ref{fig:KUKA}, sono detti antropomorfi in quanto riproducono abbastanza fedelmente le possibilità di movimento di un braccio umano ed hanno una struttura ben definita con 3 giunti rotoidali per il braccio con il secondo e terzo paralleli tra loro e ortogonali al primo a cui si aggiunge tradizionalmente un polso a 3 gdl rotoidali per ottenere un robot a 6 assi.\\ 
 	 
@@ -379,7 +374,13 @@ La costituzione di un database di requisiti, lezioni apprese ed errori commessi 
 	 Inoltre gli elementi strutturali che compongono il braccio hanno una certa lunghezza mentre quelli del polso sono privi di dimensione se si tratta di giunti monocentrici, cioè gli assi di rotazione dei tre giunti idealmente si incontrano in un punto. \\
 	 \begin{figure} [H]
 	 	\centering
-	 	\includegraphics[width=\textwidth]{pictures/6DOF.png}
+	 	\includegraphics[width=0.45\textwidth]{pictures/KUKA.png}
+	 	\caption{Un robot industriale antropomorfo a 6 assi}
+	 	\label{fig:KUKA}
+	 \end{figure}
+	 \begin{figure} [H]
+	 	\centering
+	 	\includegraphics[width=0.6\textwidth]{pictures/6DOF.png}
 	 	\caption{6 gradi di libertà di un corpo rigido nello spazio}
 	 	\label{fig:6DOF}
 	 \end{figure}
@@ -388,16 +389,17 @@ La costituzione di un database di requisiti, lezioni apprese ed errori commessi 
 
 
 
+
+
+Il volume di lavoro può essere considerato, in prima approssimazione, come una porzione di sfera.
+Il workspace richiesto per il manipolatore deriva dalle richieste del regolamento e dallo scenario operativo e si può riassumere nella necessità di raggiungere un altezza che va da 1,5 metri e quella del suolo e di operare sullo chassis del rover per depositare oggetti e campioni. \\
+Il workspace è stato valutato attraverso un calcolo iterativo di cinematica diretta in cui la struttura è statz parametrizzata attraverso le lunghezze dei link. L'obiettivo è quello di realizzare uno spazio di lavoro sufficiente rappresentando graficamente la posizione del \textbf{Tool Center Point} per ogni iterazione in una vista laterale in figura \ref{fig:workspace}. \\
 \begin{figure} [H]
 	\centering
 	\includegraphics[width=1\textwidth]{Plots/workspace.png}
 	\caption{Workspace in vista laterale, è rappresentato il piano dello chassis e i punti raggiunti dal TCP}
 	\label{fig:workspace}
 \end{figure}
-
-Il volume di lavoro può essere considerato, in prima approssimazione, come una porzione di sfera.
-Il workspace richiesto per il manipolatore deriva dalle richieste del regolamento e dallo scenario operativo e si può riassumere nella necessità di raggiungere un altezza che va da 1,5 metri e quella del suolo e di operare sullo chassis del rover per depositare oggetti e campioni. \\
-Il workspace è stato valutato attraverso un calcolo iterativo di cinematica diretta in cui la struttura è statz parametrizzata attraverso le lunghezze dei link. L'obiettivo è quello di realizzare uno spazio di lavoro sufficiente rappresentando graficamente la posizione del \textbf{Tool Center Point} per ogni iterazione in una vista laterale in figura \ref{fig:workspace}. \\
 \begin{lstlisting}[language=Matlab]
 %%% Dati Rover per il calcolo del workspace%%%
 
@@ -412,12 +414,12 @@ l=[600 367 315];
 
 % escursione angoli giunti: 
 
-a=[-5 120   %spalla(zero: link parallelo al terreno che punta verso fronte rover)
-                  % 125 gradi di escursione
-33 129   	 %elbow (zero: link parallelo al link precedente che punta fronte rover) 
-	              %96 gradi di escursione
--90 90]; 	 %second wrist joint (zerolink parallelo al precedente che punta fronte rover) 
-             	  %180 gradi di escursione
+a=[-5 120 %spalla(zero link parallelo al terreno verso fronte rover)
+                % 125 gradi di escursione
+33 129     %elbow (zero link parallelo al link precedente fronte rover) 
+	            %96 gradi di escursione
+-90 90];   % wrist joint (zero link parallelo al precedente ) 
+                %180 gradi di escursione
 
 %% Calcolo cinematica diretta per braccio rivolto di fronte
 
@@ -738,7 +740,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 	
 	
 	% CONTINUARE REVISIONE	
-		
+		\newpage
 	\section{Servomotori digitali: Dynamixel MX-106}
 	Per la movimentazione dei giunti di orientamento del polso sferico è stato necessario considerare requisiti diversi dai giunti di posizionamento del braccio.\\
 	 A livello del polso sferico è necessaria precisione angolare ad alta velocità di rotazione e la capacità di mantenere una data posizione angolare al variare del carico.\\
@@ -752,16 +754,7 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 		\label{fig:MX160}
 	\end{figure}
 
-	\begin{figure}
-		\centering
-		\begin{tabular}{ll}
-			\includegraphics[width=0.4\textwidth]{image/mx160data.png}
-			&
-			\includegraphics[width=0.4\textwidth]{image/mx160figure.png}
-		\end{tabular}
-		\caption{Caratteristiche tecniche dell'MX-106 FONTE Robotis E-Manual \cite{mx106}}
-		\label{fig:MX160data}
-	\end{figure}
+	
 
 
 
@@ -771,6 +764,17 @@ Per i giunti di posizionamento sono stati impiegati motoriduttori passo-passo e 
 	
 	Il produttore fornisce i modelli CAD tridimensionali del componente e delle flange di accoppiamento per l'albero di uscita scanalato. L'utilizzo di flange, dette \textit{horns}, permette di accoppiare all'albero di uscita scanalato componenti prodotti in manifattura additiva mediante viti. \\
 	Ogni attuatore viene alimentato e riceve il bus dati attraverso un collegamento daisy chain, permettendo di realizzare una catena semplificando il cablaggio, che come vedremo per il polso sferico è delicato e soggetto a movimenti che ne causano la torsione. 
+	
+	\begin{figure}
+		\centering
+		\begin{tabular}{ll}
+			\includegraphics[width=0.5\textwidth]{image/mx160data.png}
+			&
+			\includegraphics[width=0.5\textwidth]{image/mx160figure.png}
+		\end{tabular}
+		\caption{Caratteristiche tecniche dell'MX-106 FONTE Robotis E-Manual \cite{mx106}}
+		\label{fig:MX160data}
+	\end{figure}
 
 		
 \chapter{Polso sferico, design e scelte progettuali}
@@ -1012,7 +1016,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 		
 		
 		
-		
+		\newpage
 		\subsection{Risultati Joint 4}
 		
 		Il Joint 4 rappresenta il primo grado di libertà del polso ed orienta la struttura lungo l'asse parallelo all'avambraccio. 
@@ -1067,6 +1071,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 			\caption{Parametri impostati nello script di design automatizzato GearTrax per il Joint 4}
 			\label{fig:Gearpolso1}
 		\end{figure} 
+	\newpage
 		\subsection{Risultati Joint 5}
 		Il Joint 5 è perpendicolare al Joint 4 e contiene l'attuatore del Joint 6. Si tratta del giunto più problematico per una questione di ingombri ed è costituito da un componente di geometria complessa che integra :
 		\begin{itemize}
@@ -1158,8 +1163,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	
 		\subsection{Disegno di ruote dentate elicoidali prodotte in FDM}
 		Per realizzare i modelli CAD delle ruote dentate calcolate, noto il modulo, il numero di denti, gli angoli caratteristici e la larghezza di fascia sono possibili diversi metodi.\\ 
-		Quello che appare più accessibile di prima analisi consiste nell' utilizzare le capacità parametriche del \textit{ CAD Solidworks}, riportando la sezione di un dente ed estrudendolo lungo la generatrice dell'elica cilindrica. \\
-		Questo approccio trova subito un limite pratico: correggere il design per la necessità di una modifica implica ricominciare dall'inizio la modellazione e poco si adatta a una progettazione iterativa. \\
+		Quello che appare più accessibile di prima analisi consiste nell' utilizzare le capacità parametriche del \textit{ CAD Solidworks}, riportando la sezione di un dente ed estrudendolo lungo la generatrice dell'elica cilindrica. 
 		Un approccio iterativo è stato necessario vista la necessità di coniugare i risultati di calcolo di dimensionamento con gli ingombri delle ruote e il collocamento degli attuatori sul polso.\\
 		 Soprattutto in figura \ref{fig:wrist2} dove è rappresentato il Joint 5 il collocamento dell'attuatore per movimentare il Joint 6 è piuttosto complesso e deve rispettare gli spessori minimi per la sede dell'albero, le dimensioni del Dynamixel e l'interasse della ruota interna del Joint 6. \\
 		Un software di disegno automatizzato di questi componenti è stato di grande aiuto nel realizzare velocemente i componenti e per poter fare variazioni e tentativi nel valutare la soluzione migliore. \\
@@ -1172,7 +1176,7 @@ I campioni così stampati hanno valori circa della metà del materiale (Tensile 
 	%\section{Dimensionamento di un rotismo stampato in 3D, compromessi e assunzioni}
 	%\section{Risultati ottenuti dal dimensionamento}
 	
-
+\clearpage
 \chapter{Costruzione mediante manifattura additiva e assemblaggio}
 Nella realizzazione di un prototipo la parte indubbiamente più interessante dopo la progettazione e la realizzazione dei modelli CAD è quella della costruzione del componente.\\
  La manifattura additiva, al contrario delle tecnologie tradizionali che spesso richiedono una dotazione di macchine da officina e materiali da lavorare disponibili presso un'azienda esterna, ha concesso spesso agli studenti del \textit{Team DIANA} di vedere realizzati rapidamente i propri progetti e di partecipare al processo di produzione.\\
@@ -1259,19 +1263,9 @@ Nella realizzazione di un prototipo la parte indubbiamente più interessante dop
 		\label{tab:projectcost}%
 	\end{table}%
 	Nella tabella \ref{tab:projectcost} invece riportiamo il costo totale di stampa sommato a tutti gli altri componenti necessari all'assemblaggio. Spicca sicuramente il costo dei 3 attuatori Dynamixel, che essendo componenti specialistici per robotica hanno sicuramente dei costi elevati, pur rappresentando un oggetto molto durevole nel tempo. Gli attuatori sono stati infatti riciclati da un precedente progetto del Team DIANA risalente al 2010. 
+	\newpage
 	\section{Assemblaggio}
-	\begin{figure}
-		\centering
-		\begin{tabular}{lll}
-			\includegraphics[width=0.33\textwidth]{image/w1.jpg}
-			&
-			\includegraphics[width=0.33\textwidth]{image/w2.jpg}
-			&
-			\includegraphics[width=0.33\textwidth]{image/w3.jpg}
-		\end{tabular}
-		\caption{Polso assemblato per la prima volta dopo la fase di produzione e corredato dei servomotori}
-		\label{fig:wristassembled}
-	\end{figure}
+
 	L'assemblaggio del componente è molto semplice e facilmente intuibile dalla sezione \ref{fig:disegnosferico}. Una volta collocata la ralla \textit{IGUS PRT 01 20} sul link 3 ed inserito in sede il primo attuatore completo di pignone è possibile avvitare alla ralla il link 4. Si inseriscono le boccole nelle rispettive sedi del link 4 e del link 5 e si avvitano i Dynamixel 2 e 3 in sede con viti M2. \'E possibile inserire il link 5 e l'albero della cerniera e una volta ruotato connettere i pignoni ai Dynamixel. Si completa l'assemblaggio con l'inserimento del link 6 completo di albero e si blocca con anelli seeger.\\
 	I cablaggi passano all'interno degli alberi e sono completati di connettori saldati e ricoperti di guaina termorestringente e connessi al contatto strisciante per poter portare potenza e segnale all'end effector. \\
 	Una volta completato il cablaggio e controllato con il multimetro l'assenza di cortocircuiti e la correttezza dei collegamenti è possibile alimentare gli attuatori con un alimentatore da banco a tensione di 12 Volt. \\
@@ -1288,7 +1282,18 @@ Nella realizzazione di un prototipo la parte indubbiamente più interessante dop
 	\end{itemize}
 	Una volta configurato è possibile sospendere l'alimentazione e i valori settati saranno conservati nella EEPROM degli attuatori oppure continuare ad inviare posizioni per verificare che vengano raggiunte. 
 	Il raggiungimento di posizioni interdette causa un urto ed un bloccaggio, che viene risolto dal sistema di sicurezza di coppia massima degli attuatori che impedisce la rottura dei componenti o del servomotore. 
-	
+		\begin{figure}
+		\centering
+		\begin{tabular}{lll}
+			\includegraphics[width=0.33\textwidth]{image/w1.jpg}
+			&
+			\includegraphics[width=0.33\textwidth]{image/w2.jpg}
+			&
+			\includegraphics[width=0.33\textwidth]{image/w3.jpg}
+		\end{tabular}
+		\caption{Polso assemblato per la prima volta dopo la fase di produzione e corredato dei servomotori}
+		\label{fig:wristassembled}
+	\end{figure}
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.6\textwidth]{image/wizard.png}
@@ -1297,7 +1302,7 @@ Nella realizzazione di un prototipo la parte indubbiamente più interessante dop
 		\label{fig:wizard}
 	\end{figure}
 	
-
+\cleardoublepage
 \chapter{Risultati attesi ed ottenuti dal Robot realizzato}
 	\section{Test e collaudo del Robot assemblato}
 	Una volta conclusa la produzione del polso sferico il robot è stato completamente assemblato e dopo aver completato anche il cablaggio e l'installazione dell'elettronica è iniziata una fase di collaudo e di familiarizzazione con i comandi. 
